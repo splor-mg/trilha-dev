@@ -1,0 +1,18 @@
+site_name: Trilha Dev - Início de Jornada
+
+# --8<-- [start:nav]
+nav:
+  - index.md
+  - Aulas:
+    - aulas/index.md
+# --8<-- [end:nav]
+
+
+
+# Configuration
+theme:
+  name: material
+  language: pt
+  palette:
+    scheme: slate
+    primary: lime

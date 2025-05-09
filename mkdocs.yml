@@ -1,18 +1,36 @@
 site_name: Trilha Dev - Início de Jornada
 
+# Repository
+repo_name: splor-mg/trilha-dev
+repo_url: https://github.com/splor-mg/trilha-dev
+edit_uri: edit/main/docs/
+
+# Configuration
+theme:
+  name: material
+  language: pt
+  logo: assets/logo.png
+  palette:
+    - scheme: slate
+      primary: lime #cbdc39
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Modo claro
+    - scheme: defaut
+      primary: lime #cbdc39
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Modo Escuro
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+
 # --8<-- [start:nav]
 nav:
   - index.md
   - Aulas:
     - aulas/index.md
 # --8<-- [end:nav]
-
-
-
-# Configuration
-theme:
-  name: material
-  language: pt
-  palette:
-    scheme: slate
-    primary: lime

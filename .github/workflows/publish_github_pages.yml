@@ -1,29 +1,36 @@
 name: Publish documentation on GitHub pages
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
-permissions:
-  contents: write
+    paths:
+      - 'docs/**'
+      - 'mkdocs.yml'
+      - 'overrides/**'
+
 jobs:
-  deploy:
+  publish_documentation_on_github_pages:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Configure Git Credentials
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.12.3
+
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Git user
+        uses: fregante/setup-git-user@v2
+
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+
+      - name: Publish Documentation
         run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - uses: actions/setup-python@v5
-        with:
-          python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
-      - uses: actions/cache@v4
-        with:
-          key: mkdocs-material-${{ env.cache_id }}
-          path: .cache
-          restore-keys: |
-            mkdocs-material-
-      - uses: snok/install-poetry@v1
-      - run: poetry install
+          poetry install
       - run: poetry run mkdocs gh-deploy --force

@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://splor-mg.github.io/trilha-dev/aulas/dia_01/aula_01/">
+        <link rel="canonical" href="https://splor-mg.github.io/trilha-dev/aulas/dia_01/roteiro/">
       
       
       
@@ -57,7 +57,7 @@
       
         <meta  property="og:description"  content="None" >
       
-        <meta  property="og:image"  content="https://splor-mg.github.io/trilha-dev/assets/images/social/aulas/dia_01/aula_01.png" >
+        <meta  property="og:image"  content="https://splor-mg.github.io/trilha-dev/assets/images/social/aulas/dia_01/roteiro.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -65,7 +65,7 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://splor-mg.github.io/trilha-dev/aulas/dia_01/aula_01/" >
+        <meta  property="og:url"  content="https://splor-mg.github.io/trilha-dev/aulas/dia_01/roteiro/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
@@ -73,7 +73,7 @@
       
         <meta  name="twitter:description"  content="None" >
       
-        <meta  name="twitter:image"  content="https://splor-mg.github.io/trilha-dev/assets/images/social/aulas/dia_01/aula_01.png" >
+        <meta  name="twitter:image"  content="https://splor-mg.github.io/trilha-dev/assets/images/social/aulas/dia_01/roteiro.png" >
       
     
     
@@ -339,6 +339,94 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dia_02/dia_02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DIA 2: Ambiente de desenvolvimento
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dia_03/dia_03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DIA 3: Escrevendo e publicando
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dia_04/dia_04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DIA 4: Comandos e terminal
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dia_05/dia_05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DIA 5: Trabalhando em equipe
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -359,6 +447,56 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#video-1-filosofia-doc-as-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vídeo 1 – Filosofia “Doc as Code”
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Vídeo 1 – Filosofia “Doc as Code”">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#roteiro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Roteiro:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#video-2-git-e-github-qual-a-diferenca" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vídeo 2 – Git e GitHub: qual a diferença?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#video-3-o-que-e-um-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vídeo 3 – O que é um repositório?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -377,32 +515,37 @@
 
 
 <h1 id="dia-1-comecando-com-o-pe-direito">DIA 1: Começando com o pé direito</h1>
-<p>Vídeo 1 – Filosofia “Doc as Code”</p>
-<p>Objetivo: Apresentar a filosofia de documentação como código e mostrar por que ela é importante.</p>
-<p>Roteiro:</p>
+<h2 id="video-1-filosofia-doc-as-code">Vídeo 1 – Filosofia “Doc as Code”</h2>
+<h3 id="roteiro">Roteiro:</h3>
 <p>Introdução leve: "Você sabia que documentar é parte essencial do desenvolvimento?"</p>
 <p>O que é "Doc as Code": documentação escrita e gerenciada como código.</p>
+<pre><code>Você já deve ter percebido que, muitas vezes, a documentação e o material de apoio de um projeto ou ideia acabam ficando desatualizados ou fora de lugar. Isso acontece porque, geralmente, eles são criados separadamente do projeto e podem ser difíceis de atualizar e manter.
+
+A filosofia "Doc as Code" (que podemos traduzir como "documentação como código") muda essa forma de pensar. Em vez de tratar a documentação como algo separado ou algo "pronto" que não muda mais, ela passa a ser uma parte constante do processo de criação. Isso significa que:
+
+Sempre atualizada: A documentação e as apresentações estão sempre sincronizadas com o trabalho que está sendo feito, o que garante que elas não fiquem desatualizadas.
+Mais fácil de modificar: Quando você faz mudanças, pode atualizar facilmente os slides ou qualquer documento, sem perder tempo.
+Trabalho em equipe: Vários membros de uma equipe podem colaborar, revisar e melhorar a documentação, da mesma forma que trabalham em um projeto comum.
+Por que isso é importante?
+
+Quando você tem documentos ou apresentações que são gerenciados de forma contínua e colaborativa, as informações são mais claras e mais fáceis de acessar, sempre que necessário. Além disso, o processo de criação e atualização se torna muito mais rápido e sem complicações. Agilidade é a palavra chave aqui! Trecho retirado de deste [post](https://meadapt.com/blog/como-criar-apresenta%C3%A7%C3%B5es-incr%C3%ADveis-com-revealjs-e-a-filosofia-doc-as-code/)
+</code></pre>
 <p>Benefícios: versionamento, revisões, colaboração, automação.</p>
 <p>Exemplo: README.md no GitHub, sites com MkDocs.</p>
 <p>Gancho: "Mas com que ferramenta vamos colocar isso em prática? Veja no próximo vídeo."</p>
-<p>🎥 Vídeo 2 – Git e GitHub: qual a diferença?</p>
-<p>Objetivo: Apresentar Git e GitHub e suas diferenças.</p>
-<p>Roteiro:</p>
+<h3 id="video-2-git-e-github-qual-a-diferenca">Vídeo 2 – Git e GitHub: qual a diferença?</h3>
 <p>Git: sistema de controle de versão.</p>
 <p>GitHub: serviço online que hospeda repositórios Git.</p>
 <p>Analogia: caderno com anotações (Git) guardado na nuvem (GitHub).</p>
 <p>Demonstração: mostrar a interface do GitHub.</p>
 <p>Atividade: Criar conta no GitHub.</p>
-<p>🎥 Vídeo 3 – O que é um repositório?</p>
-<p>Objetivo: Entender repositórios e como navegar pelo GitHub.</p>
-<p>Roteiro:</p>
+<h3 id="video-3-o-que-e-um-repositorio">Vídeo 3 – O que é um repositório?</h3>
 <p>Conceito: "Uma pasta inteligente do seu projeto."</p>
 <p>Criar repositório com o próprio nome.</p>
 <p>Explicar: README, .gitignore, licença.</p>
 <p>Navegação: arquivos, commits, settings.</p>
 <p>Atividade: Criar repositório próprio.</p>
-<p>Gancho: "Agora temos nosso espaço online... como desenvolvemos de verdade?"</p>
-<p>Checklist Dia 1:</p>
+<p>Gancho: "Agora temos nosso espaço online... como desenvolvemos de verdade</p>
 
 
 

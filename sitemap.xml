@@ -1,3 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://splor-mg.github.io/trilha-dev/</loc>
+         <lastmod>2025-05-12</lastmod>
+    </url>
+    <url>
+         <loc>https://splor-mg.github.io/trilha-dev/aulas/</loc>
+         <lastmod>2025-05-12</lastmod>
+    </url>
+    <url>
+         <loc>https://splor-mg.github.io/trilha-dev/aulas/aula_02/</loc>
+         <lastmod>2025-05-12</lastmod>
+    </url>
+    <url>
+         <loc>https://splor-mg.github.io/trilha-dev/aulas/aula_03/</loc>
+         <lastmod>2025-05-12</lastmod>
+    </url>
+    <url>
+         <loc>https://splor-mg.github.io/trilha-dev/aulas/aula_04/</loc>
+         <lastmod>2025-05-12</lastmod>
+    </url>
+    <url>
+         <loc>https://splor-mg.github.io/trilha-dev/aulas/aula_05/</loc>
+         <lastmod>2025-05-12</lastmod>
+    </url>
+    <url>
+         <loc>https://splor-mg.github.io/trilha-dev/aulas/dia_01/aula_01/</loc>
+         <lastmod>2025-05-12</lastmod>
+    </url>
+    <url>
+         <loc>https://splor-mg.github.io/trilha-dev/aulas/dia_01/dia_01/</loc>
+         <lastmod>2025-05-12</lastmod>
+    </url>
 </urlset>

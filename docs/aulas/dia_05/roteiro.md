@@ -36,4 +36,3 @@ Mostrar o ciclo de revisão.
 
 Merge.
 
-Checklist Dia 5:

@@ -10,7 +10,11 @@ nav:
   - index.md
   - aulas/index.md
   - aulas/dia_01/dia_01.md
-
+  - aulas/dia_02/dia_02.md
+  - aulas/dia_03/dia_03.md
+  - aulas/dia_04/dia_04.md
+  - aulas/dia_05/dia_05.md
+  
 # Configuration
 theme:
   name: material

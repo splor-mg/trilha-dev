@@ -5,11 +5,21 @@ repo_name: splor-mg/trilha-dev
 repo_url: https://github.com/splor-mg/trilha-dev
 edit_uri: edit/main/docs/
 
+nav:
+  - index.md
+  - aulas/index.md
+  - aulas/dia_01/dia_01.md
+
 # Configuration
 theme:
   name: material
   language: pt
   logo: assets/logo.png
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.path
   palette:
     - scheme: slate
       primary: lime #cbdc39
@@ -26,14 +36,15 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
 
-features:
-    - navigation.instant
-    - navigation.instant.progress
 
-# --8<-- [start:nav]
-nav:
-  - index.md
-  - Aulas:
-    - aulas/index.md
-# --8<-- [end:nav]
+plugins:
+  - search:
+      lang: pt
+  - social
+
+extra:
+  version:
+    provider: mike

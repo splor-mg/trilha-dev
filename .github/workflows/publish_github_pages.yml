@@ -24,5 +24,6 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
+      - uses: snok/install-poetry@v1
       - run: poetry install
       - run: poetry run mkdocs gh-deploy --force

@@ -27,6 +27,9 @@ theme:
     text: Roboto
     code: Roboto Mono
 
+features:
+    - navigation.instant
+    - navigation.instant.progress
 
 # --8<-- [start:nav]
 nav:

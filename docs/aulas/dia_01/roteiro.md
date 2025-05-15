@@ -4,26 +4,72 @@
 
 ### Roteiro:
 
-Introdução leve: "Você sabia que documentar é parte essencial do desenvolvimento?"
+### 🎯 Objetivo:
 
-O que é "Doc as Code": documentação escrita e gerenciada como código.
+Apresentar a filosofia **Doc as Code** de forma simples e acessível, mostrando seus benefícios e aplicações práticas para pessoas que vêm de contextos administrativos tradicionais.
 
-    Você já deve ter percebido que, muitas vezes, a documentação e o material de apoio de um projeto ou ideia acabam ficando desatualizados ou fora de lugar. Isso acontece porque, geralmente, eles são criados separadamente do projeto e podem ser difíceis de atualizar e manter.
+---
 
-    A filosofia "Doc as Code" (que podemos traduzir como "documentação como código") muda essa forma de pensar. Em vez de tratar a documentação como algo separado ou algo "pronto" que não muda mais, ela passa a ser uma parte constante do processo de criação. Isso significa que:
+### 🎬 Roteiro para vídeo: "Documentar como quem programa"
 
-    Sempre atualizada: A documentação e as apresentações estão sempre sincronizadas com o trabalho que está sendo feito, o que garante que elas não fiquem desatualizadas.
-    Mais fácil de modificar: Quando você faz mudanças, pode atualizar facilmente os slides ou qualquer documento, sem perder tempo.
-    Trabalho em equipe: Vários membros de uma equipe podem colaborar, revisar e melhorar a documentação, da mesma forma que trabalham em um projeto comum.
-    Por que isso é importante?
+#### 1. **Introdução com empatia (2-3 min)**
 
-    Quando você tem documentos ou apresentações que são gerenciados de forma contínua e colaborativa, as informações são mais claras e mais fáceis de acessar, sempre que necessário. Além disso, o processo de criação e atualização se torna muito mais rápido e sem complicações. Agilidade é a palavra chave aqui! Trecho retirado de deste [post](https://meadapt.com/blog/como-criar-apresenta%C3%A7%C3%B5es-incr%C3%ADveis-com-revealjs-e-a-filosofia-doc-as-code/) 
+> "Você já passou pela situação de trabalhar horas num documento, mandar por e-mail para os seus colegas e depois receber 5 versões diferentes de volta? Já teve dificuldade em saber *qual é a versão final*? Ou teve um documento importante perdido por descuido?"
 
-Benefícios: versionamento, revisões, colaboração, automação.
+**Mensagem:** "Você não está só. Por muito tempo, documentos foram gerenciados de forma caótica. Mas existe uma filosofia — usada por quem desenvolve software — que pode transformar isso: o *Doc as Code* ou *Documentação como código*"
 
-Exemplo: README.md no GitHub, sites com MkDocs.
+---
 
-Gancho: "Mas com que ferramenta vamos colocar isso em prática? Veja no próximo vídeo."
+#### 2. **O que é “Doc as Code” (3-4 min)**
+
+Explique de forma visual e direta:
+
+| Tradicional                      | Doc as Code                    |
+| -------------------------------- | ------------------------------ |
+| Word no e-mail                   | Markdown com versionamento     |
+| Arquivo: `final_versao3_ok.docx` | Histórico automático com `git` |
+| Aprovação por e-mail             | Revisão por Pull Request       |
+| Documentos locais                | Documentação acessível online  |
+| Sem histórico confiável          | Linha do tempo das mudanças    |
+
+> "No Doc as Code, **documentos são tratados como código-fonte**: versionados, revisados, colaborativos, e publicados automaticamente. É produtividade com rastreabilidade."
+
+---
+
+#### 3. **Por que isso importa para quem trabalha com processos? (3 min)**
+
+Traga para o contexto administrativo:
+
+* **Controle de versões:** saber *quem* mudou *o quê* e *quando*.
+* **Colaboração estruturada:** revisão de conteúdo sem bagunça de e-mails.
+* **Automação:** documentações que viram sites internos ou públicos.
+* **Acesso centralizado e seguro:** tudo salvo em um repositório confiável.
+
+> "É como ter um sistema de gestão documental moderno, com ferramentas do mundo tech."
+
+---
+
+#### 4. **Exemplo prático (2-3 min)**
+
+> "Imagine que você quer criar um manual de boas práticas do seu setor. Em vez de escrever um Word e salvar como ‘versão final’, você escreve em Markdown (um formato simples), salva no GitHub e tem todo o histórico. O time pode sugerir melhorias via Pull Request. E com MkDocs, você transforma esse conteúdo num site bonito e navegável — sem precisar de um programador."
+
+---
+
+#### 5. **Resumo e convite (1-2 min)**
+
+> "É um novo jeito de pensar documentação: mais transparente, colaborativo, seguro e escalável. E o melhor: não é só para programadores."
+
+📌 **Gancho:**
+
+> "Na próxima aula, vamos conhecer as duas ferramentas essenciais para aplicar essa filosofia na prática: Git e GitHub."
+
+---
+
+### 📚 Atividade sugerida (opcional)
+
+**Tarefa:** Faça uma lista de documentos do seu trabalho que poderiam ser melhor organizados ou publicados usando essa abordagem. Que vantagens você imagina ao usar o Doc as Code nesses casos?
+
+---
 
 ### Vídeo 2 – Git e GitHub: qual a diferença?
 

@@ -1,8 +1,6 @@
-# DIA 1: Começando com o pé direito
+# Roteiro DIA 1: Começando com o pé direito
 
 ## Vídeo 1 – Filosofia “Doc as Code”
-
-### Roteiro:
 
 ### 🎯 Objetivo:
 

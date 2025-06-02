@@ -4,7 +4,7 @@
 
 Neste vídeo, vamos apresentar a filosofia de documentação como código e mostrar por que ela é importante.
 
-[inserir vídeo]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6eqhA2mSYUw?si=rmtV5QvsbpwQBP3f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - :link: Saiba mais sobre [Doc as Code](https://www.writethedocs.org/guide/docs-as-code/)
 - 📚 Atividade (opcional):
@@ -15,17 +15,17 @@ Neste vídeo, vamos apresentar a filosofia de documentação como código e most
 
 Neste vídeos, vamos te epresentar o Git e o GitHub e suas diferenças.
 
-[inserir vídeo]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XUpwmoOENCE?si=kH4HGNOLU_QnNw9m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-!!! Tip "Comparação simples"
+!!! Tip "Esquema de comparação"
 
-    |Git | GitHub|
-    | ------------- | ------------- |
-    | Guarda as versões | Guarda os projetos na nuvem |
-    | Funciona no seu computador | Funciona pela internet |
-    | É a tecnologia | É a plataforma que usa o Git |
+    |__Git__ | __GitHub__|
+    | -------------------- | --------------------- |
+    | - Guarda as versões | - Guarda os projetos na nuvem |
+    | - Funciona no seu computador | - Funciona pela internet |
+    | - É a tecnologia | - É a plataforma que usa o Git |
 
-    *Você vai usar os dois juntos: Git para registrar, GitHub para compartilhar.*
+    *_Você vai usar os dois juntos: Git para registrar, GitHub para compartilhar._*
 
 
 - 📚 Atividade: 
@@ -36,7 +36,7 @@ Neste vídeos, vamos te epresentar o Git e o GitHub e suas diferenças.
 
 Neste vídeo, vamos entender repositórios e como navegar pelo GitHub.
 
-[inserir vídeo]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p3cy-1Gw4kA?si=OF66r9HfNDe_w8vg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - 📚 Atividade:
     

@@ -2,27 +2,45 @@
 
 ## 🎥 Vídeo 1 – Filosofia “Doc as Code”
 
-Objetivo: Apresentar a filosofia de documentação como código e mostrar por que ela é importante.
+Neste vídeo, vamos apresentar a filosofia de documentação como código e mostrar por que ela é importante.
 
-[inserir vídeo]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6eqhA2mSYUw?si=rmtV5QvsbpwQBP3f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- :link: Saiba mais sobre [Doc as Code](https://www.writethedocs.org/guide/docs-as-code/)
+- 📚 Atividade (opcional):
+
+    Faça uma lista de documentos do seu trabalho que poderiam ser melhor organizados ou publicados usando essa abordagem. Que vantagens você imagina ao usar o Doc as Code nesses casos?
 
 ## 🎥 Vídeo 2 – Git e GitHub: qual a diferença?
 
-Objetivo: Apresentar Git e GitHub e suas diferenças.
+Neste vídeos, vamos te epresentar o Git e o GitHub e suas diferenças.
 
-[inserir vídeo]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XUpwmoOENCE?si=kH4HGNOLU_QnNw9m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Demonstração: mostrar a interface do GitHub.
+!!! Tip "Esquema de comparação"
 
-Atividade: Criar conta no GitHub.
+    |__Git__ | __GitHub__|
+    | -------------------- | --------------------- |
+    | - Guarda as versões | - Guarda os projetos na nuvem |
+    | - Funciona no seu computador | - Funciona pela internet |
+    | - É a tecnologia | - É a plataforma que usa o Git |
+
+    *_Você vai usar os dois juntos: Git para registrar, GitHub para compartilhar._*
+
+
+- 📚 Atividade: 
+    
+    Criar conta no GitHub.
 
 ## 🎥 Vídeo 3 – O que é um repositório?
 
-Objetivo: Entender repositórios e como navegar pelo GitHub.
+Neste vídeo, vamos entender repositórios e como navegar pelo GitHub.
 
-[inserir vídeo]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p3cy-1Gw4kA?si=OF66r9HfNDe_w8vg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Atividade: Criar repositório próprio.
+- 📚 Atividade:
+    
+    Criar repositório próprio.
 
 __________
  - Checklist Dia 1:

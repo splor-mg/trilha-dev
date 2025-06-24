@@ -16,6 +16,15 @@ Nesta aula, vamos finalmente começar a escrever usando a sintaxe Markdown. Voc�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SOXWdGwV8t4?si=cVBYpivk9ALTHHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## 🎥 Aula extra – Estilizando seu site com _Material for MkDocs_
+<details>
+  <summary>Clique para acessar a aula extra</summary>
+
+    <p>Neste vídeo, eu te mostro como transformar o seu site do seu jeito, usando uma ferramenta super simples e poderosa, que é o Material for MkDocs.</p>    
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k9InxkOOxwg?si=UgOi2iB1DQHCDt_x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</details>
+
 ## 🎥 Vídeo 9 – Editar página e comitar
 
 Objetivo: Aplicar Markdown na página inicial e salvar alterações.

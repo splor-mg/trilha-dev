@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://splor-mg.github.io/trilha-dev/aulas/dia_03/roteiro/">
+        <link rel="canonical" href="https://splor-mg.github.io/trilha-dev/aulas/dia_03/roteiro_video_08/">
       
       
       
@@ -57,7 +57,7 @@
       
         <meta  property="og:description"  content="None" >
       
-        <meta  property="og:image"  content="https://splor-mg.github.io/trilha-dev/assets/images/social/aulas/dia_03/roteiro.png" >
+        <meta  property="og:image"  content="https://splor-mg.github.io/trilha-dev/assets/images/social/aulas/dia_03/roteiro_video_08.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -65,7 +65,7 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://splor-mg.github.io/trilha-dev/aulas/dia_03/roteiro/" >
+        <meta  property="og:url"  content="https://splor-mg.github.io/trilha-dev/aulas/dia_03/roteiro_video_08/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
@@ -73,7 +73,7 @@
       
         <meta  name="twitter:description"  content="None" >
       
-        <meta  name="twitter:image"  content="https://splor-mg.github.io/trilha-dev/assets/images/social/aulas/dia_03/roteiro.png" >
+        <meta  name="twitter:image"  content="https://splor-mg.github.io/trilha-dev/assets/images/social/aulas/dia_03/roteiro_video_08.png" >
       
     
     
@@ -373,7 +373,7 @@
   
   
   <span class="md-ellipsis">
-    DIA 3: Escrevendo e publicando
+    DIA 3: Lendo e Escrevendo
     
   </span>
   
@@ -465,26 +465,56 @@
 
 
 <h1 id="dia-3-escrevendo-e-publicando">DIA 3: Escrevendo e publicando</h1>
-<p>🎥 Vídeo 7 – Documentação é tudo</p>
-<p>Objetivo: Mostrar importância da documentação.</p>
-<p>Roteiro:</p>
-<p>Ler documentação é essencial.</p>
-<p>Navegar pela doc do MkDocs Material.</p>
-<p>Buscar por: iniciar, editar, customizar.</p>
-<p>Atividade: Anotar o que deseja escrever sobre si mesmo.</p>
-<p>🎥 Vídeo 8 – Aprendendo Markdown</p>
-<p>Objetivo: Ensinar sintaxe básica do Markdown.</p>
-<p>Roteiro:</p>
-<p>Títulos, negrito, êtisco, listas, links, imagens.</p>
-<p>Mostrar visualização.</p>
-<p>🎥 Vídeo 9 – Editar página e comitar</p>
-<p>Objetivo: Aplicar Markdown na página inicial e salvar alterações.</p>
-<p>Roteiro:</p>
-<p>Abrir arquivo da homepage (docs/index.md).</p>
-<p>Escrever apresentação pessoal.</p>
-<p>Explicar git add, git commit, git push.</p>
-<p>Gancho: "Mas esses comandos são do Markdown? Não! Vamos entender."</p>
-<p>Checklist Dia 3:</p>
+<p>🎥 Vídeo 8 – "Escrevendo em Markdown"Roteiro para vídeo 9: "Escrevendo em Markdown"</p>
+<ol>
+<li>Introdução rápida ao Markdown</li>
+</ol>
+<p>"Agora que já temos o projeto MkDocs criado, chegou a hora de colocar conteúdo nele — e o formato que vamos usar para isso é o Markdown."</p>
+<p>Markdown é uma linguagem de marcação simples e legível, criada para facilitar a escrita de textos estruturados como títulos, listas e links.</p>
+<ol>
+<li>Principais comandos Markdown</li>
+</ol>
+<p>Apresentação prática no arquivo index.md:
+|<strong>OBJETIVO</strong> | <strong>MARKDOWN</strong>|<strong>Exemplo</strong>|
+| -------------------- | --------------------- |
+| Título | # até ###### | # Título 1 |
+| Texto em negrito | <strong>texto</strong> | <strong>Importante</strong> |
+| Itálico |<em>texto</em>  | <em>ênfase</em> |
+| Lista |- item  | - Primeiro item |
+| Link | <a href="url">texto</a> | <a href="https://...">Meu GitHub</a> |
+| Imagem | <img alt="alt" src="url" /> | <img alt="Minha foto" src="minha.jpg" /> |
+| Código inline | <code>código</code> | Use o comando <code>git status</code>  |</p>
+<ol>
+<li>Exercício prático: sua apresentação em Markdown</li>
+</ol>
+<p>"Vamos pegar aquele texto de apresentação pessoal que você escreveu e transformá-lo em Markdown."</p>
+<p>Exemplo antes (texto plano):</p>
+<pre><code>Olá, meu nome é Raiane. Trabalho com processos administrativos há 8 anos e estou começando a aprender sobre tecnologia. Gosto de compartilhar o meu conhecimento e acredito que posso ajudar meus colegas com isso a melhorarem suas rotinas de trabalho com isso.
+</code></pre>
+<p>Exemplo depois (Markdown):</p>
+<h1 id="sobre-mim">Sobre mim</h1>
+<p><strong>Olá!</strong> Meu nome é <em>Raiane</em>.</p>
+<p>Trabalho com <strong>processos administrativos</strong> há mais de 8 anos e estou começando a aprender sobre <strong>tecnologia</strong>.</p>
+<p>Gosto de <strong>compartilhar o meu conhecimento</strong> e acredito que posso ajudar meus colegas com isso a melhorarem suas rotinas de trabalho com isso.</p>
+<p><a href="https://github.com/raianecardoso">Veja meu perfil no GitHub</a></p>
+<p>Sugestão: personalizar com mais seções (interesses, experiência, contato) e usar títulos e listas para clareza.</p>
+<ol>
+<li>Comitar as alterações</li>
+</ol>
+<p>"Agora que editamos o arquivo index.md, precisamos salvar essa mudança no histórico do projeto — o famoso comitar."</p>
+<p>Passo a passo no terminal do Codespace:</p>
+<p>git add .
+git commit -m "Criação da página inicial com apresentação pessoal"
+git push</p>
+<p>add: adiciona os arquivos modificados</p>
+<p>commit: registra uma nova versão com mensagem</p>
+<p>push: envia para o GitHub</p>
+<ol>
+<li>Resumo e chamada para o próximo vídeo</li>
+</ol>
+<p>"Hoje você aprendeu como escrever textos com Markdown, editou a página inicial do seu site e salvou essa mudança no repositório com comandos Git. Isso é um grande passo!"</p>
+<p>📌 Gancho:</p>
+<p>"Mas espera aí... você talvez tenha notado que usamos comandos diferentes: pip, git, markdown. O que são todos esses comandos? No próximo vídeo, vamos entender como o terminal nos permite falar com diferentes ferramentas."</p>
 
 
 

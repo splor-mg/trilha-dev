@@ -1,4 +1,4 @@
-# DIA 3: Escrevendo e publicando
+# DIA 3: Lendo e Escrevendo
 
 ## 🎥 Vídeo 7 – Documentação é tudo!
 
@@ -12,7 +12,7 @@ Neste vídeo, prepare-se para conectar todos os assuntos que tratamos neste curs
 
 ## 🎥 Vídeo 8 – Aprendendo Markdown
 
-Nesta aula, vamos finalmente começar a escrever usando a sintaxe Markdown. Você sairá dessa aula falando outra língua :smile-wink:
+Nesta aula, vamos finalmente começar a escrever usando a sintaxe Markdown. Você sairá dessa aula falando outra língua :stuck_out_tongue_winking_eye:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SOXWdGwV8t4?si=cVBYpivk9ALTHHFq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -26,14 +26,6 @@ Nesta aula, vamos finalmente começar a escrever usando a sintaxe Markdown. Voc�
 
       <iframe width="560" height="315" src="https://www.youtube.com/embed/k9InxkOOxwg?si=UgOi2iB1DQHCDt_x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-## 🎥 Vídeo 9 – Editar página e comitar
-
-Objetivo: Aplicar Markdown na página inicial e salvar alterações.
-
-[inserir vídeo]
-
-Gancho: "Mas esses comandos são do Markdown? Não! Vamos entender."
 
 _________
  - Checklist Dia 3:

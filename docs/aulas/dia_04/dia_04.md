@@ -2,9 +2,9 @@
 
 ## 🎥 Vídeo 09 – Falando várias línguas
 
-Objetivo: Mostrar que usamos vários tipos de comandos.
+Neste vídeo, vamos explicar o que é o terminal e como ele nos permite a interagir com o nosso sistema operacional e os nosso programas.
 
-[inserir vídeo]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UWptjGLSuVg?si=Kc219YIyULxgKWnX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 🎥 Vídeo 10 – Comandos de terminal
 

@@ -20,7 +20,7 @@ Siga os passos abaixo para configurar o projeto localmente:
 
    ```sh
    git clone git@github.com:splor-mg/trilha-dev.git
-   cd handbook
+   cd trilha-dev
    ```
 
 1. Instale as dependências do projeto com Poetry:

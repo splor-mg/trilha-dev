@@ -18,8 +18,6 @@ Nesta aula, vamos finalmente começar a escrever usando a sintaxe Markdown. Voc�
 
 ## 🎥 Aula extra – Estilizando seu site com _Material for MkDocs_
 
-</details>
-
 ??? tip "Clique para acessar a aula extra"
 
     Neste vídeo, eu te mostro como transformar o seu site do seu jeito, usando uma ferramenta super simples e poderosa, que é o Material for MkDocs.

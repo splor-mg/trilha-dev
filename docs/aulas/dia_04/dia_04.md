@@ -2,24 +2,47 @@
 
 ## 🎥 Vídeo 09 – Falando várias línguas
 
-Objetivo: Mostrar que usamos vários tipos de comandos.
+Neste vídeo, vamos explicar o que é o terminal e como ele nos permite a interagir com o nosso sistema operacional e os nosso programas.
 
-[inserir vídeo]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UWptjGLSuVg?si=Kc219YIyULxgKWnX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 🎥 Vídeo 10 – Comandos de terminal
 
-Objetivo: Ensinar navegação básica em terminal.
+Neste vídeo, vamos aprender a navegação básica em terminal.
 
-Roteiro:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UZR13IQBYB4?si=ZA-PX--DjlCspmHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-[inserir vídeo]
+#### Comandos essenciais desta aula
+
+| Comando       | O que faz                                        | Exemplo                          |
+|---------------|--------------------------------------------------|----------------------------------|
+| `pwd`         | Mostra o caminho completo do diretório atual     | `pwd`                            |
+| `ls`          | Lista os arquivos e pastas                       | `ls`                             |
+| `cd..`        | Volta para a pasta anterior                     | `cd..`                           |
+| `cd`          | Entra em um diretório                           | `cd blog`                        |
+| `mkdir`       | Cria uma nova pasta                             | `mkdir blog`                     |
+| `touch`       | Cria um novo arquivo                            | `touch post1.md`                 |
+| `rm`          | Remove arquivos ou pastas                       | `rm post1.md`                    |
+
 
 ## 🎥 Vídeo 11 – Comandos Git
 
-Objetivo: Ensinar os comandos mais usados do Git.
+Agora, vamos aprender os comandos essenciais do Git.
 
-[inserir vídeo]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KiV-_U4JKEs?si=XuNI2cGYFmePoSyW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-__________
- - Checklist Dia 4:
- - Quiz Dia 4:
+:octicons-mark-github-16: Status com o `git status`
+
+|Status |Significado|
+| -------------------- | --------------------- |
+| Untracked| Arquivo novo que o Git ainda não monitora. Use git add para começar a rastrear.|
+| Modified| Arquivo já conhecido pelo Git, mas que foi alterado. Ainda não pronto para salvar.|
+| Staged / Ready to commit | Arquivo marcado com git add para ser incluído no próximo "snapshot". |
+
+??? tip "Vamos fazer uma viagem no tempo?"
+
+    Neste vídeo, eu te mostro como o superpoder do git.
+
+??? tip "Mergulhando no git"
+
+    Neste conteúdo extra, eu te mostro os bastidores do funcionamento do git. Essa aula é para quem quer ir além! :rocket:

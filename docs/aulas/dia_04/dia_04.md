@@ -29,7 +29,7 @@ Neste vídeo, vamos aprender a navegação básica em terminal.
 
 Agora, vamos aprender os comandos essenciais do Git.
 
-[inserir vídeo]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KiV-_U4JKEs?si=XuNI2cGYFmePoSyW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 :octicons-mark-github-16: Status com o `git status`
 
@@ -38,3 +38,11 @@ Agora, vamos aprender os comandos essenciais do Git.
 | Untracked| Arquivo novo que o Git ainda não monitora. Use git add para começar a rastrear.|
 | Modified| Arquivo já conhecido pelo Git, mas que foi alterado. Ainda não pronto para salvar.|
 | Staged / Ready to commit | Arquivo marcado com git add para ser incluído no próximo "snapshot". |
+
+??? tip "Vamos fazer uma viagem no tempo?"
+
+    Neste vídeo, eu te mostro como o superpoder do git.
+
+??? tip "Mergulhando no git"
+
+    Neste conteúdo extra, eu te mostro os bastidores do funcionamento do git. Essa aula é para quem quer ir além! :rocket:

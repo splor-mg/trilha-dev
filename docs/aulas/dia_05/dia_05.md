@@ -1,4 +1,10 @@
-# DIA 5: Trabalhando em equipe
+# DIA 5: Trabalhando em equipe: transparência e colaboração
+
+## 🎥 Vídeo Extra - Pit stop para conhecer o `.gitignor`
+
+Objetivo: Mostrar o que é e como incluir um arquivo `.gitignore`
+
+[inserir vídeo]
 
 ## 🎥 Vídeo 12 – Colaboração e código aberto
 
@@ -13,18 +19,6 @@ Objetivo: Ensinar como comunicar problemas ou ideias.
 [inserir vídeo]
 
 Atividade: Criar um issue no repositório.
-
-## 🎥 Vídeo 14 – Branch e Pull Request
-
-Objetivo: Ensinar o básico de branches e PRs.
-
-[inserir vídeo]
-
-## 🎥 Vídeo 15 – Revisão de um Pull Request
-
-Objetivo: Ensinar o básico de como avaliar um PR.
-
-[inserir vídeo]
 __________
  - Checklist Dia 5:
  - Quiz Dia 5:

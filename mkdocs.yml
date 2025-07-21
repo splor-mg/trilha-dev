@@ -69,3 +69,10 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
+  - attr_list
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - md_in_html

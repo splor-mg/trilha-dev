@@ -22,17 +22,27 @@ Para isso, iremos mostrar o que é e como incluir um arquivo `.gitignore`.
 
 ## 🎥 Vídeo 12 – Colaboração e código aberto
 
-Objetivo: Mostrar valor do trabalho colaborativo.
+Chegou o momento de falat de colaboração e publicação. Nesta aula, vamos publicar o nosso site!
 
-[inserir vídeo]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x8eA_b-pwUY?si=ucOiumX7tMa_sfpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- Acesse o [Raiane News](raianecardoso.github.io/raiane-news/)
 
 ## 🎥 Vídeo 13 – Abrindo uma issue
 
-Objetivo: Ensinar como comunicar problemas ou ideias.
+Quando você encontra um erro, tem uma sugestão de melhoria ou precisa discutir uma ideia com seu time, o lugar certo pra isso, dentro do GitHub, é o issue. Vamos aprender como criar um?
 
-[inserir vídeo]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bB2RteacjxQ?si=BeAZTm6xmOBsrDZf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Atividade: Criar um issue no repositório.
+- 📚 Atividade:
+    - Criar uma issue no repositório com o seguinte exemplo de texto:
+        
+        "Seria interessante compartilhar o que foi aprendido até agora no curso.
+
+        - [ ] Criar arquivo `blog/aprendizados.md`
+        - [ ] Escrever tópicos principais de cada aula
+        - [ ] Comentar principais dificuldades e soluções encontradas"
+
 __________
  - Checklist Dia 5:
  - Quiz Dia 5:

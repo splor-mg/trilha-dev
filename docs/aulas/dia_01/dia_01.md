@@ -13,7 +13,7 @@ Neste vídeo, vamos apresentar a filosofia de documentação como código e most
 
 ## 🎥 Vídeo 2 – Git e GitHub: qual a diferença?
 
-Neste vídeos, vamos te epresentar o Git e o GitHub e suas diferenças.
+Neste vídeo, vamos te epresentar o Git e o GitHub e suas diferenças.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XUpwmoOENCE?si=kH4HGNOLU_QnNw9m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

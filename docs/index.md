@@ -1,6 +1,8 @@
-# **Bem vindo ao Trilha Dev: Início de Jornada**
+# **Início de Jornada**
 
-### Tecnologia ao alcance de quem organiza, planeja e executa!
+Bem vindo ao Trilha Dev! 
+
+### :octicons-arrow-right-24: Tecnologia ao alcance de quem organiza, planeja e executa!
 
 O **Trilha-Dev: Início da Jornada** foi criado especialmente para pessoas que atuam com **atividades administrativas e de apoio à gestão** e que desejam navegar **com mais segurança no mundo da tecnologia**, sem a necessidade de se tornarem desenvolvedores profissionais.
 
@@ -75,3 +77,4 @@ ______
 
 - Logo: Astro by Pablo Stanley in [Transhumans Collection](https://blush.design/collections/i6aPXTYbSUdZEveWhgik/transhumans)
 - Ilustrações: [Blush Design Inc.](https://blush.design/pt)
+- Tema: [Material for mkdocs](https://squidfunk.github.io/mkdocs-material/)

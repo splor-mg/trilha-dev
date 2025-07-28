@@ -1,0 +1,160 @@
+/* ========================================
+   CUSTOMIZAÇÕES PARA TRILHA DEV
+   ======================================== */
+
+/* Classes para controle de alinhamento de texto */
+.texto-centralizado {
+    text-align: center;
+}
+
+.texto-justificado {
+    text-align: justify;
+}
+
+.texto-esquerda {
+    text-align: left;
+}
+
+.texto-direita {
+    text-align: right;
+}
+
+/* Combinações especiais */
+.texto-centralizado-justificado {
+    text-align: center;
+    text-align-last: center;
+}
+
+.texto-justificado-centralizado {
+    text-align: justify;
+    text-align-last: center;
+}
+
+/* Classes para blocos de conteúdo */
+.bloco-centralizado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bloco-justificado {
+    text-align: justify;
+    max-width: 100%;
+}
+
+/* Classes para títulos */
+.titulo-centralizado {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.titulo-justificado {
+    text-align: justify;
+    margin: 2rem 0;
+}
+
+/* Classes para parágrafos */
+.paragrafo-centralizado {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.paragrafo-justificado {
+    text-align: justify;
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
+/* Classes para listas */
+.lista-centralizada {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.lista-justificada {
+    text-align: justify;
+}
+
+/* Classes para imagens */
+.imagem-centralizada {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Classes para tabelas */
+.tabela-centralizada {
+    margin: 0 auto;
+}
+
+.tabela-justificada {
+    width: 100%;
+    text-align: justify;
+}
+
+/* Classes para código */
+.codigo-centralizado {
+    text-align: center;
+    background-color: var(--md-code-bg-color);
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 1rem 0;
+}
+
+/* Classes para admonitions */
+.admonicao-centralizada {
+    text-align: center;
+}
+
+.admonicao-justificada {
+    text-align: justify;
+}
+
+/* Classes responsivas */
+@media (max-width: 768px) {
+    .texto-centralizado,
+    .texto-justificado,
+    .texto-esquerda,
+    .texto-direita {
+        text-align: left; /* Em dispositivos móveis, alinha à esquerda por padrão */
+    }
+    
+    .bloco-centralizado {
+        align-items: flex-start;
+    }
+}
+
+/* Classes para espaçamento */
+.espaco-superior {
+    margin-top: 2rem;
+}
+
+.espaco-inferior {
+    margin-bottom: 2rem;
+}
+
+.espaco-lateral {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* Classes para destaque */
+.destaque {
+    background-color: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.destaque-centralizado {
+    background-color: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}

@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # DIA 1: Começando com o pé direito
 
 ## 🎥 Vídeo 1 – Filosofia “Docs as Code”

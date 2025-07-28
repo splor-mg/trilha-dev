@@ -21,6 +21,7 @@ theme:
   name: material
   language: pt
   logo: assets/logo.png
+  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.instant.progress

@@ -11,7 +11,7 @@ Sim! Você vai usar tudo o que aprendeu até agora: terminal, Git, GitHub, Markd
 
 ##  O que você precisa fazer
 - Crie uma nova branch no repositório do curso.
-- Edite a página `desafio_final.md` adicionando sua foto e uma frase inspiradora no mesmo formato dos cards existentes (Material for MkDocs em grid).
+- Edite a página `desafio_final.md` adicionando sua foto e uma frase inspiradora no mesmo formato do card exemplo existente (Material for MkDocs em grid).
 - Use os comandos que você aprendeu:
     - Terminal: `cd`, `touch`, `ls`
     - Ferramentas: poetry, mkdocs
@@ -26,13 +26,11 @@ Sim! Você vai usar tudo o que aprendeu até agora: terminal, Git, GitHub, Markd
 
 ??? tip "Dica de como inserir a sua foto"
 
-    O Github já hospeda a sua foto de perfil! Assim, você só precisa so link desta imagem para incluir no site. :stuck_out_tongue_winking_eye: 
+    O Github já hospeda a sua foto de perfil! Assim, você só precisa do link desta imagem para incluir no site. :stuck_out_tongue_winking_eye: 
 
 ##  Hall da Fama :star2::star2::star2:
 Ao ter seu pull request aprovado, seu card será exibido com destaque na seção especial do site.
 Você fará parte do Hall da Fama da Trilha Dev, junto com outros colegas que também aceitaram o desafio!
-
-
 
 ??? tip "Mais uma dica quente"
 
@@ -52,25 +50,23 @@ Desafio lançado. :tada:
 
 Bem-vindo ao mural de vencedores do **Desafio Final**!  
 
-Aqui estão os participantes que colocaram a mão na massa e deixaram sua marca.
+> Exemplo: 
 
 ---
-
-
 <div class="grid cards" markdown>
 
--   ![Foto de Raiane](https://avatars.githubusercontent.com/u/166438302?v=4){ .lg .middle }
+-   ![1º vencedor](https://blush.design/api/download?shareUri=pkrldsKh6aPqLy9l&c=Hair_0%7E4b2500-0.0.2.0%7Efecb51_Skin_0%7Efbefe3-0.0.2.0%7E8b4500&bg=1e2129&w=800&h=800&fm=png){ .lg .middle }
     
-    __Raiane Cardoso__
+    __Ana Silva__
 
     ---
-    _"Transformar o caos em organização é o que me move."_
-
--   ![1º vencedor](https://blush.design/api/download?shareUri=FBkVEtpu9&bg=cbdc39&w=800&h=800&fm=png){ .lg .middle }
-    
-    __1º vencedor do Desafio__
-
-    ---
-    _"Oi, aprendi muito com o Trilha Dev e adorei fazer o Desafio"_
+   _"Oi, aprendi muito com o Trilha Dev e adorei fazer o desafio"_
 
 </div>
+___
+
+<div class="destaque centralizado">
+Aqui estão os participantes que colocaram a mão na massa e deixaram sua marca.
+</div>
+
+<!--- Insira o seu card aqui abaixo --->

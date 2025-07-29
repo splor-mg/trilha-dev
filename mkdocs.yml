@@ -51,7 +51,8 @@ plugins:
   - search:
       lang: pt
   - social
-  - mkdocs_quiz
+  - mkdocs_quiz:
+      language: pt
 
 extra:
   version:

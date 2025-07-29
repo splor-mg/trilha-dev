@@ -25,8 +25,8 @@ Teste seus conhecimentos sobre os conceitos apresentados hoje!
 
 <?quiz?>
 question: O que significa 'Docs as Code'?
-answer-correct: Tratar documentação como código, usando as mesmas ferramentas e práticas
 answer: Escrever código em vez de documentação
+answer-correct: Tratar documentação como código, usando as mesmas ferramentas e práticas
 answer: Usar apenas código para explicar conceitos
 answer: Substituir documentação por vídeos
 content:
@@ -37,8 +37,8 @@ content:
 
 <?quiz?>
 question: Git e GitHub são a mesma coisa?
-answer-correct: Falso
 answer: Verdadeiro
+answer-correct: Falso
 content:
 <p><strong>Explicação:</strong> Git é o sistema de controle de versão, enquanto GitHub é a plataforma web que hospeda repositórios Git. Git funciona localmente no seu computador, enquanto GitHub é um serviço online que permite compartilhar e colaborar em projetos Git.</p>
 <?/quiz?>
@@ -47,9 +47,9 @@ content:
 
 <?quiz?>
 question: O que é um repositório no contexto do Git/GitHub?
-answer-correct: Um projeto ou pasta que contém arquivos e histórico de mudanças
 answer: Um local onde você guarda arquivos físicos
 answer: Um tipo de arquivo de backup
+answer-correct: Um projeto ou pasta que contém arquivos e histórico de mudanças
 answer: Um banco de dados online
 content:
 <p><strong>Explicação:</strong> Um repositório é como uma pasta especial que guarda seus arquivos e todo o histórico de mudanças. É o local onde o Git rastreia todas as modificações, permitindo que você volte a versões anteriores quando necessário.</p>
@@ -59,10 +59,10 @@ content:
 
 <?quiz?>
 question: Qual é o objetivo principal da Trilha Dev?
-answer-correct: Apresentar ferramentas e práticas que facilitam o trabalho administrativo
 answer: Formar desenvolvedores profissionais
 answer: Ensinar programação avançada
 answer: Substituir ferramentas administrativas tradicionais
+answer-correct: Apresentar ferramentas e práticas que facilitam o trabalho administrativo
 content:
 <p><strong>Explicação:</strong> A trilha foi criada especificamente para pessoas que atuam com atividades administrativas e querem usar tecnologia de forma mais eficiente no seu dia a dia, sem precisar se tornar desenvolvedores profissionais.</p>
 <?/quiz?>
@@ -71,8 +71,8 @@ content:
 
 <?quiz?>
 question: É necessário saber programar para participar da Trilha Dev?
-answer-correct: Falso
 answer: Verdadeiro
+answer-correct: Falso
 content:
 <p><strong>Explicação:</strong> A trilha foi criada especificamente para pessoas que não precisam se tornar desenvolvedores profissionais. Você só precisa de curiosidade e disposição para aprender!</p>
 <?/quiz?>

@@ -25,10 +25,10 @@ Teste seus conhecimentos sobre ambiente de desenvolvimento, Codespace e escolha 
 
 <?quiz?>
 question: O que é um ambiente de desenvolvimento?
-answer-correct: Um conjunto de ferramentas para programar e editar arquivos
 answer: Apenas um editor de código
 answer: Um computador com internet
 answer: Um sistema operacional
+answer-correct: Um conjunto de ferramentas para programar e editar arquivos
 content:
 <p><strong>Explicação:</strong> Um ambiente de desenvolvimento é o conjunto de ferramentas que usamos para programar, incluindo editor de texto, terminal e outras ferramentas necessárias para criar e editar arquivos.</p>
 <?/quiz?>
@@ -37,8 +37,8 @@ content:
 
 <?quiz?>
 question: O que é um terminal?
-answer-correct: Uma ferramenta de linha de comando para executar comandos
 answer: Um programa para navegar na internet
+answer-correct: Uma ferramenta de linha de comando para executar comandos
 answer: Um editor de texto
 answer: Um sistema de controle de versão
 content:
@@ -49,10 +49,10 @@ content:
 
 <?quiz?>
 question: O que é o GitHub Codespace?
-answer-correct: Um ambiente de desenvolvimento na nuvem que funciona no navegador
 answer: Um editor de código online
 answer: Um sistema de controle de versão
 answer: Uma rede social para programadores
+answer-correct: Um ambiente de desenvolvimento na nuvem que funciona no navegador
 content:
 <p><strong>Explicação:</strong> GitHub Codespace é uma ferramenta do próprio GitHub que já vem com tudo pronto - editor, terminal, Git e Python instalados - e funciona direto do navegador, sem precisar instalar nada no computador.</p>
 <?/quiz?>
@@ -61,8 +61,8 @@ content:
 
 <?quiz?>
 question: Por que usar o terminal se parece mais complicado?
-answer-correct: É muito poderoso e rápido, trazendo eficiência ao trabalho
 answer: É mais fácil que usar a interface gráfica
+answer-correct: É muito poderoso e rápido, trazendo eficiência ao trabalho
 answer: Não precisa de memória para lembrar comandos
 answer: É mais bonito visualmente
 content:
@@ -73,10 +73,10 @@ content:
 
 <?quiz?>
 question: Para que serve o MkDocs?
-answer-correct: Criar sites de documentação estáticos a partir de arquivos Markdown
 answer: Programar aplicações web complexas
 answer: Gerenciar bancos de dados
 answer: Criar apresentações em PowerPoint
+answer-correct: Criar sites de documentação estáticos a partir de arquivos Markdown
 content:
 <p><strong>Explicação:</strong> MkDocs é feito especificamente para documentação. Ele usa arquivos .md (Markdown) e gera um site estático com visual moderno, ideal para equipes que querem publicar conteúdos técnicos ou processos internos.</p>
 <?/quiz?>
@@ -85,10 +85,10 @@ content:
 
 <?quiz?>
 question: Como devemos escolher ferramentas para um projeto?
-answer-correct: Baseado em fatores como facilidade de uso, comunidade ativa e integração
 answer: Sempre usar as ferramentas mais populares
 answer: Usar apenas ferramentas gratuitas
 answer: Escolher as ferramentas mais antigas e testadas
+answer-correct: Baseado em fatores como facilidade de uso, comunidade ativa e integração
 content:
 <p><strong>Explicação:</strong> A escolha de ferramentas deve considerar fatores como facilidade de uso, comunidade ativa e documentação, integração com outras ferramentas, resultado final visual e automatização.</p>
 <?/quiz?>

@@ -25,8 +25,8 @@ Teste seus conhecimentos sobre colaboração, GitHub Pages, Issues e .gitignore!
 
 <?quiz?>
 question: O que é código aberto (open source)?
-answer-correct: Projetos onde qualquer pessoa pode contribuir
 answer: Código que não tem senha
+answer-correct: Projetos onde qualquer pessoa pode contribuir
 answer: Código que é gratuito
 answer: Código que funciona sozinho
 content:
@@ -37,10 +37,10 @@ content:
 
 <?quiz?>
 question: O que é o GitHub Pages?
-answer-correct: Uma forma gratuita e fácil de hospedar sites
 answer: Um editor de código online
 answer: Um sistema de controle de versão
 answer: Uma rede social para programadores
+answer-correct: Uma forma gratuita e fácil de hospedar sites
 content:
 <p><strong>Explicação:</strong> GitHub Pages é uma forma gratuita e fácil de hospedar seu portfólio ou site na internet. É perfeito para publicar sites estáticos criados com MkDocs.</p>
 <?/quiz?>
@@ -49,10 +49,10 @@ content:
 
 <?quiz?>
 question: O que faz o comando mkdocs build?
-answer-correct: Gera a pasta site/ com os arquivos finais do site
 answer: Inicia o servidor de desenvolvimento
 answer: Cria um novo projeto MkDocs
 answer: Instala o MkDocs
+answer-correct: Gera a pasta site/ com os arquivos finais do site
 content:
 <p><strong>Explicação:</strong> O comando mkdocs build gera a pasta site/ com os arquivos finais do seu site, preparando-o para publicação no GitHub Pages.</p>
 <?/quiz?>
@@ -61,8 +61,8 @@ content:
 
 <?quiz?>
 question: O que é uma issue no GitHub?
-answer-correct: Um registro de problema, sugestão ou tarefa
 answer: Um arquivo de código
+answer-correct: Um registro de problema, sugestão ou tarefa
 answer: Uma mensagem privada
 answer: Um tipo de commit
 content:
@@ -73,10 +73,10 @@ content:
 
 <?quiz?>
 question: Quando devemos usar uma issue?
-answer-correct: Para reportar erros, sugerir melhorias ou fazer perguntas
 answer: Apenas para reportar bugs
 answer: Apenas para fazer perguntas
 answer: Apenas para sugerir melhorias
+answer-correct: Para reportar erros, sugerir melhorias ou fazer perguntas
 content:
 <p><strong>Explicação:</strong> Issues podem ser usadas para reportar um erro ou bug, sugerir melhorias, fazer perguntas ou criar uma lista de tarefas. É uma forma estruturada de comunicação.</p>
 <?/quiz?>
@@ -85,10 +85,10 @@ content:
 
 <?quiz?>
 question: Para que serve o arquivo .gitignore?
-answer-correct: Filtrar o que deve ou não ser versionado no repositório
 answer: Ignorar todos os arquivos
 answer: Criar um novo repositório
 answer: Fazer backup dos arquivos
+answer-correct: Filtrar o que deve ou não ser versionado no repositório
 content:
 <p><strong>Explicação:</strong> O .gitignore é um filtro de qualidade para o que realmente deve estar no repositório. Você quer versionar código, documentação e configurações, mas não arquivos temporários, senhas ou logs.</p>
 <?/quiz?>
@@ -97,10 +97,10 @@ content:
 
 <?quiz?>
 question: Como funciona a colaboração no GitHub?
-answer-correct: Cada pessoa trabalha em uma branch e depois junta tudo com pull request
 answer: Todos editam o mesmo arquivo ao mesmo tempo
 answer: Apenas uma pessoa pode editar por vez
 answer: Não é possível colaborar no GitHub
+answer-correct: Cada pessoa trabalha em uma branch e depois junta tudo com pull request
 content:
 <p><strong>Explicação:</strong> No GitHub, cada pessoa trabalha em uma branch (linha de trabalho), depois junta tudo com um pull request. Outras pessoas podem revisar, comentar e sugerir melhorias.</p>
 <?/quiz?>
@@ -109,10 +109,10 @@ content:
 
 <?quiz?>
 question: Qual campo de uma issue deve ser breve e direto?
-answer-correct: Título
 answer: Descrição
 answer: Labels
 answer: Assignees
+answer-correct: Título
 content:
 <p><strong>Explicação:</strong> O título da issue deve ser breve e direto, por exemplo: "Corrigir link quebrado na página inicial". A descrição é onde você detalha o problema ou ideia.</p>
 <?/quiz?>

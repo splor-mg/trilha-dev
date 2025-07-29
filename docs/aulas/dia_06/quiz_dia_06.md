@@ -25,8 +25,8 @@ Teste seus conhecimentos sobre branches, pull requests e colaboração segura!
 
 <?quiz?>
 question: O que é uma branch no Git?
-answer-correct: Uma cópia da linha principal onde você pode testar novas ideias
 answer: Um arquivo de configuração
+answer-correct: Uma cópia da linha principal onde você pode testar novas ideias
 answer: Um tipo de commit
 answer: Uma mensagem de erro
 content:
@@ -37,10 +37,10 @@ content:
 
 <?quiz?>
 question: Qual é uma vantagem de usar branches?
-answer-correct: Permite testar sem afetar o site em produção
 answer: Torna o código mais lento
 answer: Cria conflitos automaticamente
 answer: Deleta arquivos antigos
+answer-correct: Permite testar sem afetar o site em produção
 content:
 <p><strong>Explicação:</strong> As branches permitem testar sem afetar o site em produção e facilitam o trabalho em equipe, pois cada pessoa pode trabalhar em sua própria branch.</p>
 <?/quiz?>
@@ -49,10 +49,10 @@ content:
 
 <?quiz?>
 question: Para que serve um Pull Request (PR)?
-answer-correct: Revisar e integrar mudanças de forma organizada e segura
 answer: Criar uma nova branch
 answer: Deletar arquivos
 answer: Fazer backup do projeto
+answer-correct: Revisar e integrar mudanças de forma organizada e segura
 content:
 <p><strong>Explicação:</strong> O Pull Request serve para revisar o que foi feito, comentar, pedir sugestões e, por fim, juntar (fazer o merge) com a branch principal de forma organizada e segura.</p>
 <?/quiz?>
@@ -61,10 +61,10 @@ content:
 
 <?quiz?>
 question: Qual comando cria e muda para uma nova branch?
-answer-correct: git checkout -b nome-da-branch
 answer: git branch nome-da-branch
 answer: git create nome-da-branch
 answer: git new nome-da-branch
+answer-correct: git checkout -b nome-da-branch
 content:
 <p><strong>Explicação:</strong> O comando git checkout -b cria e muda para uma nova branch. Por exemplo: git checkout -b post-aprendizados cria e entra na branch "post-aprendizados".</p>
 <?/quiz?>
@@ -73,8 +73,8 @@ content:
 
 <?quiz?>
 question: Como devemos nomear as branches?
-answer-correct: Nomes curtos e descritivos
 answer: Nomes muito longos e detalhados
+answer-correct: Nomes curtos e descritivos
 answer: Nomes com números aleatórios
 answer: Nomes em maiúsculas sempre
 content:
@@ -85,10 +85,10 @@ content:
 
 <?quiz?>
 question: Por que acontecem conflitos no Git?
-answer-correct: Alguém editou o mesmo trecho de arquivo que você também editou
 answer: Porque o Git é confuso
 answer: Porque há muitos arquivos
 answer: Porque a internet está lenta
+answer-correct: Alguém editou o mesmo trecho de arquivo que você também editou
 content:
 <p><strong>Explicação:</strong> Conflitos acontecem quando alguém fez alterações no mesmo trecho de um arquivo que você também editou na sua branch. O Git não sabe qual versão manter.</p>
 <?/quiz?>
@@ -97,8 +97,8 @@ content:
 
 <?quiz?>
 question: O que devemos verificar ao revisar um Pull Request?
-answer-correct: Se a descrição explica claramente o que foi feito
 answer: Apenas se o código funciona
+answer-correct: Se a descrição explica claramente o que foi feito
 answer: Apenas se não há erros de digitação
 answer: Apenas se está bonito
 content:
@@ -109,10 +109,10 @@ content:
 
 <?quiz?>
 question: Quando podemos fazer o merge de um Pull Request?
-answer-correct: Quando foi aprovado e não há conflitos
 answer: Sempre que quisermos
 answer: Apenas quando há conflitos
 answer: Nunca, pois é perigoso
+answer-correct: Quando foi aprovado e não há conflitos
 content:
 <p><strong>Explicação:</strong> Podemos fazer o merge quando o PR foi aprovado e não há conflitos. Isso garante que a integração seja segura e organizada.</p>
 <?/quiz?>
@@ -121,10 +121,10 @@ content:
 
 <?quiz?>
 question: Qual é uma boa prática ao criar um Pull Request?
-answer-correct: Sempre associar o PR com a issue que deu origem à tarefa
 answer: Criar PRs sem descrição
 answer: Não revisar o código
 answer: Fazer merge imediatamente
+answer-correct: Sempre associar o PR com a issue que deu origem à tarefa
 content:
 <p><strong>Explicação:</strong> É uma boa prática sempre associar o PR com a issue que deu origem à tarefa, incluindo referências como "Closes #1" na descrição.</p>
 <?/quiz?>

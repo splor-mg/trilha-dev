@@ -1,5 +1,6 @@
 ---
 title: Aulas Trilha DEV
+comments: true
 ---
 
 # Siga a nossa trilha de apredizado

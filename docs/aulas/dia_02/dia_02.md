@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # DIA 2: Ambiente de desenvolvimento
 
 ## 🎥 Vídeo 4 – Ambiente para desenvolver
@@ -28,5 +31,16 @@ Neste vídeo, vamos tentar te mostrar como escolhemos ferramentas para projetos.
     - Visite o site do [MKDOCS](https://www.mkdocs.org/) e do [Material for MKDOCS](https://squidfunk.github.io/mkdocs-material/).
 
 __________
- - Checklist Dia 2:
- - Quiz Dia 2:
+
+### Teste seus conhecimentos!
+
+[Quiz dia 02](quiz_dia_02.md){ .md-button .md-button--primary } 
+
+### Checklist Dia 2:
+- [ ] Assistir aos 3 vídeos
+- [ ] Abrir o Codespace no repositório
+- [ ] Explorar a interface do Codespace
+- [ ] Editar o README.md
+- [ ] Rodar comando Python no terminal
+- [ ] Visitar sites do MkDocs e Material for MkDocs
+- [ ] Completar o quiz acima

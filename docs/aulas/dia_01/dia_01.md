@@ -46,5 +46,12 @@ Neste vídeo, vamos entender repositórios e como navegar pelo GitHub.
     Criar repositório próprio.
 
 __________
- - Checklist Dia 1:
- - Quiz Dia 1:
+### Teste seus conhecimentos!
+
+[Quiz dia 01](quiz_dia_01.md){ .md-button .md-button--primary } 
+
+### Checklist Dia 1:
+- [ ] Assistir aos 3 vídeos
+- [ ] Criar conta no GitHub
+- [ ] Criar repositório próprio
+- [ ] Completar o quiz acima

@@ -51,14 +51,7 @@ plugins:
   - search:
       lang: pt
   - social
-  - mkdocs_quiz:
-      quiz_file: quizzes.json
-      language: pt
-      show_refresh_button: true
-      show_indice_on_answer: true
-      show_score: true
-      show_progress_bar: true
-      logging: true
+  - mkdocs_quiz
 
 extra:
   version:

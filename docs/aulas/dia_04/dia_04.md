@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # DIA 4: Comandos e terminal
 
 ## 🎥 Vídeo 09 – Falando várias línguas

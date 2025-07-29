@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # DIA 6: Trabalhando em equipe: colaborando com segurança
 
 ## 🎥 Vídeo 14 – Branch e Pull Request

@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # **Início de Jornada**
 
 Bem vindo ao Trilha Dev! 

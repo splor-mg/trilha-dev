@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # DIA 3: Lendo e Escrevendo
 
 ## 🎥 Vídeo 7 – Documentação é tudo!

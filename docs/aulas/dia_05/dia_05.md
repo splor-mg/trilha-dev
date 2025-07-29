@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # DIA 5: Trabalhando em equipe: transparência e colaboração
 
 ## 🎥 Vídeo Extra - _Pit stop_ para conhecer o `.gitignore`

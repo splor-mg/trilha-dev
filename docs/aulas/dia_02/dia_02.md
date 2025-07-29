@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # DIA 2: Ambiente de desenvolvimento
 
 ## 🎥 Vídeo 4 – Ambiente para desenvolver

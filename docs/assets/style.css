@@ -83,6 +83,12 @@
     text-align: center;
 }
 
+.avatar {
+  /*width: 10em;
+  height: 10em!important;*/
+  border-radius: 50%;
+}
+
 /* Classes para tabelas */
 .tabela-centralizada {
     margin: 0 auto;

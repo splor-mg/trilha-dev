@@ -26,7 +26,9 @@ Sim! Você vai usar tudo o que aprendeu até agora: terminal, Git, GitHub, Markd
 
 ??? tip "Dica de como inserir a sua foto"
 
-    O Github já hospeda a sua foto de perfil! Assim, você só precisa do link desta imagem para incluir no site. :stuck_out_tongue_winking_eye: 
+    O Github já hospeda a sua foto de perfil! Assim, você só precisa do link desta imagem para incluir no site. :stuck_out_tongue_winking_eye:
+    
+    Basta você clicar com o botão direito na sua foto de perfil do GH e abrir o link da imagem em uma nova guia. A url desta página é um link direto para a sua foto.
 
 ##  Hall da Fama :star2::star2::star2:
 Ao ter seu pull request aprovado, seu card será exibido com destaque na seção especial do site.
@@ -55,12 +57,19 @@ Bem-vindo ao mural de vencedores do **Desafio Final**!
 ---
 <div class="grid cards" markdown>
 
--   ![1º vencedor](https://blush.design/api/download?shareUri=pkrldsKh6aPqLy9l&c=Hair_0%7E4b2500-0.0.2.0%7Efecb51_Skin_0%7Efbefe3-0.0.2.0%7E8b4500&bg=1e2129&w=800&h=800&fm=png){ .lg .middle }
+-   ![1º vencedor](https://blush.design/api/download?shareUri=pkrldsKh6aPqLy9l&c=Hair_0%7E4b2500-0.0.2.0%7Efecb51_Skin_0%7Efbefe3-0.0.2.0%7E8b4500&bg=1e2129&w=800&h=800&fm=png){ .lg .avatar .middle }
     
     __Ana Silva__
 
     ---
    _"Oi, aprendi muito com o Trilha Dev e adorei fazer o desafio"_
+
+-   ![Raiane Cardoso](https://avatars.githubusercontent.com/u/166438302?v=4){ .lg .avatar .middle }
+    
+    __Raiane Cardoso__
+
+    ---
+   _"Transformar o caos em organização é o que me move."_
 
 </div>
 ___

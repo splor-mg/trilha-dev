@@ -625,6 +625,21 @@ packaging = "*"
 pymdown-extensions = ">=7.0"
 
 [[package]]
+name = "mkdocs-quiz"
+version = "0.0.41"
+description = "A mkdocs plugin to create a quiz in your markdown document."
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "mkdocs_quiz-0.0.41-py3-none-any.whl", hash = "sha256:b83992ef5ba3b62e2cd804b8e8a382514e19a2374e732836274f7e0d9b0ff0ce"},
+    {file = "mkdocs_quiz-0.0.41.tar.gz", hash = "sha256:9c9b18d9112068bf3f776e333aadf087c62f62a418ab67207b60a3e1751ba748"},
+]
+
+[package.dependencies]
+mkdocs = "*"
+
+[[package]]
 name = "packaging"
 version = "25.0"
 description = "Core utilities for Python packages"
@@ -1071,4 +1086,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12"
-content-hash = "bd0f9f1ca26be6cea71d557935ef9e324972c6d2808a72a9ac0e102b3cebacd6"
+content-hash = "40c374036392cbf8d812c0d450dd86d6ad635eb077770cf6cd18f750ffb08420"

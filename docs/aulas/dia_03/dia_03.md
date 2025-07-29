@@ -29,5 +29,17 @@ Nesta aula, vamos finalmente começar a escrever usando a sintaxe Markdown. Voc�
 
 
 _________
- - Checklist Dia 3:
- - Quiz Dia 3:
+
+### Teste seus conhecimentos!
+
+[Quiz dia 03](quiz_dia_03.md){ .md-button .md-button--primary } 
+
+### Checklist Dia 3:
+- [ ] Assistir aos 2 vídeos principais
+- [ ] Assistir à aula extra (opcional)
+- [ ] Ler a documentação do MkDocs
+- [ ] Instalar Poetry e MkDocs
+- [ ] Criar projeto MkDocs
+- [ ] Escrever apresentação pessoal em Markdown
+- [ ] Comitar alterações no Git
+- [ ] Completar o quiz acima

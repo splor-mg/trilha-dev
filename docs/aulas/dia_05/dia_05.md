@@ -47,5 +47,16 @@ Quando você encontra um erro, tem uma sugestão de melhoria ou precisa discutir
         - [ ] Comentar principais dificuldades e soluções encontradas"
 
 __________
- - Checklist Dia 5:
- - Quiz Dia 5:
+
+### Teste seus conhecimentos!
+
+[Quiz dia 05](quiz_dia_05.md){ .md-button .md-button--primary } 
+
+### Checklist Dia 5:
+- [ ] Assistir aos 2 vídeos principais
+- [ ] Assistir ao vídeo extra sobre .gitignore
+- [ ] Entender colaboração e código aberto
+- [ ] Publicar site no GitHub Pages
+- [ ] Criar arquivo .gitignore
+- [ ] Abrir primeira issue no GitHub
+- [ ] Completar o quiz acima

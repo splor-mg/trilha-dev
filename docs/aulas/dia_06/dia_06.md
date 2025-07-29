@@ -38,5 +38,17 @@ Nosso objetivo neste vídeo é mostrar o básico de como avaliar um PR.
     - **Fazer commit das alterações e atualizar a pull request:** 
     Após resolver todos os conflitos, você pode fazer commit das alterações e concluir a mesclagem.
 __________
- - Checklist Dia 5:
- - Quiz Dia 5:
+
+### Teste seus conhecimentos!
+
+[Quiz dia 06](quiz_dia_06.md){ .md-button .md-button--primary } 
+
+### Checklist Dia 6:
+- [ ] Assistir aos 2 vídeos
+- [ ] Entender o conceito de branches
+- [ ] Aprender sobre Pull Requests
+- [ ] Praticar criação de branches
+- [ ] Criar um Pull Request
+- [ ] Aprender a revisar PRs
+- [ ] Entender resolução de conflitos
+- [ ] Completar o quiz acima

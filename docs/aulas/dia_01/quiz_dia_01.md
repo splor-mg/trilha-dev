@@ -80,4 +80,4 @@ content:
 ---
 
 [Voltar ao Dia 1](dia_01.md){ .md-button .md-button--primary }
-[Voltar às aulas](../index.md){ .md-button .md-button--primary }
+[Voltar às aulas](../index.md){ .md-button .md-button--secondary }

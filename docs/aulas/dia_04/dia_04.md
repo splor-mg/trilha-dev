@@ -49,3 +49,18 @@ Agora, vamos aprender os comandos essenciais do Git.
 ??? tip "Mergulhando no git"
 
     Neste conteúdo extra, eu te mostro os bastidores do funcionamento do git. Essa aula é para quem quer ir além! :rocket:
+
+__________
+
+### Teste seus conhecimentos!
+
+[Quiz dia 04](quiz_dia_04.md){ .md-button .md-button--primary } 
+
+### Checklist Dia 4:
+- [ ] Assistir aos 3 vídeos
+- [ ] Entender o terminal como ponte para ferramentas
+- [ ] Praticar comandos de navegação (pwd, ls, cd, mkdir, touch)
+- [ ] Aprender comandos Git (status, add, commit, push)
+- [ ] Criar estrutura de pastas para o blog
+- [ ] Fazer primeiro post do blog
+- [ ] Completar o quiz acima

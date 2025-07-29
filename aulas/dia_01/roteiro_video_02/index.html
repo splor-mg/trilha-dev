@@ -642,7 +642,117 @@
 <p>Seguindo o exatamente o princípio, o Github é um YouTube, só que ele não hospeda vídeos, ele hospeda repositórios Git. Que é, grosso modo, é uma pasta com os arquivos do seu projeto, mas que da mesma forma, você pode fazer o upload desse repositório lá pro github. Com isso, outras pessoas podem acessar e baixar esse repositório. Podem deixar comentários ou até coisas mais avançadas, como enviar alterações de código e essa. É a parte mais apaixonante da comunidade open source, que literalmente pode deixar você viciado em querer programar e quer interagir com outros programadores.  </p>
 <p>Mas, se a gente olhar bem,  o YouTube não é uma série de vídeos soltos, né? Tem sempre um canal que agrupa todos esses vídeos aqui. No caso, é só a conta no YouTube e funciona da mesma forma no Github. De lá, você tem uma conta que vai hospedar e agrupar todos os seus repositórios Git. </p>
 <p>O legal é que essa conta naturalmente acaba virando uma vitrine para você e os seus projetos, podendo colocar uma foto e uma rápida descrição, destacar os seus principais repositórios, a sua atividade dentro do Github ou até abrir um espaço para colocar ainda mais informações sobre você. Os seus objetivos e interesses. Então, o primeiro passo de todos é entrar no endereço Github.com e dar uma conta lá, caso você não tenha. </p>
-<p>E não tem nenhum mistério. Apesar de um ponto importante sobre o nome do usuário, o site é bem simples e não se preocupa se o que você está vendo aqui no vídeo já foi diferente do que você está de fato você estando agora, porque eles atualizam o layout toda hora é, mas sempre seguem o mesmo princípio que, por exemplo. Colocar o seu e-mail, que por padrão vai ficar privado, uma senha segura e única para ninguém invadir ou roubar sua conta, e tão importante quanto o seu nome de usuário, e ele deve conter apenas letras, números ou- E através dele que vai ser disponibilizado o endereço do kithub.com e aí esse nome do usuário ou quando alguém quiser chamar. Dentro da plataforma do @aí também esse nome de usuário, então eu sugiro que, se possível, escolhe algo simples, fácil de se digitar e que você não queira mudar. E depois? Porque apesar de ser possível mudar todas as referências que apontam para os seus repositórios, até para o seu próprio perfil e outras coisas ainda vão quebrar agora. Não trava por conta disso. Se a sua conta é nova, ela não tem nenhuma amarra, então só vai antes de embarcar essa aula como concluída, toca um desafio, criar uma conta lá no GitHUB. E, Bora para a próxima aula, que é agora que o negócio começa a ficar realmente interessante. </p>
+<p>E não tem nenhum mistério. Apesar de um ponto importante sobre o nome do usuário, o site é bem simples e não se preocupa se o que você está vendo aqui no vídeo já foi diferente do que você está de fato você estando agora, porque eles atualizam o layout toda hora é, mas sempre seguem o mesmo princípio que, por exemplo. Colocar o seu e-mail, que por padrão vai ficar privado, uma senha segura e única para ninguém invadir ou roubar sua conta, e tão importante quanto o seu nome de usuário, e ele deve conter apenas letras, números ou- E através dele que vai ser disponibilizado o endereço do kithub.com e aí esse nome do usuário ou quando alguém quiser chamar. Dentro da plataforma do @aí também esse nome de usuário, então eu sugiro que, se possível, escolhe algo simples, fácil de se digitar e que você não queira mudar. E depois? Porque apesar de ser possível mudar todas as referências que apontam para os seus repositórios, até para o seu próprio perfil e outras coisas ainda vão quebrar agora. Não trava por conta disso. Se a sua conta é nova, ela não tem nenhuma amarra, então só vai antes de embarcar essa aula como concluída, toca um desafio, criar uma conta lá no GitHUB. E, Bora para a próxima aula, que é agora que o negócio começa a ficar realmente interessante. </p><style type="text/css">.quiz {
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+/* Set margin-top of first quiz child */
+.quiz > *:first-child {
+  margin-top: 0;
+}
+.hidden {
+  display: none;
+}
+
+form button {
+  background-color: var(--md-primary-fg-color);
+  border: none;
+  color: var(--md-primary-bg-color);
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+.wrong label {
+  color: red;
+}
+.correct label {
+  color: green;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+fieldset input {
+  margin: 0 10px;
+}
+fieldset label {
+  margin: 0 10px;
+}
+
+label.correct {
+  color: green;
+}
+label.wrong {
+  color: red;
+}
+input[type='radio'].correct {
+  accent-color: green;
+}
+input[type='radio'].wrong {
+  accent-color: red;
+}
+.content {
+  margin: 10px;
+}
+</style><script type="text/javascript" defer>document.querySelectorAll('.quiz').forEach((quiz) => {
+  let form = quiz.querySelector('form');
+  let fieldset = form.querySelector('fieldset');
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    let selectedAnswers = form.querySelectorAll('input[name="answer"]:checked');
+    let correctAnswers = fieldset.querySelectorAll(
+      'input[name="answer"][correct]'
+    );
+    // Check if all correct answers are selected
+    let is_correct = selectedAnswers.length === correctAnswers.length;
+    for (let i = 0; i < selectedAnswers.length; i++) {
+      if (!selectedAnswers[i].hasAttribute('correct')) {
+        is_correct = false;
+        break;
+      }
+    }
+    let section = quiz.querySelector('section');
+    if (is_correct) {
+      section.classList.remove('hidden');
+      resetFieldset(fieldset);
+      // Mark all fields with colors
+      const allAnswers = fieldset.querySelectorAll('input[name="answer"]');
+      for (let i = 0; i < allAnswers.length; i++) {
+        if (allAnswers[i].hasAttribute('correct')) {
+          allAnswers[i].parentElement.classList.add('correct');
+        } else {
+          allAnswers[i].parentElement.classList.add('wrong');
+        }
+      }
+    } else {
+      section.classList.add('hidden');
+      resetFieldset(fieldset);
+      // Mark wrong fields with colors
+      for (let i = 0; i < selectedAnswers.length; i++) {
+        if (!selectedAnswers[i].hasAttribute('correct')) {
+          selectedAnswers[i].parentElement.classList.add('wrong');
+        } else {
+          selectedAnswers[i].parentElement.classList.add('correct');
+        }
+      }
+    }
+  });
+});
+
+function resetFieldset(fieldset) {
+  const fieldsetChildren = fieldset.children;
+  for (let i = 0; i < fieldsetChildren.length; i++) {
+    fieldsetChildren[i].classList.remove('wrong');
+    fieldsetChildren[i].classList.remove('correct');
+  }
+}
+</script>
 
 
 
@@ -657,7 +767,7 @@
 
 
 
-
+ 
                 
               </article>
             </div>

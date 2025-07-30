@@ -13,10 +13,6 @@
          <lastmod>2025-07-30</lastmod>
     </url>
     <url>
-         <loc>https://splor-mg.github.io/trilha-dev/roteiro_desafio_final/</loc>
-         <lastmod>2025-07-30</lastmod>
-    </url>
-    <url>
          <loc>https://splor-mg.github.io/trilha-dev/aulas/</loc>
          <lastmod>2025-07-30</lastmod>
     </url>
@@ -142,6 +138,10 @@
     </url>
     <url>
          <loc>https://splor-mg.github.io/trilha-dev/aulas/roteiros/pitch/</loc>
+         <lastmod>2025-07-30</lastmod>
+    </url>
+    <url>
+         <loc>https://splor-mg.github.io/trilha-dev/aulas/roteiros/roteiro_desafio_final/</loc>
          <lastmod>2025-07-30</lastmod>
     </url>
 </urlset>

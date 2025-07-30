@@ -79,3 +79,12 @@ Aqui estão os participantes que colocaram a mão na massa e deixaram sua marca.
 </div>
 
 <!--- Insira o seu card aqui abaixo --->
+
+<div class="grid cards" markdown>
+-   ![1º vencedor](https://avatars.githubusercontent.com/u/166438302?v=4){ .lg .avatar .middle }
+    
+    __Raiane Cardoso__
+
+    ---
+   _"Oi, estou mostrando como fazer essa alteração."_
+</div>

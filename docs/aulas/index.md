@@ -3,7 +3,11 @@ title: Aulas Trilha DEV
 comments: true
 ---
 
-# Siga a nossa trilha de apredizado
+## Um pedido importante antes de começar
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jZlsZ92vBrc?si=O-s4VjXUIcXViSP9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Siga a nossa trilha de apredizado
 
 Cada dia, uma nova descoberta. Vamos lá?
 

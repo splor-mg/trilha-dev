@@ -1,7 +1,12 @@
 # Desafio Final: Coloque seu nome na história!
 
-**Parabéns por ter chegado até aqui na Trilha Dev: Início da Jornada!
-Agora é hora de mostrar o que você aprendeu**
+_Parabéns por ter chegado até aqui no Trilha Dev: Início da Jornada!_
+
+Veja como participar do nosso desafio final!
+
+<div class="imagem-centralizada">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g_nqCAyzogc?si=ZDEgzvRoDUVtCjMz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ## :rocket: O desafio
 Sua missão é simples, mas poderosa: **colocar sua foto e uma frase no Hall da Fama do curso.**

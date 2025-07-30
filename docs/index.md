@@ -5,6 +5,8 @@ comments: true
 
 Bem vindo ao Trilha Dev! 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YBRBKqIenfU?si=bs13jw9hmvCVVsun" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### :octicons-arrow-right-24: Tecnologia ao alcance de quem organiza, planeja e executa!
 
 O **Trilha-Dev: Início da Jornada** foi criado especialmente para pessoas que atuam com **atividades administrativas e de apoio à gestão** e que desejam navegar **com mais segurança no mundo da tecnologia**, sem a necessidade de se tornarem desenvolvedores profissionais.

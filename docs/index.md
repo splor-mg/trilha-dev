@@ -17,7 +17,7 @@ E, se você decidir mergulhar no mundo do desenvolvimento e dados, você sairá 
 
 ### :octicons-arrow-right-24: Por que esse curso é relevante?
 
-A **Splor** já utiliza o **GitHub** institucional para alguns projetos. Até agora, esse espaço tem sido ocupado principalmente por repositórios da área de dados — com automações, scripts e visualizações.
+A **Splor** já utiliza o **[GitHub](https://github.com/splor-mg)** institucional para alguns projetos. Até agora, esse espaço tem sido ocupado principalmente por repositórios da área de dados — com automações, scripts e visualizações.
 
 Mas o GitHub é muito mais do que isso.
 

@@ -12,7 +12,9 @@ Neste vídeo, vamos apresentar a filosofia de documentação como código e most
 - :link: Saiba mais sobre [Docs as Code](https://www.writethedocs.org/guide/docs-as-code/)
 - 📚 Atividade (opcional):
 
-    Faça uma lista de documentos do seu trabalho que poderiam ser melhor organizados ou publicados usando essa abordagem. Que vantagens você imagina ao usar o Doc as Code nesses casos?
+    Faça uma lista de documentos do seu trabalho que poderiam ser melhor organizados ou publicados usando essa abordagem. Que vantagens você imagina ao usar o Doc as Code nesses casos? 
+    
+    Escreva essa lista nos comentários abaixo, quem sabe você não encontra alguém com processos similares aos seus?  
 
 ## 🎥 Vídeo 2 – Git e GitHub: qual a diferença?
 
@@ -33,7 +35,9 @@ Neste vídeo, vamos te epresentar o Git e o GitHub e suas diferenças.
 
 - 📚 Atividade: 
     
-    Criar conta no GitHub.
+    Criar conta no GitHub e colocar nos comentários os seu usuário! Assim, as pessoas poderão conhecer o seu perfil!
+
+    Ah! Não se esqueça de incluir a sua foto de perfil. :smile:
 
 ## 🎥 Vídeo 3 – O que é um repositório?
 
@@ -43,7 +47,7 @@ Neste vídeo, vamos entender repositórios e como navegar pelo GitHub.
 
 - 📚 Atividade:
     
-    Criar repositório próprio.
+    Criar repositório próprio. Não se esqueça de comentar abaixo o nome do repositório criado.
 
 __________
 ### Teste seus conhecimentos!
@@ -52,6 +56,6 @@ __________
 
 ### Checklist Dia 1:
 - [ ] Assistir aos 3 vídeos
-- [ ] Criar conta no GitHub
-- [ ] Criar repositório próprio
+- [ ] Criar conta no GitHub e comentar o seu usuário.
+- [ ] Criar repositório próprio e comentar o nome do seu repositório.
 - [ ] Completar o quiz acima

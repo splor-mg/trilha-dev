@@ -27,6 +27,8 @@ Neste vídeo, vamos aprender a navegação básica em terminal.
 | `touch`       | Cria um novo arquivo                            | `touch post1.md`                 |
 | `rm`          | Remove arquivos ou pastas                       | `rm post1.md`                    |
 
+- 📚 Atividade:
+    - Repita os comandos mostrados na aula no Terminal. 
 
 ## 🎥 Vídeo 11 – Comandos Git
 
@@ -41,6 +43,9 @@ Agora, vamos aprender os comandos essenciais do Git.
 | Untracked| Arquivo novo que o Git ainda não monitora. Use git add para começar a rastrear.|
 | Modified| Arquivo já conhecido pelo Git, mas que foi alterado. Ainda não pronto para salvar.|
 | Staged / Ready to commit | Arquivo marcado com git add para ser incluído no próximo "snapshot". |
+
+- 📚 Atividade:
+    - Repita os comandos mostrados na aula no Terminal do Codespace. 
 
 ??? tip "Vamos fazer uma viagem no tempo?"
 

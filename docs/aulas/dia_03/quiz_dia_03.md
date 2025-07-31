@@ -33,19 +33,8 @@ content:
 <p><strong>Explicação:</strong> A documentação é o manual oficial de instruções das ferramentas - atualizada, confiável e completa. Ela evita erros comuns, economiza tempo e ajuda na autonomia e resolução de problemas.</p>
 <?/quiz?>
 
-## Questão 2: Gerenciador de Pacotes
 
-<?quiz?>
-question: O que é um gerenciador de pacotes?
-answer: Um programa para navegar na internet
-answer: Um editor de texto
-answer: Um sistema de controle de versão
-answer-correct: Como uma loja de aplicativos para programadores
-content:
-<p><strong>Explicação:</strong> Um gerenciador de pacotes é como uma loja de aplicativos para programadores. Ele instala, atualiza e remove ferramentas e bibliotecas automaticamente.</p>
-<?/quiz?>
-
-## Questão 3: Poetry vs pip
+## Questão 2: Poetry vs pip
 
 <?quiz?>
 question: Qual a principal diferença entre Poetry e pip?
@@ -57,7 +46,7 @@ content:
 <p><strong>Explicação:</strong> Poetry é uma ferramenta mais moderna que cria ambientes virtuais e gerencia dependências de forma isolada, enquanto pip instala pacotes diretamente no sistema.</p>
 <?/quiz?>
 
-## Questão 4: Markdown
+## Questão 3: Markdown
 
 <?quiz?>
 question: O que é Markdown?
@@ -69,7 +58,7 @@ content:
 <p><strong>Explicação:</strong> Markdown é uma linguagem de marcação simples e legível, criada para facilitar a escrita de textos estruturados como títulos, listas e links.</p>
 <?/quiz?>
 
-## Questão 5: Comandos Git
+## Questão 4: Comandos Git
 
 <?quiz?>
 question: Qual a sequência correta de comandos Git para salvar alterações?
@@ -81,7 +70,7 @@ content:
 <p><strong>Explicação:</strong> A sequência correta é: git add (adiciona arquivos), git commit (registra versão), git push (envia para o GitHub).</p>
 <?/quiz?>
 
-## Questão 6: Material for MkDocs
+## Questão 5: Material for MkDocs
 
 <?quiz?>
 question: O que é o Material for MkDocs?
@@ -93,7 +82,7 @@ content:
 <p><strong>Explicação:</strong> Material for MkDocs é um tema moderno e personalizável que oferece visual profissional, responsivo e acessível para sites criados com MkDocs.</p>
 <?/quiz?>
 
-## Questão 7: Sintaxe Markdown
+## Questão 6: Sintaxe Markdown
 
 <?quiz?>
 question: Como criar um título principal em Markdown?

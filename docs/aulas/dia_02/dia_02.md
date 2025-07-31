@@ -29,6 +29,9 @@ Neste vídeo, vamos tentar te mostrar como escolhemos ferramentas para projetos.
 
 - 📚 Atividade:
     - Visite o site do [MKDOCS](https://www.mkdocs.org/) e do [Material for MKDOCS](https://squidfunk.github.io/mkdocs-material/).
+    - Encontre outros exemplos de sites criados por órgãos públicos (Brasil e mundo), utilizando o Mkdocs ou Mkdocs-material. Não deixe de compartilhar os sites encontrados nos comentários.
+        
+        :bulb: Dica: Você pode usar uma pesquisa com ajuda da IA para encontrar estes sites. 
 
 __________
 

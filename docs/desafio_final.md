@@ -16,7 +16,7 @@ Sim! Você vai usar tudo o que aprendeu até agora: terminal, Git, GitHub, Markd
 
 ##  O que você precisa fazer
 - Crie uma nova branch no repositório do curso.
-- Edite a página `desafio_final.md` adicionando sua foto e uma frase inspiradora no mesmo formato do card exemplo existente (Material for MkDocs em grid).
+- Edite a página `desafio_final.md` adicionando sua foto e uma frase inspiradora no mesmo formato do card exemplo existente,que foi construído usando o  [Material for MkDocs em grid](https://squidfunk.github.io/mkdocs-material/reference/grids/?h=gri).
 - Use os comandos que você aprendeu:
     - Terminal: `cd`, `touch`, `ls`
     - Ferramentas: poetry, mkdocs

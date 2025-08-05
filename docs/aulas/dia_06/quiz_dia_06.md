@@ -96,13 +96,13 @@ content:
 ## Questão 7: Revisão de PR
 
 <?quiz?>
-question: O que devemos verificar ao revisar um Pull Request?
-answer: Apenas se o código funciona
-answer-correct: Se a descrição explica claramente o que foi feito
-answer: Apenas se não há erros de digitação
-answer: Apenas se está bonito
+question: Ao avaliar um Pull Request no GitHub, o que é importante verificar antes de aprová-lo?
+answer: Se a pessoa usou Markdown corretamente
+answer-correct: A descrição, os arquivos modificados, os commits e se há conflitos com a branch principal
+answer: Se o nome da branch está descreve resumidamente as alterações feitas
+answer: Apenas se os comandos git foram usados corretamente e o projeto foi devidamente versionado
 content:
-<p><strong>Explicação:</strong> Ao revisar um PR, devemos verificar se a descrição explica claramente o que foi feito, se referencia uma issue, se os arquivos modificados fazem sentido e se estão dentro do escopo da tarefa.</p>
+<p><strong>Explicação:</strong> A avaliação de um Pull Request deve incluir a leitura da descrição, verificação dos arquivos modificados e dos commits realizados, além da checagem de possíveis conflitos com a branch principal. Isso garante que as mudanças são relevantes, seguras e bem documentadas.</p>
 <?/quiz?>
 
 ## Questão 8: Merge de PR

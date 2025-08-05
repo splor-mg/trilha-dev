@@ -76,9 +76,9 @@ question: O que é um commit no Git?
 answer: Um arquivo novo
 answer: Uma pasta do projeto
 answer: Um comando de navegação
-answer-correct: Um ponto de salvamento com mensagem explicativa
+answer-correct: Um ponto de versionamento com mensagem explicativa
 content:
-<p><strong>Explicação:</strong> Um commit é como um ponto de salvamento onde você registra o que mudou no projeto com uma mensagem clara explicando a mudança.</p>
+<p><strong>Explicação:</strong> Um commit é como um ponto de versionamento onde você registra o que mudou no projeto com uma mensagem clara explicando a mudança.</p>
 <?/quiz?>
 
 ## Questão 6: Comandos Git

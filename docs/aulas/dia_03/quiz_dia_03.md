@@ -59,7 +59,31 @@ content:
 <p><strong>Explicação:</strong> Markdown é uma linguagem de marcação simples e legível, criada para facilitar a escrita de textos estruturados como títulos, listas e links.</p>
 <?/quiz?>
 
-## Questão 4: Comandos Git
+## Questão 4: Markdown
+
+<?quiz?>
+question: Qual das opções abaixo usa corretamente a sintaxe Markdown para deixar o texto em negrito e itálico?
+answer: `~texto~` para itálico e `==texto==` para negrito
+answer: `*texto*` para negrito e `__texto__` para itálico
+answer-correct: `*texto*` ou `_texto_` para itálico e `**texto**` ou `__texto__` para negrito
+answer: `>texto<` para negrito e `|texto|` para itálico
+content:
+<p><strong>Explicação:</strong> No Markdown, usa-se <code>*texto*</code> ou <code>_texto_</code> para itálico, e <code>**texto**</code> ou <code>__texto__</code> para negrito. Essas marcações tornam o texto mais expressivo e organizado.</p>
+<?/quiz?>
+
+## Questão 5: Markdown
+
+<?quiz?>
+question: Como se cria uma lista com marcadores (bullet list) em Markdown?
+answer: Colocando parênteses numerados, como (1), (2), (3)
+answer: Usando hashtags antes dos itens, como # Item 1
+answer-correct: Usando hífens, asteriscos ou sinais de mais, como `- Item`, `* Item`, `+ Item`
+answer: Utilizando apenas espaços e quebras de linha
+content:
+<p><strong>Explicação:</strong> Para criar listas não ordenadas no Markdown, usamos símbolos como <code>-</code>, <code>*</code> ou <code>+</code> antes dos itens. Por exemplo: <code>- Primeiro item</code></p>
+<?/quiz?>
+
+## Questão 6: Comandos Git
 
 <?quiz?>
 question: Qual a sequência correta de comandos Git para salvar alterações?
@@ -71,7 +95,7 @@ content:
 <p><strong>Explicação:</strong> A sequência correta é: git add (adiciona arquivos), git commit (registra versão), git push (envia para o GitHub).</p>
 <?/quiz?>
 
-## Questão 5: Material for MkDocs
+## Questão 7: Material for MkDocs
 
 <?quiz?>
 question: O que é o Material for MkDocs?
@@ -83,7 +107,7 @@ content:
 <p><strong>Explicação:</strong> Material for MkDocs é um tema moderno e personalizável que oferece visual profissional, responsivo e acessível para sites criados com MkDocs.</p>
 <?/quiz?>
 
-## Questão 6: Sintaxe Markdown
+## Questão 8: Sintaxe Markdown
 
 <?quiz?>
 question: Como criar um título principal em Markdown?

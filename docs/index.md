@@ -13,7 +13,7 @@ O **Trilha-Dev: Início da Jornada** foi criado especialmente para pessoas que a
 
 Aqui, a proposta é simples: **apresentar ferramentas e práticas do universo da programação** que podem facilitar o seu dia a dia e transformar a forma como você organiza e compartilha seu trabalho.
 
-E, se você decidir mergulhar no mundo do desenvolvimento e dados, você sairá desse curso muito bem preparado para iniciar sua jurnada. 
+E, se você decidir mergulhar no mundo do desenvolvimento e dados, você sairá desse curso muito bem preparado para iniciar sua jornada. 
 
 ### :octicons-arrow-right-24: Por que esse curso é relevante?
 

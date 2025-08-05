@@ -37,14 +37,15 @@ content:
 ## Questão 2: Poetry vs pip
 
 <?quiz?>
-question: Qual a principal diferença entre Poetry e pip?
-answer: Poetry é mais antigo que pip
-answer: pip é mais moderno que Poetry
-answer: Não há diferença, são a mesma coisa
-answer-correct: Poetry cria ambientes virtuais e gerencia dependências de forma isolada
+question: Qual é a principal diferença entre pip e poetry?
+answer: Ambos fazem exatamente a mesma coisa, só mudam de nome de acordo com a liguagem de programação usada.
+answer-correct: O pip instala pacotes, enquanto o poetry também gerencia ambientes e dependências de forma mais estruturada
+answer: O poetry serve apenas para projetos em Python
+answer: O pip é usado só por inciciantes e o poetry é uma evolução do pip para profissionais
 content:
-<p><strong>Explicação:</strong> Poetry é uma ferramenta mais moderna que cria ambientes virtuais e gerencia dependências de forma isolada, enquanto pip instala pacotes diretamente no sistema.</p>
+<p><strong>Explicação:</strong> O <code>pip</code> é um gerenciador de pacotes que instala bibliotecas Python. Já o <code>poetry</code>, além de instalar pacotes, também cuida do ambiente virtual e do controle de dependências do projeto, oferecendo uma abordagem mais estruturada e moderna.</p>
 <?/quiz?>
+
 
 ## Questão 3: Markdown
 

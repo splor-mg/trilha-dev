@@ -19,7 +19,7 @@ Nosso objetivo neste vídeo é mostrar o básico de como avaliar um PR.
 
 ??? tip "Quem será o vencedor?"
 
-    Aqui quem manda é ??? — vencedor oficial da batalha do Git! :trophy:
+    Aqui quem manda é Raiane — vencedor oficial da batalha do Git! :trophy:
 
 ??? tip "Conflitos na avaliação de um PR"
 

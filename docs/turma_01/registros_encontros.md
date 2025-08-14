@@ -1,9 +1,13 @@
+---
+comments: true
+---
+
 # Registros dos Encontros da Primeira Turma
 
 ## 1º Encontro
 
 - Data: 14/08/2025
-- Gravação: [Link do YouTube](<iframe width="560" height="315" src="https://www.youtube.com/embed/B6nQjFfbLxs?si=97CA0Zrm94cgsLxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>)
+- Gravação: [Link do YouTube](https://www.youtube.com/watch?v=B6nQjFfbLxs)
 
 ### Dúvidas
 
@@ -18,4 +22,5 @@
 
 - Os alunos devem habilitar o duplo fator de autenticação da sua conta do Github para segurança dos dados da Splor.
 - O curso contará com um certificado de participação de 30h, que será emitido para aqueles que apresentarem o projeto de um site estático, conforme orientaçõe do curso.
-____
+
+---

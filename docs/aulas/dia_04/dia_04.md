@@ -51,9 +51,13 @@ Agora, vamos aprender os comandos essenciais do Git.
 
     Neste vídeo, eu te mostro como o superpoder do git.
 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/61w4GrbLPcQ?si=QwLnkTCXGyt5OK0W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ??? tip "Mergulhando no git"
 
     Neste conteúdo extra, eu te mostro os bastidores do funcionamento do git. Essa aula é para quem quer ir além! :rocket:
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fw2MBJILOmk?si=mSI5wVbnjNrCRAnb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 __________
 

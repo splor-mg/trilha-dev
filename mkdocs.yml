@@ -16,6 +16,7 @@ nav:
   - aulas/dia_05/dia_05.md
   - aulas/dia_06/dia_06.md
   - desafio_final.md
+  - turma_01/registros_encontros.md
 
 # Configuration
 theme:
@@ -78,8 +79,8 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - def_list
   - pymdownx.tasklist:
-      custom_checkbox: true 
-  - footnotes   
+      custom_checkbox: true
+  - footnotes
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true

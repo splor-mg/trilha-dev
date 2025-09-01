@@ -75,6 +75,26 @@ _a partir do minuto 01:11:00_
 
 ## 3º Encontro
 
+- Data: 29/08/2025
+- Gravação: [Link do YouTube](https://youtu.be/8puLzCrlfYg)
+
+### Dúvidas
+
+_a partir do minuto 00:15:00_
+
+- Como funciona a ativação do fator de dupla autenticação no Github?
+
+_a partir do minuto 00:20:00_
+
+- E se eu precisar instalar uma nova dependência durante a execução do meu projeto?
+- Quais outros tipos de depend6encias poderiam surgir?
+
+_a partir do minuto 00:25:00_
+
+- Como eu descubro se a ferramenta, ou dependência, que eu quero implementar no meu projeto é compatível com as demais ferramentas utilizadas, como o mkdocs?
+
+_Exemplo 01 de uso da biblioteca Vegalite._
+
 ```vegalite
 {
   "description": "A simple bar chart with embedded data.",
@@ -92,9 +112,26 @@ _a partir do minuto 01:11:00_
   }
 }
 ```
+_Exemplo 02 de uso da biblioteca Vegalite._
 
 ```vegalite
 {
   "schema-url": "assets/charts/lines.json"
 }
 ```
+
+_a partir 00:53:00_
+
+- Qual a melhor ferramenta para documentar o nosso trabalho? Um novo site estático, um issue, o [Handbook da Splor](https://splor-mg.github.io/handbook/)?
+
+_a partir 00:59:00_
+- Qual a melhor ferramenta para documentar informações básicas da Splor?
+
+### Issues criados no encontro
+- [Criar uma lista de histórico de perguntas que serão utilizadas na aba FAQ](https://github.com/splor-mg/handbook/issues/142#issuecomment-3242406725)
+- [Como procurar uma nova ferramenta para MKDOCS](https://github.com/splor-mg/trilha-dev/issues/72) 
+
+### Avisos e Alinhamentos
+
+- Desafio lançado: Instalar a biblioteca [Mermaid](https://squidfunk.github.io/mkdocs-material/reference/diagrams/) para incluir fluxo e diagramas no seu site. :rocket:
+- O encontro da próxima semana será dividido entre tira-dúvidas e um Live Code, no qual criaremos uma sessão no Handbook. 

@@ -2,7 +2,7 @@
 comments: true
 ---
 
-# Registros dos Encontros da Primeira Turma
+# **Registros dos Encontros da Primeira Turma**
 
 ## 1º Encontro
 
@@ -24,6 +24,54 @@ comments: true
 - O curso contará com um certificado de participação de 30h, que será emitido para aqueles que apresentarem o projeto de um site estático, conforme orientaçõe do curso.
 
 ---
+
+## 2º Encontro
+
+- Data: 22/08/2025
+- Gravação: [Link do YouTube](https://youtu.be/rQLcSIbf9Ts)
+
+### Dúvidas
+_a partir do minuto 00:03:00_
+
+- A cada aula preciso criar um novo Codespace ou devo continuar usando o mesmo?
+- Cada vez que abro o Codespace preciso fazer novamente a instalação de todos os requisitos do projeto? 
+- Se eu abrir um novo repositório, vou precisar instalar todas as ferramentas novamente?
+
+_a partir do minuto 00:14:00_
+
+- Se o Codespaces não salva as minhas alterações e pode ser excluído, onde as minhas alterações são salvas? 
+_a partir do minuto 00:35:00_
+- Vale mais a pena fazer o setup da máquina local ou usar apenas o Codespaces?
+
+_a partir do minuto 00:46:00_
+
+- Iniciei uma tarefa, mas não conclui. Devo fazer o commit?
+- Qual o melhor momento para fazer o commit?
+- Só o comando `git add` é suficiente para salvar as nossas alterações?
+
+_a partir do minuto 00:51:00_
+
+- Se eu tiver uma dúvida ao longo do curso, eu devo deixar nos comentários, perguntar durante os encontros ou abrir um novo issue?
+
+_a partir do minuto 01:02:00_
+
+- Como posso incluir imagens em arquivos `.md`?
+
+_a partir do minuto 01:11:00_
+
+- Como os atalhos `ctrl + c` e `ctrl +v` funcionam no terminal?
+
+
+### Issues criados no encontro 
+
+- [Sugestão de criar lista de principais comandos usados nas aulas](https://github.com/splor-mg/trilha-dev/issues/57)
+- [Descobrir porque o Poetry pode estar instalado em projeto que já tem um codespaces com a ferramenta instalada](https://github.com/splor-mg/trilha-dev/issues/56) 
+
+### Avisos e Alinhamentos
+
+- Os novos usuários do Github foram convidados para fazer parte da organização `splor-mg` no Github. O convite foi enviado para o e-mail cadastrado na conta do  github do usuário.
+- Desafio lançado: Encontrar um erro ou uma sugestão de melhoria neste site e abrir um [issue no repositório do Trilha-dev](https://github.com/splor-mg/trilha-dev/issues).
+
 
 ## 3º Encontro
 

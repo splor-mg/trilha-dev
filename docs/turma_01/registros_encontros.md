@@ -135,3 +135,29 @@ _a partir 00:59:00_
 
 - Desafio lançado: Instalar a biblioteca [Mermaid](https://squidfunk.github.io/mkdocs-material/reference/diagrams/) para incluir fluxo e diagramas no seu site. :rocket:
 - O encontro da próxima semana será dividido entre tira-dúvidas e um Live Code, no qual criaremos uma sessão no Handbook. 
+
+## 4º Encontro
+
+- Data: 04/09/2025
+- Gravação: [Link do YouTube](https://youtu.be/9TqAc1l_XhY)
+
+### Dúvidas
+
+_a partir do minuto 00:11:00_
+
+- Como disponibilizar um documento de texto (.docx) para download no meu site mkdocs?
+!!! note ""
+
+    Para responder essa questão, além das dicas do vídeo, foi criado este [issue](https://github.com/splor-mg/trilha-dev/issues/78). Não deixe de acompanhar o desenvolvimento dessa questão por lá também!
+
+_a partir do minuto 00:25:00_
+
+- Depois do meu site publicado, como posso visualizar em tempo real as alterações que estou fazendo?
+
+### Avisos e Alinhamentos
+#### Projetos Especiais
+
+- Os dois últimos encontros do Trilha - Dev, 25/09/2025 e 02/10/2025, serão dedicados ao desenvolvimento de um projeto especial. 
+- Este projeto especial será desenvolvido por diretoria. A ideia é que os membros das diretorias, em vista do conteúdo abordado, escolham um processo para ser remodulado usando as ferramentas propostas no curso.
+- Os encontros serão usados para auxilio na estruturação e desenvolvimento dos projetos, inclusive com o compartilhamento com os colegas da proposta de cada um.
+- Desse modo, para a próxima semana, os participantes devem trazer sugestões de processos das suas respectivas diretorias para fazermos um projeto final do curso.

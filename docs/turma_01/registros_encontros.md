@@ -158,6 +158,6 @@ _a partir do minuto 00:25:00_
 #### Projetos Especiais
 
 - Os dois últimos encontros do Trilha - Dev, 25/09/2025 e 02/10/2025, serão dedicados ao desenvolvimento de um projeto especial. 
-- Este projeto especial será desenvolvido por diretoria. A ideia é que os membros das diretorias, em vista do conteúdo abordado, escolham um processo para ser remodulado usando as ferramentas propostas no curso.
-- Os encontros serão usados para auxilio na estruturação e desenvolvimento dos projetos, inclusive com o compartilhamento com os colegas da proposta de cada um.
+- Este projeto especial será desenvolvido por diretoria. A ideia é que os membros das diretorias, em vista do conteúdo abordado, escolham um processo para ser remodelado usando as ferramentas propostas no curso.
+- Os encontros serão usados para auxílio na estruturação e desenvolvimento dos projetos, inclusive com o compartilhamento com os colegas da proposta de cada um.
 - Desse modo, para a próxima semana, os participantes devem trazer sugestões de processos das suas respectivas diretorias para fazermos um projeto final do curso.

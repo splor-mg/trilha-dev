@@ -84,3 +84,13 @@ Aqui estão os participantes que colocaram a mão na massa e deixaram sua marca.
 </div>
 
 <!--- Insira o seu card aqui abaixo --->
+<div class="grid cards" markdown>
+
+-   ![Ívna Abreu](https://avatars.githubusercontent.com/u/225957900?v=4){ .lg .avatar .middle }
+    
+    __Ívna Abreu__
+
+    ---
+   _"É muito bom aprender novas habilidades!"_
+
+</div>

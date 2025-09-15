@@ -93,4 +93,11 @@ Aqui estão os participantes que colocaram a mão na massa e deixaram sua marca.
     ---
    _"É muito bom aprender novas habilidades!"_
 
+-   ![Gabriela Ribeiro](https://avatars.githubusercontent.com/u/227460434?v=4){ .lg .avatar .middle }
+    
+    __Gabriela Ribeiro__
+
+    ---
+   _"Aqui o aprendizado acontece junto com a prática."_
+
 </div>

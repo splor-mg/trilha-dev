@@ -83,3 +83,5 @@ ______
 - Logo: Astro by Pablo Stanley in [Transhumans Collection](https://blush.design/collections/i6aPXTYbSUdZEveWhgik/transhumans)
 - Ilustrações: [Blush Design Inc.](https://blush.design/pt)
 - Tema: [Material for mkdocs](https://squidfunk.github.io/mkdocs-material/)
+
+  

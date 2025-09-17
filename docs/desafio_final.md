@@ -100,4 +100,10 @@ Aqui estão os participantes que colocaram a mão na massa e deixaram sua marca.
     ---
    _"Aqui o aprendizado acontece junto com a prática."_
 
+-   ![Viviane Nascimento](https://avatars.githubusercontent.com/u/225929456?s=400&u=a6c1665e5b06e4cc196cc875cff470a3f00e3ef2&v=4){ .lg .avatar .middle }
+   __Viviane Nascimento__
+
+    ---
+   _"A mente que se abre a uma nova ideia jamais voltará ao seu tamanho original - A.I."_
+
 </div>

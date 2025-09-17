@@ -106,4 +106,10 @@ Aqui estão os participantes que colocaram a mão na massa e deixaram sua marca.
     ---
    _"A mente que se abre a uma nova ideia jamais voltará ao seu tamanho original - A.I."_
 
+-   ![Gabriel Luiz](https://avatars.githubusercontent.com/u/163447861?v=4){ .lg .avatar .middle }
+   __Gabriel Luiz__
+
+    ---
+   _"Cada lição é um degrau que eleva o olhar."_
+
 </div>

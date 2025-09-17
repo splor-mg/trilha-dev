@@ -100,4 +100,11 @@ Aqui estão os participantes que colocaram a mão na massa e deixaram sua marca.
     ---
    _"Aqui o aprendizado acontece junto com a prática."_
 
+-   ![Vinicius Santos](https://avatars.githubusercontent.com/u/227885564?s=400&u=973505bde98b92525f5766fa37419c2bd758dafb&v=4){ .lg .avatar .middle }
+    
+    __Vinicius Santos__
+
+    ---
+   _"Excelente iniciativa! Agora estamos por dentro do universo github!"_
+
 </div>

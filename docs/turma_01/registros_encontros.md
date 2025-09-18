@@ -34,12 +34,12 @@ comments: true
 _a partir do minuto 00:03:00_
 
 - A cada aula preciso criar um novo Codespace ou devo continuar usando o mesmo?
-- Cada vez que abro o Codespace preciso fazer novamente a instalação de todos os requisitos do projeto? 
+- Cada vez que abro o Codespace preciso fazer novamente a instalação de todos os requisitos do projeto?
 - Se eu abrir um novo repositório, vou precisar instalar todas as ferramentas novamente?
 
 _a partir do minuto 00:14:00_
 
-- Se o Codespaces não salva as minhas alterações e pode ser excluído, onde as minhas alterações são salvas? 
+- Se o Codespaces não salva as minhas alterações e pode ser excluído, onde as minhas alterações são salvas?
 _a partir do minuto 00:35:00_
 - Vale mais a pena fazer o setup da máquina local ou usar apenas o Codespaces?
 
@@ -62,10 +62,10 @@ _a partir do minuto 01:11:00_
 - Como os atalhos `ctrl + c` e `ctrl +v` funcionam no terminal?
 
 
-### Issues criados no encontro 
+### Issues criados no encontro
 
 - [Sugestão de criar lista de principais comandos usados nas aulas](https://github.com/splor-mg/trilha-dev/issues/57)
-- [Descobrir porque o Poetry pode estar instalado em projeto que já tem um codespaces com a ferramenta instalada](https://github.com/splor-mg/trilha-dev/issues/56) 
+- [Descobrir porque o Poetry pode estar instalado em projeto que já tem um codespaces com a ferramenta instalada](https://github.com/splor-mg/trilha-dev/issues/56)
 
 ### Avisos e Alinhamentos
 
@@ -129,12 +129,12 @@ _a partir 00:59:00_
 
 ### Issues criados no encontro
 - [Criar uma lista de histórico de perguntas que serão utilizadas na aba FAQ](https://github.com/splor-mg/handbook/issues/142#issuecomment-3242406725)
-- [Como procurar uma nova ferramenta para MKDOCS](https://github.com/splor-mg/trilha-dev/issues/72) 
+- [Como procurar uma nova ferramenta para MKDOCS](https://github.com/splor-mg/trilha-dev/issues/72)
 
 ### Avisos e Alinhamentos
 
 - Desafio lançado: Instalar a biblioteca [Mermaid](https://squidfunk.github.io/mkdocs-material/reference/diagrams/) para incluir fluxo e diagramas no seu site. :rocket:
-- O encontro da próxima semana será dividido entre tira-dúvidas e um Live Code, no qual criaremos uma sessão no Handbook. 
+- O encontro da próxima semana será dividido entre tira-dúvidas e um Live Code, no qual criaremos uma sessão no Handbook.
 
 ## 4º Encontro
 
@@ -157,7 +157,38 @@ _a partir do minuto 00:25:00_
 ### Avisos e Alinhamentos
 #### Projetos Especiais
 
-- Os dois últimos encontros do Trilha - Dev, 25/09/2025 e 02/10/2025, serão dedicados ao desenvolvimento de um projeto especial. 
+- Os dois últimos encontros do Trilha - Dev, 25/09/2025 e 02/10/2025, serão dedicados ao desenvolvimento de um projeto especial.
 - Este projeto especial será desenvolvido por diretoria. A ideia é que os membros das diretorias, em vista do conteúdo abordado, escolham um processo para ser remodelado usando as ferramentas propostas no curso.
 - Os encontros serão usados para auxílio na estruturação e desenvolvimento dos projetos, inclusive com o compartilhamento com os colegas da proposta de cada um.
 - Desse modo, para a próxima semana, os participantes devem trazer sugestões de processos das suas respectivas diretorias para fazermos um projeto final do curso.
+
+## 6º Encontro
+
+- Data: 18/09/2025
+- Gravação: [Link do YouTube](https://youtu.be/iDtrgsdpOK4)
+
+### Dúvidas
+
+_a partir do minuto 00:01:00_
+
+- O que eu faço quando abro um pull request e o Github indica conflito?
+
+_a partir do minuto 00:11:00_
+
+- O que eu faço quando eu preciso atualizar uma ferramenta que eu uso no meu projeto?
+
+_a partir do minuto 00:26:00_
+
+- Na organização da Splor, existem regras para contribuir ou qualquer membro pode fazer alterações nos respositórios?
+
+_a partir do minuto 00:40:00_
+
+- Qual a diferença entre fazer o clone e o _fork_ de um repositório?
+
+_a partir do minuto 00:56:00_
+
+- Como eu posso usar o terminal quando o servidor está ligado?
+
+### Avisos e Alinhamentos
+
+- Finalizado o material do curso, aqueles que quiserem certificado de conclusão, deverão abrir um issue no reposiório do Trilha - Dev, marcando a `raianecardoso`, e indicando a url pública do site construído no decorrer do curso.

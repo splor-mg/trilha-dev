@@ -161,3 +161,31 @@ _a partir do minuto 00:25:00_
 - Este projeto especial será desenvolvido por diretoria. A ideia é que os membros das diretorias, em vista do conteúdo abordado, escolham um processo para ser remodelado usando as ferramentas propostas no curso.
 - Os encontros serão usados para auxílio na estruturação e desenvolvimento dos projetos, inclusive com o compartilhamento com os colegas da proposta de cada um.
 - Desse modo, para a próxima semana, os participantes devem trazer sugestões de processos das suas respectivas diretorias para fazermos um projeto final do curso.
+
+## 5º Encontro
+
+- Data: 11/09/2025
+- Gravação: [Link do YouTube](https://youtu.be/udTThKmJUXY)
+
+### Dúvidas
+
+_a partir do minuto 00:04:00_
+
+- Qual a diferença entre os comandos `git checkout` e `git switch`?
+
+_a partir do minuto 00:22:00_
+
+- **Live Code** :rocket::rocket::rocket:
+    - Criação de uma aba de Perguntas frequentes - FAQ no Handbook da Splor/MG.
+    - Confira o issue criado para execução dessa tarefa: [Criar aba Perguntas frequentes no Handbook](https://github.com/splor-mg/handbook/issues/144)
+    - Confira o resultado: [FAQ](https://splor-mg.github.io/handbook/faq/) 
+
+_a partir do minuto 00:28:00_
+
+- O que eu devo colocar no arquivo `read.md`?
+
+### Avisos e Alinhamentos
+#### Projetos Especiais
+
+- Os projetos desenvolvidos no âmbito do Trilha-Dev serão apresentados para toda a Splor. 
+- Nas próximas semanas, vamos discutir os projetos escolhidos e iniciar o seu desenvolvimento.

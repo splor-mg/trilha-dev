@@ -33,4 +33,4 @@ jobs:
       - name: Publish Documentation
         run: |
           poetry install
-      - run: poetry run mkdocs gh-deploy --force --custom-domain trilhadev.planejamento.mg.gov.br
+      - run: poetry run mkdocs gh-deploy --force

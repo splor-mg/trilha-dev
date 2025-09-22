@@ -66,6 +66,9 @@ extra:
   version:
     provider: mike
 
+extra:
+  include_cname: true
+
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/vega@5
   - https://cdn.jsdelivr.net/npm/vega-lite@5

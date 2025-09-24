@@ -3,12 +3,12 @@
    ======================================== */
 
 /* Classes para controle de alinhamento de texto */
+
+body p {
+    text-align: justify;
+}
 .texto-centralizado {
     text-align: center;
-}
-
-.texto-justificado {
-    text-align: justify;
 }
 
 .texto-esquerda {

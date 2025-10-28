@@ -56,7 +56,6 @@ plugins:
   - social
   - mkdocs_quiz:
       language: pt
-  - search
   - charts
 
 # Custom CSS

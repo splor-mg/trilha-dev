@@ -46,8 +46,16 @@ jobs:
       - name: Configure git user
         uses: fregante/setup-git-user@v2
 
-      - name: Install dependencies
-        run: poetry install --no-root --no-interaction --no-ansi
+      - name: Install dependencies (Poetry)
+        run: |
+          # evita criação de venvs (usa ambiente do runner) — opcional mas útil no CI
+          poetry config virtualenvs.create false || true
+
+          # tenta instalar dev-deps com sintaxe moderna; se falhar (poetry antigo) usa --dev
+          set -e
+          poetry install --no-root --no-interaction --no-ansi --with dev || \
+            poetry install --no-root --no-interaction --no-ansi --dev || \
+            poetry install --no-root --no-interaction --no-ansi
 
       - name: Build site with MkDocs
         run: poetry run mkdocs build
@@ -91,12 +99,20 @@ jobs:
 
           BODY="Preview da documentação (branch \`${PR_BRANCH}\`): ${PREVIEW_URL}"
 
-          # Faz a chamada à API para criar o comentário (issues endpoint funciona para PRs)
           API_URL="https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments"
           echo "Posting comment to ${API_URL}"
-          curl -sSL -X POST \
-            -H "Authorization: Bearer ${GITHUB_TOKEN}" \
-            -H "Accept: application/vnd.github+json" \
-            "${API_URL}" \
-            -d "$(jq -nc --arg b "$BODY" '{body: $b}')" \
-          || (echo "Falha ao postar comentário" && exit 1)
+
+          # monta JSON com Python para evitar dependências externas como jq
+          DATA=$(python - <<PY
+          import json, os
+          b = os.environ.get('BODY', '')
+          print(json.dumps({"body": b}))
+          PY
+          )
+                    curl -sSL -X POST \
+                      -H "Authorization: Bearer ${GITHUB_TOKEN}" \
+                      -H "Accept: application/vnd.github+json" \
+                      -H "Content-Type: application/json" \
+                      "${API_URL}" \
+                      -d "${DATA}" \
+                    || (echo "Falha ao postar comentário" && exit 1)

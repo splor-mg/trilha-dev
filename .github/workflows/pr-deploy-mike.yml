@@ -74,7 +74,7 @@ jobs:
           echo "Deploying docs version: ${VERSION}"
           poetry run mike deploy --push --branch gh-pages "${VERSION}"
 
-      - name: Comment on PR with preview URL (optional)
+      - name: Comment on PR with preview URL (via REST API)
         if: always() && steps.check_fork.outcome == 'success'
         env:
           PR_BRANCH: ${{ github.event.pull_request.head.ref }}
@@ -86,11 +86,17 @@ jobs:
             | sed 's/--*/-/g' \
             | sed 's/^[.-]*//; s/[.-]*$//' \
             | tr '[:upper:]' '[:lower:]')"
+          VERSION="${VERSION:0:63}"
           PREVIEW_URL="https://trilhadev.planejamento.mg.gov.br/${VERSION}/"
-          echo "Preview URL: ${PREVIEW_URL}"
 
-          # instalação do gh cli e comentário
-          sudo apt-get update -y
-          sudo apt-get install -y gh
-          echo "${GITHUB_TOKEN}" | gh auth login --with-token
-          gh pr comment ${{ github.event.pull_request.number }} --body "Preview da documentação (branch \`${PR_BRANCH}\`): ${PREVIEW_URL}"
+          BODY="Preview da documentação (branch \`${PR_BRANCH}\`): ${PREVIEW_URL}"
+
+          # Faz a chamada à API para criar o comentário (issues endpoint funciona para PRs)
+          API_URL="https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments"
+          echo "Posting comment to ${API_URL}"
+          curl -sSL -X POST \
+            -H "Authorization: Bearer ${GITHUB_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "${API_URL}" \
+            -d "$(jq -nc --arg b "$BODY" '{body: $b}')" \
+          || (echo "Falha ao postar comentário" && exit 1)

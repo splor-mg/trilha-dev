@@ -1,0 +1,118 @@
+name: PR preview - Deploy docs with mike (Poetry only, CNAME preserved)
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, ready_for_review]
+    branches:
+      - main
+
+permissions:
+  contents: write   # para push em gh-pages
+  issues: write     # para criar comentários em PRs (via API /issues/:number/comments)
+
+jobs:
+  build-and-deploy-pr:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.pull_request.base.ref == 'main' }}
+
+    steps:
+      - name: Check if PR head is from same repo (not a fork)
+        id: check_fork
+        run: |
+          HEAD_REPO="${{ github.event.pull_request.head.repo.full_name }}"
+          BASE_REPO="${{ github.repository }}"
+          echo "head_repo=${HEAD_REPO}" >> $GITHUB_OUTPUT
+          echo "base_repo=${BASE_REPO}" >> $GITHUB_OUTPUT
+          if [ "${HEAD_REPO}" != "${BASE_REPO}" ]; then
+            echo "PR is from a fork (${HEAD_REPO}) — skipping deploy."
+            exit 78
+          fi
+        shell: bash
+
+      - name: Checkout PR head (same repo branch)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12.3'
+
+      - name: Install and configure Poetry
+        uses: snok/install-poetry@v1
+
+      - name: Configure git user
+        uses: fregante/setup-git-user@v2
+
+      - name: Install dependencies (Poetry)
+        run: |
+          # evita criação de venvs (usa ambiente do runner) — opcional mas útil no CI
+          poetry config virtualenvs.create false || true
+
+          # tenta instalar dev-deps com sintaxe moderna; se falhar (poetry antigo) usa --dev
+          set -e
+          poetry install --no-root --no-interaction --no-ansi --with dev || \
+            poetry install --no-root --no-interaction --no-ansi --dev || \
+            poetry install --no-root --no-interaction --no-ansi
+
+      - name: Build site with MkDocs
+        run: poetry run mkdocs build
+
+      - name: Configure remote to use GITHUB_TOKEN for pushes (robustness)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # torna o push não dependente de configuração SSH e evita erros "could not read Username"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}"
+
+      - name: Deploy docs with mike (version = sanitized branch name)
+        env:
+          PR_BRANCH: ${{ github.event.pull_request.head.ref }}
+        run: |
+          # sanitiza nomes de branch: troca / por -, remove chars inválidos, comprime hífens, force lower
+          VERSION="$(echo "${PR_BRANCH}" \
+            | sed 's#/#-#g' \
+            | sed 's/[^A-Za-z0-9._-]/-/g' \
+            | sed 's/--*/-/g' \
+            | sed 's/^[.-]*//; s/[.-]*$//' \
+            | tr '[:upper:]' '[:lower:]')"
+
+          echo "Deploying docs version: ${VERSION}"
+          poetry run mike deploy --push --branch gh-pages "${VERSION}"
+
+      - name: Comment on PR with preview URL (via REST API)
+        if: always() && steps.check_fork.outcome == 'success'
+        env:
+          PR_BRANCH: ${{ github.event.pull_request.head.ref }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION="$(echo "${PR_BRANCH}" \
+            | sed 's#/#-#g' \
+            | sed 's/[^A-Za-z0-9._-]/-/g' \
+            | sed 's/--*/-/g' \
+            | sed 's/^[.-]*//; s/[.-]*$//' \
+            | tr '[:upper:]' '[:lower:]')"
+          VERSION="${VERSION:0:63}"
+          PREVIEW_URL="https://trilhadev.planejamento.mg.gov.br/${VERSION}/"
+
+          BODY="Preview da documentação (branch \`${PR_BRANCH}\`): ${PREVIEW_URL}"
+
+          API_URL="https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments"
+          echo "Posting comment to ${API_URL}"
+
+          # monta JSON com Python para evitar dependências externas como jq
+          DATA=$(python - <<PY
+          import json, os
+          b = os.environ.get('BODY', '')
+          print(json.dumps({"body": b}))
+          PY
+          )
+                    curl -sSL -X POST \
+                      -H "Authorization: Bearer ${GITHUB_TOKEN}" \
+                      -H "Accept: application/vnd.github+json" \
+                      -H "Content-Type: application/json" \
+                      "${API_URL}" \
+                      -d "${DATA}" \
+                    || (echo "Falha ao postar comentário" && exit 1)

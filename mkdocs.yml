@@ -1,5 +1,5 @@
 site_name: Trilha Dev
-site_url: https://trilhadev.planejamento.mg.gov.br
+site_url: https://trilhadev.planejamento.mg.gov.br/
 custom_domain: trilhadev.planejamento.mg.gov.br
 
 # Repository
@@ -56,7 +56,6 @@ plugins:
   - social
   - mkdocs_quiz:
       language: pt
-  - search
   - charts
 
 # Custom CSS

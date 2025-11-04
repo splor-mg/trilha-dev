@@ -5,6 +5,11 @@ on:
     types: [opened, reopened, synchronize, ready_for_review]
     branches:
       - main
+
+permissions:
+  contents: write   # para push em gh-pages
+  issues: write     # para criar comentários em PRs (via API /issues/:number/comments)
+
 jobs:
   build-and-deploy-pr:
     runs-on: ubuntu-latest

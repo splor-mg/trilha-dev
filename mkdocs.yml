@@ -65,8 +65,6 @@ extra_css:
 extra:
   version:
     provider: mike
-    default: stable
-    alias: true
 
 extra:
   include_cname: true

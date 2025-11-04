@@ -1,0 +1,42 @@
+name: PR preview - Deploy docs with mike (Poetry only, CNAME preserved)
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, ready_for_review]
+    branches:
+      - main
+jobs:
+  build-and-deploy-pr:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.pull_request.base.ref == 'main' }}
+
+    steps:
+      - name: Check if PR head is from same repo (not a fork)
+        id: check_fork
+        run: |
+          HEAD_REPO="${{ github.event.pull_request.head.repo.full_name }}"
+          BASE_REPO="${{ github.repository }}"
+          echo "head_repo=${HEAD_REPO}" >> $GITHUB_OUTPUT
+          echo "base_repo=${BASE_REPO}" >> $GITHUB_OUTPUT
+          if [ "${HEAD_REPO}" != "${BASE_REPO}" ]; then
+            echo "PR is from a fork (${HEAD_REPO}) — skipping deploy."
+            exit 78
+          fi
+        shell: bash
+
+      - name: Checkout PR head (same repo branch)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12.3'
+
+      - name: Install and configure Poetry
+        uses: snok/install-poetry@v1
+
+      - name: Configure git user
+        uses: fregante/setup-git-user@v2

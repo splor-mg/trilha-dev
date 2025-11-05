@@ -178,7 +178,7 @@ _a partir do minuto 00:22:00_
 - **Live Code** :rocket::rocket::rocket:
     - Criação de uma aba de Perguntas frequentes - FAQ no Handbook da Splor/MG.
     - Confira o issue criado para execução dessa tarefa: [Criar aba Perguntas frequentes no Handbook](https://github.com/splor-mg/handbook/issues/144)
-    - Confira o resultado: [FAQ](https://splor-mg.github.io/handbook/faq/) 
+    - Confira o resultado: [FAQ](https://splor-mg.github.io/handbook/faq/)
 
 _a partir do minuto 00:28:00_
 
@@ -187,7 +187,7 @@ _a partir do minuto 00:28:00_
 ### Avisos e Alinhamentos
 #### Projetos Especiais
 
-- Os projetos desenvolvidos no âmbito do Trilha-Dev serão apresentados para toda a Splor. 
+- Os projetos desenvolvidos no âmbito do Trilha-Dev serão apresentados para toda a Splor.
 - Nas próximas semanas, vamos discutir os projetos escolhidos e iniciar o seu desenvolvimento.
 
 ## 6º Encontro
@@ -219,4 +219,4 @@ _a partir do minuto 00:56:00_
 
 ### Avisos e Alinhamentos
 
-- Finalizado o material do curso, aqueles que quiserem certificado de conclusão, deverão abrir um issue no reposiório do Trilha - Dev, marcando a `raianecardoso`, e indicando a url pública do site construído no decorrer do curso.
+- Finalizado o material do curso, aqueles que quiserem certificado de conclusão, deverão abrir um issue no reposiório do Trilha - Dev, marcando a `raianecardoso`, e indicando a url pública do site construído no decorrer do curso. Veja as orientações completas em [certificação](../certificacao.md).

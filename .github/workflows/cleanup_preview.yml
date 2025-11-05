@@ -1,0 +1,38 @@
+name: Cleanup preview on PR merge
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  cleanup-preview:
+    if: ${{ github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'main' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python & Poetry
+        uses: actions/setup-python@v4
+        with: { python-version: '3.12' }
+      - uses: snok/install-poetry@v1
+
+      - name: Install dependencies
+        run: |
+          poetry config virtualenvs.create false || true
+          poetry install --no-interaction --no-ansi
+
+      - name: Delete mike preview version (sanitized branch)
+        env:
+          PR_BRANCH: ${{ github.event.pull_request.head.ref }}
+        run: |
+          VERSION="$(echo "${PR_BRANCH}" \
+            | sed 's#/#-#g' \
+            | sed 's/[^A-Za-z0-9._-]/-/g' \
+            | sed 's/--*/-/g' \
+            | sed 's/^[.-]*//; s/[.-]*$//' \
+            | tr '[:upper:]' '[:lower:]')"
+          VERSION="${VERSION:0:63}"
+          echo "Deleting preview version: ${VERSION}"
+          poetry run mike delete --push --branch gh-pages "${VERSION}"

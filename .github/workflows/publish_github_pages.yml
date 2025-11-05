@@ -30,7 +30,17 @@ jobs:
       - name: Install Poetry
         uses: snok/install-poetry@v1
 
-      - name: Publish Documentation
+      - name: Publish Documentation (Poetry + mike)
         run: |
-          poetry install
-      - run: poetry run mkdocs gh-deploy --force
+          # instalar dependências
+          poetry config virtualenvs.create false || true
+          poetry install --no-interaction --no-ansi
+
+          # sanitizar nome da versão (opcional; aqui usamos main -> "main" ou "latest")
+          VERSION="main"
+
+          # publica com mike e atualiza alias 'latest' para apontar para a versão publicada
+          poetry run mike deploy --push --branch gh-pages "${VERSION}" --update-aliases latest
+
+          # define 'latest' como default (opcional)
+          poetry run mike set-default --push latest

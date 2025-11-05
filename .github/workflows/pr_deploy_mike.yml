@@ -69,6 +69,7 @@ jobs:
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}"
 
       - name: Deploy docs with mike (version = sanitized branch name)
+        id: deploy   # <- id para eu poder referenciar outputs depois
         env:
           PR_BRANCH: ${{ github.event.pull_request.head.ref }}
         run: |
@@ -79,12 +80,20 @@ jobs:
             | sed 's/--*/-/g' \
             | sed 's/^[.-]*//; s/[.-]*$//' \
             | tr '[:upper:]' '[:lower:]')"
+          VERSION="${VERSION:0:63}"
+
+          # monta a url de preview usando o domínio customizado
+          PREVIEW_URL="https://trilhadev.planejamento.mg.gov.br/${VERSION}/"
 
           echo "Deploying docs version: ${VERSION}"
           poetry run mike deploy --push --branch gh-pages "${VERSION}"
+
+          # expõe os valores como outputs do step para os próximos steps
+          echo "version=${VERSION}" >> $GITHUB_OUTPUT
+          echo "preview_url=${PREVIEW_URL}" >> $GITHUB_OUTPUT
 
       - name: Comment PR
         uses: thollander/actions-comment-pull-request@v3
         with:
           message: |
-            Preview da documentação (branch \`${PR_BRANCH}\`): ${PREVIEW_URL}
+            Preview da documentação (branch `${{ steps.deploy.outputs.version }}`): ${{ steps.deploy.outputs.preview_url }}

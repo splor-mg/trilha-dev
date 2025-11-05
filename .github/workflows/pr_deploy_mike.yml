@@ -9,6 +9,7 @@ on:
 permissions:
   contents: write   # para push em gh-pages
   issues: write     # para criar comentários em PRs (via API /issues/:number/comments)
+  pull-requests: write
 
 jobs:
   build-and-deploy-pr:
@@ -82,37 +83,8 @@ jobs:
           echo "Deploying docs version: ${VERSION}"
           poetry run mike deploy --push --branch gh-pages "${VERSION}"
 
-      - name: Comment on PR with preview URL (via REST API)
-        if: always() && steps.check_fork.outcome == 'success'
-        env:
-          PR_BRANCH: ${{ github.event.pull_request.head.ref }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          VERSION="$(echo "${PR_BRANCH}" \
-            | sed 's#/#-#g' \
-            | sed 's/[^A-Za-z0-9._-]/-/g' \
-            | sed 's/--*/-/g' \
-            | sed 's/^[.-]*//; s/[.-]*$//' \
-            | tr '[:upper:]' '[:lower:]')"
-          VERSION="${VERSION:0:63}"
-          PREVIEW_URL="https://trilhadev.planejamento.mg.gov.br/${VERSION}/"
-
-          BODY="Preview da documentação (branch \`${PR_BRANCH}\`): ${PREVIEW_URL}"
-
-          API_URL="https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments"
-          echo "Posting comment to ${API_URL}"
-
-          # monta JSON com Python para evitar dependências externas como jq
-          DATA=$(python - <<PY
-          import json, os
-          b = os.environ.get('BODY', '')
-          print(json.dumps({"body": b}))
-          PY
-          )
-                    curl -sSL -X POST \
-                      -H "Authorization: Bearer ${GITHUB_TOKEN}" \
-                      -H "Accept: application/vnd.github+json" \
-                      -H "Content-Type: application/json" \
-                      "${API_URL}" \
-                      -d "${DATA}" \
-                    || (echo "Falha ao postar comentário" && exit 1)
+      - name: Comment PR
+        uses: thollander/actions-comment-pull-request@v3
+        with:
+          message: |
+            Preview da documentação (branch \`${PR_BRANCH}\`): ${PREVIEW_URL}

@@ -79,5 +79,3 @@ Se o PR foi aprovado e não há conflitos:
 
 ## 7. Conclusão
 Agora você sabe como revisar, aprovar e integrar uma contribuição no seu projeto. Com essa prática, o código fica melhor, mais organizado e todo mundo aprende junto.
-
-## 8. Gancho para o desafio final

@@ -1,5 +1,10 @@
 [
   {
+    "version": "teste-actions",
+    "title": "teste-actions",
+    "aliases": []
+  },
+  {
     "version": "61-clean-up",
     "title": "61-clean-up",
     "aliases": []

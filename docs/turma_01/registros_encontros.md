@@ -219,4 +219,4 @@ _a partir do minuto 00:56:00_
 
 ### Avisos e Alinhamentos
 
-- Finalizado o material do curso, aqueles que quiserem certificado de conclusão, deverão abrir um issue no reposiório do Trilha - Dev, marcando a `raianecardoso`, e indicando a url pública do site construído no decorrer do curso. Veja as orientações completas em [certificação](../certificacao.md).
+- Finalizado o material do curso, aqueles que quiserem certificado de conclusão, deverão abrir um issue no reposiório do Trilha - Dev, marcando a `raianecardoso`, e indicando a url pública do site construído no decorrer do curso. Veja as orientações completas em [Certificação](../certificacao.md).

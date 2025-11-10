@@ -16,8 +16,8 @@ Apresentação prática no arquivo index.md:
 | Texto em negrito | **texto** | **Importante** |
 | Itálico |*texto*  | *ênfase* |
 | Lista |- item  | - Primeiro item |
-| Link | [texto](url) | [Meu GitHub](https://...) |
-| Imagem | ![alt](url) | ![Minha foto](minha.jpg) |
+| Link | `[texto](url)` | `[Meu GitHub](https://...)` |
+| Imagem | `![alt](url)` | `![Minha foto](minha.jpg)` |
 | Código inline | `código` | Use o comando `git status`  |
 
 3. Exercício prático: sua apresentação em Markdown

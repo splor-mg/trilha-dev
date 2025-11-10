@@ -15,6 +15,11 @@
     "aliases": []
   },
   {
+    "version": "fix-workflow-cleanup",
+    "title": "fix-workflow-cleanup",
+    "aliases": []
+  },
+  {
     "version": "avalia-warnings",
     "title": "avalia-warnings",
     "aliases": []

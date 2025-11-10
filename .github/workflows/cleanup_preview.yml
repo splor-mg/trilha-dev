@@ -27,6 +27,15 @@ jobs:
           poetry config virtualenvs.create false || true
           poetry install --no-interaction --no-ansi
 
+      - name: Configure git user
+        uses: fregante/setup-git-user@v2
+
+      - name: Configure remote to use GITHUB_TOKEN for pushes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}"
+
       - name: Delete mike preview version (sanitized branch)
         env:
           PR_BRANCH: ${{ github.event.pull_request.head.ref }}

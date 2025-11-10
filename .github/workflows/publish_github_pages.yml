@@ -1,4 +1,9 @@
 name: Publish documentation on GitHub pages
+
+concurrency:
+  group: gh-pages-deploy
+  cancel-in-progress: false
+
 on:
   workflow_dispatch:
   push:

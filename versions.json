@@ -1,5 +1,10 @@
 [
   {
+    "version": "teste-workflow-concorrentes",
+    "title": "teste-workflow-concorrentes",
+    "aliases": []
+  },
+  {
     "version": "teste-actions",
     "title": "teste-actions",
     "aliases": []

@@ -1,5 +1,9 @@
 name: PR preview - Deploy docs with mike (Poetry only, CNAME preserved)
 
+concurrency:
+  group: gh-pages-deploy
+  cancel-in-progress: false
+
 on:
   pull_request:
     types: [opened, reopened, synchronize, ready_for_review]

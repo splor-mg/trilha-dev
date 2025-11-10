@@ -1,38 +1,142 @@
-name: Cleanup preview on PR merge
+name: Cleanup mike previews after publish
 
+# Executa quando o workflow de publish terminar
 on:
-  pull_request:
-    types: [closed]
+  workflow_run:
+    workflows: ["Publish documentation on GitHub pages"]
+    types:
+      - completed
+
+permissions:
+  contents: write    # para push em gh-pages (mike delete --push)
+  issues: read
 
 jobs:
-  cleanup-preview:
-    if: ${{ github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'main' }}
+  cleanup-previews:
+    # só roda se o workflow de publish terminou com sucesso
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout (needed for git remote config)
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Setup Python & Poetry
+      - name: Setup Python
         uses: actions/setup-python@v4
-        with: { python-version: '3.12' }
-      - uses: snok/install-poetry@v1
+        with:
+          python-version: '3.12'
+
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
 
       - name: Install dependencies
         run: |
           poetry config virtualenvs.create false || true
           poetry install --no-interaction --no-ansi
 
-      - name: Delete mike preview version (sanitized branch)
+      - name: Configure git user
+        uses: fregante/setup-git-user@v2
+
+      - name: Configure remote with token (for mike to push)
         env:
-          PR_BRANCH: ${{ github.event.pull_request.head.ref }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          VERSION="$(echo "${PR_BRANCH}" \
-            | sed 's#/#-#g' \
-            | sed 's/[^A-Za-z0-9._-]/-/g' \
-            | sed 's/--*/-/g' \
-            | sed 's/^[.-]*//; s/[.-]*$//' \
-            | tr '[:upper:]' '[:lower:]')"
-          VERSION="${VERSION:0:63}"
-          echo "Deleting preview version: ${VERSION}"
-          poetry run mike delete --push --branch gh-pages "${VERSION}"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}"
+
+      - name: Find recently merged PRs into main
+        id: find_prs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # horário de referência: quando o workflow_run foi atualizado (ex: publish terminou)
+          RUN_TS: ${{ github.event.workflow_run.updated_at }}
+          # janela em segundos (±) para considerar merges "recentes"
+          WINDOW_SECONDS: 600
+        run: |
+          set -e
+
+          OWNER_REPO="${{ github.repository }}"
+          API="https://api.github.com/repos/${OWNER_REPO}/pulls?state=closed&base=main&per_page=100"
+
+          echo "Fetching closed PRs targeting main..."
+          # obtem lista de PRs fechados (paginação limitada a 100; ajuste se necessário)
+          PRS_JSON="$(curl -s -H "Authorization: Bearer ${GITHUB_TOKEN}" -H "Accept: application/vnd.github+json" "${API}")"
+
+          # usa Python para filtrar PRs com merged_at dentro da janela em torno do RUN_TS
+          python - <<PY > /tmp/merged_prs.json
+import sys, json, os, datetime
+prs = json.load(sys.stdin)
+run_ts = os.environ.get("RUN_TS")
+window = int(os.environ.get("WINDOW_SECONDS", "600"))
+if not run_ts:
+    print("[]")
+    sys.exit(0)
+run_dt = datetime.datetime.fromisoformat(run_ts.replace("Z","+00:00"))
+matches = []
+for pr in prs:
+    merged_at = pr.get("merged_at")
+    if not merged_at:
+        continue
+    merged_dt = datetime.datetime.fromisoformat(merged_at.replace("Z","+00:00"))
+    diff = abs((run_dt - merged_dt).total_seconds())
+    if diff <= window:
+        # collect head.ref (branch name) and number for logging
+        matches.append({
+            "number": pr.get("number"),
+            "head_ref": pr.get("head",{}).get("ref"),
+            "merged_at": merged_at
+        })
+print(json.dumps(matches))
+PY <<JSON
+${PRS_JSON}
+JSON
+
+          echo "Matched PRs:"
+          cat /tmp/merged_prs.json || true
+
+          # expose the JSON as output for next steps
+          echo "merged_prs<<EOF" >> $GITHUB_OUTPUT
+          cat /tmp/merged_prs.json >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Delete mike versions for merged PRs
+        if: ${{ steps.find_prs.outputs.merged_prs != '[]' }}
+        env:
+          MERGED_PR_JSON: ${{ steps.find_prs.outputs.merged_prs }}
+        run: |
+          set -e
+          echo "PRs to delete: $MERGED_PR_JSON"
+
+          python - <<PY
+import json, subprocess, os, shlex
+prs = json.loads(os.environ.get("MERGED_PR_JSON") or "[]")
+def sanitize(branch):
+    import re
+    v = branch.replace("/", "-")
+    v = re.sub(r'[^A-Za-z0-9._-]', '-', v)
+    v = re.sub(r'-{2,}', '-', v)
+    v = v.strip('.-').lower()
+    return v[:63]
+
+for pr in prs:
+    head = pr.get("head_ref")
+    num = pr.get("number")
+    if not head:
+        print(f"Skipping PR #{num}: no head ref")
+        continue
+    version = sanitize(head)
+    print(f"Deleting mike version for PR #{num} -> version '{version}'")
+    # call mike delete --push --branch gh-pages <version>
+    cmd = f"poetry run mike delete --push --branch gh-pages {shlex.quote(version)}"
+    print("Running:", cmd)
+    try:
+        subprocess.check_call(cmd, shell=True)
+        print(f"Deleted version {version} successfully.")
+    except subprocess.CalledProcessError as e:
+        print(f"Error deleting {version}: {e}")
+        # do not fail the entire job for one failed delete; continue
+PY
+
+      - name: Done
+        run: echo "Cleanup finished."

@@ -25,14 +25,14 @@ Sim! Você vai usar tudo o que aprendeu até agora: terminal, Git, GitHub, Markd
 - Indique @raianecardoso como revisor do seu pull request.
 
 ##  Requisitos
-- Uma imagem sua
-- Uma frase que represente sua jornada ou sua motivação
-- Alterações feitas diretamente no repositório do curso, via branch e PR
+- Uma imagem sua.
+- Uma frase que represente sua jornada ou sua motivação.
+- Alterações feitas diretamente no repositório do curso, via branch e PR.
 
 ??? tip "Dica de como inserir a sua foto"
 
     O Github já hospeda a sua foto de perfil! Assim, você só precisa do link desta imagem para incluir no site. :stuck_out_tongue_winking_eye:
-    
+
     Basta você clicar com o botão direito na sua foto de perfil do GH e abrir o link da imagem em uma nova guia. A url desta página é um link direto para a sua foto.
 
 ##  Hall da Fama :star2::star2::star2:
@@ -55,22 +55,22 @@ Desafio lançado. :tada:
 
 ## :trophy: Hall da Fama da Trilha Dev :trophy:
 
-Bem-vindo ao mural de vencedores do **Desafio Final**!  
+Bem-vindo ao mural de vencedores do **Desafio Final**!
 
-> Exemplo: 
+> Exemplo:
 
 ---
 <div class="grid cards" markdown>
 
 -   ![1º vencedor](https://blush.design/api/download?shareUri=pkrldsKh6aPqLy9l&c=Hair_0%7E4b2500-0.0.2.0%7Efecb51_Skin_0%7Efbefe3-0.0.2.0%7E8b4500&bg=1e2129&w=800&h=800&fm=png){ .lg .avatar .middle }
-    
+
     __Ana Silva__
 
     ---
    _"Oi, aprendi muito com o Trilha Dev e adorei fazer o desafio"_
 
 -   ![Raiane Cardoso](https://avatars.githubusercontent.com/u/166438302?v=4){ .lg .avatar .middle }
-    
+
     __Raiane Cardoso__
 
     ---
@@ -87,14 +87,14 @@ Aqui estão os participantes que colocaram a mão na massa e deixaram sua marca.
 <div class="grid cards" markdown>
 
 -   ![Ívna Abreu](https://avatars.githubusercontent.com/u/225957900?v=4){ .lg .avatar .middle }
-    
+
     __Ívna Abreu__
 
     ---
    _"É muito bom aprender novas habilidades!"_
 
 -   ![Gabriela Ribeiro](https://avatars.githubusercontent.com/u/227460434?v=4){ .lg .avatar .middle }
-    
+
     __Gabriela Ribeiro__
 
     ---
@@ -113,7 +113,7 @@ Aqui estão os participantes que colocaram a mão na massa e deixaram sua marca.
    _"Cada lição é um degrau que eleva o olhar.
 
 -   ![Vinicius Santos](https://avatars.githubusercontent.com/u/227885564?s=400&u=973505bde98b92525f5766fa37419c2bd758dafb&v=4){ .lg .avatar .middle }
-    
+
     __Vinicius Santos__
 
     ---

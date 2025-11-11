@@ -45,4 +45,4 @@ jobs:
           VERSION="main"
 
           # publica com mike e atualiza alias 'latest' para apontar para a versão publicada
-          poetry run mike deploy --push --branch gh-pages "${VERSION}" --update-aliases latest
+          poetry run mike deploy --push --branch gh-pages "${VERSION}" --update-aliases

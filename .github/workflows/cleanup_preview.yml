@@ -6,8 +6,8 @@ concurrency:
 
 on:
   workflow_dispatch:
-#  pull_request:
-#    types: [closed]
+  pull_request:
+    types: [closed]
 
 jobs:
   cleanup-preview:

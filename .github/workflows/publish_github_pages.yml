@@ -46,6 +46,3 @@ jobs:
 
           # publica com mike e atualiza alias 'latest' para apontar para a versão publicada
           poetry run mike deploy --push --branch gh-pages "${VERSION}" --update-aliases latest
-
-          # define 'latest' como default (opcional)
-          poetry run mike set-default --push latest

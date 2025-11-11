@@ -1,32 +1,7 @@
 [
   {
-    "version": "teste-workflow-concorrentes",
-    "title": "teste-workflow-concorrentes",
-    "aliases": []
-  },
-  {
-    "version": "teste-concorrencia",
-    "title": "teste-concorrencia",
-    "aliases": []
-  },
-  {
-    "version": "teste-actions",
-    "title": "teste-actions",
-    "aliases": []
-  },
-  {
     "version": "latest",
     "title": "latest",
     "aliases": []
   },
-  {
-    "version": "avalia-warnings",
-    "title": "avalia-warnings",
-    "aliases": []
-  },
-  {
-    "version": "61-clean-up",
-    "title": "61-clean-up",
-    "aliases": []
-  }
 ]

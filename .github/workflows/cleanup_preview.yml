@@ -5,8 +5,9 @@ concurrency:
   cancel-in-progress: false
 
 on:
-  pull_request:
-    types: [closed]
+  workflow_dispatch:
+#  pull_request:
+#    types: [closed]
 
 jobs:
   cleanup-preview:

@@ -15,6 +15,11 @@
     "aliases": []
   },
   {
+    "version": "latest",
+    "title": "latest",
+    "aliases": []
+  },
+  {
     "version": "avalia-warnings",
     "title": "avalia-warnings",
     "aliases": []

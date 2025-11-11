@@ -1,5 +1,10 @@
 [
   {
+    "version": "melhora-certificacao",
+    "title": "melhora-certificacao",
+    "aliases": []
+  },
+  {
     "version": "latest",
     "title": "latest",
     "aliases": []

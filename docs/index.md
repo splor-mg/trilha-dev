@@ -3,7 +3,7 @@ comments: true
 ---
 # **Início de Jornada**
 
-Bem vindo ao Trilha Dev! 
+Bem vindo ao Trilha Dev!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YBRBKqIenfU?si=bs13jw9hmvCVVsun" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -13,7 +13,7 @@ O **Trilha-Dev: Início da Jornada** foi criado especialmente para pessoas que a
 
 Aqui, a proposta é simples: **apresentar ferramentas e práticas do universo da programação** que podem facilitar o seu dia a dia e transformar a forma como você organiza e compartilha seu trabalho.
 
-E, se você decidir mergulhar no mundo do desenvolvimento e dados, você sairá desse curso muito bem preparado para iniciar sua jornada. 
+E, se você decidir mergulhar no mundo do desenvolvimento e dados, você sairá desse curso muito bem preparado para iniciar sua jornada.
 
 ### :octicons-arrow-right-24: Por que esse curso é relevante?
 
@@ -47,7 +47,7 @@ A trilha é dividida em 6 dias de conteúdo com:
 - Exercícios
 - Materiais complementares
 
-Você só precisa de cerca de **1 hora por dia** para concluir cada etapa. Ou seja: com um pouquinho de dedicação, é possível finalizar a trilha em **menos de uma semana**.
+Você só precisa de cerca de **1 hora por dia** para concluir cada etapa. Ou seja, é possível finalizar a trilha em **menos de uma semana** com um pouquinho de dedicação.
 
 ### :octicons-arrow-right-24: Para quem é essa trilha?
 
@@ -83,5 +83,3 @@ ______
 - Logo: Astro by Pablo Stanley in [Transhumans Collection](https://blush.design/collections/i6aPXTYbSUdZEveWhgik/transhumans)
 - Ilustrações: [Blush Design Inc.](https://blush.design/pt)
 - Tema: [Material for mkdocs](https://squidfunk.github.io/mkdocs-material/)
-
-  

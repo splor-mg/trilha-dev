@@ -8,16 +8,17 @@ edit_uri: edit/main/docs/
 
 nav:
   - index.md
-  - aulas/index.md
-  - aulas/dia_01/dia_01.md
-  - aulas/dia_02/dia_02.md
-  - aulas/dia_03/dia_03.md
-  - aulas/dia_04/dia_04.md
-  - aulas/dia_05/dia_05.md
-  - aulas/dia_06/dia_06.md
-  - desafio_final.md
-  - turma_01/registros_encontros.md
-  - certificacao.md
+  - inicio_da_jornada/aulas/index.md
+  - inicio_da_jornada/aulas/dia_01/dia_01.md
+  - inicio_da_jornada/aulas/dia_02/dia_02.md
+  - inicio_da_jornada/aulas/dia_03/dia_03.md
+  - inicio_da_jornada/aulas/dia_04/dia_04.md
+  - inicio_da_jornada/aulas/dia_05/dia_05.md
+  - inicio_da_jornada/aulas/dia_06/dia_06.md
+  - inicio_da_jornada/desafio_final.md
+  - inicio_da_jornada/turma_01/registros_encontros.md
+  - inicio_da_jornada/certificacao.md
+  - python/index.md
 
 # Configuration
 theme:

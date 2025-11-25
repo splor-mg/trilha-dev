@@ -1,7 +1,7 @@
 ---
 comments: true
 ---
-# **Início de Jornada**
+# **Início da Jornada**
 
 Bem vindo ao Trilha Dev!
 

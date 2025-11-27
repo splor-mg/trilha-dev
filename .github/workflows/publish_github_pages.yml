@@ -41,8 +41,10 @@ jobs:
           poetry config virtualenvs.create false || true
           poetry install --no-interaction --no-ansi
 
-          # sanitizar nome da versão (opcional; aqui usamos main -> "main" ou "latest")
+          # define versão principal e alias público
           VERSION="main"
+          ALIAS="latest"
 
-          # publica com mike e atualiza alias 'latest' para apontar para a versão publicada
-          poetry run mike deploy --push --branch gh-pages "${VERSION}" --update-aliases
+          # publica com mike, atualiza alias e define default
+          poetry run mike deploy --push --branch gh-pages "${VERSION}" "${ALIAS}" --update-aliases
+          poetry run mike set-default "${ALIAS}"

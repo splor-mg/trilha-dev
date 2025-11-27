@@ -1,7 +1,14 @@
 [
   {
+    "version": "teste-workflow",
+    "title": "teste-workflow",
+    "aliases": []
+  },
+  {
     "version": "main",
     "title": "main",
-    "aliases": ["latest"]
+    "aliases": [
+      "latest"
+    ]
   }
 ]

@@ -1,6 +1,7 @@
-{"default": "main", "versions": [
+[
   {
     "version": "main",
-    "title": "main"
+    "title": "main",
+    "aliases": ["latest"]
   }
-]}
+]

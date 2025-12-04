@@ -23,6 +23,8 @@ nav:
       - Certificação: inicio_da_jornada/certificacao.md
     - Python:
       - python/index.md
+      - Aulas:
+        - Aula 001: python/aulas/001_primeiro_programa_py.md
 
 # Configuration
 theme:

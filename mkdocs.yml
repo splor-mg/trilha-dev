@@ -26,6 +26,7 @@ nav:
       - Aulas:
         - Aula 001: python/aulas/001_primeiro_programa_py.md
         - Aula 002: python/aulas/002_como_py_executado.md
+        - Aula 003: python/aulas/003_variaveis.md
 
 # Configuration
 theme:

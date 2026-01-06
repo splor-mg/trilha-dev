@@ -7,17 +7,27 @@ repo_url: https://github.com/splor-mg/trilha-dev
 edit_uri: edit/main/docs/
 
 nav:
-  - index.md
-  - aulas/index.md
-  - aulas/dia_01/dia_01.md
-  - aulas/dia_02/dia_02.md
-  - aulas/dia_03/dia_03.md
-  - aulas/dia_04/dia_04.md
-  - aulas/dia_05/dia_05.md
-  - aulas/dia_06/dia_06.md
-  - desafio_final.md
-  - turma_01/registros_encontros.md
-  - certificacao.md
+  - Início: 
+    - index.md
+    - Início da Jornada: 
+      - inicio_da_jornada/index.md
+      - Aulas: 
+        - Dia 01: inicio_da_jornada/aulas/dia_01/dia_01.md
+        - Dia 02: inicio_da_jornada/aulas/dia_02/dia_02.md
+        - Dia 03: inicio_da_jornada/aulas/dia_03/dia_03.md
+        - Dia 04: inicio_da_jornada/aulas/dia_04/dia_04.md
+        - Dia 05: inicio_da_jornada/aulas/dia_05/dia_05.md
+        - Dia 06: inicio_da_jornada/aulas/dia_06/dia_06.md
+      - Desafio Final: inicio_da_jornada/desafio_final.md
+      - Registos da 1ª Turma: inicio_da_jornada/turma_01/registros_encontros.md
+      - Certificação: inicio_da_jornada/certificacao.md
+    - Python:
+      - python/index.md
+      - Aulas:
+        - Aula 001: python/aulas/001_primeiro_programa_py.md
+        - Aula 002: python/aulas/002_como_py_executado.md
+        - Aula 003: python/aulas/003_variaveis.md
+        - Aula 004: python/aulas/004_funcao_input.md
 
 # Configuration
 theme:
@@ -30,6 +40,8 @@ theme:
     - navigation.instant.progress
     - navigation.sections
     - navigation.path
+    - navigation.indexes
+    - navigation.expand
   palette:
     - scheme: slate
       primary: lime #cbdc39

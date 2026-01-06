@@ -20,7 +20,7 @@ Para tanto, você deverá:
 - Abrir um [issue no repositório do Trilha - Dev](https://github.com/splor-mg/trilha-dev/issues) com o título: Solicitação de certificado.
 - Você deve atribuir a @raianecardoso como _assignee_ deste issue.
 - Na descrição do issue você deve preencher as seguintes informações:
-    - Nome completo.
+    - Nome completo
     - CPF.
     - E-mail.
     - Órgão.

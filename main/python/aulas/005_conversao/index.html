@@ -8,31 +8,29 @@
       
       
       
-        <link rel="canonical" href="https://trilhadev.planejamento.mg.gov.br/main/inicio_da_jornada/">
+        <link rel="canonical" href="https://trilhadev.planejamento.mg.gov.br/main/python/aulas/005_conversao/">
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../004_funcao_input/">
       
-      
-        <link rel="next" href="aulas/dia_01/dia_01/">
       
       
         
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
     
     
       
-        <title>Início da Jornada - Trilha Dev</title>
+        <title>Aula 005 - Trilha Dev</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.618322db.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -51,9 +49,9 @@
       
     
     
-      <link rel="stylesheet" href="../assets/style.css">
+      <link rel="stylesheet" href="../../../assets/style.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -61,15 +59,15 @@
     
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Início da Jornada - Trilha Dev" />
-<meta property="og:image" content="https://trilhadev.planejamento.mg.gov.br/main/assets/images/social/inicio_da_jornada/index.png" />
+<meta property="og:title" content="Aula 005 - Trilha Dev" />
+<meta property="og:image" content="https://trilhadev.planejamento.mg.gov.br/main/assets/images/social/python/aulas/005_conversao.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:url" content="https://trilhadev.planejamento.mg.gov.br/main/inicio_da_jornada/" />
+<meta property="og:url" content="https://trilhadev.planejamento.mg.gov.br/main/python/aulas/005_conversao/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="Início da Jornada - Trilha Dev" />
-<meta property="twitter:image" content="https://trilhadev.planejamento.mg.gov.br/main/assets/images/social/inicio_da_jornada/index.png" />
+<meta property="twitter:title" content="Aula 005 - Trilha Dev" />
+<meta property="twitter:image" content="https://trilhadev.planejamento.mg.gov.br/main/assets/images/social/python/aulas/005_conversao.png" />
 </head>
   
   
@@ -89,7 +87,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#inicio-da-jornada" class="md-skip">
+        <a href="#aula-005-conversao-de-dados-casting" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -105,9 +103,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
-    <a href=".." title="Trilha Dev" class="md-header__button md-logo" aria-label="Trilha Dev" data-md-component="logo">
+    <a href="../../.." title="Trilha Dev" class="md-header__button md-logo" aria-label="Trilha Dev" data-md-component="logo">
       
-  <img src="../assets/logo.png" alt="logo">
+  <img src="../../../assets/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -124,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Início da Jornada
+              Aula 005
             
           </span>
         </div>
@@ -240,9 +238,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Trilha Dev" class="md-nav__button md-logo" aria-label="Trilha Dev" data-md-component="logo">
+    <a href="../../.." title="Trilha Dev" class="md-nav__button md-logo" aria-label="Trilha Dev" data-md-component="logo">
       
-  <img src="../assets/logo.png" alt="logo">
+  <img src="../../../assets/logo.png" alt="logo">
 
     </a>
     Trilha Dev
@@ -298,7 +296,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href=".." class="md-nav__link ">
+            <a href="../../.." class="md-nav__link ">
               
   
   
@@ -339,8 +337,6 @@
                 
   
   
-    
-  
   
   
     
@@ -364,15 +360,17 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_2" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1_2" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="./" class="md-nav__link md-nav__link--active">
+            <a href="../../../inicio_da_jornada/" class="md-nav__link ">
               
   
   
@@ -390,13 +388,13 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_1_2" id="__nav_1_2_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_1_2" id="__nav_1_2_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_1_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -481,7 +479,7 @@
   
   
     <li class="md-nav__item">
-      <a href="aulas/dia_01/dia_01/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/aulas/dia_01/dia_01/" class="md-nav__link">
         
   
   
@@ -509,7 +507,7 @@
   
   
     <li class="md-nav__item">
-      <a href="aulas/dia_02/dia_02/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/aulas/dia_02/dia_02/" class="md-nav__link">
         
   
   
@@ -537,7 +535,7 @@
   
   
     <li class="md-nav__item">
-      <a href="aulas/dia_03/dia_03/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/aulas/dia_03/dia_03/" class="md-nav__link">
         
   
   
@@ -565,7 +563,7 @@
   
   
     <li class="md-nav__item">
-      <a href="aulas/dia_04/dia_04/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/aulas/dia_04/dia_04/" class="md-nav__link">
         
   
   
@@ -593,7 +591,7 @@
   
   
     <li class="md-nav__item">
-      <a href="aulas/dia_05/dia_05/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/aulas/dia_05/dia_05/" class="md-nav__link">
         
   
   
@@ -621,7 +619,7 @@
   
   
     <li class="md-nav__item">
-      <a href="aulas/dia_06/dia_06/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/aulas/dia_06/dia_06/" class="md-nav__link">
         
   
   
@@ -657,7 +655,7 @@
   
   
     <li class="md-nav__item">
-      <a href="desafio_final/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/desafio_final/" class="md-nav__link">
         
   
   
@@ -685,7 +683,7 @@
   
   
     <li class="md-nav__item">
-      <a href="turma_01/registros_encontros/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/turma_01/registros_encontros/" class="md-nav__link">
         
   
   
@@ -713,7 +711,7 @@
   
   
     <li class="md-nav__item">
-      <a href="certificacao/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/certificacao/" class="md-nav__link">
         
   
   
@@ -746,6 +744,8 @@
                 
   
   
+    
+  
   
   
     
@@ -763,17 +763,15 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_3" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../python/" class="md-nav__link ">
+            <a href="../../" class="md-nav__link ">
               
   
   
@@ -797,7 +795,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_1_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -814,8 +812,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -835,13 +835,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1_3_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_3_2" checked>
         
           
           <label class="md-nav__link" for="__nav_1_3_2" id="__nav_1_3_2_label" tabindex="0">
@@ -862,7 +860,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_1_3_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_1_3_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_1_3_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -880,7 +878,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../python/aulas/001_primeiro_programa_py/" class="md-nav__link">
+      <a href="../001_primeiro_programa_py/" class="md-nav__link">
         
   
   
@@ -908,7 +906,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../python/aulas/002_como_py_executado/" class="md-nav__link">
+      <a href="../002_como_py_executado/" class="md-nav__link">
         
   
   
@@ -936,7 +934,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../python/aulas/003_variaveis/" class="md-nav__link">
+      <a href="../003_variaveis/" class="md-nav__link">
         
   
   
@@ -964,7 +962,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../python/aulas/004_funcao_input/" class="md-nav__link">
+      <a href="../004_funcao_input/" class="md-nav__link">
         
   
   
@@ -989,10 +987,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../python/aulas/005_conversao/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aula 005
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1008,6 +1033,37 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#video-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎥 Vídeo 5
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1063,85 +1119,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#tecnologia-ao-alcance-de-quem-organiza-planeja-e-executa" class="md-nav__link">
+  <a href="#video-5" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Tecnologia ao alcance de quem organiza, planeja e executa!
+        🎥 Vídeo 5
       
     </span>
   </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#por-que-esse-curso-e-relevante" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Por que esse curso é relevante?
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#o-que-voce-vai-aprender" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        O que você vai aprender
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#como-funciona" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Como funciona
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#para-quem-e-essa-trilha" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Para quem é essa trilha?
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#comece-agora" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Comece agora
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Comece agora">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#ferramentas-e-servicos-de-apoio-para-este-site" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Ferramentas e serviços de apoio para este site:
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1171,7 +1155,7 @@
     
     
       <li class="md-path__item">
-        <a href=".." class="md-path__link">
+        <a href="../../.." class="md-path__link">
           
   <span class="md-ellipsis">
     Início
@@ -1189,10 +1173,28 @@
     
     
       <li class="md-path__item">
-        <a href="./" class="md-path__link">
+        <a href="../../" class="md-path__link">
           
   <span class="md-ellipsis">
-    Início da Jornada
+    Python
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../001_primeiro_programa_py/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Aulas
   </span>
 
         </a>
@@ -1214,65 +1216,16 @@
   
 
 
-<h1 id="inicio-da-jornada"><strong>Início da Jornada</strong></h1>
-<p>Bem vindo ao Trilha Dev!</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YBRBKqIenfU?si=bs13jw9hmvCVVsun" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h1 id="aula-005-conversao-de-dados-casting">Aula 005: Conversão de dados <em>(casting)</em></h1>
+<h2 id="video-5">🎥 Vídeo 5</h2>
+<p>Nesta aula, nós vamos aprender como podemos transformar um tipo de dado.
+A conversão de tipo em Python é feita usando novas funções que aprenderemos.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JBxs9pzNn4E?si=FrVoN5HIOs-saB6X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<h3 id="tecnologia-ao-alcance-de-quem-organiza-planeja-e-executa"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> Tecnologia ao alcance de quem organiza, planeja e executa!</h3>
-<p>O <strong>Trilha-Dev: Início da Jornada</strong> foi criado especialmente para pessoas que atuam com <strong>atividades administrativas e de apoio à gestão</strong> e que desejam navegar <strong>com mais segurança no mundo da tecnologia</strong>, sem a necessidade de se tornarem desenvolvedores profissionais.</p>
-<p>Aqui, a proposta é simples: <strong>apresentar ferramentas e práticas do universo da programação</strong> que podem facilitar o seu dia a dia e transformar a forma como você organiza e compartilha seu trabalho.</p>
-<p>E, se você decidir mergulhar no mundo do desenvolvimento e dados, você sairá desse curso muito bem preparado para iniciar sua jornada.</p>
-<h3 id="por-que-esse-curso-e-relevante"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> Por que esse curso é relevante?</h3>
-<p>A <strong>Splor</strong> já utiliza o <strong><a href="https://github.com/splor-mg">GitHub</a></strong> institucional para alguns projetos. Até agora, esse espaço tem sido ocupado principalmente por repositórios da área de dados — com automações, scripts e visualizações.</p>
-<p>Mas o GitHub é muito mais do que isso.</p>
-<p><strong>Com o conhecimento certo, qualquer setor pode usar essa plataforma para versionar documentos, registrar processos, criar portfólios, estruturar repositórios e colaborar de forma mais eficiente.</strong> E é exatamente isso que  Trilha-Dev quer mostrar: como você pode fazer parte disso tudo.</p>
-<h3 id="o-que-voce-vai-aprender"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> O que você vai aprender</h3>
-<div class="grid">
-<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Durante a trilha, você vai:</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
 <ul>
-<li>Entender o que é documentação como código (doc as code) e por que ela importa</li>
-<li>Aprender a usar Git e GitHub para versionar e colaborar em projetos</li>
-<li>Navegar pelo terminal e executar comandos essenciais</li>
-<li>Escrever e formatar conteúdos usando Markdown</li>
-<li>Criar e publicar um site estático com MkDocs</li>
-<li>Explorar temas, personalização e recursos como blogs e portfólios</li>
-<li>Usar ferramentas como GitHub Pages, issues, branches e pull requests para organizar seu trabalho</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<h3 id="como-funciona"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> Como funciona</h3>
-<p>A trilha é dividida em 6 dias de conteúdo com:</p>
-<ul>
-<li>Vídeo aulas práticas e objetivas</li>
-<li>Exercícios</li>
-<li>Materiais complementares</li>
-</ul>
-<p>Você só precisa de cerca de <strong>1 hora por dia</strong> para concluir cada etapa. Ou seja, é possível finalizar a trilha em <strong>menos de uma semana</strong> com um pouquinho de dedicação.</p>
-<h3 id="para-quem-e-essa-trilha"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> Para quem é essa trilha?</h3>
-<p>Essa trilha é para você que:</p>
-<div class="grid">
-<p class="card"><img alt="🙋‍♂️" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f64b-200d-2642-fe0f.svg" title=":man_raising_hand:" /> Atua com <strong>relatórios, projetos, indicadores ou processos administrativos</strong></p>
-<p class="card"><img alt="🙋🏾‍♀️" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f64b-1f3fe-200d-2640-fe0f.svg" title=":woman_raising_hand_tone4:" /> Quer <strong>organizar seu conhecimento</strong> de forma mais <strong>eficiente</strong></p>
-<p class="card"><img alt="🙋🏼" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f64b-1f3fc.svg" title=":person_raising_hand_tone2:" /> Precisa <strong>colaborar</strong> com outras pessoas ou equipes técnicas</p>
-<p class="card"><img alt="🙋🏻‍♂️" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f64b-1f3fb-200d-2642-fe0f.svg" title=":man_raising_hand_tone1:" /> Acredita que a <strong>tecnologia pode facilitar</strong>, e muito,o seu trabalho</p>
-</div>
-<h3 id="comece-agora"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> Comece agora</h3>
-<ul>
-<li>Não é preciso saber programar.</li>
-<li>Você só precisa de curiosidade e disposição para aprender.</li>
-</ul>
-<p><em>O <strong>Trilha Dev: Início da Jornada</strong> é o seu primeiro passo em direção a um novo jeito de trabalhar, mais moderno, colaborativo e conectado.</em></p>
-<p><a class="md-button md-button--primary" href="inicio_da_jornada/aulas/index.md">Começar agora</a></p>
-<hr />
-<h4 id="ferramentas-e-servicos-de-apoio-para-este-site">Ferramentas e serviços de apoio para este site:</h4>
-<ul>
-<li>Logo: Astro by Pablo Stanley in <a href="https://blush.design/collections/i6aPXTYbSUdZEveWhgik/transhumans">Transhumans Collection</a></li>
-<li>Ilustrações: <a href="https://blush.design/pt">Blush Design Inc.</a></li>
-<li>Tema: <a href="https://squidfunk.github.io/mkdocs-material/">Material for mkdocs</a></li>
+<li><code>int()</code> - constrói um número inteiro a partir de um decimal - <code>flot</code>-, removendo todas as casas decimais ou de uma <code>string</code>, desde que a <code>string</code> represente um número inteiro.</li>
+<li><code>float()</code> - constrói um número decimal - <code>flot</code>- a partir de um  inteiro ou de uma <code>string</code>, desde que a <code>string</code> represente um número decimal ou um inteiro.</li>
+<li><code>str()</code> - constrói uma <code>string</code> a partir de uma ampla variedade de tipos de dados, incluindo <code>strings</code>, <code>inteiros</code> e decimais - <code>flot</code>-.</li>
 </ul><style type="text/css">.quiz {
   border: 1px solid black;
   padding: 1rem;
@@ -1493,12 +1446,12 @@ function resetFieldset(fieldset) {
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.sections", "navigation.path", "navigation.indexes", "navigation.expand"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.sections", "navigation.path", "navigation.indexes", "navigation.expand"], "search": "../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
       
-        <script src="../js/mkdocs-charts-plugin.js"></script>
+        <script src="../../../js/mkdocs-charts-plugin.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
       

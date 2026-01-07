@@ -3,7 +3,7 @@ comments: true
 ---
 # **Início da Jornada**
 
-Bem vindo ao Trilha Dev!
+Bem vindo à Trilha Dev!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YBRBKqIenfU?si=bs13jw9hmvCVVsun" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

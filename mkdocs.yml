@@ -29,6 +29,7 @@ nav:
         - Aula 003: python/aulas/003_variaveis.md
         - Aula 004: python/aulas/004_funcao_input.md
         - Aula 005: python/aulas/005_conversao.md
+        - Aula 006: python/aulas/006_strings.md
 
 # Configuration
 theme:

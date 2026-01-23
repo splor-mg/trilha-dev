@@ -5,5 +5,10 @@
     "aliases": [
       "latest"
     ]
+  },
+  {
+    "version": "144-formatacao-strings",
+    "title": "144-formatacao-strings",
+    "aliases": []
   }
 ]

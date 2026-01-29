@@ -31,6 +31,7 @@ nav:
         - Aula 005: python/aulas/005_conversao.md
         - Aula 006: python/aulas/006_strings.md
         - Aula 007: python/aulas/007_string_formatada.md
+        - Aula 008: python/aulas/008_string_metodos.md
 
 # Configuration
 theme:

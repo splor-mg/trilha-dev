@@ -32,6 +32,8 @@ nav:
         - Aula 006: python/aulas/006_strings.md
         - Aula 007: python/aulas/007_string_formatada.md
         - Aula 008: python/aulas/008_string_metodos.md
+        - Aula 009: python/aulas/009_operadores_aritmeticos.md
+        - Aula 010: python/aulas/010_ordem_operacoes.md
 
 # Configuration
 theme:

@@ -5,5 +5,10 @@
     "aliases": [
       "latest"
     ]
+  },
+  {
+    "version": "150-151-operacoes-matematicas",
+    "title": "150-151-operacoes-matematicas",
+    "aliases": []
   }
 ]

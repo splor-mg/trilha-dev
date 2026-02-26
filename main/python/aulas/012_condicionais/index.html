@@ -8,27 +8,29 @@
       
       
       
-        <link rel="canonical" href="https://trilhadev.planejamento.mg.gov.br/main/inicio_da_jornada/aulas/dia_04/quiz_dia_04/">
+        <link rel="canonical" href="https://trilhadev.planejamento.mg.gov.br/main/python/aulas/012_condicionais/">
       
+      
+        <link rel="prev" href="../011_funcoes_matematicas/">
       
       
       
         
       
       
-      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.3">
     
     
       
-        <title>Quiz - Dia 4: Terminal e Git - Trilha Dev</title>
+        <title>Aula 012 - Trilha Dev</title>
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -47,9 +49,9 @@
       
     
     
-      <link rel="stylesheet" href="../../../../assets/style.css">
+      <link rel="stylesheet" href="../../../assets/style.css">
     
-    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -57,15 +59,15 @@
     
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Quiz - Dia 4: Terminal e Git - Trilha Dev" />
-<meta property="og:image" content="https://trilhadev.planejamento.mg.gov.br/main/assets/images/social/inicio_da_jornada/aulas/dia_04/quiz_dia_04.png" />
+<meta property="og:title" content="Aula 012 - Trilha Dev" />
+<meta property="og:image" content="https://trilhadev.planejamento.mg.gov.br/main/assets/images/social/python/aulas/012_condicionais.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:url" content="https://trilhadev.planejamento.mg.gov.br/main/inicio_da_jornada/aulas/dia_04/quiz_dia_04/" />
+<meta property="og:url" content="https://trilhadev.planejamento.mg.gov.br/main/python/aulas/012_condicionais/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="Quiz - Dia 4: Terminal e Git - Trilha Dev" />
-<meta property="twitter:image" content="https://trilhadev.planejamento.mg.gov.br/main/assets/images/social/inicio_da_jornada/aulas/dia_04/quiz_dia_04.png" />
+<meta property="twitter:title" content="Aula 012 - Trilha Dev" />
+<meta property="twitter:image" content="https://trilhadev.planejamento.mg.gov.br/main/assets/images/social/python/aulas/012_condicionais.png" />
 </head>
   
   
@@ -85,7 +87,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#quiz-dia-4-terminal-e-git" class="md-skip">
+        <a href="#aula-012-uso-de-condicionais" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -101,9 +103,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
-    <a href="../../../.." title="Trilha Dev" class="md-header__button md-logo" aria-label="Trilha Dev" data-md-component="logo">
+    <a href="../../.." title="Trilha Dev" class="md-header__button md-logo" aria-label="Trilha Dev" data-md-component="logo">
       
-  <img src="../../../../assets/logo.png" alt="logo">
+  <img src="../../../assets/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -120,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Quiz - Dia 4: Terminal e Git
+              Aula 012
             
           </span>
         </div>
@@ -236,9 +238,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../../.." title="Trilha Dev" class="md-nav__button md-logo" aria-label="Trilha Dev" data-md-component="logo">
+    <a href="../../.." title="Trilha Dev" class="md-nav__button md-logo" aria-label="Trilha Dev" data-md-component="logo">
       
-  <img src="../../../../assets/logo.png" alt="logo">
+  <img src="../../../assets/logo.png" alt="logo">
 
     </a>
     Trilha Dev
@@ -262,6 +264,8 @@
       
   
   
+    
+  
   
   
     
@@ -284,17 +288,15 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../.." class="md-nav__link ">
+            <a href="../../.." class="md-nav__link ">
               
   
   
@@ -318,7 +320,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
             
@@ -368,7 +370,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../" class="md-nav__link ">
+            <a href="../../../inicio_da_jornada/" class="md-nav__link ">
               
   
   
@@ -477,7 +479,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../dia_01/dia_01/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/aulas/dia_01/dia_01/" class="md-nav__link">
         
   
   
@@ -505,7 +507,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../dia_02/dia_02/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/aulas/dia_02/dia_02/" class="md-nav__link">
         
   
   
@@ -533,7 +535,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../dia_03/dia_03/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/aulas/dia_03/dia_03/" class="md-nav__link">
         
   
   
@@ -561,7 +563,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../dia_04/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/aulas/dia_04/dia_04/" class="md-nav__link">
         
   
   
@@ -589,7 +591,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../dia_05/dia_05/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/aulas/dia_05/dia_05/" class="md-nav__link">
         
   
   
@@ -617,7 +619,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../dia_06/dia_06/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/aulas/dia_06/dia_06/" class="md-nav__link">
         
   
   
@@ -653,7 +655,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../desafio_final/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/desafio_final/" class="md-nav__link">
         
   
   
@@ -681,7 +683,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../turma_01/registros_encontros/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/turma_01/registros_encontros/" class="md-nav__link">
         
   
   
@@ -709,7 +711,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../certificacao/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/certificacao/" class="md-nav__link">
         
   
   
@@ -742,6 +744,8 @@
                 
   
   
+    
+  
   
   
     
@@ -759,17 +763,15 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_3" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../python/" class="md-nav__link ">
+            <a href="../../" class="md-nav__link ">
               
   
   
@@ -793,7 +795,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_1_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -810,8 +812,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -845,13 +849,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1_3_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_3_2" checked>
         
           
           <label class="md-nav__link" for="__nav_1_3_2" id="__nav_1_3_2_label" tabindex="0">
@@ -872,7 +874,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_1_3_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_1_3_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_1_3_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -890,7 +892,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/001_primeiro_programa_py/" class="md-nav__link">
+      <a href="../001_primeiro_programa_py/" class="md-nav__link">
         
   
   
@@ -918,7 +920,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/002_como_py_executado/" class="md-nav__link">
+      <a href="../002_como_py_executado/" class="md-nav__link">
         
   
   
@@ -946,7 +948,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/003_variaveis/" class="md-nav__link">
+      <a href="../003_variaveis/" class="md-nav__link">
         
   
   
@@ -974,7 +976,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/004_funcao_input/" class="md-nav__link">
+      <a href="../004_funcao_input/" class="md-nav__link">
         
   
   
@@ -1002,7 +1004,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/005_conversao/" class="md-nav__link">
+      <a href="../005_conversao/" class="md-nav__link">
         
   
   
@@ -1030,7 +1032,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/006_strings/" class="md-nav__link">
+      <a href="../006_strings/" class="md-nav__link">
         
   
   
@@ -1058,7 +1060,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/007_string_formatada/" class="md-nav__link">
+      <a href="../007_string_formatada/" class="md-nav__link">
         
   
   
@@ -1086,7 +1088,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/008_string_metodos/" class="md-nav__link">
+      <a href="../008_string_metodos/" class="md-nav__link">
         
   
   
@@ -1114,7 +1116,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/009_operadores_aritmeticos/" class="md-nav__link">
+      <a href="../009_operadores_aritmeticos/" class="md-nav__link">
         
   
   
@@ -1142,7 +1144,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/010_ordem_operacoes/" class="md-nav__link">
+      <a href="../010_ordem_operacoes/" class="md-nav__link">
         
   
   
@@ -1170,7 +1172,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/011_funcoes_matematicas/" class="md-nav__link">
+      <a href="../011_funcoes_matematicas/" class="md-nav__link">
         
   
   
@@ -1195,10 +1197,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../../../python/aulas/012_condicionais/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aula 012
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1214,6 +1243,37 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#video-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎥 Vídeo 12
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1269,87 +1329,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#questao-1-terminal-como-ponte" class="md-nav__link">
+  <a href="#video-12" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Questão 1: Terminal como Ponte
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#questao-2-comandos-de-navegacao" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Questão 2: Comandos de Navegação
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#questao-3-criando-pastas" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Questão 3: Criando Pastas
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#questao-4-status-do-git" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Questão 4: Status do Git
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#questao-5-commit" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Questão 5: Commit
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#questao-6-comandos-git" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Questão 6: Comandos Git
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#questao-7-criando-arquivos" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Questão 7: Criando Arquivos
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#questao-8-mensagens-de-commit" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Questão 8: Mensagens de Commit
+        🎥 Vídeo 12
       
     </span>
   </a>
@@ -1372,6 +1355,67 @@
 
 
 
+  <nav class="md-path" aria-label="Navegação" >
+    <ol class="md-path__list">
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../.." class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Início
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Python
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../001_primeiro_programa_py/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Aulas
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
               
               <article class="md-content__inner md-typeset">
                 
@@ -1382,58 +1426,10 @@
   
 
 
-<h1 id="quiz-dia-4-terminal-e-git">Quiz - Dia 4: Terminal e Git</h1>
-<p>Teste seus conhecimentos sobre terminal, comandos essenciais e Git!</p>
-<div class="grid">
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1"><img alt="🛠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f6e0.svg" title=":tools:" /> Como usar este quiz:</label><label for="__tabbed_1_2"><img alt="💡" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4a1.svg" title=":bulb:" /> Dicas para melhor aproveitamento:</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<ol>
-<li><strong>Leia atentamente</strong> cada pergunta</li>
-<li><strong>Selecione</strong> a resposta que você considera correta</li>
-<li><strong>Clique em "Verificar"</strong> para ver se acertou</li>
-<li><strong>Leia as explicações</strong> que aparecem para cada resposta</li>
-<li><strong>Use o botão "Atualizar"</strong> para tentar novamente se desejar</li>
-</ol>
-</div>
-<div class="tabbed-block">
-<ul>
-<li>Tente responder sem consultar o material primeiro</li>
-<li>Leia sempre as explicações das respostas</li>
-<li>Use o quiz como forma de revisar o conteúdo</li>
-<li>Não se preocupe se errar - é parte do aprendizado!</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<h2 id="questao-1-terminal-como-ponte">Questão 1: Terminal como Ponte</h2>
-<div class="quiz"><h3>Por que o terminal é comparado a uma ponte?</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-0-0" ><label for="quiz-0-0">Porque conecta computadores à internet</label></div><div><input type="radio" name="answer" value="1" id="quiz-0-1" ><label for="quiz-0-1">Porque é uma interface gráfica</label></div><div><input type="radio" name="answer" value="2" id="quiz-0-2" ><label for="quiz-0-2">Porque é usado apenas por programadores</label></div><div><input type="radio" name="answer" value="3" id="quiz-0-3" correct><label for="quiz-0-3">Porque permite conversar com várias ferramentas diferentes</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden"><p><strong>Explicação:</strong> O terminal é como uma ponte porque através dele conseguimos conversar com várias ferramentas - cada uma com seu próprio vocabulário e comandos específicos.</p></section></div>
-
-<h2 id="questao-2-comandos-de-navegacao">Questão 2: Comandos de Navegação</h2>
-<div class="quiz"><h3>Qual comando mostra o diretório atual?</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-1-0" ><label for="quiz-1-0">ls</label></div><div><input type="radio" name="answer" value="1" id="quiz-1-1" correct><label for="quiz-1-1">pwd</label></div><div><input type="radio" name="answer" value="2" id="quiz-1-2" ><label for="quiz-1-2">cd</label></div><div><input type="radio" name="answer" value="3" id="quiz-1-3" ><label for="quiz-1-3">mkdir</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden"><p><strong>Explicação:</strong> O comando pwd (print working directory) mostra o caminho completo do diretório atual onde você está localizado.</p></section></div>
-
-<h2 id="questao-3-criando-pastas">Questão 3: Criando Pastas</h2>
-<div class="quiz"><h3>Qual comando cria uma nova pasta no terminal?</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-2-0" ><label for="quiz-2-0">touch</label></div><div><input type="radio" name="answer" value="1" id="quiz-2-1" ><label for="quiz-2-1">cd</label></div><div><input type="radio" name="answer" value="2" id="quiz-2-2" ><label for="quiz-2-2">ls</label></div><div><input type="radio" name="answer" value="3" id="quiz-2-3" correct><label for="quiz-2-3">mkdir</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden"><p><strong>Explicação:</strong> O comando mkdir (make directory) cria uma nova pasta. Por exemplo: mkdir posts cria uma pasta chamada "posts".</p></section></div>
-
-<h2 id="questao-4-status-do-git">Questão 4: Status do Git</h2>
-<div class="quiz"><h3>O que significa "Untracked" no git status?</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-3-0" ><label for="quiz-3-0">Arquivo que foi modificado</label></div><div><input type="radio" name="answer" value="1" id="quiz-3-1" correct><label for="quiz-3-1">Arquivo novo que o Git ainda não monitora</label></div><div><input type="radio" name="answer" value="2" id="quiz-3-2" ><label for="quiz-3-2">Arquivo pronto para commit</label></div><div><input type="radio" name="answer" value="3" id="quiz-3-3" ><label for="quiz-3-3">Arquivo que foi deletado</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden"><p><strong>Explicação:</strong> "Untracked" significa que é um arquivo novo que o Git ainda não monitora. Para começar a rastrear, use git add.</p></section></div>
-
-<h2 id="questao-5-commit">Questão 5: Commit</h2>
-<div class="quiz"><h3>O que é um commit no Git?</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-4-0" ><label for="quiz-4-0">Um arquivo novo</label></div><div><input type="radio" name="answer" value="1" id="quiz-4-1" ><label for="quiz-4-1">Uma pasta do projeto</label></div><div><input type="radio" name="answer" value="2" id="quiz-4-2" ><label for="quiz-4-2">Um comando de navegação</label></div><div><input type="radio" name="answer" value="3" id="quiz-4-3" correct><label for="quiz-4-3">Um ponto de versionamento com mensagem explicativa</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden"><p><strong>Explicação:</strong> Um commit é como um ponto de versionamento onde você registra o que mudou no projeto com uma mensagem clara explicando a mudança.</p></section></div>
-
-<h2 id="questao-6-comandos-git">Questão 6: Comandos Git</h2>
-<div class="quiz"><h3>Qual a sequência correta para enviar alterações para o GitHub?</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-5-0" ><label for="quiz-5-0">git commit → git add → git push</label></div><div><input type="radio" name="answer" value="1" id="quiz-5-1" ><label for="quiz-5-1">git push → git add → git commit</label></div><div><input type="radio" name="answer" value="2" id="quiz-5-2" ><label for="quiz-5-2">git add → git push → git commit</label></div><div><input type="radio" name="answer" value="3" id="quiz-5-3" correct><label for="quiz-5-3">git add → git commit → git push</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden"><p><strong>Explicação:</strong> A sequência correta é: git add (adiciona arquivos), git commit (cria o salvamento), git push (envia para o GitHub).</p></section></div>
-
-<h2 id="questao-7-criando-arquivos">Questão 7: Criando Arquivos</h2>
-<div class="quiz"><h3>Qual comando cria um novo arquivo vazio no terminal?</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-6-0" ><label for="quiz-6-0">mkdir</label></div><div><input type="radio" name="answer" value="1" id="quiz-6-1" ><label for="quiz-6-1">ls</label></div><div><input type="radio" name="answer" value="2" id="quiz-6-2" ><label for="quiz-6-2">cd</label></div><div><input type="radio" name="answer" value="3" id="quiz-6-3" correct><label for="quiz-6-3">touch</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden"><p><strong>Explicação:</strong> O comando touch cria um novo arquivo vazio. Por exemplo: touch arquivo.txt cria um arquivo chamado "arquivo.txt".</p></section></div>
-
-<h2 id="questao-8-mensagens-de-commit">Questão 8: Mensagens de Commit</h2>
-<div class="quiz"><h3>Qual é uma boa prática para mensagens de commit?</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-7-0" ><label for="quiz-7-0">Usar mensagens curtas como "Update"</label></div><div><input type="radio" name="answer" value="1" id="quiz-7-1" ><label for="quiz-7-1">Não escrever mensagem</label></div><div><input type="radio" name="answer" value="2" id="quiz-7-2" ><label for="quiz-7-2">Usar apenas emojis</label></div><div><input type="radio" name="answer" value="3" id="quiz-7-3" correct><label for="quiz-7-3">Escrever mensagens claras e objetivas</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden"><p><strong>Explicação:</strong> Boas práticas incluem fazer commits pequenos e frequentes, escrever mensagens claras e objetivas que expliquem a mudança realizada.</p></section></div>
-
-<hr />
-<p><a class="md-button md-button--primary" href="../dia_04/">Voltar ao Dia 4</a>
-<a class="md-button md-button--secondary" href="../../">Voltar às aulas</a> </p><style type="text/css">.quiz {
+<h1 id="aula-012-uso-de-condicionais">Aula 012: Uso de condicionais</h1>
+<h2 id="video-12">🎥 Vídeo 12</h2>
+<p>Nesta aula, vamos aprender sobre como criar estruturas condicionais no nosso código, usando o <code>if</code>, <code>elif</code> e o <code>else</code>.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cMzIDqnPyS8?si=wcJYmGSWTMR-46Ny" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><style type="text/css">.quiz {
   border: 1px solid black;
   padding: 1rem;
   margin: 1rem 0;
@@ -1551,10 +1547,68 @@ function resetFieldset(fieldset) {
 
 
 
+  
+  
 
 
 
 
+
+
+  <h2 id="__comments">Comentários</h2>
+  
+  <!-- Insert generated snippet here -->
+  <script src="https://giscus.app/client.js"
+        data-repo="splor-mg/trilha-dev"
+        data-repo-id="R_kgDOOk7RwA"
+        data-category="Q&A"
+        data-category-id="DIC_kwDOOk7RwM4Ctgvt"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="pt"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+  <!-- Synchronize Giscus theme with palette -->
+  <script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    // Set palette on initial load
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+      var theme = palette.color.scheme === "slate"
+        ? "transparent_dark"
+        : "light"
+
+      // Instruct Giscus to set theme
+      giscus.setAttribute("data-theme", theme)
+    }
+
+    // Register event handlers after documented loaded
+    document.addEventListener("DOMContentLoaded", function() {
+      var ref = document.querySelector("[data-md-component=palette]")
+      ref.addEventListener("change", function() {
+        var palette = __md_get("__palette")
+        if (palette && typeof palette.color === "object") {
+          var theme = palette.color.scheme === "slate"
+            ? "transparent_dark"
+            : "light"
+
+          // Instruct Giscus to change theme
+          var frame = document.querySelector(".giscus-frame")
+          frame.contentWindow.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app"
+          )
+        }
+      })
+    })
+  </script>
  
                 
               </article>
@@ -1595,12 +1649,12 @@ function resetFieldset(fieldset) {
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.sections", "navigation.path", "navigation.indexes", "navigation.expand"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.sections", "navigation.path", "navigation.indexes", "navigation.expand"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
     
     
-      <script src="../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../../../../js/mkdocs-charts-plugin.js"></script>
+        <script src="../../../js/mkdocs-charts-plugin.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
       

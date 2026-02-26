@@ -34,6 +34,8 @@ nav:
         - Aula 008: python/aulas/008_string_metodos.md
         - Aula 009: python/aulas/009_operadores_aritmeticos.md
         - Aula 010: python/aulas/010_ordem_operacoes.md
+        - Aula 011: python/aulas/011_funcoes_matematicas.md
+        - Aula 012: python/aulas/012_condicionais.md
 
 # Configuration
 theme:

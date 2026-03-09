@@ -5,5 +5,10 @@
     "aliases": [
       "latest"
     ]
+  },
+  {
+    "version": "inclui-aulas-python",
+    "title": "inclui-aulas-python",
+    "aliases": []
   }
 ]

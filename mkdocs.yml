@@ -36,6 +36,10 @@ nav:
         - Aula 010: python/aulas/010_ordem_operacoes.md
         - Aula 011: python/aulas/011_funcoes_matematicas.md
         - Aula 012: python/aulas/012_condicionais.md
+        - Aula 013: python/aulas/013_operadores_logicos.md
+        - Aula 014: python/aulas/014_operadores_comparativos.md
+        - Aula 015: python/aulas/015_loop_while.md
+        - Aula 016: python/aulas/016_loop_for.md
 
 # Configuration
 theme:

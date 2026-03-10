@@ -119,4 +119,11 @@ Aqui estão os participantes que colocaram a mão na massa e deixaram sua marca.
     ---
    _"Excelente iniciativa! Agora estamos por dentro do universo github!"_
 
+-   ![Matheus Pitanguy](https://avatars.githubusercontent.com/u/250544653?v=4){ .lg .avatar .middle }
+
+    __Matheus Pitanguy__
+
+    ---
+   _"Agradeço pela iniciativa e pelo aprendizado proporcionado!"_
+
 </div>

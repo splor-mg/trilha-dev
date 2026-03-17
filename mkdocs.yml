@@ -41,7 +41,8 @@ nav:
         - Aula 015: python/aulas/015_loop_while.md
         - Aula 016: python/aulas/016_loop_for.md
         - Aula 017: python/aulas/017_loop_aninhado.md
-        - Aula 018: /python/aulas/018_listas.md
+        - Aula 018: python/aulas/018_listas.md
+        - Aula 019: python/aulas/019_listas_aninhadas.md
 
 # Configuration
 theme:

@@ -40,6 +40,7 @@ nav:
         - Aula 014: python/aulas/014_operadores_comparativos.md
         - Aula 015: python/aulas/015_loop_while.md
         - Aula 016: python/aulas/016_loop_for.md
+        - Aula 017: python/aulas/017_loop_aninhado
 
 # Configuration
 theme:

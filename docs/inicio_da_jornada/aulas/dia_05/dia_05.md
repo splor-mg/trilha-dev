@@ -29,7 +29,7 @@ Chegou o momento de falar de colaboração e publicação. Nesta aula, vamos pub
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x8eA_b-pwUY?si=ucOiumX7tMa_sfpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-- Acesse o [Raiane News](raianecardoso.github.io/raiane-news/)
+- Acesse o [Raiane News](https://raianecardoso.github.io/raiane-news/)
 
 ## 🎥 Vídeo 13 – Abrindo uma issue
 

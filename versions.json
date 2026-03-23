@@ -1,5 +1,10 @@
 [
   {
+    "version": "uptade-dependencies",
+    "title": "uptade-dependencies",
+    "aliases": []
+  },
+  {
     "version": "main",
     "title": "main",
     "aliases": [

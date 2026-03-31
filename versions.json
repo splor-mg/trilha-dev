@@ -5,5 +5,10 @@
     "aliases": [
       "latest"
     ]
+  },
+  {
+    "version": "64-introducao-trilha-dev-python",
+    "title": "64-introducao-trilha-dev-python",
+    "aliases": []
   }
 ]

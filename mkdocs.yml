@@ -45,6 +45,7 @@ nav:
         - Aula 017: python/aulas/017_loop_aninhado.md
         - Aula 018: python/aulas/018_listas.md
         - Aula 019: python/aulas/019_listas_aninhadas.md
+        - Aula 020: python/aulas/020_metodos_listas.md
 
 # Configuration
 theme:

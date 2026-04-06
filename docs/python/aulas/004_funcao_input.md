@@ -23,7 +23,9 @@ A função **input()** exibe uma mensagem e aguarda o usuário digitar uma respo
 
 Exemplo:
 
-<span style="color: #cbdc39;"><strong><em>nome = input('Qual o seu nome? ")</em></strong></span>
+``` py
+nome = input('Qual o seu nome? ")
+```
 
 O valor digitado será armazenado na variável **nome**.
 
@@ -33,7 +35,9 @@ O espaço ao final da mensagem serve para melhorar a visualização, evitando qu
 
 Após receber o valor, é possível utilizá-lo em outras partes do programa:
 
-<span style="color: #cbdc39;"><strong><em>print("Olá, " + nome)</em></strong></span>
+``` py
+print("Olá, " + nome)
+```
 
 Nesse caso, a mensagem exibida será personalizada com o nome informado pelo usuário.
 
@@ -43,8 +47,10 @@ A operação utilizada para juntar textos é chamada de **concatenação**.
 
 Ela ocorre quando utilizamos o operador **+** para unir:
 
+``` py
 - Um texto fixo (string)
 - Um valor armazenado em variável (também string)
+```
 
 O resultado é uma nova string combinando os dois elementos.
 
@@ -52,10 +58,12 @@ O resultado é uma nova string combinando os dois elementos.
 
 Ao executar o programa:
 
-1.  O Python solicita o nome do usuário
-2.  Aguarda a digitação
-3.  Armazena o valor na variável
-4.  Exibe a mensagem personalizada
+``` py
+1.  O Python solicita o nome do usuário;
+2.  Aguarda a digitação;
+3.  Armazena o valor na variável;
+4.  Exibe a mensagem personalizada.
+```
 
 Esse processo segue a ordem de execução do código (de cima para baixo).
 

@@ -20,7 +20,9 @@ Com o ambiente já aberto:
 - Dentro dela, utilize o arquivo **app.py**
 - No terminal, navegue até a pasta da aula utilizando o comando:
 
-<span style="color: #cbdc39;"><strong><em>cd aulas/02</em></strong></span>
+``` py
+cd aulas/02
+```
 
 O comando **cd** permite navegar entre diretórios no sistema.
 
@@ -37,9 +39,10 @@ Isso significa que cada linha é lida e executada sequencialmente.
 
 Utilizando a função **print()**, é possível exibir diferentes linhas no terminal:
 
-<span style="color: #cbdc39;"><strong><em>print('O----')</em></strong></span>
-
-<span style="color: #cbdc39;"><strong><em>print(' ////')</em></strong></span>
+``` py
+print('O----')
+print(' ////')
+```
 
 Ao executar o programa, cada **print()** será exibido em uma nova linha, respeitando a ordem em que foi escrito.
 
@@ -60,11 +63,11 @@ Uma **string** é qualquer sequência de caracteres dentro de aspas.
 
 Exemplos:
 
-<span style="color: #cbdc39;"><strong><em>print('Olá')</em></strong></span>
-
-<span style="color: #cbdc39;"><strong><em>print('Texto qualquer')</em></strong></span>
-
-<span style="color: #cbdc39;"><strong><em>print(' ')</em></strong></span>
+``` py
+print('Olá')
+print('Texto qualquer')
+print(' ')
+```
 
 Tudo que está entre aspas será interpretado como texto.
 
@@ -74,13 +77,17 @@ O Python também avalia expressões antes de exibir o resultado.
 
 Exemplo:
 
-<span style="color: #cbdc39;"><strong><em>print(' \* ' \* 10)</em></strong></span>
+``` py
+print(' * ' * 10)
+```
 
 Nesse caso:
 
-- **' \* '** é uma string;
-- **\*** é o operador de multiplicação;
-- **10** é o número de repetições.
+``` py
+- ' * ' é uma string;
+- * é o operador de multiplicação;
+- 10 é o número de repetições.
+```
 
 O resultado será a repetição da string dez vezes na tela.
 
@@ -100,10 +107,10 @@ Esse conceito é essencial para operações matemáticas e manipulação de dado
 
 Ao final desta aula, você compreendeu:
 
-- Como o Python executa um programa;
-- A ordem de leitura do código;
-- O papel do interpretador;
-- O conceito de _string_;
-- Como funcionam expressões e operadores básicos.
+- Como o Python executa um programa
+- A ordem de leitura do código
+- O papel do interpretador
+- O conceito de _string_
+- Como funcionam expressões e operadores básicos
 
 Esses fundamentos são importantes para começar a construir programas com lógica e previsibilidade.

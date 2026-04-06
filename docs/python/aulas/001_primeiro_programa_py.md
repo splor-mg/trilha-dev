@@ -26,7 +26,9 @@ O primeiro comando utilizado será o **print()**, responsável por exibir mensag
 
 Exemplo básico:
 
-<span style="color: #cbdc39;"><strong><em>print("Ryan")</em></strong></span>
+``` py
+print("Francisco")
+```
 
 O texto que será exibido deve estar entre aspas (simples ou duplas).
 
@@ -37,17 +39,24 @@ Para rodar o programa:
 1.  Abra o terminal
 2.  Execute o comando indicando o arquivo:
 
-<span style="color: #cbdc39;"><strong><em>python3 aulas/01/app.py</em></strong></span>
+``` py
+python3 aulas/01/app
+```
 
-(Em alguns sistemas, o comando pode ser apenas **_python_**)
+(Em alguns sistemas, o comando pode ser apenas <span style="color: #cbdc39;"><strong><em>python</em></strong></span>)
 
 Ao executar, a mensagem definida aparecerá no terminal.
 
-#### **Convenção inicial:** <span style="color: #cbdc39;"><strong><em>"Olá, mundo"</em></strong></span>
+#### **Convenção inicial:**
+``` py
+"Olá, mundo"
+```
 
 Tradicionalmente, o primeiro programa em qualquer linguagem exibe a mensagem:
 
-**print("Olá, mundo")**
+``` py
+print("Olá, mundo")
+```
 
 Essa prática é utilizada como uma forma simples de verificar se o ambiente está funcionando corretamente.
 

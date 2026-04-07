@@ -25,6 +25,7 @@ nav:
       - python/index.md
       - Primeiros Passos:
         - python/primeiros_passos/ferramentas.md
+        - python/primeiros_passos/setup_repo_exercicios.md
       - Aulas:
         - Aula 001: python/aulas/001_primeiro_programa_py.md
         - Aula 002: python/aulas/002_como_py_executado.md

@@ -8,27 +8,31 @@
       
       
       
-        <link rel="canonical" href="https://trilhadev.planejamento.mg.gov.br/main/inicio_da_jornada/aulas/roteiros/pitch/">
+        <link rel="canonical" href="https://trilhadev.planejamento.mg.gov.br/main/python/aulas/021_tuplas/">
       
       
+        <link rel="prev" href="../020_metodos_listas/">
+      
+      
+        <link rel="next" href="../022_desempacotamento/">
       
       
         
       
       
-      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Pitch - Trilha Dev</title>
+        <title>Aula 021 - Trilha Dev</title>
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -47,9 +51,9 @@
       
     
     
-      <link rel="stylesheet" href="../../../../assets/style.css">
+      <link rel="stylesheet" href="../../../assets/style.css">
     
-    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -57,15 +61,15 @@
     
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Pitch - Trilha Dev" />
-<meta property="og:image" content="https://trilhadev.planejamento.mg.gov.br/main/assets/images/social/inicio_da_jornada/aulas/roteiros/pitch.png" />
+<meta property="og:title" content="Aula 021 - Trilha Dev" />
+<meta property="og:image" content="https://trilhadev.planejamento.mg.gov.br/main/assets/images/social/python/aulas/021_tuplas.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:url" content="https://trilhadev.planejamento.mg.gov.br/main/inicio_da_jornada/aulas/roteiros/pitch/" />
+<meta property="og:url" content="https://trilhadev.planejamento.mg.gov.br/main/python/aulas/021_tuplas/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="Pitch - Trilha Dev" />
-<meta property="twitter:image" content="https://trilhadev.planejamento.mg.gov.br/main/assets/images/social/inicio_da_jornada/aulas/roteiros/pitch.png" />
+<meta property="twitter:title" content="Aula 021 - Trilha Dev" />
+<meta property="twitter:image" content="https://trilhadev.planejamento.mg.gov.br/main/assets/images/social/python/aulas/021_tuplas.png" />
 </head>
   
   
@@ -84,6 +88,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#aula-021-tuplas" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -96,9 +105,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
-    <a href="../../../.." title="Trilha Dev" class="md-header__button md-logo" aria-label="Trilha Dev" data-md-component="logo">
+    <a href="../../.." title="Trilha Dev" class="md-header__button md-logo" aria-label="Trilha Dev" data-md-component="logo">
       
-  <img src="../../../../assets/logo.png" alt="logo">
+  <img src="../../../assets/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -115,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Pitch
+              Aula 021
             
           </span>
         </div>
@@ -231,9 +240,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../../.." title="Trilha Dev" class="md-nav__button md-logo" aria-label="Trilha Dev" data-md-component="logo">
+    <a href="../../.." title="Trilha Dev" class="md-nav__button md-logo" aria-label="Trilha Dev" data-md-component="logo">
       
-  <img src="../../../../assets/logo.png" alt="logo">
+  <img src="../../../assets/logo.png" alt="logo">
 
     </a>
     Trilha Dev
@@ -257,6 +266,8 @@
       
   
   
+    
+  
   
   
     
@@ -279,17 +290,15 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../.." class="md-nav__link ">
+            <a href="../../.." class="md-nav__link ">
               
   
   
@@ -313,7 +322,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
             
@@ -363,7 +372,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../" class="md-nav__link ">
+            <a href="../../../inicio_da_jornada/" class="md-nav__link ">
               
   
   
@@ -472,7 +481,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../dia_01/dia_01/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/aulas/dia_01/dia_01/" class="md-nav__link">
         
   
   
@@ -500,7 +509,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../dia_02/dia_02/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/aulas/dia_02/dia_02/" class="md-nav__link">
         
   
   
@@ -528,7 +537,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../dia_03/dia_03/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/aulas/dia_03/dia_03/" class="md-nav__link">
         
   
   
@@ -556,7 +565,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../dia_04/dia_04/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/aulas/dia_04/dia_04/" class="md-nav__link">
         
   
   
@@ -584,7 +593,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../dia_05/dia_05/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/aulas/dia_05/dia_05/" class="md-nav__link">
         
   
   
@@ -612,7 +621,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../dia_06/dia_06/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/aulas/dia_06/dia_06/" class="md-nav__link">
         
   
   
@@ -648,7 +657,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../desafio_final/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/desafio_final/" class="md-nav__link">
         
   
   
@@ -676,7 +685,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../turma_01/registros_encontros/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/turma_01/registros_encontros/" class="md-nav__link">
         
   
   
@@ -704,7 +713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../certificacao/" class="md-nav__link">
+      <a href="../../../inicio_da_jornada/certificacao/" class="md-nav__link">
         
   
   
@@ -737,6 +746,8 @@
                 
   
   
+    
+  
   
   
     
@@ -756,17 +767,15 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_3" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../python/" class="md-nav__link ">
+            <a href="../../" class="md-nav__link ">
               
   
   
@@ -790,7 +799,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_1_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -867,7 +876,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/primeiros_passos/ferramentas/" class="md-nav__link">
+      <a href="../../primeiros_passos/ferramentas/" class="md-nav__link">
         
   
   
@@ -895,7 +904,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/primeiros_passos/setup_repo_exercicios/" class="md-nav__link">
+      <a href="../../primeiros_passos/setup_repo_exercicios/" class="md-nav__link">
         
   
   
@@ -928,8 +937,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -983,13 +994,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1_3_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_3_3" checked>
         
           
           <label class="md-nav__link" for="__nav_1_3_3" id="__nav_1_3_3_label" tabindex="0">
@@ -1010,7 +1019,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_1_3_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_1_3_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_1_3_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1028,7 +1037,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/001_primeiro_programa_py/" class="md-nav__link">
+      <a href="../001_primeiro_programa_py/" class="md-nav__link">
         
   
   
@@ -1056,7 +1065,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/002_como_py_executado/" class="md-nav__link">
+      <a href="../002_como_py_executado/" class="md-nav__link">
         
   
   
@@ -1084,7 +1093,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/003_variaveis/" class="md-nav__link">
+      <a href="../003_variaveis/" class="md-nav__link">
         
   
   
@@ -1112,7 +1121,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/004_funcao_input/" class="md-nav__link">
+      <a href="../004_funcao_input/" class="md-nav__link">
         
   
   
@@ -1140,7 +1149,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/005_conversao/" class="md-nav__link">
+      <a href="../005_conversao/" class="md-nav__link">
         
   
   
@@ -1168,7 +1177,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/006_strings/" class="md-nav__link">
+      <a href="../006_strings/" class="md-nav__link">
         
   
   
@@ -1196,7 +1205,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/007_string_formatada/" class="md-nav__link">
+      <a href="../007_string_formatada/" class="md-nav__link">
         
   
   
@@ -1224,7 +1233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/008_string_metodos/" class="md-nav__link">
+      <a href="../008_string_metodos/" class="md-nav__link">
         
   
   
@@ -1252,7 +1261,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/009_operadores_aritmeticos/" class="md-nav__link">
+      <a href="../009_operadores_aritmeticos/" class="md-nav__link">
         
   
   
@@ -1280,7 +1289,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/010_ordem_operacoes/" class="md-nav__link">
+      <a href="../010_ordem_operacoes/" class="md-nav__link">
         
   
   
@@ -1308,7 +1317,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/011_funcoes_matematicas/" class="md-nav__link">
+      <a href="../011_funcoes_matematicas/" class="md-nav__link">
         
   
   
@@ -1336,7 +1345,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/012_condicionais/" class="md-nav__link">
+      <a href="../012_condicionais/" class="md-nav__link">
         
   
   
@@ -1364,7 +1373,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/013_operadores_logicos/" class="md-nav__link">
+      <a href="../013_operadores_logicos/" class="md-nav__link">
         
   
   
@@ -1392,7 +1401,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/014_operadores_comparativos/" class="md-nav__link">
+      <a href="../014_operadores_comparativos/" class="md-nav__link">
         
   
   
@@ -1420,7 +1429,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/015_loop_while/" class="md-nav__link">
+      <a href="../015_loop_while/" class="md-nav__link">
         
   
   
@@ -1448,7 +1457,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/016_loop_for/" class="md-nav__link">
+      <a href="../016_loop_for/" class="md-nav__link">
         
   
   
@@ -1476,7 +1485,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/017_loop_aninhado/" class="md-nav__link">
+      <a href="../017_loop_aninhado/" class="md-nav__link">
         
   
   
@@ -1504,7 +1513,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/018_listas/" class="md-nav__link">
+      <a href="../018_listas/" class="md-nav__link">
         
   
   
@@ -1532,7 +1541,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/019_listas_aninhadas/" class="md-nav__link">
+      <a href="../019_listas_aninhadas/" class="md-nav__link">
         
   
   
@@ -1560,7 +1569,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/020_metodos_listas/" class="md-nav__link">
+      <a href="../020_metodos_listas/" class="md-nav__link">
         
   
   
@@ -1585,10 +1594,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../../../python/aulas/021_tuplas/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aula 021
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1604,6 +1640,37 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#video-21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎥 Vídeo 21
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1616,7 +1683,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/aulas/022_desempacotamento/" class="md-nav__link">
+      <a href="../022_desempacotamento/" class="md-nav__link">
         
   
   
@@ -1677,6 +1744,27 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#video-21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎥 Vídeo 21
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1692,6 +1780,67 @@
 
 
 
+  <nav class="md-path" aria-label="Navegação" >
+    <ol class="md-path__list">
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../.." class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Início
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Python
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../001_primeiro_programa_py/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Aulas
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
               
               <article class="md-content__inner md-typeset">
                 
@@ -1702,32 +1851,10 @@
   
 
 
-  <h1>Pitch</h1>
-
-<p>Roteiro do Pitch — Trilha Dev: Início da Jornada
-[Cena 1 – Abertura direta e provocativa]
-📸 (Você olhando para a câmera, tom leve e acolhedor)</p>
-<p>"Você trabalha com processos administrativos ou tarefas mais operacionais... e já se pegou pensando: será que dá pra facilitar meu dia a dia com tecnologia?"</p>
-<p>"A resposta é sim — e o Trilha Dev está aqui pra te mostrar como."</p>
-<p>[Cena 2 – Apresentação do curso]
-📸 (Mostra a tela do curso, repositório ou um trecho do site)</p>
-<p>"O Trilha Dev: Início da Jornada é um curso criado especialmente pra quem não quer ser programador profissional, mas quer entender as ferramentas que os times técnicos usam e aproveitar isso no seu trabalho."</p>
-<p>[Cena 3 – Contexto e utilidade]
-📸 (Você falando, intercalando com imagens de GitHub, terminal, site gerado)</p>
-<p>"Aqui na Splor, a gente já tem um GitHub institucional cheio de automações e projetos incríveis... mas a colaboração pode ir muito além da equipe de dados."</p>
-<p>"Esse curso vai te dar autonomia pra criar sites, documentar processos, automatizar rotinas simples e até contribuir com projetos da sua área."</p>
-<p>[Cena 4 – O que você vai aprender]
-📸 (Tela com ícones dos tópicos ou lista animada)</p>
-<p>"Em 6 dias de conteúdo, você vai aprender:</p>
-<p>Como funciona o Git e o GitHub</p>
-<p>Como escrever e documentar com Markdown</p>
-<p>Como criar seu próprio site com MkDocs</p>
-<p>E como colaborar com outras pessoas usando código aberto."</p>
-<p>E o melhor: tudo com aulas curtas, exercícios práticos e material complementar."</p>
-<p>[Cena 5 – Chamada para ação]
-📸 (Você sorrindo, com energia)</p>
-<p>"Com apenas 1 hora por dia, você finaliza a trilha em menos de uma semana — e já sai com um portfólio no ar."</p>
-<p>"Então, vem com a gente nessa jornada. Clique no primeiro dia da trilha e comece agora!"</p><style type="text/css">.quiz {
+<h1 id="aula-021-tuplas">Aula 021: Tuplas</h1>
+<h2 id="video-21">🎥 Vídeo 21</h2>
+<p>Nesta aula, vamos aprender sobre tuplas.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IZrUBCoNFec?si=S6aBn4umt6aFUB2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><style type="text/css">.quiz {
   border: 1px solid black;
   padding: 1rem;
   margin: 1rem 0;
@@ -1845,10 +1972,68 @@ function resetFieldset(fieldset) {
 
 
 
+  
+  
 
 
 
 
+
+
+  <h2 id="__comments">Comentários</h2>
+  
+  <!-- Insert generated snippet here -->
+  <script src="https://giscus.app/client.js"
+        data-repo="splor-mg/trilha-dev"
+        data-repo-id="R_kgDOOk7RwA"
+        data-category="Q&A"
+        data-category-id="DIC_kwDOOk7RwM4Ctgvt"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="pt"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+  <!-- Synchronize Giscus theme with palette -->
+  <script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    // Set palette on initial load
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+      var theme = palette.color.scheme === "slate"
+        ? "transparent_dark"
+        : "light"
+
+      // Instruct Giscus to set theme
+      giscus.setAttribute("data-theme", theme)
+    }
+
+    // Register event handlers after documented loaded
+    document.addEventListener("DOMContentLoaded", function() {
+      var ref = document.querySelector("[data-md-component=palette]")
+      ref.addEventListener("change", function() {
+        var palette = __md_get("__palette")
+        if (palette && typeof palette.color === "object") {
+          var theme = palette.color.scheme === "slate"
+            ? "transparent_dark"
+            : "light"
+
+          // Instruct Giscus to change theme
+          var frame = document.querySelector(".giscus-frame")
+          frame.contentWindow.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app"
+          )
+        }
+      })
+    })
+  </script>
  
                 
               </article>
@@ -1889,12 +2074,12 @@ function resetFieldset(fieldset) {
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.sections", "navigation.path", "navigation.indexes", "navigation.expand"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.sections", "navigation.path", "navigation.indexes", "navigation.expand"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
     
     
-      <script src="../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../../../../js/mkdocs-charts-plugin.js"></script>
+        <script src="../../../js/mkdocs-charts-plugin.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
       

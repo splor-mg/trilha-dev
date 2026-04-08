@@ -43,7 +43,7 @@ Para rodar o programa:
 python3 aulas/01/app
 ```
 
-(Em alguns sistemas, o comando pode ser apenas <span style="color: #cbdc39;"><strong><em>python</em></strong></span>)
+(Em alguns sistemas, o comando pode ser apenas <span style="color: #cbdc39;"><strong><em>python</em></strong></span>).
 
 Ao executar, a mensagem definida aparecerá no terminal.
 

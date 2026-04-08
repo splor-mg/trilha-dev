@@ -62,9 +62,9 @@ print(x)
 
 Ordem de execução:
 
-- Primeiro: (10 + 3) = 13
-- Depois: 2 ** 2 = 4
-- Por fim: 13 * 4 = 52
+- Primeiro: (10 + 3) = 13 - (Parênteses)
+- Depois: 2 ** 2 = 4 - (Expoente)
+- Por fim: 13 * 4 = 52 - (Multiplicação)
 
 Resultado:
 ``` py

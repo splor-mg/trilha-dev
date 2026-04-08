@@ -25,6 +25,7 @@ nav:
       - python/index.md
       - Primeiros Passos:
         - python/primeiros_passos/ferramentas.md
+        - python/primeiros_passos/setup_repo_exercicios.md
       - Aulas:
         - Aula 001: python/aulas/001_primeiro_programa_py.md
         - Aula 002: python/aulas/002_como_py_executado.md
@@ -46,6 +47,8 @@ nav:
         - Aula 018: python/aulas/018_listas.md
         - Aula 019: python/aulas/019_listas_aninhadas.md
         - Aula 020: python/aulas/020_metodos_listas.md
+        - Aula 021: python/aulas/021_tuplas.md
+        - Aula 022: python/aulas/022_desempacotamento.md
 
 # Configuration
 theme:

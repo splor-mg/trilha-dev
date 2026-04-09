@@ -5,5 +5,10 @@
     "aliases": [
       "latest"
     ]
+  },
+  {
+    "version": "conteudo-escrito",
+    "title": "conteudo-escrito",
+    "aliases": []
   }
 ]

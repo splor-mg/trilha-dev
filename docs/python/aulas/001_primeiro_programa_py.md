@@ -5,17 +5,15 @@ comments: true
 
 ## 🎥 Vídeo 1
 
-Neste vídeo, vamos escrever o nosso primeiro programa Python. Preparados?
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T3gqHiy7ODI?si=-V8tXKzypw3T55Np" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 Nesta aula, você dará o primeiro passo na programação com Python, criando e executando um programa simples.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T3gqHiy7ODI?si=-V8tXKzypw3T55Np" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 #### **Preparação do ambiente**
 
 Com o ambiente de desenvolvimento aberto (como o CodeSpaces), o primeiro passo é organizar os arquivos do projeto:
 
 - Acesse a pasta principal do projeto (por exemplo, **aulas**)
-- Crie uma subpasta para esta aula (ex: **01**)
+- Crie uma subpasta para esta aula (ex: **001**)
 - Dentro dela, crie um arquivo chamado **app.py**
 
 A extensão **.py** identifica arquivos escritos em Python.
@@ -40,7 +38,7 @@ Para rodar o programa:
 2.  Execute o comando indicando o arquivo:
 
 ``` py
-python3 aulas/01/app
+python3 aulas/001/app.py
 ```
 
 (Em alguns sistemas, o comando pode ser apenas <span style="color: #cbdc39;"><strong><em>python</em></strong></span>).
@@ -70,9 +68,9 @@ Embora simples, o **print()** é fundamental para:
 
 Exemplo prático: mensagens exibidas em sites ao adicionar um produto ao carrinho.
 
-#### **Conclusão**
+#### **Checklist**
 
-Ao final desta aula, você:
+Ao final desta aula você aprendeu:
 
 - Criou seu primeiro arquivo Python
 - Escreveu seu primeiro comando

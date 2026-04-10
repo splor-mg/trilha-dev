@@ -9,8 +9,6 @@ Nesta aula, vamos aprender mais sobre as strings e sobre funções específicas 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/t507HYz7L_s?si=ij96he6HbB-uU7lb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Nesta aula, você vai aprender algumas funções e métodos úteis para trabalhar com strings em Python.
-
 #### **Criando uma string**
 
 Vamos começar criando uma variável:
@@ -33,27 +31,27 @@ Primeiro o Python calcula o valor de **len(curso)** e depois imprime o resultado
 Essa função é generalista e pode ser utilizada com outros tipos de dados - como listas.
 Também é útil para validação de dados, como verificar o tamanho de um CPF ou de uma data.
 
-#### **Métodos de strings**
+#### **Métodos de _strings_**
 
 Métodos são funções específicas de um tipo de dado.
 
-A sintaxe utiliza ponto (.):
+A sintaxe utiliza ponto **( . )**:
 
 ``` py
 curso.upper()
 ```
 
-##### **upper()**
+##### **Usando upper()**
 
-Converte todos os caracteres para maiúsculas:
+Converte todos os caracteres para **maiúsculas**:
 
 ``` py
 print(curso.upper())
 ```
 
-##### **lower()**
+##### **Usando lower()**
 
-Converte todos os caracteres para minúsculas:
+Converte todos os caracteres para **minúsculas**:
 
 ``` py
 print(curso.lower())
@@ -80,17 +78,17 @@ Observações:
 
 #### **Método replace()**
 
-O método **replace()** substitui partes da string:
+O método **replace()** substitui partes da _string_:
 
 ``` py
 print(curso.replace("legal", "muito legal"))
 ```
 
-A string original não é alterada.
+A _string_ original não é alterada.
 
 #### **Operador in**
 
-Permite verificar se um valor está contido na string:
+Permite verificar se um valor está contido na _string_:
 
 ``` py
 print("Python" in curso)
@@ -106,16 +104,16 @@ Também é sensível a maiúsculas e minúsculas.
 - **upper()** → converte para maiúsculas
 - **lower()** → converte para minúsculas
 - **find()** → retorna a posição de um valor
-- **replace()** → substitui partes da string
+- **replace()** → substitui partes da _string_
 - **in** → verifica existência
 
-#### **Conclusão**
+#### **Checklist**
 
 Ao final desta aula, você aprendeu:
 
-- Como obter o tamanho de uma string
+- Como obter o tamanho de uma _string_
 - Como transformar letras maiúsculas e minúsculas
-- Como buscar valores dentro da string
+- Como buscar valores dentro da _string_
 - Como substituir partes do texto
 - Como verificar se um valor está presente
 

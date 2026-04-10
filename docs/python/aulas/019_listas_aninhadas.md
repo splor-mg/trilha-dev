@@ -9,8 +9,6 @@ Nesta aula, vamos aprender sobre listas aninhadas ou _nested lists_.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DCxH99NJbeI?si=zG74cPT82CKKr3Zr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Nesta aula, você vai aprender sobre listas aninhadas, ou seja, listas dentro de listas.
-
 #### **O que são _listas aninhadas_?**
 
 _Listas aninhadas_ são estruturas em que cada elemento de uma lista também pode ser outra lista.
@@ -26,11 +24,11 @@ matriz = [
 ]
 ```
 
-Nesse caso, temos uma lista com três listas internas.
+Nesse caso, temos uma _lista_ com três _listas internas_.
 
 #### **Acessando elementos**
 
-Para acessar os elementos utilizamos índices:
+Para acessar os elementos utilizamos **índices**:
 
 ``` py
 matriz = [
@@ -44,8 +42,8 @@ print(matriz[0][1]) # Imprime 2
 print(matriz[2][2]) # Imprime 9
 ```
 
-- O primeiro índice acessa a lista
-- O segundo índice acessa o elemento dentro da lista
+- O primeiro **índice** acessa a _lista_
+- O segundo **índice** acessa o elemento dentro da _lista_
 
 #### **Alterando valores**
 
@@ -76,8 +74,8 @@ for linha in matriz:
 
 #### **Funcionamento**
 
-- O primeiro loop percorre cada linha da matriz
-- O segundo loop percorre cada item dentro da linha
+- O primeiro _loop_ percorre cada linha da matriz
+- O segundo _loop_ percorre cada item dentro da linha
 - Cada elemento é exibido individualmente
 
 Resultado esperado:
@@ -99,13 +97,13 @@ Resultado esperado:
 Esse tipo de estrutura é muito comum quando trabalhamos com dados organizados em tabelas, planilhas ou matrizes.
 Saber acessar e percorrer esses dados é essencial para manipulação e análise.
 
-#### **Conclusão**
+#### **Checklist**
 
 Ao final desta aula, você aprendeu:
 
-- O que são _listas aninhadas_
-- Como acessar elementos usando múltiplos índices
+- O que são _listas aninhadas_?
+- Como acessar elementos usando múltiplos **índices**
 - Como alterar valores
-- Como percorrer a estrutura com loops aninhados
+- Como percorrer a estrutura com _loops aninhados_
 
 Esse conceito é bastante utilizado em cenários mais avançados de programação.

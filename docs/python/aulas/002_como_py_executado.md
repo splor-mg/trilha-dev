@@ -9,19 +9,17 @@ Neste vídeo, vamos aprender como um código python é executado e outros concei
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0xAelPwq0Iw?si=iPepTSlngfnu3gMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Nesta aula, você vai entender melhor como o Python executa um programa e como o código é interpretado.
-
 #### **Preparação do ambiente**
 
 Com o ambiente já aberto:
 
 - Acesse a pasta **aulas**
-- Crie uma subpasta para esta aula (ex: **02**)
+- Crie uma subpasta para esta aula (ex: **002**)
 - Dentro dela, utilize o arquivo **app.py**
 - No terminal, navegue até a pasta da aula utilizando o comando:
 
 ``` py
-cd aulas/02
+cd aulas/002
 ```
 
 O comando **cd** permite navegar entre diretórios no sistema.
@@ -57,9 +55,9 @@ O interpretador é o responsável por:
 
 Compreender esse processo ajuda a prever o comportamento do programa.
 
-#### **Introdução às strings**
+#### **Introdução às _strings_**
 
-Uma **string** é qualquer sequência de caracteres dentro de aspas.
+Uma _string_ é qualquer sequência de caracteres dentro de aspas.
 
 Exemplos:
 
@@ -83,13 +81,11 @@ print(' * ' * 10)
 
 Nesse caso:
 
-``` py
-- ' * ' é uma string;
-- * é o operador de multiplicação;
-- 10 é o número de repetições.
-```
+- **' * '** é uma _string_
+- **\*** é o operador de multiplicação
+- **10** é o número de repetições
 
-O resultado será a repetição da string dez vezes na tela.
+O resultado será a repetição da _string_ dez vezes na tela.
 
 #### **O que é uma expressão?**
 
@@ -103,9 +99,9 @@ Antes de exibir o resultado, o Python:
 
 Esse conceito é essencial para operações matemáticas e manipulação de dados.
 
-#### **Conclusão**
+#### **Checklist**
 
-Ao final desta aula, você compreendeu:
+Ao final desta aula você aprendeu:
 
 - Como o Python executa um programa
 - A ordem de leitura do código

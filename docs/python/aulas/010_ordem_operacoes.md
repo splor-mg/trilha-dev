@@ -9,8 +9,6 @@ Nesta aula, vamos aprender sobre a ordem na qual as operações aritméticas sã
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UytgXC8f6To?si=KIjAX6UYicpqqfQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Nesta aula, você vai aprender como funciona a ordem de execução das operações matemáticas em Python.
-
 #### **Exemplo inicial**
 
 Considere a seguinte expressão:
@@ -20,7 +18,7 @@ x = 10 + 3 * 2
 print(x)
 ```
 
-Antes de executar, é importante entender qual operação será realizada primeiro.
+Antes de executar é importante entender qual operação será realizada primeiro.
 
 #### **Regra de precedência**
 
@@ -41,11 +39,9 @@ Ao executar o código, o resultado será:
 
 A ordem das operações em Python segue a regra matemática:
 
-``` py
-1.  Exponenciação: **
-2.  Multiplicação e divisão: *, /, //, %
-3.  Adição e subtração: +, -
-```
+1.  Exponenciação: **\*\***
+2.  Multiplicação e divisão: **\***, **/**, **//**, **%**
+3.  Adição e subtração: **+**, **-**
 
 O Python executa as operações respeitando essa hierarquia.
 
@@ -62,9 +58,9 @@ print(x)
 
 Ordem de execução:
 
-- Primeiro: (10 + 3) = 13 - (Parênteses)
-- Depois: 2 ** 2 = 4 - (Expoente)
-- Por fim: 13 * 4 = 52 - (Multiplicação)
+- Primeiro: (10 + 3) = 13 - **(Parênteses)**
+- Depois: 2 ** 2 = 4 - **(Expoente)**
+- Por fim: 13 * 4 = 52 - **(Multiplicação)**
 
 Resultado:
 ``` py
@@ -73,13 +69,13 @@ Resultado:
 
 #### **Importância dos parênteses**
 
-O uso de parênteses permite:
+O uso de **parênteses** permite:
 
 - Controlar a ordem das operações
 - Evitar ambiguidades
 - Garantir resultados corretos
 
-#### **Conclusão**
+#### **Checklist**
 
 Ao final desta aula, você aprendeu:
 

@@ -9,16 +9,14 @@ Nesta aula, vamos aprender sobre as operações matemáticas que podemos fazer c
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SRVupPRpKWM?si=U2hpNO61qvCHX9RM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Nesta aula, você vai aprender sobre operadores aritméticos em Python e como realizar operações matemáticas no código.
-
 #### **Tipos numéricos**
 
-No Python, existem dois tipos principais de números:
+No Python existem dois tipos principais de números:
 
 - **int**: números inteiros (ex: 10)
 - **float**: números decimais (ex: 10.5)
 
-Números decimais utilizam ponto (**.**) em vez de vírgula.
+Números decimais utilizam ponto ( **.** ) em vez de **vírgula**.
 
 #### **Operações básicas**
 
@@ -43,16 +41,16 @@ Existem duas formas de divisão:
 x = 10 / 3
 print(x)
 ```
-Usando uma / retorna um número do tipo **_float_** (com números decimais).
+Usando uma **/** retorna um número do tipo **float** (com números decimais).
 
 ``` py
 x = 10 // 3
 ```
-Usando duas // retorna um número inteiro (ou seja, arredonda o resultado de números decimais).
+Usando duas **//** retorna um número inteiro (ou seja, arredonda o resultado de números decimais).
 
-#### **Outros operadores**
+#### **Outros operadores:**
 
-**Módulo (%)**
+**Módulo ( % )**
 
 Retorna o resto da divisão:
 
@@ -62,7 +60,7 @@ x = 10 % 3
 Resultado: 1
 ```
 
-**Exponenciação (\*\*)**
+**Exponenciação ( \*\* )**
 
 Representa potência:
 
@@ -100,7 +98,7 @@ Ambas produzem o mesmo resultado.
 - Escrita mais rápida
 - Muito utilizada no dia a dia
 
-#### **Conclusão**
+#### **Checklist**
 
 Ao final desta aula, você aprendeu:
 

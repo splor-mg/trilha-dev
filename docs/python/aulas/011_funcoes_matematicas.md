@@ -5,7 +5,7 @@ comments: true
 
 ## 🎥 Vídeo 11
 
-Nesta aula, vamos aprender sobre alguma funções matemáticas e introduzir o módulo `math`.
+Nesta aula, vamos aprender sobre alguma funções matemáticas e introduzir o módulo [math](https://docs.python.org/3/library/math.html).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bicESc9nXEA?si=5cktC3kvRFFHJVwl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -53,9 +53,9 @@ Resultado:
 
 Essa função sempre retorna um valor positivo.
 
-#### **Utilizando o módulo math**
+#### **Utilizando o módulo [math](https://docs.python.org/3/library/math.html)**
 
-Para operações mais avançadas, o Python possui o módulo <span style="color: #cbdc39;"><strong>math</strong></span>.
+Para operações mais avançadas o Python possui o módulo [math](https://docs.python.org/3/library/math.html).
 
 Para utilizá-lo:
 
@@ -91,17 +91,17 @@ Resultado:
 2
 ```
 
-#### **Outras funções do módulo math**
+#### **Outras funções do módulo [math](https://docs.python.org/3/library/math.html)**
 
-O módulo <span style="color: #cbdc39;"><strong>math</strong></span> oferece diversas funções úteis, como:
+O módulo [math](https://docs.python.org/3/library/math.html) oferece diversas funções úteis - como:
 
 - Cálculo de **π**
 - Funções trigonométricas
 - Outras operações matemáticas avançadas
 
-Para conhecer todas as opções, é recomendado consultar a documentação oficial do Python.
+Para conhecer todas as opções é recomendado consultar a documentação oficial do Python.
 
-#### **Conclusão**
+#### **Checklist**
 
 Ao final desta aula, você aprendeu:
 

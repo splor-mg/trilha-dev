@@ -9,30 +9,31 @@ Nesta aula, vamos aprender mais sobre as listas e sobre funções específicas q
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IADW1tvA0ew?si=feaBouw7dzqBWgvv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Nesta aula, você vai aprender sobre métodos de listas.
-
 #### **O que são métodos?**
 
-Métodos são funções específicas que utilizamos com determinados tipos de dados - como listas.
+Métodos são funções específicas que utilizamos com determinados tipos de dados - como _listas_.
 A sintaxe é diferente das funções tradicionais:
 
-<span style="color: #cbdc39;"><strong>numeros.metodo()</strong></span>
+``` py
+numeros = [1, 2, 3]
+numeros.metodo()
+```
 
 Ou seja:
 
 - usamos a variável
-- seguida de ponto **(.)**
-- nome do método
+- seguida de ponto **( . )**
+- nome do **método**
 
-#### **Criando a lista**
+#### **Criando a _lista_**
 
 ``` py
 numeros = [7, 5, 8, 2, 0]
 ```
 
-#### **Usando _append()_**
+#### **Usando append()**
 
-Adiciona um item ao final da lista:
+Adiciona um item ao final da _lista_:
 
 ``` py
 numeros.append(1)
@@ -45,7 +46,7 @@ Resultado:
 [7, 5, 8, 2, 0, 1\]
 ```
 
-#### **Usando _insert()_**
+#### **Usando insert()**
 
 Adiciona um item em uma posição específica:
 
@@ -60,7 +61,7 @@ Resultado:
 [1, 7, 5, 8, 2, 0]
 ```
 
-#### **Usando _remove()_**
+#### **Usando remove()**
 
 Remove a primeira ocorrência de um valor:
 
@@ -69,9 +70,9 @@ numeros.remove(8)
 print(numeros)
 ```
 
-#### **Usando _clear()_**
+#### **Usando clear()**
 
-Remove todos os elementos da lista:
+Remove todos os elementos da _lista_:
 
 ``` py
 numeros.clear()
@@ -84,18 +85,18 @@ Resultado:
 []
 ```
 
-#### **Usando _pop()_**
+#### **Usando pop()**
 
-Remove o último elemento da lista:
+Remove o último elemento da _lista_:
 
 ``` py
 numeros.pop()
 print(numeros)
 ```
 
-#### **Usando _index()_**
+#### **Usando index()**
 
-Retorna o índice da primeira ocorrência de um valor:
+Retorna o **índice** da primeira ocorrência de um valor:
 
 ``` py
 print(numeros.index(8))
@@ -103,16 +104,16 @@ print(numeros.index(8))
 
 <span style="color: #cbdc39;"><strong>Atenção:</strong></span> **se o valor não existir, ocorre erro.**
 
-#### **Verificação com _in_**
+#### **Verificação com in**
 
-Forma segura de verificar se um valor está na lista:
+Forma segura de verificar se um valor está na _lista_:
 
 ``` py
 print(8 in numeros) # True
 print(9 in numeros) # False
 ```
 
-#### **Usando _count()_**
+#### **Usando count()**
 
 Conta quantas vezes um valor aparece:
 
@@ -120,9 +121,9 @@ Conta quantas vezes um valor aparece:
 print(numeros.count(8))
 ```
 
-#### **Usando _sort()_**
+#### **Usando sort()**
 
-Ordena a lista:
+Ordena a _lista_:
 
 ``` py
 numeros.sort()
@@ -131,25 +132,25 @@ print(numeros)
 
 <span style="color: #cbdc39;"><strong>Atenção:</strong></span> **altera a lista original.**
 
-#### **Usando _reverse()_**
+#### **Usando reverse()**
 
-Inverte a ordem da lista:
+Inverte a ordem da _lista_:
 
 ``` py
 numeros.reverse()
 print(numeros)
 ```
 
-#### **Usando _copy()_**
+#### **Usando copy()**
 
-Cria uma cópia da lista:
+Cria uma cópia da _lista_:
 
 ``` py
 numeros2 = numeros.copy()
 print(numeros2)
 ```
 
-Alterando a lista original:
+Alterando a _lista_ original:
 
 ``` py
 numeros.append(1)
@@ -174,23 +175,23 @@ Erro comum:
 NameError: variável não definida
 ```
 
-#### **Conclusão**
+#### **Checklist**
 
 Ao final desta aula, você aprendeu:
 
-- O que são métodos de listas?
-- Como utilizar a sintaxe com ponto **(.)**
+- O que são métodos de _listas_?
+- Como utilizar a sintaxe com ponto **( . )**
 - Principais métodos:
-    - append
-    - insert
-    - remove
-    - clear
-    - pop
-    - index
-    - count
-    - sort
-    - reverse
-    - copy
-- Como verificar valores com _in_
+    - **append**
+    - **insert**
+    - **remove**
+    - **clear**
+    - **pop**
+    - **index**
+    - **count**
+    - **sort**
+    - **reverse**
+    - **copy**
+- Como verificar valores com **in**
 
 A prática é essencial para entender o comportamento de cada método.

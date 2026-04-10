@@ -9,16 +9,12 @@ Nesta aula, vamos aprender sobre operadores para fazermos comparações.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3hxkR7hk-_8?si=7DkQXB8N-dJB8gCO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Nesta aula, você vai aprender a utilizar operadores de comparação para criar condições em seus programas.
-
-#### **O que são operadores de comparação**
+#### **O que são operadores de comparação?**
 
 Operadores de comparação permitem comparar valores e retornam um resultado _booleano_:
 
-``` py
-- True
-- False
-```
+- **True**
+- **False**
 
 Esses operadores são muito utilizados em estruturas condicionais.
 
@@ -37,7 +33,7 @@ if temperatura > 30:
   print("O dia está quente")
 ```
 
-Nesse caso:
+Neste caso:
 
 ``` py
 - 30 > 30 → False
@@ -91,11 +87,12 @@ temperatura != 30
 temperatura == 30
 ```
 
-#### **Diferença entre = e ==**
+#### **Diferença entre ( = ) e ( == )**
 
 É importante **NÃO** confundir:
 
 - **Atribuição** de valor para uma variável **( = )**.
+
 ``` PY
 temperatura = 30
 ```
@@ -112,13 +109,13 @@ A comparação retorna:
 
 #### **Aplicação prática**
 
-Esses operadores permitem criar diferentes cenários, como:
+Esses operadores permitem criar diferentes cenários - como:
 
 - Temperatura acima de 30 → _dia quente_;
 - Temperatura abaixo de 10 → _usar agasalho_;
 - Temperatura em intervalo específico → _dia agradável_.
 
-#### **Conclusão**
+#### **Checklist**
 
 Ao final desta aula você aprendeu:
 

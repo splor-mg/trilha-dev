@@ -9,12 +9,10 @@ Nesta aula, vamos aprender sobre como criar estruturas condicionais no nosso có
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cMzIDqnPyS8?si=wcJYmGSWTMR-46Ny" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Nesta aula, você vai aprender a utilizar estruturas condicionais para controlar o fluxo de execução do programa.
-
-#### **O que são condicionais**
+#### **O que são condicionais?**
 
 Condicionais permitem que o programa tome decisões com base em condições.
-Ou seja, o código pode seguir caminhos diferentes dependendo se uma condição é **verdadeira** ou **falsa**.
+Ou seja, o código pode seguir caminhos diferentes dependendo se uma condição é _verdadeira_ ou _falsa_.
 
 #### **Exemplo inicial**
 
@@ -36,7 +34,7 @@ print("Tenha um bom dia")
 
 Comportamento:
 
-- Se **esta_quente** for **True**, as mensagens dentro do **if** serão exibidas;
+- Se **esta_quente** for **True** as mensagens dentro do **if** serão exibidas;
 - A mensagem _"Tenha um bom dia"_ será exibida sempre, pois está fora do bloco.
 
 Se alterarmos:
@@ -69,11 +67,11 @@ O Python:
 
 - Verifica primeiro o **if**;
 - Se for _falso_, verifica o **elif**;
-- Executa apenas o primeiro bloco verdadeiro.
+- Executa apenas o primeiro bloco _verdadeiro_.
 
 #### **Utilizando else**
 
-Para tratar o caso em que nenhuma condição é verdadeira:
+Para tratar o caso em que nenhuma condição é _verdadeira_:
 
 ``` py
 if esta_quente:
@@ -91,7 +89,7 @@ print("Tenha um bom dia")
 
 Nesse caso:
 
-- Se nenhuma condição for verdadeira, o bloco else será executado
+- Se nenhuma condição for _verdadeira_, o bloco **else** será executado.
 
 #### **Estrutura geral**
 
@@ -112,10 +110,10 @@ else:
 
 A indentação define quais linhas pertencem a cada bloco.
 
-- Código _indentado_ → pertence à condição;
-- Código _sem indentação_ → executado independentemente.
+- Código _indentado_ → pertence à condição
+- Código _sem indentação_ → executado independentemente
 
-#### **Conclusão**
+#### **Checklist**
 
 Ao final desta aula, você aprendeu:
 

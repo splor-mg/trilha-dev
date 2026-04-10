@@ -9,11 +9,9 @@ Nesta aula, vamos aprender sobre desempacotamento.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RBqp2J8Z-Zw?si=MYUpc2ven55cVufh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Nesta aula, você vai aprender sobre unpacking, ou desempacotamento.
-
 #### **O que é unpacking?**
 
-O _unpacking_ permite pegar valores de um objeto iterável (como listas e tuplas) e atribuí-los diretamente a variáveis.
+O _unpacking_ permite pegar valores de um objeto **iterável** (como _listas_ e _tuplas_) e atribuí-los diretamente a variáveis.
 
 #### **Exemplo com _tupla_**
 
@@ -93,7 +91,7 @@ dados = ("Abel", 25, True)
 nome, idade, ativo = dados
 ```
 
-### **Conclusão**
+### **Checklist**
 
 Ao final desta aula, você aprendeu:
 

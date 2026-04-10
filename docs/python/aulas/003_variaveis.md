@@ -9,12 +9,9 @@ Neste vídeo, vamos aprender o que é uma variável e alguns tipos de dados.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/58vPFbpKqto?si=CDQfTTJQV4yRUeXF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-Nesta aula, você vai aprender o conceito de variáveis e como utilizá-las para armazenar informações em um programa Python.
-
 #### **O que são variáveis**
 
-Uma variável é um espaço na memória do computador utilizado para armazenar um valor. Ela funciona como um identificador _(nome)_ associado a um dado. Esse nome permite acessar e reutilizar a informação ao longo do programa.
+Uma variável é um espaço na memória do computador utilizado para armazenar um valor. Ela funciona como um identificador **(nome)** associado a um dado. Esse nome permite acessar e reutilizar a informação ao longo do programa.
 
 Exemplo:
 
@@ -22,11 +19,11 @@ Exemplo:
 nota = 5
 ```
 
-Nesse caso, o valor **5** está armazenado na variável chamada **nota**.
+Neste caso, o valor **5** está armazenado na variável chamada **nota**.
 
 #### **Utilizando variáveis**
 
-Para exibir o valor de uma variável, utilizamos a função **print()**:
+Para exibir o valor de uma variável utilizamos a função **print()**:
 
 ``` py
 print(nota)
@@ -50,12 +47,10 @@ Como o Python executa o código de cima para baixo, o valor final exibido será 
 
 As variáveis podem armazenar diferentes tipos de dados:
 
-``` py
-- Inteiro (int): números sem casas decimais
-- Float (float): números com casas decimais (utilizando ponto)
-- String (str): textos entre aspas
-- Booleano (bool): valores lógicos (**True** ou **False**)
-```
+- **Inteiro (int)**: números sem casas decimais
+- **Float (float)**: números com casas decimais (utilizando ponto)
+- **String (str)**: textos entre _aspas_
+- **Booleano (bool)**: valores lógicos (_True_ ou _False_)
 
 Exemplos:
 
@@ -70,26 +65,25 @@ estudando = True
 
 Para manter o código organizado e legível:
 
-``` py
-- Utilize nomes descritivos (ex: nota_final, nome_aluno);
-- Escreva em letras minúsculas;
-- Separe palavras com underscore (_).
-```
+- Utilize nomes descritivos (ex: **nota_final**, **nome_aluno**)
+- Escreva em letras **minúsculas**
+- Separe palavras com _underscore_ **( _ )**.
+
 
 Evite nomes genéricos como **x** ou **y**, pois dificultam o entendimento do código.
 
 #### **Case sensitive**
 
-O Python diferencia letras maiúsculas de minúsculas. Isso significa que:
+O Python diferencia letras **maiúsculas** de **minúsculas**. Isso significa que:
 
-- <span style="color: #cbdc39;"><em>True</em></span> é válido
-- <span style="color: #cbdc39;"><em>true</em></span> é inválido
+- <span style="color: #cbdc39;"><em>True</em></span> é válido.
+- <span style="color: #cbdc39;"><em>true</em></span> é inválido.
 
 Algumas palavras são reservadas pela linguagem e devem ser utilizadas exatamente como definidas.
 
-#### **Conclusão**
+#### **Checklist**
 
-Ao final desta aula, você aprendeu:
+Ao final desta aula você aprendeu:
 
 - O que são variáveis e para que servem
 - Como armazenar e acessar valores

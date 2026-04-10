@@ -9,8 +9,6 @@ Nesta aula, vamos aprender sobre alguma funções matemáticas e introduzir o m�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bicESc9nXEA?si=5cktC3kvRFFHJVwl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Nesta aula, você vai aprender algumas funções matemáticas disponíveis no Python, tanto funções embutidas quanto funções do módulo math.
-
 #### **Utilizando a função round()**
 
 Vamos começar com um exemplo:

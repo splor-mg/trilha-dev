@@ -9,7 +9,7 @@ Nesta aula, vamos aprender sobre estruturas de repetição com o `for` loop.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qSI67mwNueY?si=dNX7oCfqg23cVBnp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-#### **O que é o for**
+#### **O que é o for?**
 
 O **for** é utilizado para percorrer elementos de uma sequência.
 Pode ser entendido como: **“para cada item”** dentro de uma coleção.

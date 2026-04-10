@@ -1556,10 +1556,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#conclusao" class="md-nav__link">
+  <a href="#checklist" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Conclusão
+        Checklist
       
     </span>
   </a>
@@ -1893,10 +1893,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#conclusao" class="md-nav__link">
+  <a href="#checklist" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Conclusão
+        Checklist
       
     </span>
   </a>
@@ -2000,9 +2000,8 @@
 <p>Nesta aula, vamos aprender sobre estruturas de repetição com o <code>while</code> loop.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gsRNR-9tPz8?si=rIlINfPv-lkGzbrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<p>Nesta aula, você vai aprender sobre estruturas de repetição utilizando o while.</p>
 <h4 id="o-que-e-o-while"><strong>O que é o while?</strong></h4>
-<p>O <em>while</em> é utilizado para criar <em>loops</em>, ou seja, repetir um bloco de código enquanto uma condição for verdadeira.</p>
+<p>O <strong>while</strong> é utilizado para criar <em>loops</em>, ou seja, repetir um bloco de código enquanto uma condição for <em>verdadeira</em>.</p>
 <p>A estrutura básica é:</p>
 <div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">while</span> <span class="n">condição</span><span class="p">:</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  <span class="c1"># bloco de código</span>
@@ -2017,55 +2016,56 @@
 </span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Terminou!&#39;</span><span class="p">)</span>
 </span></code></pre></div>
 <p>Funcionamento:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="o">-</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span> <span class="err">→</span> <span class="n">imprime</span> <span class="mi">1</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="o">-</span> <span class="n">incrementa</span> <span class="err">→</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">2</span>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="o">-</span> <span class="n">verifica</span> <span class="err">→</span> <span class="mi">2</span> <span class="o">&lt;=</span> <span class="mi">5</span> <span class="err">→</span> <span class="n">imprime</span> <span class="mi">2</span>
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="o">-</span> <span class="n">continua</span> <span class="n">até</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">5</span>
-</span></code></pre></div>
+<ul>
+<li>i = 1 → imprime 1</li>
+<li>incrementa → i = 2</li>
+<li>verifica → 2 &lt;= 5 → imprime 2</li>
+<li>continua até i = 5</li>
+</ul>
 <p>Quando:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="o">-</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">6</span> <span class="err">→</span> <span class="mi">6</span> <span class="o">&lt;=</span> <span class="mi">5</span> <span class="n">é</span> <span class="n">falso</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="o">-</span> <span class="n">o</span> <span class="n">loop</span> <span class="n">termina</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="o">-</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">6</span> <span class="err">→</span> <span class="mi">6</span> <span class="o">&lt;=</span> <span class="mi">5</span> <span class="n">é</span> <span class="n">falso</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="o">-</span> <span class="n">o</span> <span class="n">loop</span> <span class="n">termina</span>
 </span></code></pre></div>
 <p>Podemos adicionar:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Loop terminado&quot;</span><span class="p">)</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Loop terminado&quot;</span><span class="p">)</span>
 </span></code></pre></div>
 <h4 id="importancia-do-incremento"><strong>Importância do incremento</strong></h4>
 <p>O incremento <strong>(i + 1)</strong> é essencial.
-Sem ele, a condição permaneceria sempre verdadeira, gerando um <strong>loop infinito</strong>.</p>
-<h4 id="exemplo-com-repeticao-de-string"><strong>Exemplo com repetição de string</strong></h4>
-<p>Podemos usar o valor de i para repetir uma <em>string</em>:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="k">while</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="mi">5</span><span class="p">:</span>
-</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;*&quot;</span> <span class="o">*</span> <span class="n">i</span><span class="p">)</span>
-</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>  <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
+Sem ele a condição permaneceria sempre <em>verdadeira</em>, gerando um <em>loop infinito</em>.</p>
+<h4 id="exemplo-com-repeticao-de-string"><strong>Exemplo com repetição de <em>string</em></strong></h4>
+<p>Podemos usar o valor de <strong>i</strong> para repetir uma <em>string</em>:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="k">while</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="mi">5</span><span class="p">:</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;*&quot;</span> <span class="o">*</span> <span class="n">i</span><span class="p">)</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>  <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
 </span></code></pre></div>
 <p>Resultado:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="o">*</span>
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="o">**</span>
-</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="o">***</span>
-</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="o">****</span>
-</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="o">*****</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="o">*</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="o">**</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="o">***</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="o">****</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="o">*****</span>
 </span></code></pre></div>
 <p>Nesse caso:</p>
 <ul>
 <li>A string <strong>"*"</strong> é multiplicada por <strong>i</strong></li>
 <li>O número de repetições aumenta a cada iteração</li>
 </ul>
-<h4 id="funcionamento-do-loop"><strong>Funcionamento do loop</strong></h4>
-<p>O <em>while</em> segue este fluxo:</p>
+<h4 id="funcionamento-do-loop"><strong>Funcionamento do <em>loop</em></strong></h4>
+<p>O <strong>while</strong> segue este fluxo:</p>
 <ol>
 <li>Verifica a condição;</li>
 <li>Executa o bloco;</li>
 <li>Retorna para a condição;</li>
-<li>Repete enquanto for verdadeira.</li>
+<li>Repete enquanto for <em>verdadeira</em>.</li>
 </ol>
-<h4 id="conclusao"><strong>Conclusão</strong></h4>
+<h4 id="checklist"><strong>Checklist</strong></h4>
 <p>Ao final desta aula você aprendeu:</p>
 <ul>
-<li>O que é e como funciona o <em>while</em></li>
-<li>Como criar loops em Python</li>
+<li>O que é e como funciona o <strong>while</strong>?</li>
+<li>Como criar <em>loops</em> em Python</li>
 <li>A importância da variável de controle</li>
-<li>Como evitar loops infinitos</li>
+<li>Como evitar <em>loops infinitos</em></li>
 <li>Como utilizar repetição para gerar padrões</li>
 </ul>
 <p>Estruturas de repetição são fundamentais para automatizar tarefas e executar ações repetidas em programas.</p><style type="text/css">.quiz {

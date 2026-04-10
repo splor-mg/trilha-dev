@@ -1416,10 +1416,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#conclusao" class="md-nav__link">
+  <a href="#checklist" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Conclusão
+        Checklist
       
     </span>
   </a>
@@ -1904,10 +1904,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#conclusao" class="md-nav__link">
+  <a href="#checklist" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Conclusão
+        Checklist
       
     </span>
   </a>
@@ -2022,13 +2022,12 @@
 <p>Nesta aula, vamos aprender sobre a ordem na qual as operações aritméticas são executadas, lembrando conceitos matemáticos importantes para a previsibilidade dos resultados de tais operações.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UytgXC8f6To?si=KIjAX6UYicpqqfQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<p>Nesta aula, você vai aprender como funciona a ordem de execução das operações matemáticas em Python.</p>
 <h4 id="exemplo-inicial"><strong>Exemplo inicial</strong></h4>
 <p>Considere a seguinte expressão:</p>
 <div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span> <span class="o">+</span> <span class="mi">3</span> <span class="o">*</span> <span class="mi">2</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 </span></code></pre></div>
-<p>Antes de executar, é importante entender qual operação será realizada primeiro.</p>
+<p>Antes de executar é importante entender qual operação será realizada primeiro.</p>
 <h4 id="regra-de-precedencia"><strong>Regra de precedência</strong></h4>
 <p>A multiplicação tem precedência sobre a adição. Portanto:</p>
 <div class="language-py highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="o">-</span> <span class="n">Primeiro</span><span class="p">:</span> <span class="mi">3</span> <span class="o">*</span> <span class="mi">2</span> <span class="o">=</span> <span class="mi">6</span>
@@ -2039,34 +2038,35 @@
 </span></code></pre></div>
 <h4 id="ordem-de-precedencia-completa"><strong>Ordem de precedência completa</strong></h4>
 <p>A ordem das operações em Python segue a regra matemática:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="mf">1.</span>  <span class="n">Exponenciação</span><span class="p">:</span> <span class="o">**</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="mf">2.</span>  <span class="n">Multiplicação</span> <span class="n">e</span> <span class="n">divisão</span><span class="p">:</span> <span class="o">*</span><span class="p">,</span> <span class="o">/</span><span class="p">,</span> <span class="o">//</span><span class="p">,</span> <span class="o">%</span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="mf">3.</span>  <span class="n">Adição</span> <span class="n">e</span> <span class="n">subtração</span><span class="p">:</span> <span class="o">+</span><span class="p">,</span> <span class="o">-</span>
-</span></code></pre></div>
+<ol>
+<li>Exponenciação: <strong>**</strong></li>
+<li>Multiplicação e divisão: <strong>*</strong>, <strong>/</strong>, <strong>//</strong>, <strong>%</strong></li>
+<li>Adição e subtração: <strong>+</strong>, <strong>-</strong></li>
+</ol>
 <p>O Python executa as operações respeitando essa hierarquia.</p>
 <h4 id="uso-de-parenteses"><strong>Uso de parênteses</strong></h4>
 <p>Os parênteses podem alterar a ordem de execução, pois têm prioridade máxima.</p>
 <p>Exemplo:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">x</span> <span class="o">=</span> <span class="p">(</span><span class="mi">10</span> <span class="o">+</span> <span class="mi">3</span><span class="p">)</span> <span class="o">*</span> <span class="mi">2</span> <span class="o">**</span> <span class="mi">2</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">x</span> <span class="o">=</span> <span class="p">(</span><span class="mi">10</span> <span class="o">+</span> <span class="mi">3</span><span class="p">)</span> <span class="o">*</span> <span class="mi">2</span> <span class="o">**</span> <span class="mi">2</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 </span></code></pre></div>
 <p>Ordem de execução:</p>
 <ul>
-<li>Primeiro: (10 + 3) = 13 - (Parênteses)</li>
-<li>Depois: 2 ** 2 = 4 - (Expoente)</li>
-<li>Por fim: 13 * 4 = 52 - (Multiplicação)</li>
+<li>Primeiro: (10 + 3) = 13 - <strong>(Parênteses)</strong></li>
+<li>Depois: 2 ** 2 = 4 - <strong>(Expoente)</strong></li>
+<li>Por fim: 13 * 4 = 52 - <strong>(Multiplicação)</strong></li>
 </ul>
 <p>Resultado:
-<div class="language-py highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="mi">52</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="mi">52</span>
 </span></code></pre></div></p>
 <h4 id="importancia-dos-parenteses"><strong>Importância dos parênteses</strong></h4>
-<p>O uso de parênteses permite:</p>
+<p>O uso de <strong>parênteses</strong> permite:</p>
 <ul>
 <li>Controlar a ordem das operações</li>
 <li>Evitar ambiguidades</li>
 <li>Garantir resultados corretos</li>
 </ul>
-<h4 id="conclusao"><strong>Conclusão</strong></h4>
+<h4 id="checklist"><strong>Checklist</strong></h4>
 <p>Ao final desta aula, você aprendeu:</p>
 <ul>
 <li>Como funciona a precedência de operações</li>

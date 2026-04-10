@@ -1252,7 +1252,7 @@
   <a href="#o-que-sao-strings" class="md-nav__link">
     <span class="md-ellipsis">
       
-        O que são strings
+        O que são strings?
       
     </span>
   </a>
@@ -1326,10 +1326,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#conclusao" class="md-nav__link">
+  <a href="#checklist" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Conclusão
+        Checklist
       
     </span>
   </a>
@@ -1863,7 +1863,7 @@
   <a href="#o-que-sao-strings" class="md-nav__link">
     <span class="md-ellipsis">
       
-        O que são strings
+        O que são strings?
       
     </span>
   </a>
@@ -1937,10 +1937,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#conclusao" class="md-nav__link">
+  <a href="#checklist" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Conclusão
+        Checklist
       
     </span>
   </a>
@@ -2041,71 +2041,72 @@
 
 <h1 id="aula-006-strings">Aula 006: Strings</h1>
 <h2 id="video-6">🎥 Vídeo 6</h2>
-<p>Nesta aula, nós vamos aprender mais sobre as strings e como manipulá-las.</p>
+<p>Nesta aula, nós vamos aprender mais sobre as <em>strings</em> e como manipulá-las.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/m6JKs9dlhco?si=hvgDyDcCKuj4w88o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<p>Nesta aula, você vai aprofundar o conhecimento sobre strings e aprender formas de manipulá-las em Python.</p>
-<h4 id="o-que-sao-strings"><strong>O que são strings</strong></h4>
-<p>Strings são sequências de caracteres delimitadas por aspas simples (') ou duplas (").</p>
+<h4 id="o-que-sao-strings"><strong>O que são <em>strings</em>?</strong></h4>
+<p><em>Strings</em> são sequências de caracteres delimitadas por <em>aspas</em> simples <strong>( ' )</strong> ou duplas <strong>( " )</strong>.</p>
 <p>Exemplo:</p>
 <div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">string</span> <span class="o">=</span> <span class="s2">&quot;Python é legal&quot;</span>
 </span></code></pre></div>
-<h4 id="uso-de-aspas-dentro-de-strings"><strong>Uso de aspas dentro de strings</strong></h4>
-<p>É possível utilizar aspas dentro de uma string, desde que sejam diferentes das aspas que delimitam o texto:</p>
+<h4 id="uso-de-aspas-dentro-de-strings"><strong>Uso de <em>aspas</em> dentro de <em>strings</em></strong></h4>
+<p>É possível utilizar <em>aspas</em> dentro de uma <em>string</em>, desde que sejam diferentes das <em>aspas</em> que delimitam o texto:</p>
 <div class="language-py highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">string</span> <span class="o">=</span> <span class="s1">&#39;Python é uma linguagem &quot;poderosa&quot;&#39;</span>
 </span></code></pre></div>
 <p>Ou:</p>
 <div class="language-py highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">string</span> <span class="o">=</span> <span class="s2">&quot;Python é uma linguagem &#39;poderosa&#39;&quot;</span>
 </span></code></pre></div>
-<p>É importante sempre abrir e fechar corretamente as aspas. Caso contrário, o Python não conseguirá interpretar a string e gerará erro.</p>
+<p>É importante sempre abrir e fechar corretamente as <em>aspas</em>. Caso contrário, o Python não conseguirá interpretar a <em>string</em> e gerará erro.</p>
 <h4 id="acessando-caracteres-por-indice"><strong>Acessando caracteres por índice</strong></h4>
-<p>Cada caractere de uma string possui uma posição (índice), iniciando em <strong>0</strong>.</p>
+<p>Cada caractere de uma <em>string</em> possui uma posição <strong>(índice)</strong>, iniciando em <strong>0</strong>.</p>
 <p>Exemplo:</p>
 <div class="language-py highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">string</span> <span class="o">=</span> <span class="s2">&quot;Python é legal&quot;</span>
 </span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">string</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="c1"># Imprime a letra P</span>
 </span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">string</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span> <span class="c1"># Imprime a letra t</span>
 </span></code></pre></div>
 <h4 id="indices-negativos"><strong>Índices negativos</strong></h4>
-<p>Também é possível acessar caracteres a partir do final da string:</p>
+<p>Também é possível acessar caracteres a partir do final da <em>string</em>:</p>
 <div class="language-py highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">string</span> <span class="o">=</span> <span class="s2">&quot;Python é legal&quot;</span>
 </span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">string</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span> <span class="c1"># Último caractere - letra l</span>
 </span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">string</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">])</span> <span class="c1"># Penúltimo caractere - letra a</span>
 </span></code></pre></div>
-<h4 id="fatiamento-de-strings-slicing"><strong>Fatiamento de strings (slicing)</strong></h4>
-<p>O fatiamento (slicing) permite acessar partes da string utilizando intervalos:</p>
+<h4 id="fatiamento-de-strings-slicing"><strong>Fatiamento de <em>strings</em> (slicing)</strong></h4>
+<p>O fatiamento <strong>(slicing)</strong> permite acessar partes da <em>string</em> utilizando intervalos:</p>
 <div class="language-py highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">string</span> <span class="o">=</span> <span class="s2">&quot;Python é legal&quot;</span>
 </span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">string</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="o">-</span><span class="mi">2</span><span class="p">])</span> <span class="c1"># Imprime thon é leg</span>
 </span></code></pre></div>
 <p><strong>Regras importantes:</strong></p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="o">-</span> <span class="n">O</span> <span class="n">índice</span> <span class="n">inicial</span> <span class="n">é</span> <span class="n">incluído</span>
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="o">-</span> <span class="n">O</span> <span class="n">índice</span> <span class="n">final</span> <span class="n">é</span> <span class="n">excluído</span>
-</span></code></pre></div>
+<ul>
+<li>O índice inicial é <strong>incluído</strong></li>
+<li>O índice final é <strong>excluído</strong></li>
+</ul>
 <p><strong>Outros exemplos:</strong></p>
-<p><div class="language-py highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="n">texto</span> <span class="o">=</span> <span class="s2">&quot;Python é legal&quot;</span>
-</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">string</span><span class="p">[</span><span class="mi">2</span><span class="p">:])</span> <span class="c1"># Do índice 2 até o final - thon é legal</span>
-</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">string</span><span class="p">[:</span><span class="mi">4</span><span class="p">])</span> <span class="c1"># Do início até o índice 3 - Pyth</span>
+<p><div class="language-py highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="n">texto</span> <span class="o">=</span> <span class="s2">&quot;Python é legal&quot;</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">string</span><span class="p">[</span><span class="mi">2</span><span class="p">:])</span> <span class="c1"># Do índice 2 até o final - thon é legal</span>
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">string</span><span class="p">[:</span><span class="mi">4</span><span class="p">])</span> <span class="c1"># Do início até o índice 3 - Pyth</span>
 </span></code></pre></div>
-Quando um dos valores é omitido, o Python assume automaticamente o início ou o fim da string.</p>
-<h4 id="repeticao-de-strings"><strong>Repetição de strings</strong></h4>
-<p>Também é possível repetir uma string:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="n">string</span> <span class="o">=</span> <span class="s2">&quot;Python é legal&quot;</span>
-</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="n">string2</span> <span class="o">=</span> <span class="n">string</span><span class="p">[:]</span>
-</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">string2</span><span class="p">)</span>
+Quando um dos valores é omitido o Python assume automaticamente o início ou o fim da <em>string</em>.</p>
+<h4 id="repeticao-de-strings"><strong>Repetição de <em>strings</em></strong></h4>
+<p>Também é possível repetir uma <em>string</em>:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="n">string</span> <span class="o">=</span> <span class="s2">&quot;Python é legal&quot;</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="n">string2</span> <span class="o">=</span> <span class="n">string</span><span class="p">[:]</span>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">string2</span><span class="p">)</span>
 </span></code></pre></div>
 <h4 id="boas-praticas"><strong>Boas práticas</strong></h4>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="o">-</span> <span class="n">Sempre</span> <span class="n">verifique</span> <span class="n">se</span> <span class="k">as</span> <span class="n">aspas</span> <span class="n">estão</span> <span class="n">corretamente</span> <span class="n">fechadas</span>
-</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="o">-</span> <span class="n">Teste</span> <span class="n">diferentes</span> <span class="n">índices</span> <span class="n">para</span> <span class="n">entender</span> <span class="n">o</span> <span class="n">comportamento</span>
-</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="o">-</span> <span class="n">Pratique</span> <span class="n">slicing</span> <span class="n">para</span> <span class="n">ganhar</span> <span class="n">familiaridade</span>
-</span></code></pre></div>
-<h4 id="conclusao"><strong>Conclusão</strong></h4>
+<ul>
+<li>Sempre verifique se as <em>aspas</em> estão corretamente fechadas</li>
+<li>Teste diferentes <strong>índices</strong> para entender o comportamento</li>
+<li>Pratique <strong>slicing</strong> para ganhar familiaridade</li>
+</ul>
+<h4 id="checklist"><strong>Checklist</strong></h4>
 <p>Ao final desta aula, você aprendeu:</p>
 <ul>
-<li>O que são strings e como defini-las</li>
-<li>Como utilizar aspas corretamente</li>
-<li>Como acessar caracteres por índice</li>
-<li>Como usar índices negativos</li>
-<li>Como extrair partes da string com slicing</li>
-<li>Como repetir strings</li>
+<li>O que são <em>strings</em> e como defini-las?</li>
+<li>Como utilizar <em>aspas</em> corretamente</li>
+<li>Como acessar caracteres por <strong>índice</strong></li>
+<li>Como usar <strong>índices negativos</strong></li>
+<li>Como extrair partes da <em>string</em> com <strong>slicing</strong></li>
+<li>Como repetir <em>strings</em></li>
 </ul>
 <p>Esses conceitos são fundamentais para trabalhar com textos em Python e serão muito utilizados em programas mais avançados.</p><style type="text/css">.quiz {
   border: 1px solid black;

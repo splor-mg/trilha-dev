@@ -1476,7 +1476,7 @@
   <a href="#o-que-sao-operadores-de-comparacao" class="md-nav__link">
     <span class="md-ellipsis">
       
-        O que são operadores de comparação
+        O que são operadores de comparação?
       
     </span>
   </a>
@@ -1509,7 +1509,7 @@
   <a href="#diferenca-entre-e" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Diferença entre = e ==
+        Diferença entre ( = ) e ( == )
       
     </span>
   </a>
@@ -1528,10 +1528,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#conclusao" class="md-nav__link">
+  <a href="#checklist" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Conclusão
+        Checklist
       
     </span>
   </a>
@@ -1841,7 +1841,7 @@
   <a href="#o-que-sao-operadores-de-comparacao" class="md-nav__link">
     <span class="md-ellipsis">
       
-        O que são operadores de comparação
+        O que são operadores de comparação?
       
     </span>
   </a>
@@ -1874,7 +1874,7 @@
   <a href="#diferenca-entre-e" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Diferença entre = e ==
+        Diferença entre ( = ) e ( == )
       
     </span>
   </a>
@@ -1893,10 +1893,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#conclusao" class="md-nav__link">
+  <a href="#checklist" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Conclusão
+        Checklist
       
     </span>
   </a>
@@ -2000,63 +2000,61 @@
 <p>Nesta aula, vamos aprender sobre operadores para fazermos comparações.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3hxkR7hk-_8?si=7DkQXB8N-dJB8gCO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<p>Nesta aula, você vai aprender a utilizar operadores de comparação para criar condições em seus programas.</p>
-<h4 id="o-que-sao-operadores-de-comparacao"><strong>O que são operadores de comparação</strong></h4>
+<h4 id="o-que-sao-operadores-de-comparacao"><strong>O que são operadores de comparação?</strong></h4>
 <p>Operadores de comparação permitem comparar valores e retornam um resultado <em>booleano</em>:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="o">-</span> <span class="kc">True</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="o">-</span> <span class="kc">False</span>
-</span></code></pre></div>
+<ul>
+<li><strong>True</strong></li>
+<li><strong>False</strong></li>
+</ul>
 <p>Esses operadores são muito utilizados em estruturas condicionais.</p>
 <h4 id="exemplo-inicial"><strong>Exemplo inicial</strong></h4>
 <p>Vamos criar uma variável:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">temperatura</span> <span class="o">=</span> <span class="mi">30</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">temperatura</span> <span class="o">=</span> <span class="mi">30</span>
 </span></code></pre></div>
 <p>Agora, podemos usar uma condição:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">if</span> <span class="n">temperatura</span> <span class="o">&gt;</span> <span class="mi">30</span><span class="p">:</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;O dia está quente&quot;</span><span class="p">)</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">if</span> <span class="n">temperatura</span> <span class="o">&gt;</span> <span class="mi">30</span><span class="p">:</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;O dia está quente&quot;</span><span class="p">)</span>
 </span></code></pre></div>
-<p>Nesse caso:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="o">-</span> <span class="mi">30</span> <span class="o">&gt;</span> <span class="mi">30</span> <span class="err">→</span> <span class="kc">False</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="o">-</span> <span class="n">Nada</span> <span class="n">será</span> <span class="n">exibido</span>
+<p>Neste caso:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="o">-</span> <span class="mi">30</span> <span class="o">&gt;</span> <span class="mi">30</span> <span class="err">→</span> <span class="kc">False</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="o">-</span> <span class="n">Nada</span> <span class="n">será</span> <span class="n">exibido</span>
 </span></code></pre></div>
 <p>Se alterarmos:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">temperatura</span> <span class="o">=</span> <span class="mi">31</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="o">-</span> <span class="mi">31</span> <span class="o">&gt;</span> <span class="mi">30</span> <span class="err">→</span> <span class="kc">True</span>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="o">-</span> <span class="n">A</span> <span class="n">mensagem</span> <span class="n">será</span> <span class="n">exibida</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">temperatura</span> <span class="o">=</span> <span class="mi">31</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="o">-</span> <span class="mi">31</span> <span class="o">&gt;</span> <span class="mi">30</span> <span class="err">→</span> <span class="kc">True</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="o">-</span> <span class="n">A</span> <span class="n">mensagem</span> <span class="n">será</span> <span class="n">exibida</span>
 </span></code></pre></div>
 <h4 id="principais-operadores"><strong>Principais operadores</strong></h4>
 <p><strong>Maior que (&gt;)</strong></p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">temperatura</span> <span class="o">&gt;</span> <span class="mi">30</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">temperatura</span> <span class="o">&gt;</span> <span class="mi">30</span>
 </span></code></pre></div>
 <p><strong>Menor que (&lt;)</strong></p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="n">temperatura</span> <span class="o">&lt;</span> <span class="mi">40</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">temperatura</span> <span class="o">&lt;</span> <span class="mi">40</span>
 </span></code></pre></div>
 <p><strong>Maior ou igual (&gt;=)</strong></p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="n">temperatura</span> <span class="o">&gt;=</span> <span class="mi">30</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="n">temperatura</span> <span class="o">&gt;=</span> <span class="mi">30</span>
 </span></code></pre></div>
 <p><strong>Menor ou igual (&lt;=)</strong></p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="n">temperatura</span> <span class="o">&lt;=</span> <span class="mi">30</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="n">temperatura</span> <span class="o">&lt;=</span> <span class="mi">30</span>
 </span></code></pre></div>
 <p><strong>Diferente (!=)</strong></p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="n">temperatura</span> <span class="o">!=</span> <span class="mi">30</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="n">temperatura</span> <span class="o">!=</span> <span class="mi">30</span>
 </span></code></pre></div>
 <p><strong>Igual (==)</strong></p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="n">temperatura</span> <span class="o">==</span> <span class="mi">30</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="n">temperatura</span> <span class="o">==</span> <span class="mi">30</span>
 </span></code></pre></div>
-<h4 id="diferenca-entre-e"><strong>Diferença entre = e ==</strong></h4>
+<h4 id="diferenca-entre-e"><strong>Diferença entre ( = ) e ( == )</strong></h4>
 <p>É importante <strong>NÃO</strong> confundir:</p>
 <ul>
-<li>
-<p><strong>Atribuição</strong> de valor para uma variável <strong>( = )</strong>.
-<div class="language-PY highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="n">temperatura</span> <span class="o">=</span> <span class="mi">30</span>
-</span></code></pre></div></p>
-</li>
-<li>
-<p><strong>Comparação</strong> entre valores <strong>( == )</strong>.
-<div class="language-PY highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="n">temperatura</span> <span class="o">==</span> <span class="mi">30</span>
-</span></code></pre></div></p>
-</li>
+<li><strong>Atribuição</strong> de valor para uma variável <strong>( = )</strong>.</li>
+</ul>
+<div class="language-PY highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="n">temperatura</span> <span class="o">=</span> <span class="mi">30</span>
+</span></code></pre></div>
+<ul>
+<li><strong>Comparação</strong> entre valores <strong>( == )</strong>.
+<div class="language-PY highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="n">temperatura</span> <span class="o">==</span> <span class="mi">30</span>
+</span></code></pre></div></li>
 </ul>
 <p>A comparação retorna:</p>
 <ul>
@@ -2064,13 +2062,13 @@
 <li><em>False</em> caso contrário</li>
 </ul>
 <h4 id="aplicacao-pratica"><strong>Aplicação prática</strong></h4>
-<p>Esses operadores permitem criar diferentes cenários, como:</p>
+<p>Esses operadores permitem criar diferentes cenários - como:</p>
 <ul>
 <li>Temperatura acima de 30 → <em>dia quente</em>;</li>
 <li>Temperatura abaixo de 10 → <em>usar agasalho</em>;</li>
 <li>Temperatura em intervalo específico → <em>dia agradável</em>.</li>
 </ul>
-<h4 id="conclusao"><strong>Conclusão</strong></h4>
+<h4 id="checklist"><strong>Checklist</strong></h4>
 <p>Ao final desta aula você aprendeu:</p>
 <ul>
 <li>Como comparar valores em Python</li>

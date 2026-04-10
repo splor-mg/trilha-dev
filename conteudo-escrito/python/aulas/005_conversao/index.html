@@ -1320,10 +1320,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#conclusao" class="md-nav__link">
+  <a href="#checklist" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Conclusão
+        Checklist
       
     </span>
   </a>
@@ -1981,10 +1981,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#conclusao" class="md-nav__link">
+  <a href="#checklist" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Conclusão
+        Checklist
       
     </span>
   </a>
@@ -2089,72 +2089,69 @@
 A conversão de tipo em Python é feita usando novas funções que aprenderemos.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JBxs9pzNn4E?si=FrVoN5HIOs-saB6X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<ul>
-<li><code>int()</code> - constrói um número inteiro a partir de um decimal - <code>flot</code>-, removendo todas as casas decimais ou de uma <code>string</code>, desde que a <code>string</code> represente um número inteiro.</li>
-<li><code>float()</code> - constrói um número decimal - <code>flot</code>- a partir de um inteiro ou de uma <code>string</code>, desde que a <code>string</code> represente um número decimal ou um inteiro.</li>
-<li><code>str()</code> - constrói uma <code>string</code> a partir de uma ampla variedade de tipos de dados, incluindo <code>strings</code>, <code>inteiros</code> e decimais - <code>flot</code>-.</li>
-<li><code>bool()</code> - constrói um booleano a partir de um inteiro, <code>float</code> ou <code>string</code>.</li>
-</ul>
-<p>Nesta aula, você vai aprender como converter tipos de dados em Python, permitindo realizar operações corretamente.</p>
 <h4 id="proposta-do-programa"><strong>Proposta do programa</strong></h4>
 <p>O objetivo é criar um programa que:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="o">-</span> <span class="n">Solicite</span> <span class="n">o</span> <span class="n">ano</span> <span class="n">de</span> <span class="n">nascimento</span> <span class="n">do</span> <span class="n">usuário</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="o">-</span> <span class="n">Calcule</span> <span class="n">a</span> <span class="n">idade</span> <span class="n">com</span> <span class="n">base</span> <span class="n">no</span> <span class="n">ano</span> <span class="n">atual</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="o">-</span> <span class="n">Exiba</span> <span class="n">o</span> <span class="n">resultado</span> <span class="n">no</span> <span class="n">terminal</span>
-</span></code></pre></div>
+<ul>
+<li>Solicite o ano de nascimento do usuário</li>
+<li>Calcule a idade com base no ano atual</li>
+<li>Exiba o resultado no terminal</li>
+</ul>
 <h4 id="coletando-o-dado-do-usuario"><strong>Coletando o dado do usuário</strong></h4>
 <p>Primeiro, utilizamos a função <strong>input()</strong> para receber o ano de nascimento:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">ano_nascimento</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Ano de nascimento: &quot;</span><span class="p">)</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">ano_nascimento</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Ano de nascimento: &quot;</span><span class="p">)</span>
 </span></code></pre></div>
 <p>Esse valor será armazenado na variável <strong>ano_nascimento</strong>.</p>
 <h4 id="realizando-o-calculo"><strong>Realizando o cálculo</strong></h4>
 <p>Em seguida, calculamos a idade:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">idade</span> <span class="o">=</span> <span class="mi">2026</span> <span class="o">-</span> <span class="n">ano_nascimento</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">idade</span> <span class="o">=</span> <span class="mi">2026</span> <span class="o">-</span> <span class="n">ano_nascimento</span>
 </span></code></pre></div>
 <h4 id="entendendo-o-erro"><strong>Entendendo o erro</strong></h4>
 <p>Ao executar esse código, ocorre um erro.</p>
 <p>Isso acontece porque:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="o">-</span> <span class="mi">2026</span> <span class="n">é</span> <span class="n">um</span> <span class="n">número</span> <span class="n">inteiro</span> <span class="p">(</span><span class="nb">int</span><span class="p">)</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="o">-</span> <span class="n">ano_nascimento</span> <span class="n">é</span> <span class="n">uma</span> <span class="n">string</span> <span class="p">(</span><span class="nb">str</span><span class="p">)</span>
-</span></code></pre></div>
-<p>A função <strong>input()</strong> sempre retorna uma string, mesmo que o valor digitado seja numérico.</p>
-<p>O Python não permite realizar operações matemáticas entre diferentes tipos, como inteiro e string.</p>
-<h4 id="conversao-de-tipos-casting"><strong>Conversão de tipos (casting)</strong></h4>
-<p>Para resolver o problema, é necessário converter o valor recebido para inteiro utilizando a função <strong>int()</strong>:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">ano_nascimento</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Ano de nascimento: &quot;</span><span class="p">))</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="n">idade</span> <span class="o">=</span> <span class="mi">2026</span> <span class="o">-</span> <span class="n">ano_nascimento</span>
+<ul>
+<li>2026 é um número inteiro <strong>(int)</strong></li>
+<li>ano_nascimento é uma <em>string</em> <strong>(str)</strong></li>
+</ul>
+<p>A função <strong>input()</strong> sempre retorna uma <em>string</em>, mesmo que o valor digitado seja numérico.
+O Python não permite realizar operações matemáticas entre diferentes tipos, como <em>inteiro</em> e <em>string</em>.</p>
+<h4 id="conversao-de-tipos-casting"><strong>Conversão de tipos <em>(casting)</em></strong></h4>
+<p>Para resolver o problema é necessário converter o valor recebido para inteiro utilizando a função <strong>int()</strong>:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">ano_nascimento</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Ano de nascimento: &quot;</span><span class="p">))</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">idade</span> <span class="o">=</span> <span class="mi">2026</span> <span class="o">-</span> <span class="n">ano_nascimento</span>
 </span></code></pre></div>
 <p>Agora, o cálculo pode ser realizado corretamente.</p>
 <h4 id="exibindo-o-resultado"><strong>Exibindo o resultado</strong></h4>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="nb">print</span><span class="p">(</span><span class="n">idade</span><span class="p">)</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nb">print</span><span class="p">(</span><span class="n">idade</span><span class="p">)</span>
 </span></code></pre></div>
 <h4 id="outras-funcoes-de-conversao"><strong>Outras funções de conversão</strong></h4>
 <p>O Python possui outras funções para conversão de tipos:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="o">-</span> <span class="nb">int</span><span class="p">()</span> <span class="err">→</span> <span class="n">converte</span> <span class="n">para</span> <span class="n">inteiro</span>
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="o">-</span> <span class="nb">float</span><span class="p">()</span> <span class="err">→</span> <span class="n">converte</span> <span class="n">para</span> <span class="n">número</span> <span class="n">decimal</span>
-</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="o">-</span> <span class="nb">str</span><span class="p">()</span> <span class="err">→</span> <span class="n">converte</span> <span class="n">para</span> <span class="n">texto</span>
-</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="o">-</span> <span class="nb">bool</span><span class="p">()</span> <span class="err">→</span> <span class="n">converte</span> <span class="n">para</span> <span class="n">valor</span> <span class="n">booleano</span>
-</span></code></pre></div>
-<p>Essas funções são chamadas de funções <strong>built-in</strong> (nativas da linguagem).</p>
+<ul>
+<li><strong>int()</strong> → converte para inteiro</li>
+<li><strong>float()</strong> → converte para número decimal</li>
+<li><strong>str()</strong> → converte para texto</li>
+<li><strong>bool()</strong> → converte para valor booleano</li>
+</ul>
+<p>Essas funções são chamadas de funções <em>built-in</em> (nativas da linguagem).</p>
 <h4 id="verificando-tipos-com-type"><strong>Verificando tipos com type()</strong></h4>
 <p>A função <strong>type()</strong> permite identificar o tipo de um valor:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">ano_nascimento</span><span class="p">))</span>
-</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">idade</span><span class="p">))</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">ano_nascimento</span><span class="p">))</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">idade</span><span class="p">))</span>
 </span></code></pre></div>
 <p>Isso é útil para entender como os dados estão sendo interpretados pelo Python.</p>
 <h4 id="fluxo-do-programa"><strong>Fluxo do programa</strong></h4>
 <p>Ao executar:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="mf">1.</span>  <span class="n">O</span> <span class="n">usuário</span> <span class="n">informa</span> <span class="n">o</span> <span class="n">ano</span> <span class="n">de</span> <span class="n">nascimento</span>
-</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="mf">2.</span>  <span class="n">O</span> <span class="n">valor</span> <span class="n">é</span> <span class="n">convertido</span> <span class="n">para</span> <span class="n">inteiro</span>
-</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="mf">3.</span>  <span class="n">A</span> <span class="n">idade</span> <span class="n">é</span> <span class="n">calculada</span>
-</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="mf">4.</span>  <span class="n">O</span> <span class="n">resultado</span> <span class="n">é</span> <span class="n">exibido</span>
-</span></code></pre></div>
-<h4 id="conclusao"><strong>Conclusão</strong></h4>
+<ol>
+<li>O usuário informa o ano de nascimento;</li>
+<li>O valor é convertido para inteiro;</li>
+<li>A idade é calculada;</li>
+<li>O resultado é exibido.</li>
+</ol>
+<h4 id="checklist"><strong>Checklist</strong></h4>
 <p>Ao final desta aula, você aprendeu:</p>
 <ul>
-<li>Que a função <strong>input()</strong> retorna uma string</li>
-<li>Por que ocorre erro ao misturar tipos diferentes</li>
-<li>Como converter dados utilizando casting</li>
+<li>Que a função <strong>input()</strong> retorna uma <em>string</em></li>
+<li>Por que ocorre erro ao misturar tipos diferentes?</li>
+<li>Como converter dados utilizando <em>casting</em></li>
 <li>Como verificar tipos com <strong>type()</strong></li>
 <li>A importância de garantir o tipo correto para cada operação</li>
 </ul>

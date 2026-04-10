@@ -1321,10 +1321,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#conclusao" class="md-nav__link">
+  <a href="#checklist" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Conclusão
+        Checklist
       
     </span>
   </a>
@@ -1871,10 +1871,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#conclusao" class="md-nav__link">
+  <a href="#checklist" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Conclusão
+        Checklist
       
     </span>
   </a>
@@ -1978,7 +1978,6 @@
 <p>Nesta aula, nós vamos aprender mais sobre as strings e como formatá-las para um código mais prático e limpo.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/exabtQvKtzc?si=tY-VH8rjQLZncFo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<p>Nesta aula, você vai aprender como formatar strings para construir mensagens dinâmicas utilizando dados armazenados em variáveis.</p>
 <h4 id="contexto-do-problema"><strong>Contexto do problema</strong></h4>
 <p>Em muitos programas é necessário exibir mensagens personalizadas utilizando informações do usuário.</p>
 <p>Exemplo de dados:</p>
@@ -1988,38 +1987,39 @@
 <p>O objetivo é exibir a seguinte mensagem:</p>
 <div class="language-py highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">Ana</span> <span class="n">Silva</span> <span class="n">é</span> <span class="n">uma</span> <span class="n">aluna</span> <span class="n">nova</span><span class="o">.</span>
 </span></code></pre></div>
-<h4 id="concatenacao-de-strings"><strong>Concatenação de strings</strong></h4>
-<p>Uma forma de montar essa mensagem é utilizando concatenação com o operador +:</p>
+<h4 id="concatenacao-de-strings"><strong>Concatenação de <em>strings</em></strong></h4>
+<p>Uma forma de montar essa mensagem é utilizando concatenação com o operador <strong>+</strong>:</p>
 <div class="language-py highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">mensagem</span> <span class="o">=</span> <span class="n">nome</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="n">sobrenome</span> <span class="o">+</span> <span class="s2">&quot; é uma aluna nova.&quot;</span>
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">mensagem</span><span class="p">)</span>
 </span></code></pre></div>
-<p>Nesse caso, estamos unindo:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="o">-</span> <span class="n">o</span> <span class="n">valor</span> <span class="n">da</span> <span class="n">variável</span> <span class="n">nome</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="o">-</span> <span class="n">um</span> <span class="n">espaço</span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="o">-</span> <span class="n">o</span> <span class="n">valor</span> <span class="n">da</span> <span class="n">variável</span> <span class="n">sobrenome</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="o">-</span> <span class="n">o</span> <span class="n">restante</span> <span class="n">da</span> <span class="n">frase</span>
+<p>Neste caso, estamos unindo:</p>
+<ul>
+<li>o valor da variável <strong>nome</strong></li>
+<li>um <strong>espaço</strong></li>
+<li>o valor da variável <strong>sobrenome</strong></li>
+<li>o restante da frase</li>
+</ul>
+<h4 id="formatacao-com-f-strings"><strong>Formatação com <em>f-strings</em></strong></h4>
+<p>Uma forma mais prática e legível de fazer isso é utilizando <strong><em>f-strings</em></strong>.
+Com essa abordagem adicionamos a letra <strong>f</strong> antes da <em>string</em> e utilizamos <strong>{ }</strong> para inserir variáveis diretamente:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">mensagem</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">nome</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">sobrenome</span><span class="si">}</span><span class="s2"> é uma aluna nova.&quot;</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">mensagem</span><span class="p">)</span>
 </span></code></pre></div>
-<h4 id="formatacao-com-f-strings"><strong>Formatação com f-strings</strong></h4>
-<p>Uma forma mais prática e legível de fazer isso é utilizando <strong>f-strings</strong>.</p>
-<p>Com essa abordagem, adicionamos a letra <strong>f</strong> antes da string e utilizamos <strong>{}</strong> para inserir variáveis diretamente:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">mensagem</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">nome</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">sobrenome</span><span class="si">}</span><span class="s2"> é uma aluna nova.&quot;</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">mensagem</span><span class="p">)</span>
-</span></code></pre></div>
-<p>O Python substitui automaticamente os valores das variáveis dentro das chaves.</p>
+<p>O Python substitui automaticamente os valores das variáveis dentro das <strong>chaves</strong>.</p>
 <h4 id="reatribuicao-de-variaveis"><strong>Reatribuição de variáveis</strong></h4>
-<p>Quando uma variável é redefinida, o Python considera apenas o valor mais recente.</p>
+<p>Quando uma variável é redefinida o Python considera apenas o valor mais recente.</p>
 <p>Exemplo:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">mensagem</span> <span class="o">=</span> <span class="n">nome</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="n">sobrenome</span> <span class="o">+</span> <span class="s2">&quot; é uma aluna nova.&quot;</span>
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="n">mensagem2</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">nome</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">sobrenome</span><span class="si">}</span><span class="s2"> é uma aluna nova.&quot;</span>
-</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">mensagem2</span><span class="p">)</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">mensagem</span> <span class="o">=</span> <span class="n">nome</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="n">sobrenome</span> <span class="o">+</span> <span class="s2">&quot; é uma aluna nova.&quot;</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="n">mensagem2</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">nome</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">sobrenome</span><span class="si">}</span><span class="s2"> é uma aluna nova.&quot;</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">mensagem2</span><span class="p">)</span>
 </span></code></pre></div>
-<p>Nesse caso, o valor exibido será o da variável utilizada no print.</p>
-<h4 id="conclusao"><strong>Conclusão</strong></h4>
+<p>Neste caso, o valor exibido será o da variável utilizada no <strong>print</strong>.</p>
+<h4 id="checklist"><strong>Checklist</strong></h4>
 <p>Ao final desta aula, você aprendeu:</p>
 <ul>
-<li>Como concatenar strings utilizando o operador +</li>
-<li>Como utilizar f-strings para formatação</li>
-<li>Como inserir variáveis dentro de strings</li>
+<li>Como concatenar <em>strings</em> utilizando o operador <strong>+</strong></li>
+<li>Como utilizar <strong><em>f-strings</em></strong> para formatação</li>
+<li>Como inserir variáveis dentro de <em>strings</em></li>
 <li>Como funciona a reatribuição de variáveis</li>
 </ul>
 <p>A formatação de strings é um recurso muito utilizado para tornar o código mais organizado e facilitar a construção de mensagens dinâmicas.</p><style type="text/css">.quiz {

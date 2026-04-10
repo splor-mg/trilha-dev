@@ -1248,10 +1248,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#conclusao" class="md-nav__link">
+  <a href="#checklist" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Conclusão
+        Checklist
       
     </span>
   </a>
@@ -1893,10 +1893,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#conclusao" class="md-nav__link">
+  <a href="#checklist" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Conclusão
+        Checklist
       
     </span>
   </a>
@@ -1997,42 +1997,43 @@
 
 <h1 id="aula-004-funcao-input">Aula 004: Função input</h1>
 <h2 id="video-4">🎥 Vídeo 4</h2>
-<p>Nesta aula, nós vamos aprender como podemos receber informações digitadas pelo usuário através do terminal com a função <code>input</code>.</p>
+<p>Nesta aula, nós vamos aprender como podemos receber informações digitadas pelo usuário através do terminal com a função <strong><code>input</code></strong>.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sgebdUm6ZIc?si=IFXXNmpJR6zKq_iE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<p>Nesta aula, você vai aprender a utilizar a função <strong>input()</strong>, que permite receber dados do usuário durante a execução do programa.</p>
 <h4 id="entrada-e-saida-de-dados"><strong>Entrada e saída de dados</strong></h4>
-<p>Até agora, foi utilizada a função <strong>print()</strong> para exibir informações na tela.</p>
+<p>Até agora foi utilizada a função <strong>print()</strong> para exibir informações na tela.</p>
 <p>Com a função <strong>input()</strong>, passa a ser possível receber dados digitados pelo usuário, permitindo uma interação mais completa.</p>
 <h4 id="utilizando-a-funcao-input"><strong>Utilizando a função input()</strong></h4>
 <p>A função <strong>input()</strong> exibe uma mensagem e aguarda o usuário digitar uma resposta.</p>
 <p>Exemplo:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">nome</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Qual o seu nome? &quot;)</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">nome</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Qual o seu nome? &quot;</span><span class="p">)</span>
 </span></code></pre></div>
-<p>O valor digitado será armazenado na variável <strong>nome</strong>.</p>
-<p>O espaço ao final da mensagem serve para melhorar a visualização, evitando que o texto digitado fique colado na pergunta.</p>
+<p>O valor digitado será armazenado na variável <strong>nome</strong>.
+O espaço ao final da mensagem serve para melhorar a visualização, evitando que o texto digitado fique colado na pergunta.</p>
 <h4 id="exibindo-uma-mensagem-personalizada"><strong>Exibindo uma mensagem personalizada</strong></h4>
-<p>Após receber o valor, é possível utilizá-lo em outras partes do programa:</p>
+<p>Após receber o valor é possível utilizá-lo em outras partes do programa:</p>
 <div class="language-py highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Olá, &quot;</span> <span class="o">+</span> <span class="n">nome</span><span class="p">)</span>
 </span></code></pre></div>
-<p>Nesse caso, a mensagem exibida será personalizada com o nome informado pelo usuário.</p>
+<p>Neste caso, a mensagem exibida será personalizada com o nome informado pelo usuário.</p>
 <h4 id="concatenacao-de-strings"><strong>Concatenação de strings</strong></h4>
-<p>A operação utilizada para juntar textos é chamada de <strong>concatenação</strong>.</p>
-<p>Ela ocorre quando utilizamos o operador <strong>+</strong> para unir:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="o">-</span> <span class="n">Um</span> <span class="n">texto</span> <span class="n">fixo</span> <span class="p">(</span><span class="n">string</span><span class="p">)</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="o">-</span> <span class="n">Um</span> <span class="n">valor</span> <span class="n">armazenado</span> <span class="n">em</span> <span class="n">variável</span> <span class="p">(</span><span class="n">também</span> <span class="n">string</span><span class="p">)</span>
-</span></code></pre></div>
-<p>O resultado é uma nova string combinando os dois elementos.</p>
+<p>A operação utilizada para juntar textos é chamada de <strong>concatenação</strong>.
+Ela ocorre quando utilizamos o operador <strong>+</strong> para unir:</p>
+<ul>
+<li>Um texto fixo <em>(string)</em></li>
+<li>Um valor armazenado em variável (também <em>string</em>)</li>
+</ul>
+<p>O resultado é uma nova <em>string</em> combinando os dois elementos.</p>
 <h4 id="fluxo-de-execucao"><strong>Fluxo de execução</strong></h4>
 <p>Ao executar o programa:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="mf">1.</span>  <span class="n">O</span> <span class="n">Python</span> <span class="n">solicita</span> <span class="n">o</span> <span class="n">nome</span> <span class="n">do</span> <span class="n">usuário</span><span class="p">;</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="mf">2.</span>  <span class="n">Aguarda</span> <span class="n">a</span> <span class="n">digitação</span><span class="p">;</span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="mf">3.</span>  <span class="n">Armazena</span> <span class="n">o</span> <span class="n">valor</span> <span class="n">na</span> <span class="n">variável</span><span class="p">;</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="mf">4.</span>  <span class="n">Exibe</span> <span class="n">a</span> <span class="n">mensagem</span> <span class="n">personalizada</span><span class="o">.</span>
-</span></code></pre></div>
+<ol>
+<li>O Python solicita o nome do usuário;</li>
+<li>Aguarda a digitação;</li>
+<li>Armazena o valor na variável;</li>
+<li>Exibe a mensagem personalizada.</li>
+</ol>
 <p>Esse processo segue a ordem de execução do código (de cima para baixo).</p>
-<h4 id="conclusao"><strong>Conclusão</strong></h4>
-<p>Ao final desta aula, você aprendeu:</p>
+<h4 id="checklist"><strong>Checklist</strong></h4>
+<p>Ao final desta aula você aprendeu:</p>
 <ul>
 <li>Como utilizar a função <strong>input()</strong></li>
 <li>Como receber dados do usuário</li>

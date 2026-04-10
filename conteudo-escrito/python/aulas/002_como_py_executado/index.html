@@ -1214,10 +1214,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#conclusao" class="md-nav__link">
+  <a href="#checklist" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Conclusão
+        Checklist
       
     </span>
   </a>
@@ -1937,10 +1937,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#conclusao" class="md-nav__link">
+  <a href="#checklist" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Conclusão
+        Checklist
       
     </span>
   </a>
@@ -2044,16 +2044,15 @@
 <p>Neste vídeo, vamos aprender como um código python é executado e outros conceitos interessantes.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0xAelPwq0Iw?si=iPepTSlngfnu3gMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<p>Nesta aula, você vai entender melhor como o Python executa um programa e como o código é interpretado.</p>
 <h4 id="preparacao-do-ambiente"><strong>Preparação do ambiente</strong></h4>
 <p>Com o ambiente já aberto:</p>
 <ul>
 <li>Acesse a pasta <strong>aulas</strong></li>
-<li>Crie uma subpasta para esta aula (ex: <strong>02</strong>)</li>
+<li>Crie uma subpasta para esta aula (ex: <strong>002</strong>)</li>
 <li>Dentro dela, utilize o arquivo <strong>app.py</strong></li>
 <li>No terminal, navegue até a pasta da aula utilizando o comando:</li>
 </ul>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">cd</span> <span class="n">aulas</span><span class="o">/</span><span class="mi">02</span>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">cd</span> <span class="n">aulas</span><span class="o">/</span><span class="mi">002</span>
 </span></code></pre></div>
 <p>O comando <strong>cd</strong> permite navegar entre diretórios no sistema.</p>
 <h4 id="ordem-de-execucao-do-python"><strong>Ordem de execução do Python</strong></h4>
@@ -2078,8 +2077,8 @@
 <li>Retornar o resultado no terminal</li>
 </ul>
 <p>Compreender esse processo ajuda a prever o comportamento do programa.</p>
-<h4 id="introducao-as-strings"><strong>Introdução às strings</strong></h4>
-<p>Uma <strong>string</strong> é qualquer sequência de caracteres dentro de aspas.</p>
+<h4 id="introducao-as-strings"><strong>Introdução às <em>strings</em></strong></h4>
+<p>Uma <em>string</em> é qualquer sequência de caracteres dentro de aspas.</p>
 <p>Exemplos:</p>
 <div class="language-py highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Olá&#39;</span><span class="p">)</span>
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Texto qualquer&#39;</span><span class="p">)</span>
@@ -2092,11 +2091,12 @@
 <div class="language-py highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39; * &#39;</span> <span class="o">*</span> <span class="mi">10</span><span class="p">)</span>
 </span></code></pre></div>
 <p>Nesse caso:</p>
-<div class="language-py highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="o">-</span> <span class="s1">&#39; * &#39;</span> <span class="n">é</span> <span class="n">uma</span> <span class="n">string</span><span class="p">;</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="o">-</span> <span class="o">*</span> <span class="n">é</span> <span class="n">o</span> <span class="n">operador</span> <span class="n">de</span> <span class="n">multiplicação</span><span class="p">;</span>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="o">-</span> <span class="mi">10</span> <span class="n">é</span> <span class="n">o</span> <span class="n">número</span> <span class="n">de</span> <span class="n">repetições</span><span class="o">.</span>
-</span></code></pre></div>
-<p>O resultado será a repetição da string dez vezes na tela.</p>
+<ul>
+<li><strong>' * '</strong> é uma <em>string</em></li>
+<li><strong>*</strong> é o operador de multiplicação</li>
+<li><strong>10</strong> é o número de repetições</li>
+</ul>
+<p>O resultado será a repetição da <em>string</em> dez vezes na tela.</p>
 <h4 id="o-que-e-uma-expressao"><strong>O que é uma expressão?</strong></h4>
 <p>Uma <strong>expressão</strong> é qualquer instrução que produz um valor.</p>
 <p>Antes de exibir o resultado, o Python:</p>
@@ -2106,8 +2106,8 @@
 <li>Retorna o resultado.</li>
 </ol>
 <p>Esse conceito é essencial para operações matemáticas e manipulação de dados.</p>
-<h4 id="conclusao"><strong>Conclusão</strong></h4>
-<p>Ao final desta aula, você compreendeu:</p>
+<h4 id="checklist"><strong>Checklist</strong></h4>
+<p>Ao final desta aula você aprendeu:</p>
 <ul>
 <li>Como o Python executa um programa</li>
 <li>A ordem de leitura do código</li>

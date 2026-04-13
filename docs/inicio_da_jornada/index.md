@@ -1,9 +1,9 @@
 ---
 comments: true
 ---
-# **Início da Jornada**
+# **Início da Jornada: Início da Jornada**
 
-Bem vindo à Trilha Dev!
+Bem vindo ao Trilha Dev: !
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YBRBKqIenfU?si=bs13jw9hmvCVVsun" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -77,9 +77,3 @@ Essa trilha é para você que:
 _O **Trilha Dev: Início da Jornada** é o seu primeiro passo em direção a um novo jeito de trabalhar, mais moderno, colaborativo e conectado._
 
 [Começar agora](inicio_da_jornada/aulas/index.md){ .md-button .md-button--primary }
-______
-#### Ferramentas e serviços de apoio para este site:
-
-- Logo: Astro by Pablo Stanley in [Transhumans Collection](https://blush.design/collections/i6aPXTYbSUdZEveWhgik/transhumans)
-- Ilustrações: [Blush Design Inc.](https://blush.design/pt)
-- Tema: [Material for mkdocs](https://squidfunk.github.io/mkdocs-material/)

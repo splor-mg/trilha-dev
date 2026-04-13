@@ -1858,40 +1858,40 @@
 <p>Essa é uma forma gratuita e fácil de hospedar seu portfólio.</p>
 <h2 id="5-preparando-o-projeto-para-publicacao">5. Preparando o projeto para publicação</h2>
 <p>No terminal, dentro do seu projeto:</p>
-<p><div class="highlight"><pre><span></span><code>mkdocs build
-</code></pre></div>
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>mkdocs build
+</span></code></pre></div>
 Esse comando gera a pasta site/ com os arquivos finais do seu site.</p>
 <h2 id="6-atualizando-o-arquivo-de-configuracao-do-projeto">6. Atualizando o arquivo de configuração do projeto</h2>
 <p>No arquivo mkdocs.yml, adicione:</p>
-<p><div class="highlight"><pre><span></span><code>site_url: https://seuusuario.github.io/seurepositorio/
-</code></pre></div>
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>site_url: https://seuusuario.github.io/seurepositorio/
+</span></code></pre></div>
 Substitua seu usuario e seu repositorio pelos nomes corretos do seu GitHub.</p>
 <h2 id="7-criando-o-arquivo-de-deploy">7. Criando o arquivo de deploy</h2>
 <p>Se ainda não estiver no projeto, crie o arquivo <code>.github/workflows/gh-pages.yml</code> com o seguinte conteúdo:</p>
-<div class="highlight"><pre><span></span><code>name: Deploy MkDocs site to GitHub Pages
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
-        with:
-          python-version: &#39;3.x&#39;
-      - run: pip install mkdocs mkdocs-material
-      - run: mkdocs gh-deploy --force
-</code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>name: Deploy MkDocs site to GitHub Pages
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>on:
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>  push:
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>    branches:
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>      - main
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>jobs:
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>  deploy:
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>    runs-on: ubuntu-latest
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>    steps:
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>      - uses: actions/checkout@v3
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a>      - uses: actions/setup-python@v4
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a>        with:
+</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a>          python-version: &#39;3.x&#39;
+</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a>      - run: pip install mkdocs mkdocs-material
+</span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a>      - run: mkdocs gh-deploy --force
+</span></code></pre></div>
 <h2 id="8-subindo-para-o-github">8. Subindo para o GitHub</h2>
 <p>No terminal:</p>
-<div class="highlight"><pre><span></span><code>git add .
-git commit -m &quot;Preparação para publicação do site&quot;
-git push origin main
-</code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>git add .
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>git commit -m &quot;Preparação para publicação do site&quot;
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>git push origin main
+</span></code></pre></div>
 <p>Espere alguns minutos, e seu site estará disponível no endereço configurado.</p>
 <h2 id="9-conclusao-e-convite">9. Conclusão e convite</h2>
 <p>Hoje você aprendeu como os projetos abertos são construídos com colaboração, como o GitHub ajuda nesse processo, e — o mais importante — colocou seu portfólio no ar! Parabéns! </p>
@@ -2059,7 +2059,7 @@ function resetFieldset(fieldset) {
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.sections", "navigation.path", "navigation.indexes", "navigation.expand"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.sections", "navigation.path", "navigation.indexes", "navigation.expand", "content.code.copy", "content.code.select", "content.code.annotate"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
     
     
       <script src="../../../../assets/javascripts/bundle.79ae519e.min.js"></script>

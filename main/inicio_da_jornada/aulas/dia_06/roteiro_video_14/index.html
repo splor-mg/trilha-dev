@@ -1840,29 +1840,29 @@
 <p>📌 Boa prática: Sempre associe o PR com a issue que deu origem à tarefa.</p>
 <h2 id="4-criando-a-branch-a-partir-da-issue">4. Criando a branch a partir da issue</h2>
 <p>No terminal:</p>
-<div class="highlight"><pre><span></span><code>git checkout -b post-aprendizados
-checkout -b cria e muda para uma nova branch chamada post-aprendizados.
-</code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git checkout -b post-aprendizados
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>checkout -b cria e muda para uma nova branch chamada post-aprendizados.
+</span></code></pre></div>
 <p>💡 Dica: escolha nomes curtos e descritivos para as branches.</p>
 <h2 id="5-fazendo-as-alteracoes-no-projeto">5. Fazendo as alterações no projeto</h2>
 <ul>
 <li>Criar o post sugerido na issue:</li>
 </ul>
-<p><div class="highlight"><pre><span></span><code>mkdir blog
-touch blog/aprendizados.md
-Adicionar conteúdo ao aprendizados.md (ex: principais aprendizados do curso).
-</code></pre></div>
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>mkdir blog
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>touch blog/aprendizados.md
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>Adicionar conteúdo ao aprendizados.md (ex: principais aprendizados do curso).
+</span></code></pre></div>
 - Atualizar o mkdocs.yml para incluir o novo post:</p>
-<div class="highlight"><pre><span></span><code>nav:
-  - Início: index.md
-  - Blog:
-    - Aprendizados da semana: blog/aprendizados.md
-</code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>nav:
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>  - Início: index.md
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>  - Blog:
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>    - Aprendizados da semana: blog/aprendizados.md
+</span></code></pre></div>
 <h2 id="6-comitar-e-enviar-a-branch">6. Comitar e enviar a branch</h2>
-<div class="highlight"><pre><span></span><code>git add .
-git commit -m &quot;Criação do post com aprendizados da semana&quot;
-git push origin post-aprendizados
-</code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>git add .
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>git commit -m &quot;Criação do post com aprendizados da semana&quot;
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>git push origin post-aprendizados
+</span></code></pre></div>
 <h2 id="7-criando-o-pull-request-no-github">7. Criando o pull request no GitHub</h2>
 <p>Passo a passo:</p>
 <ul>
@@ -2050,7 +2050,7 @@ function resetFieldset(fieldset) {
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.sections", "navigation.path", "navigation.indexes", "navigation.expand"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.sections", "navigation.path", "navigation.indexes", "navigation.expand", "content.code.copy", "content.code.select", "content.code.annotate"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
     
     
       <script src="../../../../assets/javascripts/bundle.79ae519e.min.js"></script>

@@ -1273,6 +1273,67 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="🎥 Vídeo 7">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contexto-do-problema" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contexto do problema
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#concatenacao-de-strings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Concatenação de strings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formatacao-com-f-strings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Formatação com f-strings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reatribuicao-de-variaveis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reatribuição de variáveis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Checklist
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -1762,6 +1823,67 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="🎥 Vídeo 7">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contexto-do-problema" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contexto do problema
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#concatenacao-de-strings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Concatenação de strings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formatacao-com-f-strings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Formatação com f-strings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reatribuicao-de-variaveis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reatribuição de variáveis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Checklist
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -1854,7 +1976,53 @@
 <h1 id="aula-007-formatacao-de-strings">Aula 007: Formatação de strings</h1>
 <h2 id="video-7">🎥 Vídeo 7</h2>
 <p>Nesta aula, nós vamos aprender mais sobre as strings e como formatá-las para um código mais prático e limpo.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/exabtQvKtzc?si=tY-VH8rjQLZncFo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><style type="text/css">.quiz {
+<iframe width="560" height="315" src="https://www.youtube.com/embed/exabtQvKtzc?si=tY-VH8rjQLZncFo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<h4 id="contexto-do-problema"><strong>Contexto do problema</strong></h4>
+<p>Em muitos programas é necessário exibir mensagens personalizadas utilizando informações do usuário.</p>
+<p>Exemplo de dados:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">nome</span> <span class="o">=</span> <span class="s2">&quot;Ana&quot;</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">sobrenome</span> <span class="o">=</span> <span class="s2">&quot;Silva&quot;</span>
+</span></code></pre></div>
+<p>O objetivo é exibir a seguinte mensagem:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">Ana</span> <span class="n">Silva</span> <span class="n">é</span> <span class="n">uma</span> <span class="n">aluna</span> <span class="n">nova</span><span class="o">.</span>
+</span></code></pre></div>
+<h4 id="concatenacao-de-strings"><strong>Concatenação de <em>strings</em></strong></h4>
+<p>Uma forma de montar essa mensagem é utilizando concatenação com o operador <strong>+</strong>:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">mensagem</span> <span class="o">=</span> <span class="n">nome</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="n">sobrenome</span> <span class="o">+</span> <span class="s2">&quot; é uma aluna nova.&quot;</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">mensagem</span><span class="p">)</span>
+</span></code></pre></div>
+<p>Neste caso, estamos unindo:</p>
+<ul>
+<li>o valor da variável <strong>nome</strong></li>
+<li>um <strong>espaço</strong></li>
+<li>o valor da variável <strong>sobrenome</strong></li>
+<li>o restante da frase</li>
+</ul>
+<h4 id="formatacao-com-f-strings"><strong>Formatação com <em>f-strings</em></strong></h4>
+<p>Uma forma mais prática e legível de fazer isso é utilizando <strong><em>f-strings</em></strong>.
+Com essa abordagem adicionamos a letra <strong>f</strong> antes da <em>string</em> e utilizamos <strong>{ }</strong> para inserir variáveis diretamente:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">mensagem</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">nome</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">sobrenome</span><span class="si">}</span><span class="s2"> é uma aluna nova.&quot;</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">mensagem</span><span class="p">)</span>
+</span></code></pre></div>
+<p>O Python substitui automaticamente os valores das variáveis dentro das <strong>chaves</strong>.</p>
+<h4 id="reatribuicao-de-variaveis"><strong>Reatribuição de variáveis</strong></h4>
+<p>Quando uma variável é redefinida o Python considera apenas o valor mais recente.</p>
+<p>Exemplo:</p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">mensagem</span> <span class="o">=</span> <span class="n">nome</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="n">sobrenome</span> <span class="o">+</span> <span class="s2">&quot; é uma aluna nova.&quot;</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="n">mensagem2</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">nome</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">sobrenome</span><span class="si">}</span><span class="s2"> é uma aluna nova.&quot;</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">mensagem2</span><span class="p">)</span>
+</span></code></pre></div>
+<p>Neste caso, o valor exibido será o da variável utilizada no <strong>print</strong>.</p>
+<h4 id="checklist"><strong>Checklist</strong></h4>
+<p>Ao final desta aula, você aprendeu:</p>
+<ul>
+<li>Como concatenar <em>strings</em> utilizando o operador <strong>+</strong></li>
+<li>Como utilizar <strong><em>f-strings</em></strong> para formatação</li>
+<li>Como inserir variáveis dentro de <em>strings</em></li>
+<li>Como funciona a reatribuição de variáveis</li>
+</ul>
+<p>A formatação de strings é um recurso muito utilizado para tornar o código mais organizado e facilitar a construção de mensagens dinâmicas.</p><style type="text/css">.quiz {
   border: 1px solid black;
   padding: 1rem;
   margin: 1rem 0;
@@ -2074,7 +2242,7 @@ function resetFieldset(fieldset) {
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.sections", "navigation.path", "navigation.indexes", "navigation.expand"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.sections", "navigation.path", "navigation.indexes", "navigation.expand", "content.code.copy", "content.code.select", "content.code.annotate"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
     
     
       <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>

@@ -43,7 +43,7 @@ print(numeros)
 Resultado:
 
 ``` py
-[7, 5, 8, 2, 0, 1\]
+[7, 5, 8, 2, 0, 1]
 ```
 
 #### **Usando insert()**

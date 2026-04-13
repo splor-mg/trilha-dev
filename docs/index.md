@@ -78,7 +78,7 @@ Aqui, o foco não é formar desenvolvedores, mas sim:
 - Entender o potencial da programação no seu trabalho
 
 👉 Acesse: 
-[Python](python/index.m){ .md-button .md-button--primary }
+[Python](python/index.md){ .md-button .md-button--primary }
 
 ---
 

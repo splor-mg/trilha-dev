@@ -26,12 +26,7 @@ O comando **cd** permite navegar entre diretórios no sistema.
 
 #### **Ordem de execução do Python**
 
-O Python executa o código seguindo uma ordem específica:
-
-- De cima para baixo
-- Da esquerda para a direita
-
-Isso significa que cada linha é lida e executada sequencialmente.
+O Python lê o código como nós: de cima para baixo e da esquerda para a direita. Porém, existe um "pulo do gato" nas atribuições (o sinal de **=**). Quando o interpretador encontra um sinal de **=**, ele faz uma pausa - primeiro ele resolve toda a expressão que está à direita para, só depois, guardar o resultado na variável que ficou à esquerda. É por isso que, embora a leitura comece na esquerda, o cálculo final parece acontecer de trás para frente.
 
 #### **Exemplo prático com múltiplos prints**
 

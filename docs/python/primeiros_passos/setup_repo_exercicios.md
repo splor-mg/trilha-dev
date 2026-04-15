@@ -32,7 +32,7 @@ exercicio-01/
 
 - `README.md`: Aqui está o enunciado do exercício, ou seja, é o que você precisa resolver.
 - `main.py`: Aqui é onde você vai escrever sua resposta.
-- `tests/`: Aqui estão os testes automáticos que vão verificar se sua solução está correta.”
+- `tests/`: Aqui estão os testes automáticos que vão verificar se sua solução está correta.
 
 ### Para resolver os exercícios
 

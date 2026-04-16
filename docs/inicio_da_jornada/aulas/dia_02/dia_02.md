@@ -14,6 +14,8 @@ Neste vídeo, vamos explicar o que é preciso para desenvolver.
 
 O objetivo deste vídeo é te apresentar a interface e realizar primeiras interações com o Codespace, inclusive usando o terminal.
 
+--8<-- "docs/assets/partials/codespaces_costs.md"
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rsQLVpAIUO8?si=D_I4axrpN5YoX33b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - 📚 Atividade:
@@ -30,14 +32,14 @@ Neste vídeo, vamos tentar te mostrar como escolhemos ferramentas para projetos.
 - 📚 Atividade:
     - Visite o site do [MKDOCS](https://www.mkdocs.org/) e do [Material for MKDOCS](https://squidfunk.github.io/mkdocs-material/).
     - Encontre outros exemplos de sites criados por órgãos públicos (Brasil e mundo), utilizando o Mkdocs ou Mkdocs-material. Não deixe de compartilhar os sites encontrados nos comentários.
-        
-        :bulb: Dica: Você pode usar uma pesquisa com ajuda da IA para encontrar estes sites. 
+
+        :bulb: Dica: Você pode usar uma pesquisa com ajuda da IA para encontrar estes sites.
 
 __________
 
 ### Teste seus conhecimentos!
 
-[Quiz dia 02](quiz_dia_02.md){ .md-button .md-button--primary } 
+[Quiz dia 02](quiz_dia_02.md){ .md-button .md-button--primary }
 
 ### Checklist Dia 2:
 - [ ] Assistir aos 3 vídeos

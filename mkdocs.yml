@@ -53,6 +53,7 @@ nav:
         - Aula 023: python/aulas/023_dicionário.md
         - Aula 024: python/aulas/024_funcoes.md
         - Aula 025: python/aulas/025_parametros.md
+        - Aula 026: python/aulas/026_keywords_arguments.md
 
 # Configuration
 theme:

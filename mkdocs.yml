@@ -52,6 +52,7 @@ nav:
         - Aula 022: python/aulas/022_desempacotamento.md
         - Aula 023: python/aulas/023_dicionário.md
         - Aula 024: python/aulas/024_funcoes.md
+        - Aula 025: python/aulas/025_parametros.md
 
 # Configuration
 theme:

@@ -50,6 +50,11 @@ nav:
         - Aula 020: python/aulas/020_metodos_listas.md
         - Aula 021: python/aulas/021_tuplas.md
         - Aula 022: python/aulas/022_desempacotamento.md
+        - Aula 023: python/aulas/023_dicionário.md
+        - Aula 024: python/aulas/024_funcoes.md
+        - Aula 025: python/aulas/025_parametros.md
+        - Aula 026: python/aulas/026_keywords_arguments.md
+        - Aula 027: python/aulas/027_return.md
 
 # Configuration
 theme:

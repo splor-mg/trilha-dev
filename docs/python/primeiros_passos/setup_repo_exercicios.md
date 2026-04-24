@@ -6,7 +6,11 @@ comments: true
 O trilha-dev: Python conta com um [repositório de exercícios](https://github.com/splor-mg/exercicios-python) próprios para que você aproveite ao máximo os seus aprendizados. Nele você encontará exercícios para explorar diversas competências e em níveis de dificuldade.
 
 Nos vídeos abaixo, eu vou te mostrar tudo o que você precisa saber para começar a fazer os exercícios da trilha, mesmo que você nunca tenha programado antes.
-Além disso, se você tiver dúvida sobre o que for apresentado nesses vídeos, visite (ou revisite) o Trilha Dev: Início da Jornada.
+Além disso, se você tiver dúvida sobre o que for apresentado nesses vídeos, visite (ou revisite) o Trilha Dev: Início da Jornada[^1].
+
+
+[^1]:
+--8<-- "docs/assets/partials/nao_se_preocupe.md"
 
 ## Como fazer o setup do repositório de exercícios
 

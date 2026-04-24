@@ -7,6 +7,11 @@ Bem-vindo à **Trilha Dev: Python** 👋
 
 Este curso é o próximo passo da nossa jornada de aprendizado em tecnologia dentro da **Subsecretaria de Orçamento e Planejamento (SPLOR)**. Ele dá continuidade ao **Trilha Dev: Início da Jornada**, onde construímos bases importantes como documentação como código, Git e GitHub, uso do terminal, Markdown e a criação de sites estáticos com MkDocs.
 
+!!! note "Não se preocupe"
+
+    --8<-- "docs/assets/partials/nao_se_preocupe.md"
+
+
 Agora, é hora de avançar.
 
 ## Mas, afinal, o que é Python?
@@ -44,7 +49,7 @@ Aprender Python neste momento da jornada significa:
 
 Este curso **não é só sobre formar desenvolvedores de software**, mas sobre capacitar pessoas para resolver problemas reais com mais autonomia.
 
-[^3]: Para descontrair, [esta figura](https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Ftree-swing-v0-i2aeyrivmjoz.jpg%3Fauto%3Dwebp%26s%3D6a8d5a17a9f8decbedd5614c51dc8dc6cbb9e3d4) ilustra muito bem o problema do telefone sem fio no mundo do desenvolvimento de software comentado no vídeo [Trilha Dev: Python - Por que fazer essa trilha?](https://www.youtube.com/watch?v=1QrXnafJDuw).
+[^3]: Para descontrair, [esta figura](https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Ftree-swing-v0-i2aeyrivmjoz.jpg%3Fauto%3Dwebp%26s%3D6a8d5a17a9f8decbedd5614c51dc8dc6cbb9e3d4) ilustra muito bem o problema do telefone sem fio no mundo do desenvolvimento de software comentado no vídeo [Trilha Dev: Python - Por que fazer essa trilha?](https://www.youtube.com/watch?v=1QrXnafJDuw)
 
 ## Não está convencido?
 

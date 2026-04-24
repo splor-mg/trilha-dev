@@ -11,7 +11,10 @@ Para o curso, vamos utilizar:
 - O  **Git**
 - O **Codespaces**
 
-Se você já fez o **Trilha-Dev: Início da Jornada**, você já está familiarizado com o Git e com o Codespaces, mas, se ainda não conhece, o Gabriel mostra como baixar e acessar as ferramentas no vídeo abaixo.
+Se você já fez o **Trilha-Dev: Início da Jornada**[^1], você já está familiarizado com o Git e com o Codespaces, mas, se ainda não conhece, o Gabriel mostra como baixar e acessar as ferramentas no vídeo abaixo.
+
+[^1]:
+--8<-- "docs/assets/partials/nao_se_preocupe.md"
 
 --8<-- "docs/assets/partials/codespaces_costs.md"
 

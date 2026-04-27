@@ -58,6 +58,7 @@ nav:
         - Aula 028: python/aulas/028_excecoes.md
         - Aula 029: python/aulas/029_comentarios.md
         - Aula 030: python/aulas/030_classes.md
+        - Aula 031: python/aulas/031_construtores.md
 
 # Configuration
 theme:

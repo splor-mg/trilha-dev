@@ -55,6 +55,11 @@ nav:
         - Aula 025: python/aulas/025_parametros.md
         - Aula 026: python/aulas/026_keywords_arguments.md
         - Aula 027: python/aulas/027_return.md
+        - Aula 028: python/aulas/028_excecoes.md
+        - Aula 029: python/aulas/029_comentarios.md
+        - Aula 030: python/aulas/030_classes.md
+        - Aula 031: python/aulas/031_construtores.md
+        - Aula 032: python/aulas/032_heranca.md
 
 # Configuration
 theme:

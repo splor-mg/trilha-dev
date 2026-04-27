@@ -19,7 +19,7 @@ nav:
         - Dia 05: inicio_da_jornada/aulas/dia_05/dia_05.md
         - Dia 06: inicio_da_jornada/aulas/dia_06/dia_06.md
       - Desafio Final: inicio_da_jornada/desafio_final.md
-      - Registos da 1ª Turma: inicio_da_jornada/turma_01/registros_encontros.md
+      - Registros da 1ª Turma: inicio_da_jornada/turma_01/registros_encontros.md
       - Certificação: inicio_da_jornada/certificacao.md
     - Python:
       - python/index.md
@@ -49,6 +49,8 @@ nav:
         - Aula 020: python/aulas/020_metodos_listas.md
         - Aula 021: python/aulas/021_tuplas.md
         - Aula 022: python/aulas/022_desempacotamento.md
+      - Encontros:
+        - Registros: python/encontros/registros_dos_encontros.md
 
 # Configuration
 theme:

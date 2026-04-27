@@ -164,3 +164,89 @@ body p {
     display: inline-block;
     margin: 0 auto;
 }
+
+/* card*/
+.grid-encontros {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-encontro {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background: linear-gradient(135deg, #1e1e1e, #2a2a2a);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 25px rgba(0,0,0,0.4);
+  transition: all 0.2s ease;
+}
+
+.card-encontro:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 35px rgba(0,0,0,0.6);
+}
+
+.numero {
+  background: #cddc39;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteudo h3 {
+  margin: 0;
+}
+
+.data {
+  opacity: 0.8;
+  margin: 5px 0;
+}
+
+.gravacao a {
+  color: #cddc39;
+}
+
+.acoes {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* botão outline */
+.btn-outline {
+  border: 1px solid #cddc39;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: #cddc39;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.btn-outline:hover {
+  background: #cddc39;
+  color: #000;
+}
+
+/* botão principal */
+.btn-primary {
+  background: #cddc39;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.btn-primary:hover {
+  filter: brightness(1.1);
+}

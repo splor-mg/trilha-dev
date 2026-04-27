@@ -59,6 +59,7 @@ nav:
         - Aula 029: python/aulas/029_comentarios.md
         - Aula 030: python/aulas/030_classes.md
         - Aula 031: python/aulas/031_construtores.md
+        - Aula 032: python/aulas/032_heranca.md
 
 # Configuration
 theme:

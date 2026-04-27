@@ -31,7 +31,7 @@ Em muitas organizações, o conhecimento técnico fica concentrado em poucas pes
 
 O Trilha Dev surge com dois objetivos principais:
 
-- **Autonomia:** permitir que mais pessoas consigam resolver problemas do dia a dia com tecnologia  
+- **Autonomia:** permitir que mais pessoas consigam resolver problemas do dia a dia com tecnologia
 - **Perenidade:** garantir que processos e conhecimentos sejam registrados, versionados e compartilhados
 
 ---
@@ -39,9 +39,9 @@ O Trilha Dev surge com dois objetivos principais:
 
 Esta trilha é para você que:
 
-- Atua em áreas administrativas, projetos ou gestão.  
-- Trabalha com relatórios, dados ou processos. 
-- Quer organizar melhor seu conhecimento.  
+- Atua em áreas administrativas, projetos ou gestão.
+- Trabalha com relatórios, dados ou processos.
+- Quer organizar melhor seu conhecimento.
 - Precisa colaborar com outras pessoas ou equipes técnicas.
 - Acredita que a tecnologia pode facilitar o seu trabalho.
 
@@ -62,7 +62,7 @@ Você vai aprender sobre:
 - Markdown
 - Criação de sites com MkDocs
 
-👉 Acesse: 
+👉 Acesse:
 [Início da jornada](inicio_da_jornada/index.md){ .md-button .md-button--primary }
 
 ---
@@ -77,7 +77,7 @@ Aqui, o foco não é formar desenvolvedores, mas sim:
 - Resolver problemas reais
 - Entender o potencial da programação no seu trabalho
 
-👉 Acesse: 
+👉 Acesse:
 [Python](python/index.md){ .md-button .md-button--primary }
 
 ---

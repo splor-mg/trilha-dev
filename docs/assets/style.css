@@ -125,7 +125,7 @@ body p {
     .texto-direita {
         text-align: left; /* Em dispositivos móveis, alinha à esquerda por padrão */
     }
-    
+
     .bloco-centralizado {
         align-items: flex-start;
     }
@@ -249,4 +249,155 @@ body p {
 
 .btn-primary:hover {
   filter: brightness(1.1);
+}
+
+/*CARDS GUIA ENCONTROS*/
+/* ================= CARD ================= */
+.md-typeset .card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  transition: all 0.25s ease;
+
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--light);
+
+  /* 👇 SOMBRA REAL (AGORA FUNCIONA) */
+  box-shadow:
+    0 4px 10px rgba(0,0,0,0.08),
+    0 12px 30px rgba(0,0,0,0.12),
+    0 25px 60px rgba(0,0,0,0.10);
+}
+
+/* ================= HOVER ================= */
+.md-typeset .card:hover {
+  transform: translateY(-4px);
+
+  box-shadow:
+    0 10px 20px rgba(0,0,0,0.12),
+    0 20px 40px rgba(0,0,0,0.18),
+    0 40px 80px rgba(0,0,0,0.12);
+}
+
+/* ================= DARK MODE ================= */
+[data-md-color-scheme="slate"] .md-typeset .card {
+  background: linear-gradient(
+    135deg,
+    var(--md-default-bg-color),
+    rgba(255,255,255,0.05)
+  );
+
+  border: 1px solid rgba(255,255,255,0.08);
+
+  box-shadow:
+    0 6px 30px rgba(0,0,0,0.6),
+    0 20px 60px rgba(0,0,0,0.5);
+}
+
+/* ================= NÚMERO ================= */
+.numero {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  font-weight: bold;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ================= INFO ================= */
+.info {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.linha {
+  margin: 4px 0;
+}
+
+/* ================= BADGE ================= */
+.badge {
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  margin-left: 8px;
+}
+
+.novo {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+.em-breve {
+  background: var(--md-accent-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+/* ================= BOTÕES ================= */
+.botoes {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.botoes a {
+  white-space: nowrap;
+}
+
+/* BOTÃO OUTLINE */
+.btn-outline {
+  padding: 6px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.2s;
+  border: 1px solid var(--md-primary-fg-color);
+  color: var(--md-primary-fg-color);
+}
+
+.btn-outline:hover {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+/* BOTÃO PRINCIPAL */
+.btn-primary {
+  padding: 6px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color) !important;
+}
+
+.btn-primary:hover {
+  filter: brightness(1.1);
+}
+
+/* ================= DETALHES ================= */
+.detalhes {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* DARK */
+[data-md-color-scheme="slate"] .detalhes {
+  background: rgba(255,255,255,0.05);
+}
+
+/* LIGHT */
+[data-md-color-scheme="default"] .detalhes {
+  background: rgba(0,0,0,0.05);
+}
+
+.detalhes summary {
+  cursor: pointer;
+  font-weight: bold;
 }

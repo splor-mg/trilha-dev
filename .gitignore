@@ -16,6 +16,8 @@ build/
 develop-eggs/
 dist/
 downloads/
+!docs/assets/downloads/
+!docs/assets/downloads/*.pdf
 eggs/
 .eggs/
 lib/

@@ -1,83 +1,87 @@
 ---
 comments: true
 ---
-# **Início da Jornada**
+# **Trilha Dev**
 
-Bem vindo ao Trilha Dev!
+Bem-vindo(a) ao **Trilha Dev**, uma iniciativa da Splor-MG de capacitação tecnológica criada para tornar o uso da tecnologia mais acessível, prático e conectado ao dia a dia de trabalho.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YBRBKqIenfU?si=bs13jw9hmvCVVsun" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Aqui, a tecnologia não é um fim em si: é uma ferramenta para organizar melhor o conhecimento, automatizar tarefas e ampliar a autonomia profissional.
 
-### :octicons-arrow-right-24: Tecnologia ao alcance de quem organiza, planeja e executa!
+---
 
-O **Trilha-Dev: Início da Jornada** foi criado especialmente para pessoas que atuam com **atividades administrativas e de apoio à gestão** e que desejam navegar **com mais segurança no mundo da tecnologia**, sem a necessidade de se tornarem desenvolvedores profissionais.
+## Sobre o projeto
 
-Aqui, a proposta é simples: **apresentar ferramentas e práticas do universo da programação** que podem facilitar o seu dia a dia e transformar a forma como você organiza e compartilha seu trabalho.
+O Trilha Dev é um ecossistema de aprendizagem voltado para pessoas que não são da área de tecnologia, mas que lidam com processos, informações e desafios que podem ser melhor resolvidos com o apoio de ferramentas digitais.
 
-E, se você decidir mergulhar no mundo do desenvolvimento e dados, você sairá desse curso muito bem preparado para iniciar sua jornada.
+A proposta é simples: **mostrar que você não precisa ser desenvolvedor para se beneficiar da tecnologia.**
 
-### :octicons-arrow-right-24: Por que esse curso é relevante?
+Ao longo da trilha, você vai aprender a:
 
-A **Splor** já utiliza o **[GitHub](https://github.com/splor-mg)** institucional para alguns projetos. Até agora, esse espaço tem sido ocupado principalmente por repositórios da área de dados — com automações, scripts e visualizações.
+- Organizar e versionar informações
+- Documentar processos de forma estruturada
+- Colaborar com outras pessoas de maneira mais eficiente
+- Automatizar tarefas do dia a dia
+- Entender melhor como a tecnologia funciona na prática
 
-Mas o GitHub é muito mais do que isso.
+---
 
-**Com o conhecimento certo, qualquer setor pode usar essa plataforma para versionar documentos, registrar processos, criar portfólios, estruturar repositórios e colaborar de forma mais eficiente.** E é exatamente isso que  Trilha-Dev quer mostrar: como você pode fazer parte disso tudo.
+## Por que isso importa?
 
-### :octicons-arrow-right-24: O que você vai aprender
+Em muitas organizações, o conhecimento técnico fica concentrado em poucas pessoas. Isso pode gerar dependência, dificultar a evolução dos processos e limitar o potencial de inovação.
 
-<div class="grid" markdown>
+O Trilha Dev surge com dois objetivos principais:
 
-=== "Durante a trilha, você vai:"
+- **Autonomia:** permitir que mais pessoas consigam resolver problemas do dia a dia com tecnologia
+- **Perenidade:** garantir que processos e conhecimentos sejam registrados, versionados e compartilhados
 
-    * Entender o que é documentação como código (doc as code) e por que ela importa
-    * Aprender a usar Git e GitHub para versionar e colaborar em projetos
-    * Navegar pelo terminal e executar comandos essenciais
-    * Escrever e formatar conteúdos usando Markdown
-    * Criar e publicar um site estático com MkDocs
-    * Explorar temas, personalização e recursos como blogs e portfólios
-    * Usar ferramentas como GitHub Pages, issues, branches e pull requests para organizar seu trabalho
+---
+## Para quem é o Trilha Dev?
 
-</div>
+Esta trilha é para você que:
 
-### :octicons-arrow-right-24: Como funciona
+- Atua em áreas administrativas, projetos ou gestão.
+- Trabalha com relatórios, dados ou processos.
+- Quer organizar melhor seu conhecimento.
+- Precisa colaborar com outras pessoas ou equipes técnicas.
+- Acredita que a tecnologia pode facilitar o seu trabalho.
 
-A trilha é dividida em 6 dias de conteúdo com:
+---
+## Como funciona a trilha
 
-- Vídeo aulas práticas e objetivas
-- Exercícios
-- Materiais complementares
+O Trilha Dev é dividido em etapas que constroem o conhecimento de forma progressiva. Até o momento já temos duas trilhas desenvolvidas:
 
-Você só precisa de cerca de **1 hora por dia** para concluir cada etapa. Ou seja, é possível finalizar a trilha em **menos de uma semana** com um pouquinho de dedicação.
+### Início da Jornada
 
-### :octicons-arrow-right-24: Para quem é essa trilha?
+A primeira etapa apresenta os fundamentos da organização do conhecimento com tecnologia.
 
-Essa trilha é para você que:
+Você vai aprender sobre:
 
-<div class="grid" markdown>
+- Documentação como código (_Docs as Code_)
+- Git e GitHub
+- Uso do terminal
+- Markdown
+- Criação de sites com MkDocs
 
-:man_raising_hand: Atua com **relatórios, projetos, indicadores ou processos administrativos**
-{ .card }
+👉 Acesse:
+[Início da jornada](inicio_da_jornada/index.md){ .md-button .md-button--primary }
 
-:woman_raising_hand_tone4: Quer **organizar seu conhecimento** de forma mais **eficiente**
-{ .card }
+---
 
-:person_raising_hand_tone2: Precisa **colaborar** com outras pessoas ou equipes técnicas
-{ .card }
+### Python
 
-:man_raising_hand_tone1: Acredita que a **tecnologia pode facilitar**, e muito,o seu trabalho
-{ .card }
+Na segunda etapa, você dá um passo além e começa a utilizar programação como ferramenta prática.
 
-</div>
+Aqui, o foco não é formar desenvolvedores, mas sim:
 
-### :octicons-arrow-right-24: Comece agora
+- Automatizar tarefas
+- Resolver problemas reais
+- Entender o potencial da programação no seu trabalho
 
-- Não é preciso saber programar.
-- Você só precisa de curiosidade e disposição para aprender.
+👉 Acesse:
+[Python](python/index.md){ .md-button .md-button--primary }
 
-_O **Trilha Dev: Início da Jornada** é o seu primeiro passo em direção a um novo jeito de trabalhar, mais moderno, colaborativo e conectado._
+---
 
-[Começar agora](inicio_da_jornada/aulas/index.md){ .md-button .md-button--primary }
-______
 #### Ferramentas e serviços de apoio para este site:
 
 - Logo: Astro by Pablo Stanley in [Transhumans Collection](https://blush.design/collections/i6aPXTYbSUdZEveWhgik/transhumans)

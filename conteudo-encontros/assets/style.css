@@ -1,0 +1,403 @@
+/* ========================================
+   CUSTOMIZAÇÕES PARA TRILHA DEV
+   ======================================== */
+
+/* Classes para controle de alinhamento de texto */
+
+body p {
+    text-align: justify;
+}
+.texto-centralizado {
+    text-align: center;
+}
+
+.texto-esquerda {
+    text-align: left;
+}
+
+.texto-direita {
+    text-align: right;
+}
+
+/* Combinações especiais */
+.texto-centralizado-justificado {
+    text-align: center;
+    text-align-last: center;
+}
+
+.texto-justificado-centralizado {
+    text-align: justify;
+    text-align-last: center;
+}
+
+/* Classes para blocos de conteúdo */
+.bloco-centralizado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bloco-justificado {
+    text-align: justify;
+    max-width: 100%;
+}
+
+/* Classes para títulos */
+.titulo-centralizado {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.titulo-justificado {
+    text-align: justify;
+    margin: 2rem 0;
+}
+
+/* Classes para parágrafos */
+.paragrafo-centralizado {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.paragrafo-justificado {
+    text-align: justify;
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
+/* Classes para listas */
+.lista-centralizada {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.lista-justificada {
+    text-align: justify;
+}
+
+/* Classes para imagens */
+.imagem-centralizada {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.avatar {
+  /*width: 10em;
+  height: 10em!important;*/
+  border-radius: 50%;
+}
+
+/* Classes para tabelas */
+.tabela-centralizada {
+    margin: 0 auto;
+}
+
+.tabela-justificada {
+    width: 100%;
+    text-align: justify;
+}
+
+/* Classes para código */
+.codigo-centralizado {
+    text-align: center;
+    background-color: var(--md-code-bg-color);
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 1rem 0;
+}
+
+/* Classes para admonitions */
+.admonicao-centralizada {
+    text-align: center;
+}
+
+.admonicao-justificada {
+    text-align: justify;
+}
+
+/* Classes responsivas */
+@media (max-width: 768px) {
+    .texto-centralizado,
+    .texto-justificado,
+    .texto-esquerda,
+    .texto-direita {
+        text-align: left; /* Em dispositivos móveis, alinha à esquerda por padrão */
+    }
+
+    .bloco-centralizado {
+        align-items: flex-start;
+    }
+}
+
+/* Classes para espaçamento */
+.espaco-superior {
+    margin-top: 2rem;
+}
+
+.espaco-inferior {
+    margin-bottom: 2rem;
+}
+
+.espaco-lateral {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* Classes para destaque */
+.destaque {
+    background-color: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.destaque-centralizado {
+    background-color: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/* card*/
+.grid-encontros {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-encontro {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background: linear-gradient(135deg, #1e1e1e, #2a2a2a);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 25px rgba(0,0,0,0.4);
+  transition: all 0.2s ease;
+}
+
+.card-encontro:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 35px rgba(0,0,0,0.6);
+}
+
+.numero {
+  background: #cddc39;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteudo h3 {
+  margin: 0;
+}
+
+.data {
+  opacity: 0.8;
+  margin: 5px 0;
+}
+
+.gravacao a {
+  color: #cddc39;
+}
+
+.acoes {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* botão outline */
+.btn-outline {
+  border: 1px solid #cddc39;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: #cddc39;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.btn-outline:hover {
+  background: #cddc39;
+  color: #000;
+}
+
+/* botão principal */
+.btn-primary {
+  background: #cddc39;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.btn-primary:hover {
+  filter: brightness(1.1);
+}
+
+/*CARDS GUIA ENCONTROS*/
+/* ================= CARD ================= */
+.md-typeset .card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  transition: all 0.25s ease;
+
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--light);
+
+  /* 👇 SOMBRA REAL (AGORA FUNCIONA) */
+  box-shadow:
+    0 4px 10px rgba(0,0,0,0.08),
+    0 12px 30px rgba(0,0,0,0.12),
+    0 25px 60px rgba(0,0,0,0.10);
+}
+
+/* ================= HOVER ================= */
+.md-typeset .card:hover {
+  transform: translateY(-4px);
+
+  box-shadow:
+    0 10px 20px rgba(0,0,0,0.12),
+    0 20px 40px rgba(0,0,0,0.18),
+    0 40px 80px rgba(0,0,0,0.12);
+}
+
+/* ================= DARK MODE ================= */
+[data-md-color-scheme="slate"] .md-typeset .card {
+  background: linear-gradient(
+    135deg,
+    var(--md-default-bg-color),
+    rgba(255,255,255,0.05)
+  );
+
+  border: 1px solid rgba(255,255,255,0.08);
+
+  box-shadow:
+    0 6px 30px rgba(0,0,0,0.6),
+    0 20px 60px rgba(0,0,0,0.5);
+}
+
+/* ================= NÚMERO ================= */
+.numero {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  font-weight: bold;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ================= INFO ================= */
+.info {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.linha {
+  margin: 4px 0;
+}
+
+/* ================= BADGE ================= */
+.badge {
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  margin-left: 8px;
+}
+
+.novo {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+.em-breve {
+  background: var(--md-accent-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+/* ================= BOTÕES ================= */
+.botoes {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.botoes a {
+  white-space: nowrap;
+}
+
+/* BOTÃO OUTLINE */
+.btn-outline {
+  padding: 6px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.2s;
+  border: 1px solid var(--md-primary-fg-color);
+  color: var(--md-primary-fg-color);
+}
+
+.btn-outline:hover {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+/* BOTÃO PRINCIPAL */
+.btn-primary {
+  padding: 6px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color) !important;
+}
+
+.btn-primary:hover {
+  filter: brightness(1.1);
+}
+
+/* ================= DETALHES ================= */
+.detalhes {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* DARK */
+[data-md-color-scheme="slate"] .detalhes {
+  background: rgba(255,255,255,0.05);
+}
+
+/* LIGHT */
+[data-md-color-scheme="default"] .detalhes {
+  background: rgba(0,0,0,0.05);
+}
+
+.detalhes summary {
+  cursor: pointer;
+  font-weight: bold;
+}

@@ -23,17 +23,16 @@ Siga os passos abaixo para configurar o projeto localmente:
    cd trilha-dev
    ```
 
-1. Instale as dependências do projeto com Poetry:
+2. Instale as dependências do projeto com Poetry:
 
    ```sh
    poetry install
    ```
 
-1. Inicie o servidor de desenvolvimento:
+3. Inicie o servidor de desenvolvimento:
 
    ```sh
    poetry run mkdocs serve
    ```
 
 O site estará disponível em [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
-

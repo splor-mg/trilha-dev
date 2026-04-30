@@ -19,7 +19,7 @@ nav:
         - Dia 05: inicio_da_jornada/aulas/dia_05/dia_05.md
         - Dia 06: inicio_da_jornada/aulas/dia_06/dia_06.md
       - Desafio Final: inicio_da_jornada/desafio_final.md
-      - Registos da 1ª Turma: inicio_da_jornada/turma_01/registros_encontros.md
+      - Registros da 1ª Turma: inicio_da_jornada/turma_01/registros_encontros.md
       - Certificação: inicio_da_jornada/certificacao.md
     - Python:
       - python/index.md
@@ -60,6 +60,8 @@ nav:
         - Aula 030: python/aulas/030_classes.md
         - Aula 031: python/aulas/031_construtores.md
         - Aula 032: python/aulas/032_heranca.md
+      - Encontros:
+        - Registros: python/encontros/registros_dos_encontros.md
 
 # Configuration
 theme:

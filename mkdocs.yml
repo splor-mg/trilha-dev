@@ -62,6 +62,8 @@ nav:
         - Aula 032: python/aulas/032_heranca.md
       - Encontros:
         - Registros: python/encontros/registros_dos_encontros.md
+    - Guia Rápido de Comandos:
+      - guia/index.md
 
 # Configuration
 theme:

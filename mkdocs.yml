@@ -98,7 +98,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: Modo claro
-    - scheme: defaut
+    - scheme: default
       primary: lime #cbdc39
       accent: blue
       toggle:

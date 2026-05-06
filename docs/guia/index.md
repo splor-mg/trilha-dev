@@ -9,36 +9,46 @@ Selecione uma categoria para acessar os comandos.
 
 ---
 
-<div class="cards-grid">
+<div class="grid cards guide-cards" markdown>
 
-<a href="./terminal/" class="card">
-  <h3>Terminal</h3>
-  <p>Navegação, arquivos, busca e permissões</p>
-  <span>Acessar →</span>
-</a>
+-   :material-console:{ .guide-card__icon }
 
-<a href="./git/" class="card">
-  <h3>Git</h3>
-  <p>Controle de versão, branches e sincronização</p>
-  <span>Acessar →</span>
-</a>
+    **Terminal**
 
-<a href="./poetry/" class="card">
-  <h3>Poetry e MkDocs</h3>
-  <p>Ambiente virtual e documentação</p>
-  <span>Acessar →</span>
-</a>
+    Navegação, arquivos, busca e permissões
 
-<a href="./sistema/" class="card">
-  <h3>Sistema</h3>
-  <p>Processos, portas e integração</p>
-  <span>Acessar →</span>
-</a>
+    [Acessar &rarr;](./terminal/){ .guide-card__cta }
 
-<a href="./markdown/" class="card">
-  <h3>Markdown</h3>
-  <p>Sintaxe básica para documentação</p>
-  <span>Acessar →</span>
-</a>
+-   :simple-git:{ .guide-card__icon }
+
+    **Git**
+
+    Controle de versão, branches e sincronização
+
+    [Acessar &rarr;](./git/){ .guide-card__cta }
+
+-   :simple-python:{ .guide-card__icon }
+
+    **Poetry e MkDocs**
+
+    Ambiente virtual e documentação
+
+    [Acessar &rarr;](./poetry/){ .guide-card__cta }
+
+-   :material-cog-outline:{ .guide-card__icon }
+
+    **Sistema**
+
+    Processos, portas e integração
+
+    [Acessar &rarr;](./sistema/){ .guide-card__cta }
+
+-   :simple-markdown:{ .guide-card__icon }
+
+    **Markdown**
+
+    Sintaxe básica para documentação
+
+    [Acessar &rarr;](./markdown/){ .guide-card__cta }
 
 </div>

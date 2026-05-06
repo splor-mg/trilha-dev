@@ -60,6 +60,11 @@ nav:
         - Aula 030: python/aulas/030_classes.md
         - Aula 031: python/aulas/031_construtores.md
         - Aula 032: python/aulas/032_heranca.md
+        - Aula 033: python/aulas/033_modulos.md
+        - Aula 034: python/aulas/034_pacotes.md
+        - Aula 035: python/aulas/035_valores_aleatorios.md
+        - Aula 036: python/aulas/036_pastas_arquivos.md
+        - Aula 037: python/aulas/037_pypi_pip.md
       - Encontros:
         - Registros: python/encontros/registros_dos_encontros.md
     - Guia Rápido de Comandos:

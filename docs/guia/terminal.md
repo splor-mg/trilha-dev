@@ -2,7 +2,7 @@
 title: Terminal
 ---
 
-[← Voltar ao guia](./)
+[← Voltar ao guia](../)
 
 ---
 
@@ -27,9 +27,12 @@ mv arquivo.txt nova_pasta/        # Move arquivo
 mv nome_antigo.txt nome_novo.txt  # Renomeia arquivo
 
 rm -rf pasta  # Remove pasta e conteúdo (uso com cautela)
+
+clear         # Limpa o terminal (alternativa ao Ctrl + L)
 ```
 
-### **Atenção:** o comando **rm -rf** remove arquivos permanentemente.
+!!! warning "Atenção"
+    O comando **`rm -rf`** remove arquivos permanentemente.
 
 ## Visualização e Inspeção
 
@@ -64,7 +67,7 @@ Ctrl + Z    # Suspende um processo
 ## Permissões
 
 ```bash
-chmod +x script.sh   # Torna arquivo executável
-chmod 755 arquivo    # Define permissões
+chmod +x script.sh            # Torna arquivo executável
+chmod 755 arquivo             # Define permissões
+chown usuario:grupo arquivo   # Altera dono do arquivo
 ```
-

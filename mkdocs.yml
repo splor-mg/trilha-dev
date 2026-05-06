@@ -68,7 +68,12 @@ nav:
       - Encontros:
         - Registros: python/encontros/registros_dos_encontros.md
     - Guia Rápido de Comandos:
-      - guia/index.md
+      - Início: guia/index.md
+      - Terminal: guia/terminal.md
+      - Git: guia/git.md
+      - Poetry e MkDocs: guia/poetry.md
+      - Sistema: guia/sistema.md
+      - Markdown: guia/markdown.md
 
 # Configuration
 theme:

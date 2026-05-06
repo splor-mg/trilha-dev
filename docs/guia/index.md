@@ -2,6 +2,8 @@
 title: Guia Rápido de Comandos
 ---
 
+# Guia Rápido de Comandos
+
 Este material reúne os principais comandos utilizados no ambiente de desenvolvimento ao longo da Trilha Dev.
 Selecione uma categoria para acessar os comandos.
 

@@ -5,5 +5,10 @@
     "aliases": [
       "latest"
     ]
+  },
+  {
+    "version": "guia-comandos",
+    "title": "guia-comandos",
+    "aliases": []
   }
 ]

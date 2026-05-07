@@ -1243,6 +1243,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#regras-para-criacao-de-variaveis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regras para criação de variáveis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#boas-praticas-na-criacao-de-variaveis" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2466,6 +2477,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#regras-para-criacao-de-variaveis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regras para criação de variáveis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#boas-praticas-na-criacao-de-variaveis" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2627,19 +2649,41 @@
 </span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="n">nome</span> <span class="o">=</span> <span class="s2">&quot;Abel&quot;</span>
 </span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="n">estudando</span> <span class="o">=</span> <span class="kc">True</span>
 </span></code></pre></div>
+<h4 id="regras-para-criacao-de-variaveis"><strong>Regras para criação de variáveis</strong></h4>
+<p>Em Python, os nomes das variáveis precisam seguir algumas regras:</p>
+<ul>
+<li>Devem começar com uma letra ou com <em>underscore</em> (<code>_</code>)</li>
+<li>Não podem começar com números</li>
+<li>Podem conter apenas letras, números e <em>underscore</em> (<code>_</code>)</li>
+<li>Não podem conter espaços ou caracteres especiais (<code>@</code>, <code>-</code>, <code>!</code>, etc.)</li>
+<li>Python diferencia letras maiúsculas e minúsculas (<code>nome</code> e <code>Nome</code> são variáveis diferentes)</li>
+<li>Não podem utilizar palavras reservadas da linguagem, como <code>if</code>, <code>for</code>, <code>while</code>, <code>class</code></li>
+</ul>
+<p>Exemplos <mark>válidos:</mark></p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">nome</span> <span class="o">=</span> <span class="s2">&quot;Francisco&quot;</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="n">idade_aluno</span> <span class="o">=</span> <span class="mi">25</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="n">_valor</span> <span class="o">=</span> <span class="mi">100</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="n">nota1</span> <span class="o">=</span> <span class="mf">8.5</span>
+</span></code></pre></div>
+<p>Exemplos <mark>inválidos:</mark></p>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="mi">1</span><span class="n">nome</span> <span class="o">=</span> <span class="s2">&quot;Maria&quot;</span>     <span class="c1"># começa com número</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="n">nome</span> <span class="n">aluno</span> <span class="o">=</span> <span class="s2">&quot;Ana&quot;</span>  <span class="c1"># contém espaço</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="n">valor</span><span class="o">-</span><span class="n">total</span> <span class="o">=</span> <span class="mi">10</span>    <span class="c1"># contém hífen</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="k">class</span><span class="w"> </span><span class="err">= &quot;</span><span class="nc">Python</span><span class="s2">&quot;    # palavra reservada</span>
+</span></code></pre></div>
 <h4 id="boas-praticas-na-criacao-de-variaveis"><strong>Boas práticas na criação de variáveis</strong></h4>
 <p>Para manter o código organizado e legível:</p>
 <ul>
 <li>Utilize nomes descritivos (ex: <strong>nota_final</strong>, <strong>nome_aluno</strong>)</li>
 <li>Escreva em letras <strong>minúsculas</strong></li>
-<li>Separe palavras com <em>underscore</em> <strong>( _ )</strong>.</li>
+<li>Separe palavras com <em>underscore</em> <strong>( _ )</strong></li>
+<li>Evite nomes genéricos como <strong>x</strong> ou <strong>y</strong>, pois dificultam o entendimento do código.</li>
 </ul>
-<p>Evite nomes genéricos como <strong>x</strong> ou <strong>y</strong>, pois dificultam o entendimento do código.</p>
 <h4 id="case-sensitive"><strong>Case sensitive</strong></h4>
 <p>O Python diferencia letras <strong>maiúsculas</strong> de <strong>minúsculas</strong>. Isso significa que:</p>
 <ul>
-<li><span style="color: #cbdc39;"><em>True</em></span> é válido.</li>
-<li><span style="color: #cbdc39;"><em>true</em></span> é inválido.</li>
+<li><mark>True</mark> é válido.</li>
+<li><mark>true</mark> é inválido.</li>
 </ul>
 <p>Algumas palavras são reservadas pela linguagem e devem ser utilizadas exatamente como definidas.</p>
 <h4 id="checklist"><strong>Checklist</strong></h4>

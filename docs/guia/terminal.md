@@ -17,18 +17,27 @@ cd pasta  # Entra em uma pasta
 cd ..     # Volta um nível
 cd ../..  # Volta dois níveis
 
-mkdir nome-pasta  # Cria uma nova pasta
+mkdir nome-pasta           # Cria uma nova pasta
+mkdir -p pasta/subpasta    # Cria pastas aninhadas
+
 touch arquivo.txt # Cria um arquivo vazio
 
-cp arquivo.txt copia.txt      # Copia arquivo
-cp -r pasta origem/ destino/  # Copia pasta
+cd ~                            # Vai para a pasta pessoal do usuário
+cd -                            # Volta para o último diretório acessado
+cp arquivo.txt copia.txt        # Copia arquivo
+cp -r pasta origem/ destino/    # Copia pasta
 
 mv arquivo.txt nova_pasta/        # Move arquivo
 mv nome_antigo.txt nome_novo.txt  # Renomeia arquivo
 
-rm -rf pasta  # Remove pasta e conteúdo (uso com cautela)
+rm arquivo.txt     # Remove arquivo
+rm -r pasta        # Remove a pasta e todo o seu conteúdo
+rm -rf pasta       # Remove a pasta e todo o conteúdo sem pedir confirmação (CUIDADO)
 
-clear         # Limpa o terminal (alternativa ao Ctrl + L)
+zip -r arquivos.zip pasta/   # Compacta pasta em zip
+unzip arquivos.zip           # Extrai arquivo zip
+
+clear       # Limpa o terminal (alternativa ao Ctrl + L)
 ```
 
 !!! warning "Atenção"
@@ -43,6 +52,8 @@ less arquivo.txt      # Visualiza arquivo paginado
 head arquivo.txt      # Mostra início do arquivo
 tail arquivo.txt      # Mostra final do arquivo
 tail -f arquivo.txt   # Acompanha arquivo em tempo real
+
+nano arquivo.txt      # Edita arquivo no terminal
 
 history               # Mostra histórico de comandos
 ```
@@ -70,4 +81,6 @@ Ctrl + Z    # Suspende um processo
 chmod +x script.sh            # Torna arquivo executável
 chmod 755 arquivo             # Define permissões
 chown usuario:grupo arquivo   # Altera dono do arquivo
+
+sudo comando    # Executa comando como administrador
 ```

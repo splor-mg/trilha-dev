@@ -1,7 +1,7 @@
 ---
 comments: true
 ---
-# Aula 002: Como o um programa Python é executado
+# Aula 002: Como um programa Python é executado
 
 ## 🎥 Vídeo 2
 

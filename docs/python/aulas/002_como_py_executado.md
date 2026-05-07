@@ -36,7 +36,7 @@ Utilizando a função **print()**, é possível exibir diferentes linhas no term
 
 ``` py
 print('O----')
-print(' ////')
+print(' ||||')
 ```
 
 Ao executar o programa, cada **print()** será exibido em uma nova linha, respeitando a ordem em que foi escrito.

@@ -61,23 +61,51 @@ nome = "Abel"
 estudando = True
 ```
 
+#### **Regras para criação de variáveis**
+
+Em Python, os nomes das variáveis precisam seguir algumas regras:
+
+- Devem começar com uma letra ou com _underscore_ (`_`)
+- Não podem começar com números
+- Podem conter apenas letras, números e _underscore_ (`_`)
+- Não podem conter espaços ou caracteres especiais (`@`, `-`, `!`, etc.)
+- Python diferencia letras maiúsculas e minúsculas (`nome` e `Nome` são variáveis diferentes)
+- Não podem utilizar palavras reservadas da linguagem, como `if`, `for`, `while`, `class`
+
+Exemplos ==válidos:==
+
+```py
+nome = "Francisco"
+idade_aluno = 25
+_valor = 100
+nota1 = 8.5
+```
+
+Exemplos ==inválidos:==
+
+```py
+1nome = "Maria"     # começa com número
+nome aluno = "Ana"  # contém espaço
+valor-total = 10    # contém hífen
+class = "Python"    # palavra reservada
+```
+
 #### **Boas práticas na criação de variáveis**
 
 Para manter o código organizado e legível:
 
 - Utilize nomes descritivos (ex: **nota_final**, **nome_aluno**)
 - Escreva em letras **minúsculas**
-- Separe palavras com _underscore_ **( _ )**.
+- Separe palavras com _underscore_ **( _ )**
+- Evite nomes genéricos como **x** ou **y**, pois dificultam o entendimento do código.
 
-
-Evite nomes genéricos como **x** ou **y**, pois dificultam o entendimento do código.
 
 #### **Case sensitive**
 
 O Python diferencia letras **maiúsculas** de **minúsculas**. Isso significa que:
 
-- <span style="color: #cbdc39;"><em>True</em></span> é válido.
-- <span style="color: #cbdc39;"><em>true</em></span> é inválido.
+- ==True== é válido.
+- ==true== é inválido.
 
 Algumas palavras são reservadas pela linguagem e devem ser utilizadas exatamente como definidas.
 

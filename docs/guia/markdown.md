@@ -1,125 +1,209 @@
 ---
-Title: Markdown
+title: Markdown
 ---
 
-# Markdown
+# :simple-markdown: Markdown
 
 [← Voltar ao guia](../)
 
 ---
 
-## Títulos
+## **Títulos**
 
 === "Resultado"
-
-    # Título
-    ## Subtítulo
-    ### Subtítulo menor
+    # Título 1
+    ## Título 2
+    ### Título 3
 
 === "Código"
-
     ```md
-    # Título
-    ## Subtítulo
-    ### Subtítulo menor
+    # Título 1
+    ```
+    ```md
+    ## Título 2
+    ```
+    ```md
+    ### Título 3
     ```
 
 ---
 
-## Formatação de texto
+## **Formatação de texto**
 
 === "Resultado"
-
     **Negrito**
 
     *Itálico*
 
-=== "Código"
+    ~~Tachado~~
 
+    `código inline`
+
+=== "Código"
+    Negrito:
     ```md
-    **Negrito**
-    *Itálico*
+    **texto**
+    ```
+    Itálico:
+    ```md
+    *texto*
+    ```
+    Tachado:
+    ```md
+    ~~texto~~
+    ```
+    Código inline:
+    ```md
+    `texto`
     ```
 
 ---
 
-## Lista
+## **Listas**
 
 === "Resultado"
+    - Item A
+    - Item B
+        - Subitem
 
-    - Item de lista
+    1. Primeiro
+    2. Segundo
 
 === "Código"
-
+    Lista com marcadores:
     ```md
-    - Item de lista
+    - Item A
+    - Item B
+        - Subitem
+    ```
+    Lista numerada:
+    ```md
+    1. Primeiro
+    2. Segundo
     ```
 
 ---
 
-## Link
+## **Links**
 
 === "Resultado"
-
     [Trilha Dev](https://trilhadev.planejamento.mg.gov.br/main/)
 
 === "Código"
-
     ```md
-    [Texto do link](https://trilhadev.planejamento.mg.gov.br/main/)
+    [Texto do link](https://url.com)
     ```
 
 ---
 
-## Imagem
+## **Imagens**
 
 === "Resultado"
 
     ![Texto da imagem](../../assets/logo.png)
 
-=== "Código"
 
+=== "Código"
+    Imagem local (recomendado):
     ```md
-    ![Texto da imagem](URL)
+    ![Descrição](../../assets/imagens/logo.png)
+    ```
+    Imagem por URL externa:
+    ```md
+    ![Descrição](https://exemplo.com/imagem.png)
     ```
 
-    !!! info "Como usar imagens no projeto"
+    !!! info "Imagem local"
+        Salve a imagem dentro do projeto em `docs/assets/imagens/` e referencie com caminho relativo. Funciona offline e não depende de links externos.
 
-        **Imagem local (recomendado):**
-
-        - Adicione a imagem dentro da pasta do projeto, por exemplo:
-
-              docs/assets/imagens/exemplo.png
-
-        - Referencie no Markdown usando caminho relativo:
-
-        ```md
-        ![Descrição](../../assets/imagens/exemplo.png)
-        ```
-
-        - Vantagem: funciona offline e não depende de links externos.
-
-        **Imagem por URL (externa):**
-
-        - Use um link direto para a imagem:
-
-        ```md
-        ![Descrição](https://exemplo.com/imagem.png)
-        ```
-
-    !!! warning "Atenção"
-        URL externa pode não funcionar em redes com restrição ou se o link sair do ar.
+    !!! warning "Imagem externa"
+        Links de URL podem parar de funcionar se o endereço mudar ou a rede restringir acesso externo.
 
 ---
 
-## Código inline
+## **Blocos de código**
 
 === "Resultado"
-
-    Use `print()` no Python
+    ```python
+    nome = input("Qual seu nome? ")
+    print(f"Olá, {nome}!")
+    ```
 
 === "Código"
+    ````md
+    ```python
+    nome = input("Qual seu nome? ")
+    print(f"Olá, {nome}!")
+    ```
+    ````
 
+---
+
+## **Tabelas**
+
+=== "Resultado"
+    | Comando | O que faz |
+    |---------|-----------|
+    | `git add` | Adiciona ao stage |
+    | `git commit` | Registra alterações |
+
+=== "Código"
     ```md
-    `print()`
+    | Coluna 1 | Coluna 2 |
+    |----------|----------|
+    | valor    | valor    |
+    ```
+
+---
+
+## **Admonitions**
+
+=== "Resultado"
+    !!! tip "Dica"
+        Texto da dica.
+
+    !!! warning "Atenção"
+        Texto de alerta.
+
+    !!! info "Informação"
+        Texto informativo.
+
+=== "Código"
+    ```md
+    !!! tip "Dica"
+        Texto da dica.
+    ```
+    ```md
+    !!! warning "Atenção"
+        Texto de alerta.
+    ```
+    ```md
+    !!! info "Informação"
+        Texto informativo.
+    ```
+
+---
+
+## **Abas**
+
+=== "Resultado"
+    === "Python"
+        ```python
+        print("Olá!")
+        ```
+    === "Terminal"
+        ```bash
+        echo "Olá!"
+        ```
+
+=== "Código"
+    ```md
+    === "Python"
+        ```python
+        print("Olá!")
+        ```
+    === "Terminal"
+        ```bash
+        echo "Olá!"
+        ```
     ```

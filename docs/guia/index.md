@@ -9,46 +9,46 @@ Selecione uma categoria para acessar os comandos.
 
 ---
 
-<div class="grid cards guide-cards" markdown>
+<div class="grid cards" markdown>
 
--   :material-console:{ .guide-card__icon }
+-   :material-console:{ .lg .middle } **Terminal**
 
-    **Terminal**
+    ---
 
     Navegação, arquivos, busca e permissões
 
-    [Acessar &rarr;](./terminal/){ .guide-card__cta }
+    [:octicons-arrow-right-24: Acessar](./terminal/)
 
--   :simple-git:{ .guide-card__icon }
+-   :simple-git:{ .lg .middle } **Git**
 
-    **Git**
+    ---
 
     Controle de versão, branches e sincronização
 
-    [Acessar &rarr;](./git/){ .guide-card__cta }
+    [:octicons-arrow-right-24: Acessar](./git/)
 
--   :simple-python:{ .guide-card__icon }
+-   :simple-python:{ .lg .middle } **Poetry e MkDocs**
 
-    **Poetry e MkDocs**
+    ---
 
     Ambiente virtual e documentação
 
-    [Acessar &rarr;](./poetry/){ .guide-card__cta }
+    [:octicons-arrow-right-24: Acessar](./poetry/)
 
--   :material-cog-outline:{ .guide-card__icon }
+-   :material-cog-outline:{ .lg .middle } **Sistema**
 
-    **Sistema**
+    ---
 
-    Processos, portas e integração
+    Processos, portas e integração WSL
 
-    [Acessar &rarr;](./sistema/){ .guide-card__cta }
+    [:octicons-arrow-right-24: Acessar](./sistema/)
 
--   :simple-markdown:{ .guide-card__icon }
+-   :simple-markdown:{ .lg .middle } **Markdown**
 
-    **Markdown**
+    ---
 
     Sintaxe básica para documentação
 
-    [Acessar &rarr;](./markdown/){ .guide-card__cta }
+    [:octicons-arrow-right-24: Acessar](./markdown/)
 
 </div>

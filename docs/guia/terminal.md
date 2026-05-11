@@ -2,85 +2,189 @@
 title: Terminal
 ---
 
+# :material-console: Terminal
+
 [← Voltar ao guia](../)
 
 ---
 
-## Navegação e Arquivos
+## **Navegação**
 
+Mostra o diretório atual:
 ```bash
-pwd       # Mostra o diretório atual
-ls        # Lista arquivos e pastas
-ls -la    # Lista detalhada (inclui arquivos ocultos)
+pwd
+```
 
-cd pasta  # Entra em uma pasta
-cd ..     # Volta um nível
-cd ../..  # Volta dois níveis
+Lista arquivos e pastas:
+```bash
+ls
+```
 
-mkdir nome-pasta           # Cria uma nova pasta
-mkdir -p pasta/subpasta    # Cria pastas aninhadas
+Lista detalhada, incluindo arquivos ocultos:
+```bash
+ls -la
+```
 
-touch arquivo.txt # Cria um arquivo vazio
+Entra em uma pasta:
+```bash
+cd pasta
+```
 
-cd ~                            # Vai para a pasta pessoal do usuário
-cd -                            # Volta para o último diretório acessado
-cp arquivo.txt copia.txt        # Copia arquivo
-cp -r pasta origem/ destino/    # Copia pasta
+Volta um nível:
+```bash
+cd ..
+```
 
-mv arquivo.txt nova_pasta/        # Move arquivo
-mv nome_antigo.txt nome_novo.txt  # Renomeia arquivo
+Volta dois níveis:
+```bash
+cd ../..
+```
 
-rm arquivo.txt     # Remove arquivo
-rm -r pasta        # Remove a pasta e todo o seu conteúdo
-rm -rf pasta       # Remove a pasta e todo o conteúdo sem pedir confirmação (CUIDADO)
+Vai para a pasta pessoal do usuário:
+```bash
+cd ~
+```
 
-zip -r arquivos.zip pasta/   # Compacta pasta em zip
-unzip arquivos.zip           # Extrai arquivo zip
+Volta para o último diretório acessado:
+```bash
+cd -
+```
 
-clear       # Limpa o terminal (alternativa ao Ctrl + L)
+---
+
+## **Arquivos e pastas**
+
+Cria uma nova pasta:
+```bash
+mkdir nome-da-pasta
+```
+
+Cria pastas aninhadas de uma vez:
+```bash
+mkdir -p pasta/subpasta
+```
+
+Cria um arquivo vazio:
+```bash
+touch arquivo.txt
+```
+
+Copia um arquivo:
+```bash
+cp arquivo.txt copia.txt
+```
+
+Copia uma pasta inteira:
+```bash
+cp -r origem/ destino/
+```
+
+Move um arquivo para outra pasta:
+```bash
+mv arquivo.txt outra-pasta/
+```
+
+Renomeia um arquivo:
+```bash
+mv nome-antigo.txt nome-novo.txt
+```
+
+Remove um arquivo:
+```bash
+rm arquivo.txt
+```
+
+Remove uma pasta e todo o seu conteúdo:
+```bash
+rm -r pasta/
 ```
 
 !!! warning "Atenção"
-    O comando **`rm -rf`** remove arquivos permanentemente.
+    O `rm` remove permanentemente, sem lixeira. Use com cuidado.
 
-## Visualização e Inspeção
+---
 
+## **Visualização de conteúdo**
+
+Exibe o conteúdo completo de um arquivo:
 ```bash
-cat arquivo.txt       # Exibe conteúdo do arquivo
-less arquivo.txt      # Visualiza arquivo paginado
-
-head arquivo.txt      # Mostra início do arquivo
-tail arquivo.txt      # Mostra final do arquivo
-tail -f arquivo.txt   # Acompanha arquivo em tempo real
-
-nano arquivo.txt      # Edita arquivo no terminal
-
-history               # Mostra histórico de comandos
+cat arquivo.txt
 ```
 
-## Busca
-
+Visualiza o arquivo paginado (tecle `q` para sair):
 ```bash
-grep "texto" arquivo.txt      # Busca texto dentro de arquivo
-grep -r "texto" .             # Busca recursiva em diretórios
-
-find . -name "arquivo.txt"    # Busca arquivos por nome
+less arquivo.txt
 ```
 
-## Atalhos úteis
-
+Mostra as primeiras linhas do arquivo:
 ```bash
-Ctrl + L    # Limpa o terminal
-Ctrl + C    # Interrompe um processo em execução
-Ctrl + Z    # Suspende um processo
+head arquivo.txt
 ```
 
-## Permissões
-
+Mostra as últimas linhas do arquivo:
 ```bash
-chmod +x script.sh            # Torna arquivo executável
-chmod 755 arquivo             # Define permissões
-chown usuario:grupo arquivo   # Altera dono do arquivo
-
-sudo comando    # Executa comando como administrador
+tail arquivo.txt
 ```
+
+---
+
+## **Edição no terminal**
+
+Abre o editor de texto no terminal:
+```bash
+nano arquivo.txt
+```
+
+---
+
+## **Busca**
+
+Busca um texto dentro de um arquivo:
+```bash
+grep "texto" arquivo.txt
+```
+
+Busca recursiva em todos os arquivos do diretório:
+```bash
+grep -r "texto" .
+```
+
+Busca arquivos pelo nome:
+```bash
+find . -name "arquivo.txt"
+```
+
+---
+
+## **Histórico**
+
+Lista os últimos comandos executados:
+```bash
+history
+```
+
+---
+
+## **Compactação**
+
+Compacta uma pasta em zip:
+```bash
+zip -r arquivos.zip pasta/
+```
+
+Extrai um arquivo zip:
+```bash
+unzip arquivos.zip
+```
+
+---
+
+## **Atalhos úteis**
+
+| Atalho | Ação |
+|--------|------|
+| `Ctrl + L` | Limpa o terminal |
+| `Ctrl + C` | Interrompe o processo em execução |
+| `↑` / `↓` | Navega pelo histórico de comandos |
+
+---

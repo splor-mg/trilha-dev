@@ -2,150 +2,222 @@
 title: Git
 ---
 
-# Git
+# :simple-git: Git
 
 [← Voltar ao guia](../)
 
 ---
 
-## Inicialização
+## **Configuração inicial**
 
+Execute uma única vez ao configurar o ambiente:
+
+Define o nome do autor dos commits:
 ```bash
-git init                 # Inicializa um repositório Git
-git clone URL            # Clona um repositório remoto
+git config --global user.name "Seu Nome"
 ```
 
-## Stage seletivo
-
+Define o e-mail do autor dos commits:
 ```bash
-git add arquivo.txt      # Adiciona apenas um arquivo
-git add pasta/           # Adiciona uma pasta inteira
+git config --global user.email "seu@email.com"
 ```
 
-## Verificação e Histórico
+---
 
+## **Inicialização**
+
+Inicializa um repositório local:
 ```bash
-git status          # Mostra o estado dos arquivos
-
-git log             # Exibe o histórico de commits
-git log --oneline   # Histórico resumido
-git log --graph     # Histórico visual das branches
-
-git diff            # Mostra alterações não commitadas
-git diff --staged   # Mostra alterações no stage
+git init
 ```
 
-## Versionamento
-
+Clona um repositório remoto:
 ```bash
-git add .                 # Adiciona alterações
-git commit -m "mensagem"  # Registra alterações
+git clone URL
 ```
 
-## Desfazer alterações
+---
 
+## **Fluxo básico de trabalho**
+
+!!! tip "Ordem recomendada"
+    `status` → `add` → `commit` → `push`
+
+Mostra o estado dos arquivos:
 ```bash
-git restore arquivo.txt           # Desfaz alterações no arquivo
-git restore --staged arquivo.txt  # Remove arquivo do stage
+git status
 ```
 
-## Branches
-
+Adiciona todas as alterações ao stage:
 ```bash
-git branch                    # Lista branches locais
-git branch -a                 # Lista branches locais e remotas
-git branch -d branch          # Remove branch local
-git checkout -b nova-branch   # Cria uma nova branch
-git checkout nome-branch      # Troca de branch
+git add .
 ```
 
-## Sincronização
-
+Adiciona um arquivo específico ao stage:
 ```bash
-git pull origin main            # Atualiza com a branch principal
-git pull --rebase origin main   # Atualiza evitando commits extras
+git add arquivo.txt
+```
 
-git push origin minha-branch    # Envia alterações para o repositório remoto
+Registra as alterações com uma mensagem:
+```bash
+git commit -m "mensagem"
+```
 
-git fetch                       # Busca atualizações do repositório remoto sem aplicar alterações
-git fetch origin                # Busca atualizações do repositório remoto chamado origin
-git fetch upstream              # Busca atualizações do repositório original (upstream)
-git fetch --all                 # Busca atualizações de todos os repositórios remotos configurados
-git checkout main               # Vai para a branch main local
-git merge upstream/main         # Aplica as atualizações na sua main
+Envia as alterações para o repositório remoto:
+```bash
+git push origin minha-branch
+```
+
+---
+
+## **Histórico e inspeção**
+
+Exibe o histórico de commits:
+```bash
+git log
+```
+
+Histórico resumido, uma linha por commit:
+```bash
+git log --oneline
+```
+
+Mostra alterações ainda não adicionadas ao stage:
+```bash
+git diff
+```
+
+Mostra alterações já no stage:
+```bash
+git diff --staged
+```
+
+---
+
+## **Desfazer alterações**
+
+Descarta alterações no arquivo (volta ao último commit):
+```bash
+git restore arquivo.txt
+```
+
+Remove o arquivo do stage sem descartar as alterações:
+```bash
+git restore --staged arquivo.txt
+```
+
+!!! warning "Atenção"
+    O `git restore` descarta mudanças não commitadas. Use com cuidado.
+
+---
+
+## **Branches**
+
+Lista as branches locais:
+```bash
+git branch
+```
+
+Lista branches locais e remotas:
+```bash
+git branch -a
+```
+
+Cria uma nova branch e já entra nela:
+```bash
+git checkout -b nova-branch
+```
+
+Troca para outra branch:
+```bash
+git checkout nome-da-branch
+```
+
+Remove uma branch local (somente se já mergeada):
+```bash
+git branch -d nome-da-branch
+```
+
+---
+
+## **Sincronização com remoto**
+
+Baixa e aplica as alterações da branch remota:
+```bash
+git pull origin main
+```
+
+Envia sua branch para o repositório remoto:
+```bash
+git push origin minha-branch
+```
+
+Baixa atualizações sem aplicar na branch atual:
+```bash
+git fetch origin
 ```
 
 !!! info "Diferença entre `fetch` e `pull`"
-    O comando **`git fetch`** apenas baixa as atualizações do ==repositório remoto==. Já o comando **`git pull`** baixa e aplica automaticamente as alterações na ==branch atual==.
+    **`git fetch`** apenas baixa as atualizações do repositório remoto, sem alterar sua branch local. **`git pull`** baixa e aplica automaticamente.
 
-!!! tip "Dica"
-    O **`git fetch`** é mais seguro para verificar mudanças antes de atualizar sua branch local.
+    O `fetch` é mais seguro para inspecionar o que mudou antes de integrar.
 
-## Reorganização de histório
+---
 
+## **Fork e upstream**
+
+Fluxo usado no repositório de exercícios da Trilha Dev.
+
+Após criar o fork no GitHub (botão **Fork**), clone o seu fork:
 ```bash
-git rebase main   # Reorganiza commits sobre a main
+git clone git@github.com:SEU-USUARIO/exercicios-python.git
 ```
 
-## Configuração inicial
-
+Entre na pasta do projeto:
 ```bash
-git config --global user.name "Seu Nome"        # Define o nome do autor dos commits (usado em todos os repositórios na máquina)
-git config --global user.email "seu@email.com"  # Define o e-mail do autor dos commits (associado ao GitHub ou outro serviço)
+cd exercicios-python
 ```
 
-## Recuperação temporária
-
+Conecta com o repositório original:
 ```bash
-git stash           # Guarda alterações temporariamente
-git stash pop       # Recupera alterações salvas
+git remote add upstream git@github.com:splor-mg/exercicios-python.git
 ```
 
-## Tags
-
+Confirma os remotes configurados:
 ```bash
-git tag             # Lista tags
-git tag v1.0        # Cria uma tag
+git remote -v
 ```
 
-## Remotos e Inspeção
-
+Busca atualizações do repositório original:
 ```bash
-git remote -v            # Lista repositórios remotos
-
-git show                 # Mostra detalhes do último commit
-git blame arquivo.py     # Mostra autoria por linha
+git fetch upstream
 ```
 
-## Fork no repositório
-
+Vai para a branch main local:
 ```bash
-# Após criar o fork no GitHub (botão "Fork")
-
-git clone git@github.com:SEU-USUARIO/exercicios-python.git   # Clona seu fork
-cd exercicios-python                                         # Acessa a pasta do projeto
-
-git remote add upstream git@github.com:splor-mg/exercicios-python.git   # Conecta com o repositório original
-git remote -v                                                           # Verifica os remotes configurados
-
-git fetch upstream        # Busca atualizações do repositório original
-git checkout main         # Vai para a branch main
-git merge upstream/main   # Atualiza sua main com as mudanças do upstream
+git checkout main
 ```
 
-!!! tip "Dica"
-    No GitHub, verifique se o repositório aparece como:
-    **`forked from splor-mg/exercicios-python`**
-
-!!! warning "Atenção"
-    O comando **`git merge upstream/main`** pode gerar conflitos caso você tenha alterações locais.
-
-
-## Fluxo comum
-
+Aplica as atualizações na sua main:
 ```bash
-git status
-git add .
-git commit -m "mensagem"
-git push origin minha-branch
+git merge upstream/main
+```
+
+!!! tip "Como verificar"
+    No GitHub, o repositório deve aparecer como **`forked from splor-mg/exercicios-python`**.
+
+---
+
+## **Guardar trabalho temporariamente**
+
+Útil quando precisar trocar de branch sem commitar:
+
+Guarda as alterações atuais temporariamente:
+```bash
+git stash
+```
+
+Recupera as alterações guardadas:
+```bash
+git stash pop
 ```

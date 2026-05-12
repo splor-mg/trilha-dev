@@ -89,7 +89,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#navegacao-e-arquivos" class="md-skip">
+        <a href="#terminal" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -2326,6 +2326,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -2368,6 +2370,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -2376,10 +2380,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#navegacao-e-arquivos" class="md-nav__link">
+  <a href="#navegacao" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Navegação e Arquivos
+        Navegação
       
     </span>
   </a>
@@ -2387,10 +2391,32 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#visualizacao-e-inspecao" class="md-nav__link">
+  <a href="#arquivos-e-pastas" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Visualização e Inspeção
+        Arquivos e pastas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visualizacao-de-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Visualização de conteúdo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#edicao-no-terminal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Edição no terminal
       
     </span>
   </a>
@@ -2409,10 +2435,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#atalhos-uteis" class="md-nav__link">
+  <a href="#historico" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Atalhos úteis
+        Histórico
       
     </span>
   </a>
@@ -2420,10 +2446,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#permissoes" class="md-nav__link">
+  <a href="#compactacao" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Permissões
+        Compactação
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#atalhos-uteis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Atalhos úteis
       
     </span>
   </a>
@@ -2583,6 +2620,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -2591,10 +2630,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#navegacao-e-arquivos" class="md-nav__link">
+  <a href="#navegacao" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Navegação e Arquivos
+        Navegação
       
     </span>
   </a>
@@ -2602,10 +2641,32 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#visualizacao-e-inspecao" class="md-nav__link">
+  <a href="#arquivos-e-pastas" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Visualização e Inspeção
+        Arquivos e pastas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visualizacao-de-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Visualização de conteúdo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#edicao-no-terminal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Edição no terminal
       
     </span>
   </a>
@@ -2624,10 +2685,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#atalhos-uteis" class="md-nav__link">
+  <a href="#historico" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Atalhos úteis
+        Histórico
       
     </span>
   </a>
@@ -2635,10 +2696,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#permissoes" class="md-nav__link">
+  <a href="#compactacao" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Permissões
+        Compactação
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#atalhos-uteis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Atalhos úteis
       
     </span>
   </a>
@@ -2714,75 +2786,135 @@
   
 
 
-  <h1>Terminal</h1>
-
+<h1 id="terminal"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 19V7H4v12zm0-16a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-7 14v-2h5v2zm-3.42-4L5.57 9H8.4l3.3 3.3c.39.39.39 1.03 0 1.42L8.42 17H5.59z"/></svg></span> Terminal</h1>
 <p><a href="../">← Voltar ao guia</a></p>
 <hr />
-<h2 id="navegacao-e-arquivos">Navegação e Arquivos</h2>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nb">pwd</span><span class="w">       </span><span class="c1"># Mostra o diretório atual</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>ls<span class="w">        </span><span class="c1"># Lista arquivos e pastas</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>ls<span class="w"> </span>-la<span class="w">    </span><span class="c1"># Lista detalhada (inclui arquivos ocultos)</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="nb">cd</span><span class="w"> </span>pasta<span class="w">  </span><span class="c1"># Entra em uma pasta</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="nb">cd</span><span class="w"> </span>..<span class="w">     </span><span class="c1"># Volta um nível</span>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="nb">cd</span><span class="w"> </span>../..<span class="w">  </span><span class="c1"># Volta dois níveis</span>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>mkdir<span class="w"> </span>nome-pasta<span class="w">           </span><span class="c1"># Cria uma nova pasta</span>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>mkdir<span class="w"> </span>-p<span class="w"> </span>pasta/subpasta<span class="w">    </span><span class="c1"># Cria pastas aninhadas</span>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>touch<span class="w"> </span>arquivo.txt<span class="w"> </span><span class="c1"># Cria um arquivo vazio</span>
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="nb">cd</span><span class="w"> </span>~<span class="w">                            </span><span class="c1"># Vai para a pasta pessoal do usuário</span>
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="nb">cd</span><span class="w"> </span>-<span class="w">                            </span><span class="c1"># Volta para o último diretório acessado</span>
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>cp<span class="w"> </span>arquivo.txt<span class="w"> </span>copia.txt<span class="w">        </span><span class="c1"># Copia arquivo</span>
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>cp<span class="w"> </span>-r<span class="w"> </span>pasta<span class="w"> </span>origem/<span class="w"> </span>destino/<span class="w">    </span><span class="c1"># Copia pasta</span>
-</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>
-</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>mv<span class="w"> </span>arquivo.txt<span class="w"> </span>nova_pasta/<span class="w">        </span><span class="c1"># Move arquivo</span>
-</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>mv<span class="w"> </span>nome_antigo.txt<span class="w"> </span>nome_novo.txt<span class="w">  </span><span class="c1"># Renomeia arquivo</span>
-</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>
-</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>rm<span class="w"> </span>arquivo.txt<span class="w">     </span><span class="c1"># Remove arquivo</span>
-</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>rm<span class="w"> </span>-r<span class="w"> </span>pasta<span class="w">        </span><span class="c1"># Remove a pasta e todo o seu conteúdo</span>
-</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>rm<span class="w"> </span>-rf<span class="w"> </span>pasta<span class="w">       </span><span class="c1"># Remove a pasta e todo o conteúdo sem pedir confirmação (CUIDADO)</span>
-</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>
-</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>zip<span class="w"> </span>-r<span class="w"> </span>arquivos.zip<span class="w"> </span>pasta/<span class="w">   </span><span class="c1"># Compacta pasta em zip</span>
-</span><span id="__span-0-27"><a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>unzip<span class="w"> </span>arquivos.zip<span class="w">           </span><span class="c1"># Extrai arquivo zip</span>
-</span><span id="__span-0-28"><a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a>
-</span><span id="__span-0-29"><a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>clear<span class="w">       </span><span class="c1"># Limpa o terminal (alternativa ao Ctrl + L)</span>
-</span></code></pre></div>
+<h2 id="navegacao"><strong>Navegação</strong></h2>
+<p>Mostra o diretório atual:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nb">pwd</span>
+</span></code></pre></div></p>
+<p>Lista arquivos e pastas:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>ls
+</span></code></pre></div></p>
+<p>Lista detalhada, incluindo arquivos ocultos:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>ls<span class="w"> </span>-la
+</span></code></pre></div></p>
+<p>Entra em uma pasta:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nb">cd</span><span class="w"> </span>pasta
+</span></code></pre></div></p>
+<p>Volta um nível:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nb">cd</span><span class="w"> </span>..
+</span></code></pre></div></p>
+<p>Volta dois níveis:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="nb">cd</span><span class="w"> </span>../..
+</span></code></pre></div></p>
+<p>Vai para a pasta pessoal do usuário:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="nb">cd</span><span class="w"> </span>~
+</span></code></pre></div></p>
+<p>Volta para o último diretório acessado:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="nb">cd</span><span class="w"> </span>-
+</span></code></pre></div></p>
+<hr />
+<h2 id="arquivos-e-pastas"><strong>Arquivos e pastas</strong></h2>
+<p>Cria uma nova pasta:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>mkdir<span class="w"> </span>nome-da-pasta
+</span></code></pre></div></p>
+<p>Cria pastas aninhadas de uma vez:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>mkdir<span class="w"> </span>-p<span class="w"> </span>pasta/subpasta
+</span></code></pre></div></p>
+<p>Cria um arquivo vazio:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>touch<span class="w"> </span>arquivo.txt
+</span></code></pre></div></p>
+<p>Copia um arquivo:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>cp<span class="w"> </span>arquivo.txt<span class="w"> </span>copia.txt
+</span></code></pre></div></p>
+<p>Copia uma pasta inteira:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>cp<span class="w"> </span>-r<span class="w"> </span>origem/<span class="w"> </span>destino/
+</span></code></pre></div></p>
+<p>Move um arquivo para outra pasta:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>mv<span class="w"> </span>arquivo.txt<span class="w"> </span>outra-pasta/
+</span></code></pre></div></p>
+<p>Renomeia um arquivo:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>mv<span class="w"> </span>nome-antigo.txt<span class="w"> </span>nome-novo.txt
+</span></code></pre></div></p>
+<p>Remove um arquivo:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>rm<span class="w"> </span>arquivo.txt
+</span></code></pre></div></p>
+<p>Remove uma pasta e todo o seu conteúdo:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>rm<span class="w"> </span>-r<span class="w"> </span>pasta/
+</span></code></pre></div></p>
 <div class="admonition warning">
 <p class="admonition-title">Atenção</p>
-<p>O comando <strong><code>rm -rf</code></strong> remove arquivos permanentemente.</p>
+<p>O <code>rm</code> remove permanentemente, sem lixeira. Use com cuidado.</p>
 </div>
-<h2 id="visualizacao-e-inspecao">Visualização e Inspeção</h2>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>cat<span class="w"> </span>arquivo.txt<span class="w">       </span><span class="c1"># Exibe conteúdo do arquivo</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>less<span class="w"> </span>arquivo.txt<span class="w">      </span><span class="c1"># Visualiza arquivo paginado</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>head<span class="w"> </span>arquivo.txt<span class="w">      </span><span class="c1"># Mostra início do arquivo</span>
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>tail<span class="w"> </span>arquivo.txt<span class="w">      </span><span class="c1"># Mostra final do arquivo</span>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>tail<span class="w"> </span>-f<span class="w"> </span>arquivo.txt<span class="w">   </span><span class="c1"># Acompanha arquivo em tempo real</span>
-</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>
-</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>nano<span class="w"> </span>arquivo.txt<span class="w">      </span><span class="c1"># Edita arquivo no terminal</span>
-</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>
-</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="nb">history</span><span class="w">               </span><span class="c1"># Mostra histórico de comandos</span>
-</span></code></pre></div>
-<h2 id="busca">Busca</h2>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>grep<span class="w"> </span><span class="s2">&quot;texto&quot;</span><span class="w"> </span>arquivo.txt<span class="w">      </span><span class="c1"># Busca texto dentro de arquivo</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>grep<span class="w"> </span>-r<span class="w"> </span><span class="s2">&quot;texto&quot;</span><span class="w"> </span>.<span class="w">             </span><span class="c1"># Busca recursiva em diretórios</span>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>find<span class="w"> </span>.<span class="w"> </span>-name<span class="w"> </span><span class="s2">&quot;arquivo.txt&quot;</span><span class="w">    </span><span class="c1"># Busca arquivos por nome</span>
-</span></code></pre></div>
-<h2 id="atalhos-uteis">Atalhos úteis</h2>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>Ctrl<span class="w"> </span>+<span class="w"> </span>L<span class="w">    </span><span class="c1"># Limpa o terminal</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>Ctrl<span class="w"> </span>+<span class="w"> </span>C<span class="w">    </span><span class="c1"># Interrompe um processo em execução</span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>Ctrl<span class="w"> </span>+<span class="w"> </span>Z<span class="w">    </span><span class="c1"># Suspende um processo</span>
-</span></code></pre></div>
-<h2 id="permissoes">Permissões</h2>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>chmod<span class="w"> </span>+x<span class="w"> </span>script.sh<span class="w">            </span><span class="c1"># Torna arquivo executável</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>chmod<span class="w"> </span><span class="m">755</span><span class="w"> </span>arquivo<span class="w">             </span><span class="c1"># Define permissões</span>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>chown<span class="w"> </span>usuario:grupo<span class="w"> </span>arquivo<span class="w">   </span><span class="c1"># Altera dono do arquivo</span>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>sudo<span class="w"> </span>comando<span class="w">    </span><span class="c1"># Executa comando como administrador</span>
-</span></code></pre></div><style type="text/css">.quiz {
+<hr />
+<h2 id="visualizacao-de-conteudo"><strong>Visualização de conteúdo</strong></h2>
+<p>Exibe o conteúdo completo de um arquivo:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>cat<span class="w"> </span>arquivo.txt
+</span></code></pre></div></p>
+<p>Visualiza o arquivo paginado (tecle <code>q</code> para sair):
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>less<span class="w"> </span>arquivo.txt
+</span></code></pre></div></p>
+<p>Mostra as primeiras linhas do arquivo:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>head<span class="w"> </span>arquivo.txt
+</span></code></pre></div></p>
+<p>Mostra as últimas linhas do arquivo:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>tail<span class="w"> </span>arquivo.txt
+</span></code></pre></div></p>
+<hr />
+<h2 id="edicao-no-terminal"><strong>Edição no terminal</strong></h2>
+<p>Abre o editor de texto no terminal:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>nano<span class="w"> </span>arquivo.txt
+</span></code></pre></div></p>
+<hr />
+<h2 id="busca"><strong>Busca</strong></h2>
+<p>Busca um texto dentro de um arquivo:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>grep<span class="w"> </span><span class="s2">&quot;texto&quot;</span><span class="w"> </span>arquivo.txt
+</span></code></pre></div></p>
+<p>Busca recursiva em todos os arquivos do diretório:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>grep<span class="w"> </span>-r<span class="w"> </span><span class="s2">&quot;texto&quot;</span><span class="w"> </span>.
+</span></code></pre></div></p>
+<p>Busca arquivos pelo nome:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>find<span class="w"> </span>.<span class="w"> </span>-name<span class="w"> </span><span class="s2">&quot;arquivo.txt&quot;</span>
+</span></code></pre></div></p>
+<hr />
+<h2 id="historico"><strong>Histórico</strong></h2>
+<p>Lista os últimos comandos executados:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a><span class="nb">history</span>
+</span></code></pre></div></p>
+<hr />
+<h2 id="compactacao"><strong>Compactação</strong></h2>
+<p>Compacta uma pasta em zip:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-26-1"><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>zip<span class="w"> </span>-r<span class="w"> </span>arquivos.zip<span class="w"> </span>pasta/
+</span></code></pre></div></p>
+<p>Extrai um arquivo zip:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-27-1"><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>unzip<span class="w"> </span>arquivos.zip
+</span></code></pre></div></p>
+<hr />
+<h2 id="atalhos-uteis"><strong>Atalhos úteis</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Atalho</th>
+<th>Ação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Ctrl + L</code></td>
+<td>Limpa o terminal</td>
+</tr>
+<tr>
+<td><code>Ctrl + C</code></td>
+<td>Interrompe o processo em execução</td>
+</tr>
+<tr>
+<td><code>↑</code> / <code>↓</code></td>
+<td>Navega pelo histórico de comandos</td>
+</tr>
+</tbody>
+</table>
+<hr /><style type="text/css">.quiz {
   border: 1px solid black;
   padding: 1rem;
   margin: 1rem 0;

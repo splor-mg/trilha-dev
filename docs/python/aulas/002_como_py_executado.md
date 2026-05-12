@@ -1,7 +1,7 @@
 ---
 comments: true
 ---
-# Aula 002: Como o um programa Python é executado
+# Aula 002: Como um programa Python é executado
 
 ## 🎥 Vídeo 2
 
@@ -36,7 +36,7 @@ Utilizando a função **print()**, é possível exibir diferentes linhas no term
 
 ``` py
 print('O----')
-print(' ////')
+print(' ||||')
 ```
 
 Ao executar o programa, cada **print()** será exibido em uma nova linha, respeitando a ordem em que foi escrito.

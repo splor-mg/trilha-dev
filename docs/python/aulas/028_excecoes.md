@@ -15,8 +15,6 @@ Durante a execução de um programa, erros podem acontecer. Alguns desses erros 
 
 Para isso, o Python oferece a estrutura `try` e `except`.
 
----
-
 #### **Exemplo: recebendo a idade do usuário**
 
 ``` py
@@ -45,8 +43,6 @@ Resultado:
 20
 ```
 
----
-
 #### **Quando acontece um erro**
 
 Se o usuário digitar:
@@ -68,8 +64,6 @@ Isso acontece porque:
 
 Sem tratamento, o programa é interrompido.
 
----
-
 #### **Lendo mensagens de erro**
 
 As mensagens de erro normalmente informam:
@@ -84,8 +78,6 @@ Exemplo:
 ``` py
 ValueError: invalid literal for int()
 ```
-
----
 
 #### **Utilizando `try` e `except`**
 
@@ -108,8 +100,6 @@ O Python:
 2. Se ocorrer o erro informado no `except`
 3. Executa o tratamento definido
 
----
-
 #### **Fluxo correto**
 
 Se o usuário digitar:
@@ -123,8 +113,6 @@ Resultado:
 ``` py
 20
 ```
-
----
 
 #### **Fluxo com erro**
 
@@ -142,8 +130,6 @@ Idade inválida
 
 O programa continua funcionando normalmente.
 
----
-
 #### **Estrutura do `try` e `except`**
 
 ``` py
@@ -153,8 +139,6 @@ try:
 except TipoDoErro:
     # tratamento do erro
 ```
-
----
 
 #### **Indentação é obrigatória**
 
@@ -167,8 +151,6 @@ try:
 except ValueError:
     print("Erro encontrado")
 ```
-
----
 
 #### **Tratando mais de um erro**
 
@@ -191,8 +173,6 @@ except ZeroDivisionError:
     print("A idade não pode ser zero")
 ```
 
----
-
 #### **Erro de divisão por zero**
 
 Se o usuário informar:
@@ -209,8 +189,6 @@ ZeroDivisionError
 
 Porque não é possível dividir um número por zero.
 
----
-
 #### **Tratando a divisão por zero**
 
 Com o `except`, conseguimos evitar que o programa pare:
@@ -226,8 +204,6 @@ Resultado:
 A idade não pode ser zero
 ```
 
----
-
 #### **Por que tratar erros?**
 
 O tratamento de erros permite:
@@ -236,8 +212,6 @@ O tratamento de erros permite:
 - Melhorar a experiência do usuário
 - Criar sistemas mais estáveis
 - Exibir mensagens mais amigáveis
-
----
 
 #### **Exemplos comuns no dia a dia**
 
@@ -249,8 +223,6 @@ Tratamento de erros é muito usado em:
 - Formulários
 - Sistemas bancários
 - APIs
-
----
 
 #### **Aplicação prática**
 

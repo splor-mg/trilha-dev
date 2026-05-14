@@ -177,7 +177,7 @@ funcao(nome="Maria", 10)
 
 Isso gera erro no Python.
 
-#### **Boas práticas**
+#### **Aplicação prática**
 
 Ao trabalhar com argumentos:
 
@@ -186,7 +186,7 @@ Ao trabalhar com argumentos:
 - Use nomes claros nos parâmetros
 - Evite funções confusas
 
-### **Checklist**
+#### **Checklist**
 
 Ao final desta aula, você aprendeu:
 

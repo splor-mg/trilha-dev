@@ -162,7 +162,7 @@ Resultado:
 A25
 ```
 
-### **Checklist**
+#### **Checklist**
 
 Ao final desta aula, você aprendeu:
 

@@ -155,7 +155,7 @@ O que acontece:
 
 Ele é utilizado quando uma função não retorna nenhum resultado explicitamente.
 
-#### **Boas práticas**
+#### **Aplicação prática**
 
 Ao criar funções:
 
@@ -164,7 +164,7 @@ Ao criar funções:
 - Evite depender apenas de `print()`
 - Guarde resultados em variáveis quando necessário
 
-### **Checklist**
+#### **Checklist**
 
 Ao final desta aula, você aprendeu:
 

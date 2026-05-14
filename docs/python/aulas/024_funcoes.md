@@ -51,7 +51,7 @@ Uma função possui:
 - Dois pontos `:`
 - Bloco de código indentado
 
-#### **Boas práticas no nome da função**
+#### **Aplicação prática**
 
 Ao criar funções:
 
@@ -119,7 +119,7 @@ boas_vindas()
 
 Isso evita repetição de código.
 
-### **Checklist**
+#### **Checklist**
 
 Ao final desta aula, você aprendeu:
 

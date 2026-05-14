@@ -135,7 +135,7 @@ apresentar("Lucas")
 
 Isso gera erro, pois a função espera dois parâmetros.
 
-#### **Boas práticas**
+#### **Aplicação prática**
 
 Ao criar parâmetros:
 
@@ -150,7 +150,7 @@ def calcular_media(nota1, nota2):
     pass
 ```
 
-### **Checklist**
+#### **Checklist**
 
 Ao final desta aula, você aprendeu:
 

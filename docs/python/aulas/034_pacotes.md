@@ -11,11 +11,11 @@ Nesta aula, vamos aprender sobre pacotes.
 
 [Conversa com o ChatGPT](https://chatgpt.com/share/69fa086e-26fc-83e9-9f21-57eaf8ef5540) sobre o erro encontrado na aula.
 
-#### O que são pacotes?
+#### **O que são pacotes?**
 
 Pacotes são uma forma de organizar o código Python em diretórios. Eles funcionam como “pastas especiais” que agrupam módulos relacionados. A ideia dos pacotes é facilitar a organização de projetos maiores, separando funcionalidades em diferentes partes do sistema.
 
-#### Relação entre módulos e pacotes
+#### **Relação entre módulos e pacotes**
 
 Na aula anterior, foram apresentados os módulos, que são arquivos `.py`.
 
@@ -42,7 +42,7 @@ Dentro de cada seção poderiam existir módulos como:
 - vestuário;
 - acessórios.
 
-#### Por que usar pacotes?
+#### **Por que usar pacotes?**
 
 Pacotes ajudam a:
 
@@ -54,7 +54,7 @@ Pacotes ajudam a:
 
 Além disso, frameworks e bibliotecas Python utilizam bastante essa estrutura.
 
-#### Criando um pacote
+#### **Criando um pacote**
 
 Foi criado um diretório chamado `ecommerce`.
 
@@ -64,7 +64,7 @@ ecommerce/
 
 Inicialmente, ele é apenas uma pasta comum.
 
-#### O arquivo `__init__.py`
+#### **O arquivo `__init__.py`**
 
 Para que o Python reconheça a pasta como um pacote, foi criado o arquivo:
 
@@ -82,7 +82,7 @@ ecommerce/
 ├── __init__.py
 ```
 
-#### Criando um módulo dentro do pacote
+#### **Criando um módulo dentro do pacote**
 
 Dentro do pacote `ecommerce`, foi criado um módulo chamado `entrega.py`.
 
@@ -93,7 +93,7 @@ ecommerce/
 ├── entrega.py
 ```
 
-#### Criando uma função no módulo
+#### **Criando uma função no módulo**
 
 Dentro do módulo `entrega.py`, foi criada uma função chamada `calculadora_entrega`.
 
@@ -102,7 +102,7 @@ def calculadora_entrega():
     print("Calculando o valor de entrega")
 ```
 
-#### Importando funções de um pacote
+#### **Importando funções de um pacote**
 
 No arquivo principal (`app.py`), a função foi importada diretamente.
 
@@ -122,7 +122,7 @@ Saída:
 Calculando o valor de entrega
 ```
 
-#### Como funciona esse import
+#### **Como funciona esse import**
 
 Nesse caso:
 
@@ -132,7 +132,7 @@ Nesse caso:
 
 O Python acessa cada nível usando ponto (`.`).
 
-#### Erro de importação
+#### **Erro de importação**
 
 Durante a aula aconteceu o erro:
 
@@ -142,11 +142,11 @@ ModuleNotFoundError
 
 Isso aconteceu porque o pacote estava fora da raiz do projeto executado pelo Python. O interpretador entendia que a pasta da aula era a raiz do projeto e, por isso, não encontrava o pacote `ecommerce`.
 
-#### Solução utilizada
+#### **Solução utilizada**
 
 A solução foi mover a pasta `ecommerce` para dentro da pasta da aula. Depois disso, a importação funcionou corretamente.
 
-#### Outra forma de importação
+#### **Outra forma de importação**
 
 Também foi apresentada outra maneira de importar módulos.
 
@@ -162,7 +162,7 @@ Para acessar a função, é necessário usar:
 entrega.calculadora_entrega()
 ```
 
-#### Diferença entre as duas formas
+#### **Diferença entre as duas formas**
 
 Importando diretamente a função:
 
@@ -188,7 +188,7 @@ from ecommerce import entrega
 entrega.calculadora_entrega()
 ```
 
-#### Estrutura final do projeto
+#### **Estrutura final do projeto**
 
 A estrutura criada durante a aula ficou semelhante a:
 
@@ -202,7 +202,7 @@ A estrutura criada durante a aula ficou semelhante a:
     └── entrega.py
 ```
 
-#### Aplicação prática
+#### **Aplicação prática**
 
 Pacotes são utilizados constantemente em projetos reais e frameworks.
 
@@ -214,7 +214,7 @@ Eles ajudam a:
 - estruturar aplicações maiores
 - facilitar manutenção e crescimento do projeto
 
-#### Checklist
+#### **Checklist**
 
 Ao final desta aula, você aprendeu:
 

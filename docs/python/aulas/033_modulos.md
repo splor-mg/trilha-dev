@@ -9,11 +9,11 @@ Nesta aula, vamos aprender sobre módulos.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QrkFD1OSUTQ?si=1Uo6ZuDuefzkAiTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-#### O que são módulos?
+#### **O que são módulos?**
 
 Módulos em Python são arquivos `.py` que contêm código Python, como funções, classes e variáveis. Eles são utilizados para organizar melhor o código e separar funcionalidades em diferentes arquivos.
 
-#### Por que utilizar módulos?
+#### **Por que utilizar módulos?**
 
 À medida que os projetos crescem, o código tende a ficar mais extenso e complexo.
 
@@ -31,7 +31,7 @@ A aula faz uma analogia com um supermercado:
 - os módulos funcionam como essas seções;
 - cada arquivo agrupa funcionalidades relacionadas.
 
-#### Criando funções
+#### **Criando funções**
 
 Foram criadas duas funções simples:
 
@@ -46,7 +46,7 @@ def kilogramas_para_libras(kg):
     return kg * 2.22
 ```
 
-#### Criando um módulo
+#### **Criando um módulo**
 
 Depois, foi criado um novo arquivo chamado:
 
@@ -56,7 +56,7 @@ conversores.py
 
 As funções foram movidas para esse arquivo. Assim, o arquivo `conversores.py` passou a funcionar como um módulo.
 
-#### Importando um módulo inteiro
+#### **Importando um módulo inteiro**
 
 A primeira forma apresentada foi importar o módulo completo usando `import`.
 
@@ -82,7 +82,7 @@ Saída:
 22.2
 ```
 
-#### Como funciona o acesso com ponto
+#### **Como funciona o acesso com ponto**
 
 Quando o módulo é importado, ele passa a ser tratado como um objeto dentro do arquivo atual.
 
@@ -92,7 +92,7 @@ Por isso, utiliza-se a sintaxe:
 modulo.funcao()
 ```
 
-#### Importando apenas uma função
+#### **Importando apenas uma função**
 
 A segunda forma apresentada foi importar diretamente a função desejada.
 
@@ -112,9 +112,9 @@ Saída:
 45.0
 ```
 
-#### Diferença entre as duas formas:
+#### **Diferença entre as duas formas:**
 
-##### 1. Importando o módulo inteiro
+##### **1. Importando o módulo inteiro**
 
 ```python
 import conversores
@@ -130,7 +130,7 @@ Uso:
 conversores.funcao()
 ```
 
-##### 2. Importando apenas a função
+##### **2. Importando apenas a função**
 
 ```python
 from conversores import libras_para_kilogramas
@@ -146,7 +146,7 @@ Uso:
 libras_para_kilogramas()
 ```
 
-#### Organização de código
+#### **Organização de código**
 
 A principal ideia dos módulos é dividir o código de maneira lógica.
 
@@ -159,7 +159,7 @@ Exemplo:
 
 Isso torna o sistema mais organizado e reutilizável.
 
-#### Aplicação prática
+#### **Aplicação prática**
 
 Módulos ajudam a:
 
@@ -169,7 +169,7 @@ Módulos ajudam a:
 - facilitar leitura
 - organizar projetos maiores
 
-#### Checklist
+#### **Checklist**
 
 Ao final desta aula, você aprendeu:
 

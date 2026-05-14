@@ -173,11 +173,11 @@ Módulos ajudam a:
 
 Ao final desta aula, você aprendeu:
 
-- o que são módulos?;
-- como criar um módulo;
-- como importar módulos;
-- como importar funções específicas;
-- como acessar funções de outros arquivos;
-- importância da organização de código.
+- O que são módulos?;
+- Como criar um módulo;
+- Como importar módulos;
+- Como importar funções específicas;
+- Como acessar funções de outros arquivos;
+- Importância da organização de código.
 
 Os módulos são fundamentais para desenvolver projetos maiores e mais organizados em Python.

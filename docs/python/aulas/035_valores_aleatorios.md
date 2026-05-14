@@ -167,10 +167,10 @@ Com os conhecimentos aprendidos até aqui, já é possível desenvolver aplicaç
 
 Ao final desta aula, você aprendeu:
 
-- o que são módulos built-in?;
-- onde encontrar a documentação oficial dos módulos do Python?;
-- como importar módulos com `import`;
-- como utilizar o módulo `random`;
-- como gerar números aleatórios;
-- como sortear valores de listas;
-- como reutilizar funcionalidades já existentes no Python.
+- O que são módulos built-in?;
+- Onde encontrar a documentação oficial dos módulos do Python?;
+- Como importar módulos com `import`;
+- Como utilizar o módulo `random`;
+- Como gerar números aleatórios;
+- Como sortear valores de listas;
+- Como reutilizar funcionalidades já existentes no Python.

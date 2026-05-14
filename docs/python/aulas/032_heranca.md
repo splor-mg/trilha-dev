@@ -147,10 +147,10 @@ A herança ajuda a:
 
 Ao final desta aula, você aprendeu:
 
-- criação de classes pai e filha;
-- reutilização de métodos;
-- uso do princípio DRY;
-- uso do `pass`;
-- criação de métodos específicos em subclasses.
+- Criação de classes pai e filha;
+- Reutilização de métodos;
+- Uso do princípio DRY;
+- Uso do `pass`;
+- Criação de métodos específicos em subclasses.
 
 A herança é um dos pilares da programação orientada a objetos e será utilizada frequentemente em projetos maiores.

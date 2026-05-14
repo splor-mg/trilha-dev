@@ -218,11 +218,11 @@ Eles ajudam a:
 
 Ao final desta aula, você aprendeu:
 
-- o que são pacotes?;
-- diferença entre módulos e pacotes;
-- criação de diretórios como pacotes Python;
-- uso do arquivo `__init__.py`;
-- criação de módulos dentro de pacotes;
-- importação de funções e módulos;
-- uso do operador `.` para acessar módulos e funções;
-- entendimento básico sobre estrutura de projetos Python.
+- O que são pacotes?;
+- Diferença entre módulos e pacotes;
+- Criação de diretórios como pacotes Python;
+- Uso do arquivo `__init__.py`;
+- Criação de módulos dentro de pacotes;
+- Importação de funções e módulos;
+- Uso do operador `.` para acessar módulos e funções;
+- Entendimento básico sobre estrutura de projetos Python.

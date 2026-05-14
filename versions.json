@@ -1,5 +1,10 @@
 [
   {
+    "version": "novas-transcricoes",
+    "title": "novas-transcricoes",
+    "aliases": []
+  },
+  {
     "version": "main",
     "title": "main",
     "aliases": [

@@ -20,7 +20,7 @@ Lista arquivos e pastas:
 ls
 ```
 
-Lista detalhada, incluindo arquivos ocultos:
+Lista arquivos e pastas em formato detalhado, incluindo arquivos ocultos:
 ```bash
 ls -la
 ```

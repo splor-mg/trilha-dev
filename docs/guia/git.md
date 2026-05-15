@@ -60,7 +60,7 @@ git add <nome-do-arquivo.txt>
 
 Registra as alterações com uma mensagem:
 ```bash
-git commit -m "mensagem"
+git commit -m <"mensagem do commit">
 ```
 
 Envia as alterações para o repositório remoto:

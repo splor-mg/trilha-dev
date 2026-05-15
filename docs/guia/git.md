@@ -96,14 +96,14 @@ git diff --staged
 
 ## **Desfazer alterações**
 
-Descarta alterações no arquivo (volta ao último commit):
+Descarta as alterações feitas em um arquivo e restaura a versão do último commit:
 ```bash
-git restore arquivo.txt
+git restore <nome-do-arquivo.txt>
 ```
 
 Remove o arquivo do stage sem descartar as alterações:
 ```bash
-git restore --staged arquivo.txt
+git restore --staged <nome-do-arquivo.txt>
 ```
 
 !!! warning "Atenção"
@@ -138,6 +138,10 @@ Remove uma branch local (somente se já mergeada):
 git branch -d nome-da-branch
 ```
 
+Busca atualizações do repositório remoto, incluindo novas branches, sem alterar sua branch atual:
+```bash
+git fetch
+```
 ---
 
 ## **Sincronização com remoto**

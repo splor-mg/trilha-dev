@@ -27,18 +27,24 @@ poetry install
 
 Adiciona uma nova dependência ao projeto:
 ```bash
-poetry add nome-do-pacote
+poetry add <nome-do-pacote>
 ```
 
 Remove uma dependência:
 ```bash
-poetry remove nome-do-pacote
+poetry remove <nome-do-pacote>
 ```
 
 Ativa o ambiente virtual do projeto:
 ```bash
-poetry shell
+poetry env activate
 ```
+!!! warning "Atenção"
+    Esse comando apenas mostra o comando de ativação do ambiente virtual.
+
+!!! info "Linux/macOS"
+    No Linux/macOS (bash/zsh), normalmente você executa assim:
+    `eval $(poetry env activate)`
 
 ---
 
@@ -51,6 +57,7 @@ poetry run mkdocs serve
 
 !!! info "Servidor local"
     Após rodar o comando, acesse [http://127.0.0.1:8000](http://127.0.0.1:8000) no navegador.
+
 
 Gera o site estático na pasta `site/`:
 ```bash

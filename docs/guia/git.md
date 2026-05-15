@@ -55,7 +55,7 @@ git add .
 
 Adiciona um arquivo específico ao stage:
 ```bash
-git add arquivo.txt
+git add <arquivo.txt>
 ```
 
 Registra as alterações com uma mensagem:

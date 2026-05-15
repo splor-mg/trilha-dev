@@ -8,7 +8,7 @@ title: Registros dos Encontros
 
 ## :material-school: 1º Encontro
 
-:material-calendar-month: **24/04/2026** &nbsp;·&nbsp; :material-book-open-variant: Introdução, primeiros passos, Aula 001 (primeiro programa)
+:material-calendar-month: **24/04/2026** &nbsp;·&nbsp; :material-book-open-variant: Introdução, primeiros passos, Aula 001
 
 [▶ Assistir gravação](https://www.youtube.com/watch?v=LW1f84Ho3iY){ .md-button }
 [⬇ Baixar resumo](../../../assets/resumos/resumo_encontro_001.pdf){ .md-button .md-button--primary }
@@ -34,7 +34,7 @@ title: Registros dos Encontros
 
 ## :material-school: 2º Encontro :material-new-box:
 
-:material-calendar-month: **08/05/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 002 (como Python é executado), Aula 003 (variáveis), Aula 004 (input) e Aula 005 (casting)
+:material-calendar-month: **08/05/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 002, Aula 003, Aula 004 e Aula 005
 
 [▶ Assistir gravação](https://www.youtube.com/watch?v=rDJFuMkqb-Q){ .md-button }
 [⬇ Baixar resumo](../../../assets/resumos/resumo_encontro_002.pdf){ .md-button .md-button--primary }
@@ -64,4 +64,3 @@ title: Registros dos Encontros
 
     **Por que converter a *string* 'ABC' para *booleano* retorna True? O que isso significa na prática?**<br>
     [▶ Ver no vídeo (1:07:41)](https://www.youtube.com/watch?v=rDJFuMkqb-Q&t=4061s){ target="_blank" }
-

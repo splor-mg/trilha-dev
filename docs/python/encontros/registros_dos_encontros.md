@@ -32,7 +32,7 @@ title: Registros dos Encontros
 
 ---
 
-## :material-school: 2º Encontro :material-new-box:
+## :material-school: 2º Encontro
 
 :material-calendar-month: **08/05/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 002, Aula 003, Aula 004 e Aula 005
 
@@ -64,3 +64,38 @@ title: Registros dos Encontros
 
     **Por que converter a *string* 'ABC' para *booleano* retorna True? O que isso significa na prática?**<br>
     [▶ Ver no vídeo (1:07:41)](https://www.youtube.com/watch?v=rDJFuMkqb-Q&t=4061s){ target="_blank" }
+
+---
+
+## :material-school: 3º Encontro :material-new-box:
+
+:material-calendar-month: **15/05/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 006, Aula 007 e Aula 008
+
+[▶ Assistir gravação](https://www.youtube.com/watch?v=lrXzrzpE0qc){ .md-button }
+[⬇ Baixar resumo](../../../assets/resumos/resumo_encontro_003.pdf){ .md-button .md-button--primary }
+
+??? info "Dúvidas do encontro"
+
+    **Quando devo usar `f-string` em vez de aspas simples ou duplas?**<br>
+    [▶ Ver no vídeo (17:02)](https://www.youtube.com/watch?v=lrXzrzpE0qc&t=1022s){ target="_blank" }
+
+    **Se eu usar `upper()` sem o `print`, ele altera a variável original permanentemente?**<br>
+    [▶ Ver no vídeo (25:50)](https://www.youtube.com/watch?v=lrXzrzpE0qc&t=1550s){ target="_blank" }
+
+    **Como usar slice negativo para pegar as últimas letras de uma *string*?**<br>
+    [▶ Ver no vídeo (44:54)](https://www.youtube.com/watch?v=lrXzrzpE0qc&t=2694s){ target="_blank" }
+
+    **O `find()` retorna só a primeira ocorrência quando a letra aparece mais de uma vez?**<br>
+    [▶ Ver no vídeo (50:30)](https://www.youtube.com/watch?v=lrXzrzpE0qc&t=3030s){ target="_blank" }
+
+    **Como trocar apenas as duas últimas ocorrências de uma palavra com `replace()`?**<br>
+    [▶ Ver no vídeo (55:57)](https://www.youtube.com/watch?v=lrXzrzpE0qc&t=3357s){ target="_blank" }
+
+    **O `replace()` substitui tudo. Tem como limitar para substituir só as primeiras ocorrências?**<br>
+    [▶ Ver no vídeo (1:00:41)](https://www.youtube.com/watch?v=lrXzrzpE0qc&t=3778s){ target="_blank" }
+
+    **E se eu quiser trocar só as duas últimas, não as primeiras?**<br>
+    [▶ Ver no vídeo (1:02:58)](https://www.youtube.com/watch?v=rDJFuMkqb-Q&t=3452s){ target="_blank" }
+
+    **Seria possível fazer três `replace()` em sequência para atingir só as últimas ocorrências?**<br>
+    [▶ Ver no vídeo (1:09:49)](https://www.youtube.com/watch?v=lrXzrzpE0qc&t=4189s){ target="_blank" }

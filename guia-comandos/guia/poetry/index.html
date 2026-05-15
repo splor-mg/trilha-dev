@@ -2670,14 +2670,23 @@
 <p>Sempre rode <code>poetry install</code> ao clonar um repositório pela primeira vez.</p>
 </div>
 <p>Adiciona uma nova dependência ao projeto:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>poetry<span class="w"> </span>add<span class="w"> </span>nome-do-pacote
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>poetry<span class="w"> </span>add<span class="w"> </span>&lt;nome-do-pacote&gt;
 </span></code></pre></div></p>
 <p>Remove uma dependência:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>poetry<span class="w"> </span>remove<span class="w"> </span>nome-do-pacote
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>poetry<span class="w"> </span>remove<span class="w"> </span>&lt;nome-do-pacote&gt;
 </span></code></pre></div></p>
 <p>Ativa o ambiente virtual do projeto:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>poetry<span class="w"> </span>shell
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>poetry<span class="w"> </span>env<span class="w"> </span>activate
 </span></code></pre></div></p>
+<div class="admonition warning">
+<p class="admonition-title">Atenção</p>
+<p>Esse comando apenas mostra o comando de ativação do ambiente virtual.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Linux/macOS</p>
+<p>No Linux/macOS (bash/zsh), normalmente você executa assim:
+<code>eval $(poetry env activate)</code></p>
+</div>
 <hr />
 <h2 id="mkdocs-com-poetry"><strong>MkDocs com Poetry</strong></h2>
 <p>Inicia o servidor local com preview em tempo real:

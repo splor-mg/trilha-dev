@@ -130,10 +130,20 @@ tail arquivo.txt
 
 ## **Edição no terminal**
 
-Abre o editor de texto no terminal:
+Abre um arquivo no editor de texto do terminal:
 ```bash
-nano arquivo.txt
+nano <nome-do-arquivo.txt>
 ```
+
+!!! tip "Como sair do nano"
+    Pressione **Ctrl + X** para sair.
+
+Se houver alterações não salvas, o nano perguntará se deseja salvar:
+
+- **`Y`** → salva as alterações
+- **`N`** → sai sem salvar
+
+Depois, pressione ==**Enter**== para confirmar o nome do arquivo.
 
 ---
 

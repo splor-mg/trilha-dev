@@ -23,7 +23,7 @@ Selecione uma categoria para acessar os comandos.
 
     ---
 
-    Controle de versão, branches e sincronização
+    Controle de versão, branches e sincronização com o Github
 
     [:octicons-arrow-right-24: Acessar](./git/)
 

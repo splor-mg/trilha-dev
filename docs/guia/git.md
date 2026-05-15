@@ -123,19 +123,19 @@ Lista branches locais e remotas:
 git branch -a
 ```
 
-Cria uma nova branch e já entra nela:
+Cria uma nova branch e muda automaticamente para ela:
 ```bash
-git checkout -b nova-branch
+git checkout -b <nome-da-branch>
 ```
 
 Troca para outra branch:
 ```bash
-git checkout nome-da-branch
+git checkout <nome-da-branch>
 ```
 
-Remove uma branch local (somente se já mergeada):
+Remove uma branch local que já foi mergeada:
 ```bash
-git branch -d nome-da-branch
+git branch -d <nome-da-branch>
 ```
 
 Busca atualizações do repositório remoto, incluindo novas branches, sem alterar sua branch atual:
@@ -153,7 +153,7 @@ git pull origin main
 
 Envia sua branch para o repositório remoto:
 ```bash
-git push origin minha-branch
+git push origin <minha-branch>
 ```
 
 Baixa atualizações sem aplicar na branch atual:

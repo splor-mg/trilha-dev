@@ -48,11 +48,11 @@ poetry env activate
 
 ---
 
-## **MkDocs com Poetry**
+## **MkDocs**
 
 Inicia o servidor local com preview em tempo real:
 ```bash
-poetry run mkdocs serve
+mkdocs serve
 ```
 
 !!! info "Servidor local"
@@ -61,5 +61,5 @@ poetry run mkdocs serve
 
 Gera o site estático na pasta `site/`:
 ```bash
-poetry run mkdocs build
+mkdocs build
 ```

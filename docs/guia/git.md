@@ -82,7 +82,7 @@ Histórico resumido, uma linha por commit:
 git log --oneline
 ```
 
-Mostra alterações ainda não adicionadas ao stage:
+Mostra alterações ainda não adicionadas ao stage (alterações entre commits, entre um commit e a árvore de trabalho, etc):
 ```bash
 git diff
 ```

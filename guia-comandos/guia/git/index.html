@@ -2882,14 +2882,14 @@
 <p>Lista branches locais e remotas:
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>git<span class="w"> </span>branch<span class="w"> </span>-a
 </span></code></pre></div></p>
-<p>Cria uma nova branch e já entra nela:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>git<span class="w"> </span>checkout<span class="w"> </span>-b<span class="w"> </span>nova-branch
+<p>Cria uma nova branch e muda automaticamente para ela:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>git<span class="w"> </span>checkout<span class="w"> </span>-b<span class="w"> </span>&lt;nome-da-branch&gt;
 </span></code></pre></div></p>
 <p>Troca para outra branch:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>git<span class="w"> </span>checkout<span class="w"> </span>nome-da-branch
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>git<span class="w"> </span>checkout<span class="w"> </span>&lt;nome-da-branch&gt;
 </span></code></pre></div></p>
-<p>Remove uma branch local (somente se já mergeada):
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>git<span class="w"> </span>branch<span class="w"> </span>-d<span class="w"> </span>nome-da-branch
+<p>Remove uma branch local que já foi mergeada:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>git<span class="w"> </span>branch<span class="w"> </span>-d<span class="w"> </span>&lt;nome-da-branch&gt;
 </span></code></pre></div></p>
 <p>Busca atualizações do repositório remoto, incluindo novas branches, sem alterar sua branch atual:
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>git<span class="w"> </span>fetch
@@ -2900,7 +2900,7 @@
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>git<span class="w"> </span>pull<span class="w"> </span>origin<span class="w"> </span>main
 </span></code></pre></div></p>
 <p>Envia sua branch para o repositório remoto:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>minha-branch
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>&lt;minha-branch&gt;
 </span></code></pre></div></p>
 <p>Baixa atualizações sem aplicar na branch atual:
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>git<span class="w"> </span>fetch<span class="w"> </span>origin

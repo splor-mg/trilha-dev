@@ -170,7 +170,7 @@ git fetch origin
 
 ## **Fork e upstream**
 
-Fluxo usado no repositório de exercícios da Trilha Dev.
+Fluxo para manter um fork atualizado com o repositório original.
 
 Após criar o fork no GitHub (botão **Fork**), clone o seu fork:
 ```bash
@@ -179,12 +179,12 @@ git clone git@github.com:SEU-USUARIO/exercicios-python.git
 
 Entre na pasta do projeto:
 ```bash
-cd exercicios-python
+cd <NOME-DO-REPOSITORIO>
 ```
 
-Conecta com o repositório original:
+Conecta o repositório original como upstream:
 ```bash
-git remote add upstream git@github.com:splor-mg/exercicios-python.git
+git remote add upstream git@github.com:USUARIO-ORIGINAL/NOME-DO-REPOSITORIO.git
 ```
 
 Confirma os remotes configurados:
@@ -202,13 +202,13 @@ Vai para a branch main local:
 git checkout main
 ```
 
-Aplica as atualizações na sua main:
+Aplica as atualizações do repositório original na sua main:
 ```bash
 git merge upstream/main
 ```
 
 !!! tip "Como verificar"
-    No GitHub, o repositório deve aparecer como **`forked from splor-mg/exercicios-python`**.
+    No GitHub, o repositório deve aparecer como **`forked from USUARIO-ORIGINAL/NOME-DO-REPOSITORIO`**.
 
 ---
 

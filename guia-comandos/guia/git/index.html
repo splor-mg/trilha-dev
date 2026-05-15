@@ -2912,15 +2912,15 @@
 </div>
 <hr />
 <h2 id="fork-e-upstream"><strong>Fork e upstream</strong></h2>
-<p>Fluxo usado no repositório de exercícios da Trilha Dev.</p>
+<p>Fluxo para manter um fork atualizado com o repositório original.</p>
 <p>Após criar o fork no GitHub (botão <strong>Fork</strong>), clone o seu fork:
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>git<span class="w"> </span>clone<span class="w"> </span>git@github.com:SEU-USUARIO/exercicios-python.git
 </span></code></pre></div></p>
 <p>Entre na pasta do projeto:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a><span class="nb">cd</span><span class="w"> </span>exercicios-python
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a><span class="nb">cd</span><span class="w"> </span>&lt;NOME-DO-REPOSITORIO&gt;
 </span></code></pre></div></p>
-<p>Conecta com o repositório original:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-26-1"><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>git<span class="w"> </span>remote<span class="w"> </span>add<span class="w"> </span>upstream<span class="w"> </span>git@github.com:splor-mg/exercicios-python.git
+<p>Conecta o repositório original como upstream:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-26-1"><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>git<span class="w"> </span>remote<span class="w"> </span>add<span class="w"> </span>upstream<span class="w"> </span>git@github.com:USUARIO-ORIGINAL/NOME-DO-REPOSITORIO.git
 </span></code></pre></div></p>
 <p>Confirma os remotes configurados:
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-27-1"><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>git<span class="w"> </span>remote<span class="w"> </span>-v
@@ -2931,12 +2931,12 @@
 <p>Vai para a branch main local:
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-29-1"><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>git<span class="w"> </span>checkout<span class="w"> </span>main
 </span></code></pre></div></p>
-<p>Aplica as atualizações na sua main:
+<p>Aplica as atualizações do repositório original na sua main:
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-30-1"><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>git<span class="w"> </span>merge<span class="w"> </span>upstream/main
 </span></code></pre></div></p>
 <div class="admonition tip">
 <p class="admonition-title">Como verificar</p>
-<p>No GitHub, o repositório deve aparecer como <strong><code>forked from splor-mg/exercicios-python</code></strong>.</p>
+<p>No GitHub, o repositório deve aparecer como <strong><code>forked from USUARIO-ORIGINAL/NOME-DO-REPOSITORIO</code></strong>.</p>
 </div>
 <hr />
 <h2 id="guardar-trabalho-temporariamente"><strong>Guardar trabalho temporariamente</strong></h2>

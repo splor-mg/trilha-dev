@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://trilhadev.planejamento.mg.gov.br/guia-comandos/guia/poetry/">
+        <link rel="canonical" href="https://trilhadev.planejamento.mg.gov.br/guia-comandos/guia/gerenciadores/">
       
       
         <link rel="prev" href="../git/">
@@ -25,7 +25,7 @@
     
     
       
-        <title>Poetry e MkDocs - Trilha Dev</title>
+        <title>Gerenciadores de Pacotes e Ambiente Virtual - Trilha Dev</title>
       
     
     
@@ -61,15 +61,15 @@
     
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Poetry e MkDocs - Trilha Dev" />
-<meta property="og:image" content="https://trilhadev.planejamento.mg.gov.br/guia-comandos/assets/images/social/guia/poetry.png" />
+<meta property="og:title" content="Gerenciadores de Pacotes e Ambiente Virtual - Trilha Dev" />
+<meta property="og:image" content="https://trilhadev.planejamento.mg.gov.br/guia-comandos/assets/images/social/guia/gerenciadores.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:url" content="https://trilhadev.planejamento.mg.gov.br/guia-comandos/guia/poetry/" />
+<meta property="og:url" content="https://trilhadev.planejamento.mg.gov.br/guia-comandos/guia/gerenciadores/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="Poetry e MkDocs - Trilha Dev" />
-<meta property="twitter:image" content="https://trilhadev.planejamento.mg.gov.br/guia-comandos/assets/images/social/guia/poetry.png" />
+<meta property="twitter:title" content="Gerenciadores de Pacotes e Ambiente Virtual - Trilha Dev" />
+<meta property="twitter:image" content="https://trilhadev.planejamento.mg.gov.br/guia-comandos/assets/images/social/guia/gerenciadores.png" />
 </head>
   
   
@@ -89,7 +89,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#poetry-e-mkdocs" class="md-skip">
+        <a href="#gerenciadores-de-pacotes-e-ambiente-virtual" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -124,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Poetry e MkDocs
+              Gerenciadores de Pacotes e Ambiente Virtual
             
           </span>
         </div>
@@ -2392,7 +2392,7 @@
   <span class="md-ellipsis">
     
   
-    Poetry e MkDocs
+    Gerenciadores de Pacotes e Ambiente Virtual
   
 
     
@@ -2410,7 +2410,7 @@
   <span class="md-ellipsis">
     
   
-    Poetry e MkDocs
+    Gerenciadores de Pacotes e Ambiente Virtual
   
 
     
@@ -2447,10 +2447,32 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mkdocs" class="md-nav__link">
+  <a href="#pip" class="md-nav__link">
     <span class="md-ellipsis">
       
-        MkDocs
+        Pip
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pipx" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pipx
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#venv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Venv
       
     </span>
   </a>
@@ -2508,7 +2530,7 @@
   <span class="md-ellipsis">
     
   
-    Markdown
+    Markdown e MkDocs
   
 
     
@@ -2575,10 +2597,32 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mkdocs" class="md-nav__link">
+  <a href="#pip" class="md-nav__link">
     <span class="md-ellipsis">
       
-        MkDocs
+        Pip
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pipx" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pipx
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#venv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Venv
       
     </span>
   </a>
@@ -2654,51 +2698,72 @@
   
 
 
-<h1 id="poetry-e-mkdocs"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.25.18.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z"/></svg></span> Poetry e MkDocs</h1>
+<h1 id="gerenciadores-de-pacotes-e-ambiente-virtual"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.25.18.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z"/></svg></span> Gerenciadores de Pacotes e Ambiente Virtual</h1>
 <p><a href="../">← Voltar ao guia</a></p>
 <hr />
 <h2 id="poetry"><strong>Poetry</strong></h2>
-<p>Gerenciador de dependências e ambientes virtuais usado na Trilha Dev.</p>
 <p>Instala o Poetry (feito uma única vez):
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pipx<span class="w"> </span>install<span class="w"> </span>poetry
 </span></code></pre></div></p>
-<p>Instala as dependências listadas no <code>pyproject.toml</code>:
+<p>Instala as dependências do projeto listadas no <code>pyproject.toml</code>:
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>poetry<span class="w"> </span>install
 </span></code></pre></div></p>
 <div class="admonition tip">
 <p class="admonition-title">Dica</p>
-<p>Sempre rode <code>poetry install</code> ao clonar um repositório pela primeira vez.</p>
+<p>Execute <code>poetry install</code> sempre que clonar um repositório pela primeira vez.</p>
 </div>
-<p>Adiciona uma nova dependência ao projeto:
+<p>Adiciona um pacote ao projeto:
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>poetry<span class="w"> </span>add<span class="w"> </span>&lt;nome-do-pacote&gt;
 </span></code></pre></div></p>
-<p>Remove uma dependência:
+<p>Remove um pacote do projeto:
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>poetry<span class="w"> </span>remove<span class="w"> </span>&lt;nome-do-pacote&gt;
 </span></code></pre></div></p>
 <p>Ativa o ambiente virtual do projeto:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>poetry<span class="w"> </span>env<span class="w"> </span>activate
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>poetry<span class="w"> </span>shell
 </span></code></pre></div></p>
-<div class="admonition warning">
-<p class="admonition-title">Atenção</p>
-<p>Esse comando apenas mostra o comando de ativação do ambiente virtual.</p>
-</div>
-<div class="admonition info">
-<p class="admonition-title">Linux/macOS</p>
-<p>No Linux/macOS (bash/zsh), normalmente você executa assim:
-<code>eval $(poetry env activate)</code></p>
-</div>
-<hr />
-<h2 id="mkdocs"><strong>MkDocs</strong></h2>
-<p>Inicia o servidor local com preview em tempo real:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>mkdocs<span class="w"> </span>serve
+<h2 id="pip"><strong>Pip</strong></h2>
+<p>Instala um pacote:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>pip<span class="w"> </span>install<span class="w"> </span>&lt;nome-do-pacote&gt;
+</span></code></pre></div></p>
+<p>Remove um pacote:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>pip<span class="w"> </span>uninstall<span class="w"> </span>&lt;nome-do-pacote&gt;
+</span></code></pre></div></p>
+<p>Lista os pacotes instalados:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>pip<span class="w"> </span>list
 </span></code></pre></div></p>
 <div class="admonition info">
-<p class="admonition-title">Servidor local</p>
-<p>Após rodar o comando, acesse <a href="http://127.0.0.1:8000">http://127.0.0.1:8000</a> no navegador.</p>
+<p class="admonition-title">Pip ou Poetry?</p>
+<p>Nos projetos da Trilha Dev, prefira sempre o <strong>Poetry</strong>. Use o <code>pip</code> apenas quando estiver fora de um projeto com <code>pyproject.toml</code>.</p>
 </div>
-<p>Gera o site estático na pasta <code>site/</code>:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>mkdocs<span class="w"> </span>build
-</span></code></pre></div></p><style type="text/css">.quiz {
+<h2 id="pipx"><strong>Pipx</strong></h2>
+<p>Instala uma ferramenta globalmente:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>pipx<span class="w"> </span>install<span class="w"> </span>&lt;nome-da-ferramenta&gt;
+</span></code></pre></div></p>
+<p>Atualiza uma ferramenta instalada:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>pipx<span class="w"> </span>upgrade<span class="w"> </span>&lt;nome-da-ferramenta&gt;
+</span></code></pre></div></p>
+<p>Lista as ferramentas instaladas:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>pipx<span class="w"> </span>list
+</span></code></pre></div></p>
+<div class="admonition example">
+<p class="admonition-title">Exemplo do Trilha Dev</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>pipx<span class="w"> </span>install<span class="w"> </span>poetry
+</span></code></pre></div>
+</div>
+<h2 id="venv"><strong>Venv</strong></h2>
+<p>Cria um ambiente virtual na pasta <code>.venv</code>:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>python<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>.venv
+</span></code></pre></div></p>
+<p>Ativa o ambiente virtual (Linux/WSL):
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="nb">source</span><span class="w"> </span>.venv/bin/activate
+</span></code></pre></div></p>
+<p>Desativa o ambiente virtual:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>deactivate
+</span></code></pre></div></p>
+<div class="admonition info">
+<p class="admonition-title">Por que usar ambiente virtual?</p>
+<p>Isola as dependências do projeto, evitando conflitos entre versões de pacotes de projetos diferentes.</p>
+</div><style type="text/css">.quiz {
   border: 1px solid black;
   padding: 1rem;
   margin: 1rem 0;

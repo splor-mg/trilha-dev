@@ -1,5 +1,5 @@
 ---
-title: Markdown
+title: Markdown e Comandos Mkdocs
 ---
 
 # :simple-markdown: Markdown
@@ -207,3 +207,38 @@ title: Markdown
         echo "Olá!"
         ```
     ```
+
+## **Visualizar e publicar**
+
+Inicia o servidor local com preview em tempo real:
+```bash
+poetry run mkdocs serve
+```
+
+!!! info "Servidor local"
+    Após rodar o comando, acesse [http://127.0.0.1:8000](http://127.0.0.1:8000) no navegador.
+
+Gera o site estático na pasta `site/`:
+```bash
+poetry run mkdocs build
+```
+
+## **Estrutura do projeto**
+
+Arquivo de configuração do site:
+```bash
+mkdocs.yml
+```
+
+Pasta onde ficam os arquivos `.md`:
+```bash
+docs/
+```
+
+Pasta gerada após o build (não commitar):
+```bash
+site/
+```
+
+!!! tip "Dica"
+    Adicione `site/` ao `.gitignore` para não versionar a pasta de build.

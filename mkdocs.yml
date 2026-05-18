@@ -71,9 +71,9 @@ nav:
       - Início: guia/index.md
       - Terminal: guia/terminal.md
       - Git: guia/git.md
-      - Poetry e MkDocs: guia/poetry.md
+      - Gerenciadores de Pacotes e Ambiente Virtual: guia/gerenciadores.md
       - Sistema: guia/sistema.md
-      - Markdown: guia/markdown.md
+      - Markdown e MkDocs: guia/markdown.md
 
 # Configuration
 theme:

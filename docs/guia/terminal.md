@@ -56,7 +56,7 @@ cd -
 
 Cria uma nova pasta:
 ```bash
-mkdir nome-da-pasta
+mkdir <nome-da-pasta>
 ```
 
 Cria pastas aninhadas de uma vez:
@@ -66,7 +66,7 @@ mkdir -p pasta/subpasta
 
 Cria um arquivo vazio:
 ```bash
-touch arquivo.txt
+touch <arquivo.txt>
 ```
 
 Copia um arquivo:
@@ -108,7 +108,7 @@ rm -r pasta/
 
 Exibe o conteúdo completo de um arquivo:
 ```bash
-cat arquivo.txt
+cat <arquivo.txt>
 ```
 
 Visualiza o arquivo paginado (tecle `q` para sair):

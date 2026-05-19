@@ -9,6 +9,13 @@ Nesta aula, vamos aprender sobre funções.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_VkF6lA4tZI?si=d_Fpul1zy7VGnx1l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
+### Conteúdo extra
+
+??? tip "Será que você vai passar nesse desafio?"
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gsKDsdJp2zk?si=CCnMpmoEXUnjWsBB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 #### **O que são funções?**
 
 As funções em Python são blocos de código reutilizáveis que executam uma tarefa específica. Elas ajudam a organizar o código, evitar repetições e facilitar a manutenção do sistema.
@@ -75,7 +82,7 @@ def abobrinha():
 
 #### **Executando a função**
 
-Criar a função não significa executá-la. 
+Criar a função não significa executá-la.
 Para executar, chamamos a função pelo nome:
 
 ``` py

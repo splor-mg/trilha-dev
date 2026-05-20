@@ -65,7 +65,7 @@ git commit -m <"mensagem do commit">
 
 Envia as alterações para o repositório remoto:
 ```bash
-git push origin minha-branch
+git push origin <minha-branch>
 ```
 
 ---

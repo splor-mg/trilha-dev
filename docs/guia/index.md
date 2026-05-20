@@ -22,7 +22,7 @@ Este material reúne os principais comandos utilizados no ambiente de desenvolvi
 
     ---
 
-    Controle de versão, branches e sincronização
+    Controle de versão, branches e sincronização com o Github
 
     [:octicons-arrow-right-24: Acessar](./git/)
 

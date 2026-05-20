@@ -2698,67 +2698,171 @@
   
 
 
-<h1 id="gerenciadores-de-pacotes-e-ambiente-virtual"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.25.18.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z"/></svg></span> Gerenciadores de Pacotes e Ambiente Virtual</h1>
+<h1 id="gerenciadores-de-pacotes-e-ambiente-virtual"><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2 10.96a.985.985 0 0 1-.37-1.37L3.13 7c.11-.2.28-.34.47-.42l7.83-4.4c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.19.1.35.26.44.46l1.45 2.52c.28.48.11 1.09-.36 1.36l-1 .58v4.96c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-5.54c-.3.17-.68.18-1 0m10-6.81v6.7l5.96-3.35zM5 15.91l6 3.38v-6.71L5 9.21zm14 0v-3.22l-5 2.9c-.33.18-.7.17-1 .01v3.69zm-5.15-2.55 6.28-3.63-.58-1.01-6.28 3.63z"/></svg></span> Gerenciadores de Pacotes e Ambiente Virtual</h1>
 <p><a href="../">← Voltar ao guia</a></p>
 <hr />
-<h2 id="poetry"><strong>Poetry</strong></h2>
+<h2 id="poetry"><strong><a href="https://python-poetry.org/docs/">Poetry</a></strong></h2>
+<div class="admonition info">
+<p class="admonition-title">Pré-requisito</p>
+<p>Este comando utiliza o <strong>pipx</strong> para instalar o Poetry. Verifique se ele está instalado na sua máquina:</p>
+</div>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pipx<span class="w"> </span>--version
+</span></code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Dica</p>
+<p>Caso não tenha o pipx, veja a seção <a href="#pipx">Pipx</a> deste guia. Existem também <a href="https://python-poetry.org/docs/#installation">outras formas de instalar o Poetry</a> conforme a documentação oficial.</p>
+</div>
 <p>Instala o Poetry (feito uma única vez):
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pipx<span class="w"> </span>install<span class="w"> </span>poetry
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>pipx<span class="w"> </span>install<span class="w"> </span>poetry
 </span></code></pre></div></p>
 <p>Instala as dependências do projeto listadas no <code>pyproject.toml</code>:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>poetry<span class="w"> </span>install
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>poetry<span class="w"> </span>install
 </span></code></pre></div></p>
 <div class="admonition tip">
 <p class="admonition-title">Dica</p>
 <p>Execute <code>poetry install</code> sempre que clonar um repositório pela primeira vez.</p>
 </div>
 <p>Adiciona um pacote ao projeto:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>poetry<span class="w"> </span>add<span class="w"> </span>&lt;nome-do-pacote&gt;
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>poetry<span class="w"> </span>add<span class="w"> </span>&lt;nome-do-pacote&gt;
 </span></code></pre></div></p>
 <p>Remove um pacote do projeto:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>poetry<span class="w"> </span>remove<span class="w"> </span>&lt;nome-do-pacote&gt;
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>poetry<span class="w"> </span>remove<span class="w"> </span>&lt;nome-do-pacote&gt;
 </span></code></pre></div></p>
-<p>Ativa o ambiente virtual do projeto:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>poetry<span class="w"> </span>shell
+<p>Atualiza as dependências para as versões mais recentes permitidas pelo <code>pyproject.toml</code>:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>poetry<span class="w"> </span>update
 </span></code></pre></div></p>
-<h2 id="pip"><strong>Pip</strong></h2>
+<p>Atualiza o <code>poetry.lock</code> sem instalar nada (útil após editar o <code>pyproject.toml</code> manualmente):
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>poetry<span class="w"> </span>lock
+</span></code></pre></div></p>
+<p>Executa um comando dentro do ambiente virtual sem precisar ativá-lo:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>poetry<span class="w"> </span>run<span class="w"> </span>&lt;comando&gt;
+</span></code></pre></div></p>
+<p>Ativa o ambiente virtual do projeto:</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Linux / macOS (bash/zsh)</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="nb">eval</span><span class="w"> </span><span class="k">$(</span>poetry<span class="w"> </span>env<span class="w"> </span>activate<span class="k">)</span>
+</span></code></pre></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">macOS (fish)</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<div class="language-fish highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="nb">eval</span> <span class="o">(</span>poetry env activate<span class="o">)</span>
+</span></code></pre></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Windows (PowerShell)</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<div class="language-powershell highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="nb">Invoke-Expression</span> <span class="p">(</span><span class="n">poetry</span> <span class="n">env</span> <span class="n">activate</span><span class="p">)</span>
+</span></code></pre></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:1"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">Windows (CMD)</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<div class="language-bat highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>poetry env activate
+</span></code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Atenção</p>
+<p>No CMD, copie e cole manualmente o caminho retornado pelo comando acima e execute-o diretamente.</p>
+</div>
+<p>Desativa o ambiente virtual do projeto:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>deactivate
+</span></code></pre></div></p>
+<hr />
+<h2 id="pip"><strong><a href="https://pip.pypa.io/en/stable/">Pip</a></strong></h2>
 <p>Instala um pacote:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>pip<span class="w"> </span>install<span class="w"> </span>&lt;nome-do-pacote&gt;
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>pip<span class="w"> </span>install<span class="w"> </span>&lt;nome-do-pacote&gt;
+</span></code></pre></div></p>
+<p>Instala uma versão específica de um pacote:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>pip<span class="w"> </span>install<span class="w"> </span>&lt;nome-do-pacote&gt;<span class="o">==</span>&lt;versão&gt;
+</span></code></pre></div></p>
+<p>Atualiza um pacote:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>&lt;nome-do-pacote&gt;
 </span></code></pre></div></p>
 <p>Remove um pacote:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>pip<span class="w"> </span>uninstall<span class="w"> </span>&lt;nome-do-pacote&gt;
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>pip<span class="w"> </span>uninstall<span class="w"> </span>&lt;nome-do-pacote&gt;
 </span></code></pre></div></p>
 <p>Lista os pacotes instalados:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>pip<span class="w"> </span>list
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>pip<span class="w"> </span>list
+</span></code></pre></div></p>
+<p>Exibe detalhes de um pacote instalado:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>pip<span class="w"> </span>show<span class="w"> </span>&lt;nome-do-pacote&gt;
+</span></code></pre></div></p>
+<p>Instala dependências a partir de um arquivo <code>requirements.txt</code>:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+</span></code></pre></div></p>
+<p>Gera um <code>requirements.txt</code> com os pacotes instalados no ambiente atual:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>pip<span class="w"> </span>freeze<span class="w"> </span>&gt;<span class="w"> </span>requirements.txt
 </span></code></pre></div></p>
 <div class="admonition info">
 <p class="admonition-title">Pip ou Poetry?</p>
-<p>Nos projetos da Trilha Dev, prefira sempre o <strong>Poetry</strong>. Use o <code>pip</code> apenas quando estiver fora de um projeto com <code>pyproject.toml</code>.</p>
+<p>Nos projetos do Trilha Dev, prefira sempre o <strong>Poetry</strong>. Use o <code>pip</code> apenas quando estiver fora de um projeto com <code>pyproject.toml</code>.</p>
 </div>
-<h2 id="pipx"><strong>Pipx</strong></h2>
+<hr />
+<h2 id="pipx"><strong><a href="https://pipx.pypa.io/stable/">Pipx</a></strong></h2>
 <p>Instala uma ferramenta globalmente:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>pipx<span class="w"> </span>install<span class="w"> </span>&lt;nome-da-ferramenta&gt;
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>pipx<span class="w"> </span>install<span class="w"> </span>&lt;nome-da-ferramenta&gt;
 </span></code></pre></div></p>
 <p>Atualiza uma ferramenta instalada:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>pipx<span class="w"> </span>upgrade<span class="w"> </span>&lt;nome-da-ferramenta&gt;
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>pipx<span class="w"> </span>upgrade<span class="w"> </span>&lt;nome-da-ferramenta&gt;
+</span></code></pre></div></p>
+<p>Atualiza todas as ferramentas instaladas:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>pipx<span class="w"> </span>upgrade-all
+</span></code></pre></div></p>
+<p>Remove uma ferramenta instalada:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>pipx<span class="w"> </span>uninstall<span class="w"> </span>&lt;nome-da-ferramenta&gt;
 </span></code></pre></div></p>
 <p>Lista as ferramentas instaladas:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>pipx<span class="w"> </span>list
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>pipx<span class="w"> </span>list
 </span></code></pre></div></p>
 <div class="admonition example">
 <p class="admonition-title">Exemplo do Trilha Dev</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>pipx<span class="w"> </span>install<span class="w"> </span>poetry
-</span></code></pre></div>
+<p>pipx install poetry</p>
 </div>
-<h2 id="venv"><strong>Venv</strong></h2>
+<hr />
+<h2 id="venv"><strong><a href="https://docs.python.org/3/library/venv.html">Venv</a></strong></h2>
 <p>Cria um ambiente virtual na pasta <code>.venv</code>:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>python<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>.venv
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-26-1"><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>python<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>.venv
 </span></code></pre></div></p>
-<p>Ativa o ambiente virtual (Linux/WSL):
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="nb">source</span><span class="w"> </span>.venv/bin/activate
+<div class="admonition info">
+<p class="admonition-title">Informação</p>
+<p>O nome <code>.venv</code> é apenas uma convenção. Você pode usar qualquer nome ao criar o ambiente virtual, por exemplo:</p>
+</div>
+<p><div class="language-bash highlight"><pre><span></span><code><span id="__span-27-1"><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>python<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>.&lt;meu-ambiente&gt;
+</span></code></pre></div>
+    Lembre-se de substituir <code>.venv</code> pelo nome escolhido nos comandos de ativação.</p>
+<p>Ativa o ambiente virtual:</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:1"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">Linux / macOS (bash/zsh)</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-28-1"><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a><span class="nb">source</span><span class="w"> </span>.venv/bin/activate
+</span></code></pre></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:1"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">Windows (PowerShell)</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<div class="language-powershell highlight"><pre><span></span><code><span id="__span-29-1"><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a><span class="p">.</span><span class="n">venv</span><span class="p">\</span><span class="n">Scripts</span><span class="p">\</span><span class="n">Activate</span><span class="p">.</span><span class="n">ps1</span>
+</span></code></pre></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="7:1"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">Windows (CMD)</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<div class="language-bat highlight"><pre><span></span><code><span id="__span-30-1"><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>.venv\Scripts\activate.bat
+</span></code></pre></div>
+<p>Instala as dependências após ativar o ambiente:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-31-1"><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
 </span></code></pre></div></p>
 <p>Desativa o ambiente virtual:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>deactivate
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-32-1"><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a>deactivate
 </span></code></pre></div></p>
 <div class="admonition info">
 <p class="admonition-title">Por que usar ambiente virtual?</p>

@@ -2,13 +2,13 @@
 title: Markdown e Comandos Mkdocs
 ---
 
-# :simple-markdown: Markdown
+# :simple-markdown: Markdown e Comandos Mkdocs
 
 [← Voltar ao guia](../)
 
 ---
 
-## **[MkDocs](https://www.mkdocs.org/)**
+## **[Markdown](https://www.markdownguide.org/)**
 
 
 ## **Títulos**
@@ -211,11 +211,11 @@ title: Markdown e Comandos Mkdocs
         ```
     ```
 
-## **Visualizar e publicar**
+## **[Comandos MkDocs](https://www.mkdocs.org/)**
 
 Inicia o servidor local com preview em tempo real:
 ```bash
-poetry run mkdocs serve
+mkdocs serve
 ```
 
 !!! info "Servidor local"
@@ -223,7 +223,7 @@ poetry run mkdocs serve
 
 Gera o site estático na pasta `site/`:
 ```bash
-poetry run mkdocs build
+mkdocs build
 ```
 
 ## **Estrutura do projeto**

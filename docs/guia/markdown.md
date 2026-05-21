@@ -4,7 +4,7 @@ title: Markdown e Comandos Mkdocs
 
 # :simple-markdown: Markdown e Comandos Mkdocs
 
-[← Voltar ao guia](../)
+[← Voltar ao guia](../guia/index.md)
 
 ---
 
@@ -103,13 +103,13 @@ title: Markdown e Comandos Mkdocs
 
 === "Resultado"
 
-    ![Texto da imagem](../../assets/logo.png)
+    ![Texto da imagem](../assets/logo.png)
 
 
 === "Código"
     Imagem local (recomendado):
     ```md
-    ![Descrição](../../assets/imagens/logo.png)
+    ![Descrição](../assets/imagens/logo.png)
     ```
     Imagem por URL externa:
     ```md
@@ -226,22 +226,7 @@ Gera o site estático na pasta `site/`:
 mkdocs build
 ```
 
-## **Estrutura do projeto**
-
-Arquivo de configuração do site:
+Publica o site:
 ```bash
-mkdocs.yml
+mkdocs gh-deploy
 ```
-
-Pasta onde ficam os arquivos `.md`:
-```bash
-docs/
-```
-
-Pasta gerada após o build (não commitar):
-```bash
-site/
-```
-
-!!! tip "Dica"
-    Adicione `site/` ao `.gitignore` para não versionar a pasta de build.

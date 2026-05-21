@@ -4,7 +4,7 @@ title: Gerenciadores de Pacotes e Ambiente Virtual
 
 # :material-package-variant:{ .lg .middle } Gerenciadores de Pacotes e Ambiente Virtual
 
-[← Voltar ao guia](../)
+[← Voltar ao guia](../guia/index.md)
 
 ---
 
@@ -133,7 +133,7 @@ pip freeze > requirements.txt
 ```
 
 !!! info "Pip ou Poetry?"
-    Nos projetos do Trilha Dev, prefira sempre o **Poetry**. Use o `pip` apenas quando estiver fora de um projeto com `pyproject.toml`.
+    No repositório do Trilha Dev, curso python e exercícios-python, use o **Poetry**. Use o `pip` quando estiver fora de um projeto com `pyproject.toml` e siga as orientações de setup disponíveis no readme de cada projeto.
 
 ---
 

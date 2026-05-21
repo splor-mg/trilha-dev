@@ -4,7 +4,7 @@ title: Guia Rápido de Comandos
 
 # Guia Rápido de Comandos
 
-Este material reúne os principais comandos utilizados no ambiente de desenvolvimento ao longo da Trilha Dev. Selecione uma categoria para acessar os comandos.
+Este material reúne os principais comandos utilizados no ambiente de desenvolvimento ao longo do Trilha Dev. Selecione uma categoria para acessar os comandos.
 
 ---
 
@@ -16,7 +16,7 @@ Este material reúne os principais comandos utilizados no ambiente de desenvolvi
 
     Navegação, arquivos, busca e permissões
 
-    [:octicons-arrow-right-24: Acessar](./terminal/)
+    [:octicons-arrow-right-24: Acessar](terminal.md)
 
 -   :simple-git:{ .lg .middle } &nbsp; **Git**
 
@@ -24,23 +24,23 @@ Este material reúne os principais comandos utilizados no ambiente de desenvolvi
 
     Controle de versão, branches e sincronização com o Github
 
-    [:octicons-arrow-right-24: Acessar](./git/)
+    [:octicons-arrow-right-24: Acessar](git.md)
 
 -   :simple-markdown:{ .lg .middle } &nbsp; **Markdown e MkDocs**
 
     ---
 
-    Sintaxe Markdown e comandos para gerar o site
+    Sintaxe Markdown e comandos Mkdocs
 
-    [:octicons-arrow-right-24: Acessar](./markdown/)
+    [:octicons-arrow-right-24: Acessar](markdown.md)
 
--   :material-package-variant:{ .lg .middle } &nbsp; **Gerenciadores de Pacotes**
+-   :material-package-variant:{ .lg .middle } &nbsp; **Gerenciadores de Pacotes e Ambiente**
 
     ---
 
     Poetry, pip, pipx e ambientes virtuais
 
-    [:octicons-arrow-right-24: Acessar](./gerenciadores/)
+    [:octicons-arrow-right-24: Acessar](gerenciadores.md)
 
 -   :material-cog-outline:{ .lg .middle } &nbsp; **Sistema**
 
@@ -48,6 +48,6 @@ Este material reúne os principais comandos utilizados no ambiente de desenvolvi
 
     Processos, portas e integração WSL
 
-    [:octicons-arrow-right-24: Acessar](./sistema/)
+    [:octicons-arrow-right-24: Acessar](sistema.md)
 
 </div>

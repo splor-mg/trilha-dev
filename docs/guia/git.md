@@ -4,7 +4,7 @@ title: Git
 
 # :simple-git: Git
 
-[← Voltar ao guia](../)
+[← Voltar ao guia](../guia/index.md)
 
 ---
 
@@ -174,7 +174,7 @@ Fluxo para manter um fork atualizado com o repositório original.
 
 Após criar o fork no GitHub (botão **Fork**), clone o seu fork:
 ```bash
-git clone git@github.com:SEU-USUARIO/exercicios-python.git
+git clone git@github.com:SEU-USUARIO/NOME-DO-REPOSITORIO.git
 ```
 
 Entre na pasta do projeto:

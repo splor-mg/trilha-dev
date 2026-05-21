@@ -4,7 +4,7 @@ title: Sistema
 
 # :material-cog-outline: Sistema
 
-[← Voltar ao guia](../)
+[← Voltar ao guia](../guia/index.md)
 
 ---
 

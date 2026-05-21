@@ -67,6 +67,13 @@ nav:
         - Aula 037: python/aulas/037_pypi_pip.md
       - Encontros:
         - Registros: python/encontros/registros_dos_encontros.md
+    - Guia Rápido de Comandos:
+      - Início: guia/index.md
+      - Terminal: guia/terminal.md
+      - Git: guia/git.md
+      - Gerenciadores de Pacotes e Ambiente Virtual: guia/gerenciadores.md
+      - Sistema: guia/sistema.md
+      - Markdown e MkDocs: guia/markdown.md
 
 # Configuration
 theme:
@@ -91,7 +98,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: Modo claro
-    - scheme: defaut
+    - scheme: default
       primary: lime #cbdc39
       accent: blue
       toggle:

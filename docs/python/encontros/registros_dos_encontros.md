@@ -11,7 +11,6 @@ title: Registros dos Encontros
 :material-calendar-month: **24/04/2026** &nbsp;·&nbsp; :material-book-open-variant: Introdução, primeiros passos, Aula 001
 
 [▶ Assistir gravação](https://www.youtube.com/watch?v=LW1f84Ho3iY){ .md-button }
-[⬇ Baixar resumo](../../../assets/resumos/resumo_encontro_001.pdf){ .md-button .md-button--primary }
 
 ??? info "Dúvidas do encontro"
 
@@ -37,7 +36,6 @@ title: Registros dos Encontros
 :material-calendar-month: **08/05/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 002, Aula 003, Aula 004 e Aula 005
 
 [▶ Assistir gravação](https://www.youtube.com/watch?v=rDJFuMkqb-Q){ .md-button }
-[⬇ Baixar resumo](../../../assets/resumos/resumo_encontro_002.pdf){ .md-button .md-button--primary }
 
 ??? info "Dúvidas do encontro"
 
@@ -72,7 +70,6 @@ title: Registros dos Encontros
 :material-calendar-month: **15/05/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 006, Aula 007 e Aula 008
 
 [▶ Assistir gravação](https://www.youtube.com/watch?v=lrXzrzpE0qc){ .md-button }
-[⬇ Baixar resumo](../../../assets/resumos/resumo_encontro_003.pdf){ .md-button .md-button--primary }
 
 ??? info "Dúvidas do encontro"
 
@@ -107,7 +104,6 @@ title: Registros dos Encontros
 :material-calendar-month: **22/05/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 009, Aula 010, Aula 011 e conteúdo extra
 
 [▶ Assistir gravação](https://www.youtube.com/watch?v=B7r07PfI-A0){ .md-button }
-[⬇ Baixar resumo](../../../assets/resumos/resumo_encontro_004.pdf){ .md-button .md-button--primary }
 
 ??? info "Dúvidas do encontro"
 
@@ -117,14 +113,15 @@ title: Registros dos Encontros
     **E se converter os dois argumentos de entrada para `int()` antes de somá-los?**<br>
     [▶ Ver no vídeo (26:22)](https://www.youtube.com/watch?v=B7r07PfI-A0&t=1582s){ target="_blank" }
 
-    **Quando `int()` converte ==5.5== e ==5.6==, o resultado é o mesmo ou diferente? `int()` arredonda ou apenas trunca??**<br>
+    **Quando `int()` converte ==5.5== e ==5.6==, o resultado é o mesmo ou diferente? `int()` arredonda ou apenas trunca?**<br>
     [▶ Ver no vídeo (30:22)](https://www.youtube.com/watch?v=B7r07PfI-A0&t=1822s){ target="_blank" }
-
-    **O problema do exercício é que `round()` arredonda para baixo quando o decimal é menor que ==0.5== — precisamos de `math.ceil()` para garantir sempre para cima.**<br>
-    [▶ Ver no vídeo (42:51)](https://www.youtube.com/watch?v=B7r07PfI-A0&t=2571s){ target="_blank" }
 
     **Descobri que `round(2.5)` retorna ==2==, mas `round(3.5)` retorna ==4==. Por que o Python arredonda de forma diferente dependendo do número?**<br>
     [▶ Ver no vídeo (46:30)](https://www.youtube.com/watch?v=B7r07PfI-A0&t=2790s){ target="_blank" }
 
-    **Não tem como saber o comportamento exato de uma função sem testar, porque existem regras que a gente não conhece de antemão.**<br>
+    
+!!! tip "Dicas (durante a aula)"
+    - **O problema do exercício é que `round()` arredonda para baixo quando o decimal é menor que ==0.5== — precisamos de `math.ceil()` para garantir sempre para cima.**<br>
+    [▶ Ver no vídeo (42:51)](https://www.youtube.com/watch?v=B7r07PfI-A0&t=2571s){ target="_blank" }
+    - **Não tem como saber o comportamento exato de uma função sem testar, porque existem regras que a gente não conhece de antemão.**<br>
     [▶ Ver no vídeo (51:16)](https://www.youtube.com/watch?v=B7r07PfI-A0&t=3076s){ target="_blank" }

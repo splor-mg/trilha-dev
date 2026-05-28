@@ -123,7 +123,7 @@ Lista branches locais e remotas:
 git branch -a
 ```
 
-**Cria uma nova branch** e muda automaticamente para ela:
+Cria uma nova branch e muda automaticamente para ela:
 ```bash
 git checkout -b <nome-da-branch>
 ```

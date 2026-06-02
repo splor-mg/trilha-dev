@@ -38,37 +38,85 @@ git clone URL
 
 ---
 
-## **Fluxo básico de trabalho**
+## **Fluxo de Trabalho Completo**
 
-!!! tip "Ordem recomendada"
-    `status` → `add` → `commit` → `push`
+### 1. Atualizar o Projeto Local
 
-Mostra o estado dos arquivos:
+Antes de iniciar qualquer tarefa você deve ir para a branch `main`
+
+```bash
+git switch main
+```
+
+Verificar estado do repositório
+
 ```bash
 git status
 ```
 
-Adiciona todas as alterações ao stage:
+Resultado esperado:
+
+```text
+On branch dev
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+```
+
+### 2. Criar Nova Branch
+
+Sempre criar branches a partir da `main` atualizada.
+
+Exemplo de feature:
+
+```bash
+git switch -c feat/login-social
+```
+
+### 3. Desenvolver a funcionalidade
+
+Durante o desenvolvimento:
+
+- realizar commits pequenos;
+- testar frequentemente;
+- evitar mudanças muito grandes.
+
+Verificar alterações. Certifique-se que não foram alterados documentos que não estavam dentro do seu escopo de trabalho.
+
+```bash
+git status
+```
+
+Adicionar arquivos — adicionar tudo:
+
 ```bash
 git add .
 ```
 
-Adiciona um arquivo específico ao stage:
+Adicionar arquivo específico:
+
 ```bash
-git add <nome-do-arquivo.txt>
+git add src/auth/login.py
 ```
 
-Registra as alterações com uma mensagem:
+Criar commit:
+
 ```bash
-git commit -m <"mensagem do commit">
+git commit -m "Implementa funcionalidade de login"
 ```
 
-Envia as alterações para o repositório remoto:
+### 4. Enviar Branch para o GitHub
+
 ```bash
-git push origin <minha-branch>
+git push origin feat/login-social
 ```
 
----
+### 5. Abrir Pull Request
+
+Após o push, acessar o GitHub, abrir Pull Request e selecionar:
+
+Base `main` > Compare `feat/login-social`
+ 
 
 ## **Histórico e inspeção**
 

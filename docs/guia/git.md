@@ -40,6 +40,9 @@ git clone URL
 
 ## **Fluxo de Trabalho Completo**
 
+!!! tip "Ordem recomendada"
+    `status` → `add` → `commit` → `push`
+
 ### 1. Atualizar o Projeto Local
 
 Antes de iniciar qualquer tarefa você deve ir para a branch `main`
@@ -73,7 +76,7 @@ Exemplo de feature:
 git switch -c feat/login-social
 ```
 
-### 3. Desenvolver a funcionalidade
+### 3. Desenvolver a Funcionalidade
 
 Durante o desenvolvimento:
 
@@ -116,7 +119,41 @@ git push origin feat/login-social
 Após o push, acessar o GitHub, abrir Pull Request e selecionar:
 
 Base `main` > Compare `feat/login-social`
- 
+
+
+??? example "Fluxo de Trabalho Completo"
+
+    ```mermaid
+     flowchart TB
+        A(["`**Início**`"]) --> B["`**git switch main**`"]
+        B --> S["`**git status**`"]
+        S --> C["`**git switch -c<br>feat/nova-feature**`"]
+        C --> D["`**Desenvolver<br>commits pequenos · testar**`"]
+        D --> E1["`**git add .<br>(todos os arquivos)**`"]
+        D --> E2["`**git add caminho/arquivo.py<br>(um arquivo específico)**`"]
+        E1 --> F["`**git commit -m 'mensagem'**`"]
+        E2 --> F
+        F --> G["`**git push origin<br>feat/nova-feature**`"]
+        G --> H["`**Abrir Pull Request no GitHub<br>Base: main · Compare: feat/nova-feature**`"]
+        H --> I(["`**Fim**`"])
+
+        A:::terminal
+        B:::git
+        S:::git
+        C:::git
+        D:::etapa
+        E1:::git
+        E2:::git
+        F:::git
+        G:::git
+        H:::etapa
+        I:::terminal
+        classDef etapa stroke:#818cf8,fill:#eef2ff
+        classDef git stroke:#2dd4bf,fill:#f0fdfa
+        classDef terminal stroke:#a78bfa,fill:#f5f3ff
+        style D stroke:#FF6D00,fill:#ffeed5
+        style I stroke:#ff00cc,fill:#ffccec61
+    ```
 
 ## **Histórico e inspeção**
 

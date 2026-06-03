@@ -401,3 +401,5 @@ body p {
   cursor: pointer;
   font-weight: bold;
 }
+
+.mermaid { text-align: center; }

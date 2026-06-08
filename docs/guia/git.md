@@ -148,11 +148,6 @@ Base `main` > Compare `feat/login-social`
         G:::git
         H:::etapa
         I:::terminal
-        classDef etapa stroke:#818cf8,fill:#eef2ff
-        classDef git stroke:#2dd4bf,fill:#f0fdfa
-        classDef terminal stroke:#a78bfa,fill:#f5f3ff
-        style D stroke:#FF6D00,fill:#ffeed5
-        style I stroke:#ff00cc,fill:#ffccec61
     ```
 
 ## **Histórico e inspeção**

@@ -1,5 +1,10 @@
 [
   {
+    "version": "teste-nova-transcricao",
+    "title": "teste-nova-transcricao",
+    "aliases": []
+  },
+  {
     "version": "main",
     "title": "main",
     "aliases": [

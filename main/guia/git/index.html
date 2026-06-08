@@ -1717,7 +1717,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../python/aulas/023_dicion%C3%A1rio/" class="md-nav__link">
+      <a href="../../python/aulas/023_dicionario/" class="md-nav__link">
         
   
   
@@ -2430,13 +2430,74 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#fluxo-basico-de-trabalho" class="md-nav__link">
+  <a href="#fluxo-de-trabalho-completo" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Fluxo básico de trabalho
+        Fluxo de Trabalho Completo
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Fluxo de Trabalho Completo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-atualizar-o-projeto-local" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Atualizar o Projeto Local
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-criar-nova-branch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Criar Nova Branch
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-desenvolver-a-funcionalidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Desenvolver a Funcionalidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-enviar-branch-para-o-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Enviar Branch para o GitHub
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-abrir-pull-request" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Abrir Pull Request
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2663,13 +2724,74 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#fluxo-basico-de-trabalho" class="md-nav__link">
+  <a href="#fluxo-de-trabalho-completo" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Fluxo básico de trabalho
+        Fluxo de Trabalho Completo
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Fluxo de Trabalho Completo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-atualizar-o-projeto-local" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Atualizar o Projeto Local
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-criar-nova-branch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Criar Nova Branch
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-desenvolver-a-funcionalidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Desenvolver a Funcionalidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-enviar-branch-para-o-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Enviar Branch para o GitHub
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-abrir-pull-request" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Abrir Pull Request
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2828,47 +2950,101 @@
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>git<span class="w"> </span>clone<span class="w"> </span>URL
 </span></code></pre></div></p>
 <hr />
-<h2 id="fluxo-basico-de-trabalho"><strong>Fluxo básico de trabalho</strong></h2>
+<h2 id="fluxo-de-trabalho-completo"><strong>Fluxo de Trabalho Completo</strong></h2>
 <div class="admonition tip">
 <p class="admonition-title">Ordem recomendada</p>
 <p><code>status</code> → <code>add</code> → <code>commit</code> → <code>push</code></p>
 </div>
-<p>Mostra o estado dos arquivos:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>git<span class="w"> </span>status
-</span></code></pre></div></p>
-<p>Adiciona todas as alterações ao stage:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>git<span class="w"> </span>add<span class="w"> </span>.
-</span></code></pre></div></p>
-<p>Adiciona um arquivo específico ao stage:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>git<span class="w"> </span>add<span class="w"> </span>&lt;nome-do-arquivo.txt&gt;
-</span></code></pre></div></p>
-<p>Registra as alterações com uma mensagem:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span>&lt;<span class="s2">&quot;mensagem do commit&quot;</span>&gt;
-</span></code></pre></div></p>
-<p>Envia as alterações para o repositório remoto:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>&lt;minha-branch&gt;
-</span></code></pre></div></p>
-<hr />
+<h3 id="1-atualizar-o-projeto-local">1. Atualizar o Projeto Local</h3>
+<p>Antes de iniciar qualquer tarefa você deve ir para a branch <code>main</code></p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>git<span class="w"> </span>switch<span class="w"> </span>main
+</span></code></pre></div>
+<p>Verificar estado do repositório</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>git<span class="w"> </span>status
+</span></code></pre></div>
+<p>Resultado esperado:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>On branch dev
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>Your branch is up to date with &#39;origin/main&#39;.
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>nothing to commit, working tree clean
+</span></code></pre></div>
+<h3 id="2-criar-nova-branch">2. Criar Nova Branch</h3>
+<p>Sempre criar branches a partir da <code>main</code> atualizada.</p>
+<p>Exemplo de feature:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>git<span class="w"> </span>switch<span class="w"> </span>-c<span class="w"> </span>feat/login-social
+</span></code></pre></div>
+<h3 id="3-desenvolver-a-funcionalidade">3. Desenvolver a Funcionalidade</h3>
+<p>Durante o desenvolvimento:</p>
+<ul>
+<li>realizar commits pequenos;</li>
+<li>testar frequentemente;</li>
+<li>evitar mudanças muito grandes.</li>
+</ul>
+<p>Verificar alterações. Certifique-se que não foram alterados documentos que não estavam dentro do seu escopo de trabalho.</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>git<span class="w"> </span>status
+</span></code></pre></div>
+<p>Adicionar arquivos — adicionar tudo:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>git<span class="w"> </span>add<span class="w"> </span>.
+</span></code></pre></div>
+<p>Adicionar arquivo específico:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>git<span class="w"> </span>add<span class="w"> </span>src/auth/login.py
+</span></code></pre></div>
+<p>Criar commit:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Implementa funcionalidade de login&quot;</span>
+</span></code></pre></div>
+<h3 id="4-enviar-branch-para-o-github">4. Enviar Branch para o GitHub</h3>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>feat/login-social
+</span></code></pre></div>
+<h3 id="5-abrir-pull-request">5. Abrir Pull Request</h3>
+<p>Após o push, acessar o GitHub, abrir Pull Request e selecionar:</p>
+<p>Base <code>main</code> &gt; Compare <code>feat/login-social</code></p>
+<details class="example">
+<summary>Fluxo de Trabalho Completo</summary>
+<pre class="mermaid"><code> flowchart TB
+    A(["`**Início**`"]) --&gt; B["`**git switch main**`"]
+    B --&gt; S["`**git status**`"]
+    S --&gt; C["`**git switch -c&lt;br&gt;feat/nova-feature**`"]
+    C --&gt; D["`**Desenvolver&lt;br&gt;commits pequenos · testar**`"]
+    D --&gt; E1["`**git add .&lt;br&gt;(todos os arquivos)**`"]
+    D --&gt; E2["`**git add caminho/arquivo.py&lt;br&gt;(um arquivo específico)**`"]
+    E1 --&gt; F["`**git commit -m 'mensagem'**`"]
+    E2 --&gt; F
+    F --&gt; G["`**git push origin&lt;br&gt;feat/nova-feature**`"]
+    G --&gt; H["`**Abrir Pull Request no GitHub&lt;br&gt;Base: main · Compare: feat/nova-feature**`"]
+    H --&gt; I(["`**Fim**`"])
+
+    A:::terminal
+    B:::git
+    S:::git
+    C:::git
+    D:::etapa
+    E1:::git
+    E2:::git
+    F:::git
+    G:::git
+    H:::etapa
+    I:::terminal</code></pre>
+</details>
 <h2 id="historico-e-inspecao"><strong>Histórico e inspeção</strong></h2>
 <p>Exibe o histórico de commits:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>git<span class="w"> </span>log
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>git<span class="w"> </span>log
 </span></code></pre></div></p>
 <p>Histórico resumido, uma linha por commit:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>git<span class="w"> </span>log<span class="w"> </span>--oneline
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>git<span class="w"> </span>log<span class="w"> </span>--oneline
 </span></code></pre></div></p>
 <p>Mostra alterações ainda não adicionadas ao stage (alterações entre commits, entre um commit e a árvore de trabalho, etc):
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>git<span class="w"> </span>diff
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>git<span class="w"> </span>diff
 </span></code></pre></div></p>
 <p>Mostra alterações já no stage:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>git<span class="w"> </span>diff<span class="w"> </span>--staged
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>git<span class="w"> </span>diff<span class="w"> </span>--staged
 </span></code></pre></div></p>
 <hr />
 <h2 id="desfazer-alteracoes"><strong>Desfazer alterações</strong></h2>
 <p>Descarta as alterações feitas em um arquivo e restaura a versão do último commit:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>git<span class="w"> </span>restore<span class="w"> </span>&lt;nome-do-arquivo.txt&gt;
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>git<span class="w"> </span>restore<span class="w"> </span>&lt;nome-do-arquivo.txt&gt;
 </span></code></pre></div></p>
 <p>Remove o arquivo do stage sem descartar as alterações:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>git<span class="w"> </span>restore<span class="w"> </span>--staged<span class="w"> </span>&lt;nome-do-arquivo.txt&gt;
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>git<span class="w"> </span>restore<span class="w"> </span>--staged<span class="w"> </span>&lt;nome-do-arquivo.txt&gt;
 </span></code></pre></div></p>
 <div class="admonition warning">
 <p class="admonition-title">Atenção</p>
@@ -2877,33 +3053,33 @@
 <hr />
 <h2 id="branches"><strong>Branches</strong></h2>
 <p>Lista as branches locais:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>git<span class="w"> </span>branch
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>git<span class="w"> </span>branch
 </span></code></pre></div></p>
 <p>Lista branches locais e remotas:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>git<span class="w"> </span>branch<span class="w"> </span>-a
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>git<span class="w"> </span>branch<span class="w"> </span>-a
 </span></code></pre></div></p>
 <p>Cria uma nova branch e muda automaticamente para ela:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>git<span class="w"> </span>checkout<span class="w"> </span>-b<span class="w"> </span>&lt;nome-da-branch&gt;
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>git<span class="w"> </span>checkout<span class="w"> </span>-b<span class="w"> </span>&lt;nome-da-branch&gt;
 </span></code></pre></div></p>
 <p>Troca para outra branch:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>git<span class="w"> </span>checkout<span class="w"> </span>&lt;nome-da-branch&gt;
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>git<span class="w"> </span>checkout<span class="w"> </span>&lt;nome-da-branch&gt;
 </span></code></pre></div></p>
 <p>Remove uma branch local que já foi mergeada:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>git<span class="w"> </span>branch<span class="w"> </span>-d<span class="w"> </span>&lt;nome-da-branch&gt;
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>git<span class="w"> </span>branch<span class="w"> </span>-d<span class="w"> </span>&lt;nome-da-branch&gt;
 </span></code></pre></div></p>
 <p>Busca atualizações do repositório remoto, incluindo novas branches, sem alterar sua branch atual:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>git<span class="w"> </span>fetch
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>git<span class="w"> </span>fetch
 </span></code></pre></div></p>
 <hr />
 <h2 id="sincronizacao-com-remoto"><strong>Sincronização com remoto</strong></h2>
 <p>Baixa e aplica as alterações da branch remota:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>git<span class="w"> </span>pull<span class="w"> </span>origin<span class="w"> </span>main
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>git<span class="w"> </span>pull<span class="w"> </span>origin<span class="w"> </span>main
 </span></code></pre></div></p>
 <p>Envia sua branch para o repositório remoto:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>&lt;minha-branch&gt;
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-26-1"><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>&lt;minha-branch&gt;
 </span></code></pre></div></p>
 <p>Baixa atualizações sem aplicar na branch atual:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>git<span class="w"> </span>fetch<span class="w"> </span>origin
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-27-1"><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>git<span class="w"> </span>fetch<span class="w"> </span>origin
 </span></code></pre></div></p>
 <div class="admonition info">
 <p class="admonition-title">Diferença entre <code>fetch</code> e <code>pull</code></p>
@@ -2914,25 +3090,25 @@
 <h2 id="fork-e-upstream"><strong>Fork e upstream</strong></h2>
 <p>Fluxo para manter um fork atualizado com o repositório original.</p>
 <p>Após criar o fork no GitHub (botão <strong>Fork</strong>), clone o seu fork:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>git<span class="w"> </span>clone<span class="w"> </span>git@github.com:SEU-USUARIO/NOME-DO-REPOSITORIO.git
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-28-1"><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>git<span class="w"> </span>clone<span class="w"> </span>git@github.com:SEU-USUARIO/NOME-DO-REPOSITORIO.git
 </span></code></pre></div></p>
 <p>Entre na pasta do projeto:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a><span class="nb">cd</span><span class="w"> </span>&lt;NOME-DO-REPOSITORIO&gt;
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-29-1"><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a><span class="nb">cd</span><span class="w"> </span>&lt;NOME-DO-REPOSITORIO&gt;
 </span></code></pre></div></p>
 <p>Conecta o repositório original como upstream:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-26-1"><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>git<span class="w"> </span>remote<span class="w"> </span>add<span class="w"> </span>upstream<span class="w"> </span>git@github.com:USUARIO-ORIGINAL/NOME-DO-REPOSITORIO.git
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-30-1"><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>git<span class="w"> </span>remote<span class="w"> </span>add<span class="w"> </span>upstream<span class="w"> </span>git@github.com:USUARIO-ORIGINAL/NOME-DO-REPOSITORIO.git
 </span></code></pre></div></p>
 <p>Confirma os remotes configurados:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-27-1"><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>git<span class="w"> </span>remote<span class="w"> </span>-v
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-31-1"><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a>git<span class="w"> </span>remote<span class="w"> </span>-v
 </span></code></pre></div></p>
 <p>Busca atualizações do repositório original:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-28-1"><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>git<span class="w"> </span>fetch<span class="w"> </span>upstream
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-32-1"><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a>git<span class="w"> </span>fetch<span class="w"> </span>upstream
 </span></code></pre></div></p>
 <p>Vai para a branch main local:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-29-1"><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>git<span class="w"> </span>checkout<span class="w"> </span>main
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-33-1"><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a>git<span class="w"> </span>checkout<span class="w"> </span>main
 </span></code></pre></div></p>
 <p>Aplica as atualizações do repositório original na sua main:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-30-1"><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>git<span class="w"> </span>merge<span class="w"> </span>upstream/main
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-34-1"><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a>git<span class="w"> </span>merge<span class="w"> </span>upstream/main
 </span></code></pre></div></p>
 <div class="admonition tip">
 <p class="admonition-title">Como verificar</p>
@@ -2942,10 +3118,10 @@
 <h2 id="guardar-trabalho-temporariamente"><strong>Guardar trabalho temporariamente</strong></h2>
 <p>Útil quando precisar trocar de branch sem commitar:</p>
 <p>Guarda as alterações atuais temporariamente:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-31-1"><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a>git<span class="w"> </span>stash
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-35-1"><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a>git<span class="w"> </span>stash
 </span></code></pre></div></p>
 <p>Recupera as alterações guardadas:
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-32-1"><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a>git<span class="w"> </span>stash<span class="w"> </span>pop
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-36-1"><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a>git<span class="w"> </span>stash<span class="w"> </span>pop
 </span></code></pre></div></p><style type="text/css">.quiz {
   border: 1px solid black;
   padding: 1rem;

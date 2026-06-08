@@ -6,10 +6,10 @@ comments: true
 !!! info "Antes de começar"
     **7 min de vídeo + 15 min de prática aproximadamente**
 
-    **Pré-requisito:** [Aula 036](../aulas/036_pastas_arquivos.md), em que usamos a biblioteca `pypdf`.
+    **Pré-requisito:** [Aula 036](../aulas/036_pastas_arquivos.md)
 
 !!! abstract "Ao final desta aula você vai conseguir:"
-    - Explicar o que é o PyPI e como ele se diferencia da biblioteca padrão do Python;
+    - Explicar o que é o `PyPI` e como ele se diferencia da biblioteca padrão do Python;
     - Encontrar e avaliar um pacote para uma necessidade específica;
     - Instalar um pacote com o `pip` e usá-lo no seu código;
     - Reconhecer por que, nos projetos da equipe, preferimos o Poetry.
@@ -52,7 +52,7 @@ O site do `PyPI` tem uma busca para encontrar bibliotecas. Você pode, por exemp
 - procurar ferramentas para criar sites estáticos;
 - encontrar bibliotecas para trabalhar com Excel.
 
-Na prática, porém, a descoberta raramente começa dentro do próprio PyPI: ela costuma partir de uma pesquisa no Google ou da documentação da comunidade com uma pergunta do tipo *"qual a melhor ferramenta em Python para criar um site estático?"*. A partir do nome encontrado, você abre a página dele no PyPI para avaliar.
+Na prática, porém, a descoberta raramente começa dentro do próprio PyPI: ela costuma partir de uma pesquisa no Google ou da documentação da comunidade com uma pergunta do tipo *"qual a melhor ferramenta em Python para criar um site estático?"*. A partir do nome encontrado, você abre a página dele no `PyPI` para avaliar.
 
 #### MkDocs
 
@@ -88,7 +88,7 @@ Na página do pacote no `PyPI` você encontra a documentação, normalmente com 
 
 #### Instalando pacotes com `pip`
 
-Um pacote que você **nunca usou**, ainda não está disponível, então, é preciso instalá-lo primeiro. O PyPI recomenda o `pip` para isso. No terminal:
+Um pacote que você **nunca usou** ainda não está disponível, então, é preciso instalá-lo primeiro. O `PyPI` recomenda o `pip` para isso. No terminal:
 
 **Instalação do OpenPyXL**
 
@@ -126,21 +126,21 @@ poetry add openpyxl
 #### Teste seus conhecimentos
 
 ??? question "Você quer usar a biblioteca `requests` num projeto novo e o Python acusa que ela não existe. Por que e o que fazer?"
-    A `requests` não faz parte da biblioteca padrão — é um pacote da comunidade, então não vem instalada com o Python. É preciso instalá-la antes de importar, com `pip install requests` (ou `poetry add requests`, se o projeto usa `Poetry`).
+    A `requests` não faz parte da biblioteca padrão —, é um pacote da comunidade, então não vem instalada com o Python. É preciso instalá-la antes de importar, com `pip install requests` (ou `poetry add requests`, se o projeto usa `Poetry`).
 
 ??? question "Você achou dois pacotes que fazem o que precisa. Quais informações ajudam a escolher?"
     O que cada um faz exatamente, os requisitos, a data da última atualização (projetos ativos são mais seguros), a documentação, a popularidade e a existência de um repositório aberto para acompanhar o desenvolvimento.
 
 #### Recapitulando
 
-!!! success "O que você viu nesta aula"
+!!! success "O que você viu nesta aula:"
     - O `PyPI` é o repositório de pacotes da comunidade Python e permite reutilizar soluções já desenvolvidas;
     - Pacotes da comunidade precisam ser instalados - a biblioteca padrão não;
     - Antes de criar algo do zero, pesquise se já existe uma biblioteca, como ela funciona, se atende ao projeto, se está ativa e bem mantida;
     - `pip install` instala um pacote;
     - Nos projetos do Trilha Dev usamos o `poetry add`.
 
-??? example "Agora pratique"
+??? example "Pratique!"
     Encontre no [pypi.org](https://pypi.org) um pacote para uma tarefa que você tenha (ler PDF, gerar gráfico, enviar e-mail) e instale-o no seu ambiente de exercícios. Depois, importe-o e rode um exemplo mínimo da documentação.
 
 [Repositório com os exercícios](https://github.com/splor-mg/exercicios-python){ .md-button .md-button--primary }

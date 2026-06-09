@@ -3,21 +3,30 @@ comments: true
 ---
 # Aula 037: Pypi e pip
 
-## 🎥 Vídeo 37
+!!! info "Cronograma"
+    **7 min de vídeo + 15 min de prática aproximadamente**
 
-Nesta aula, vamos aprender a encontrar e instalar bibliotecas.
+## 🎥 Vídeo 37
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EF9cppje-oo?si=DP_PJjR-AWfSF6Ld" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 #### **O que é o `PyPI`?**
 
-O **PyPI (Python Package Index)** é um repositório de pacotes da linguagem Python. Nele, desenvolvedores do mundo inteiro compartilham bibliotecas e ferramentas que podem ser instaladas e utilizadas em projetos Python.
+O **PyPI** (Python Package Index), em [pypi.org](https://pypi.org), é um repositório de pacotes da linguagem Python. Nele, desenvolvedores do mundo inteiro compartilham bibliotecas e ferramentas que podem ser instaladas e utilizadas em projetos Python.
 
-Até agora, utilizamos módulos nativos do Python, disponíveis no Python Module Index. Já o `PyPI` permite acessar bibliotecas desenvolvidas pela comunidade.
+Até aqui, utilizamos módulos **nativos** do Python, disponíveis no Python Module Index — aqueles que já vêm embutidos na linguagem. O `PyPI` vai além: dá acesso a bibliotecas desenvolvidas pela comunidade, que não acompanham a instalação do Python e precisam ser baixadas separadamente.
 
-#### **Exemplos de uso**
+| | Biblioteca padrão | Pacotes do PyPI |
+|---|---|---|
+| Origem | Vem com o Python | Comunidade |
+| Precisa instalar? | Não | Sim |
+| Exemplos | `os`, `datetime`, `math` | `openpyxl`, `pypdf`, `mkdocs` |
 
-Um desenvolvedor pode criar um pacote para:
+A ideia central é simples: você quase nunca precisa criar tudo do zero. Boa parte do que precisa fazer já foi desenvolvida por alguém e está disponível para uso.
+
+#### Exemplos de uso
+
+Um desenvolvedor pode transformar uma solução em pacote e publicá-la no `PyPI` para que outras pessoas a utilizem. Há pacotes para praticamente tudo:
 
 - envio de SMS;
 - manipulação de Excel;
@@ -27,47 +36,23 @@ Um desenvolvedor pode criar um pacote para:
 - análise de dados;
 - entre outros.
 
-Esses pacotes podem ser publicados no PyPI para que outras pessoas utilizem.
+#### Pesquisando pacotes
 
-#### **Pesquisando pacotes**
-
-O site do `PyPI` possui uma busca para encontrar bibliotecas.
-
-Exemplo:
+O site do `PyPI` tem uma busca para encontrar bibliotecas. Você pode, por exemplo:
 
 - pesquisar bibliotecas para envio de SMS;
 - procurar ferramentas para criar sites estáticos;
 - encontrar bibliotecas para trabalhar com Excel.
 
-Muitas vezes, a escolha de uma ferramenta começa com pesquisas no Google ou documentação da comunidade.
+Na prática, porém, a descoberta raramente começa dentro do próprio PyPI: ela costuma partir de uma pesquisa no Google ou da documentação da comunidade com uma pergunta do tipo *"qual a melhor ferramenta em Python para criar um site estático?"*. A partir do nome encontrado, você abre a página dele no `PyPI` para avaliar.
 
-#### **MkDocs**
+#### MkDocs
 
-Ao pesquisar ferramentas para criar sites estáticos com Python, podemos encontrar o MkDocs, utilizado no projeto do Trilha Dev. Existem diversos pacotes relacionados ao MkDocs no `PyPI`, cada um com funcionalidades específicas.
+Ao pesquisar ferramentas para criar sites estáticos com Python, chegamos ao **MkDocs**, justamente a ferramenta usada no projeto do Trilha Dev. Existem diversos pacotes relacionados ao MkDocs no `PyPI`, cada um com funcionalidades específicas — você não precisa conhecer todos, apenas encontrar o que atende à sua necessidade.
 
-#### **OpenPyXL**
+#### Cuidados ao usar bibliotecas da comunidade
 
-O pacote `openpyxl` é utilizado para trabalhar com arquivos Excel em Python.
-
-Ele permite:
-
-- ler planilhas;
-- escrever dados;
-- automatizar tarefas;
-- processar arquivos grandes;
-- manipular células e abas.
-
-Documentação:
-
-- instalação;
-- primeiros passos;
-- exemplos de uso;
-- requisitos;
-- referências da API.
-
-#### **Cuidados ao usar bibliotecas da comunidade**
-
-Como os pacotes são desenvolvidos pela comunidade, é importante observar:
+Como os pacotes são desenvolvidos pela comunidade, antes de adotar um deles vale observar:
 
 - manutenção do projeto;
 - data da última atualização;
@@ -76,54 +61,34 @@ Como os pacotes são desenvolvidos pela comunidade, é importante observar:
 - segurança;
 - popularidade da biblioteca.
 
-Muitos projetos também possuem repositórios no GitHub, permitindo acompanhar o desenvolvimento e até contribuir.
+Muitos projetos também têm repositório no GitHub, onde dá para acompanhar o desenvolvimento e até contribuir, se for open source.
 
-#### **Instalando pacotes com `pip`**
+!!! warning "Código da comunidade vem com responsabilidade"
+    Por ser mantido por terceiros, um pacote pode ter bugs, falhas de segurança ou ficar sem manutenção. Não saia instalando qualquer coisa: leia a página, veja quando foi atualizado pela última vez e prefira projetos ativos e bem documentados.
 
-O PyPI recomenda o uso do `pip` para instalar bibliotecas.
+!!! note "Importante"
+    Sempre utilize o gerenciador de pacotes adotado pelo projeto em que você está. Os mais comuns são o `pip` e o `Poetry`. Antes de instalar algo, observe como aquele projeto gerencia suas dependências e siga o mesmo padrão.
 
-#### **Instalação do OpenPyXL**
+#### Teste seus conhecimentos
 
-```bash
-pip install openpyxl
-```
+??? question "Você quer usar a biblioteca `requests` num projeto novo e o Python acusa que ela não existe. Por que e o que fazer?"
+    A `requests` não faz parte da biblioteca padrão —, é um pacote da comunidade, então não vem instalada com o Python. É preciso instalá-la antes de importar, com `pip install requests` (ou `poetry add requests`, se o projeto usa `Poetry`).
 
-Após a instalação, já é possível importar o pacote no Python.
+??? question "Você achou dois pacotes que fazem o que precisa. Quais informações ajudam a escolher?"
+    O que cada um faz exatamente, os requisitos, a data da última atualização (projetos ativos são mais seguros), a documentação, a popularidade e a existência de um repositório aberto para acompanhar o desenvolvimento.
 
-Exemplo:
+#### Recapitulando
 
-```python
-import openpyxl
-```
+!!! success "O que você viu nesta aula:"
+    - O `PyPI` é o repositório de pacotes da comunidade Python e permite reutilizar soluções já desenvolvidas;
+    - Pacotes da comunidade precisam ser instalados - a biblioteca padrão não;
+    - Antes de criar algo do zero, pesquise se já existe uma biblioteca, como ela funciona, se atende ao projeto, se está ativa e bem mantida;
+    - `pip install` instala um pacote;
+    - Nos projetos do Trilha Dev usamos o `poetry add`.
 
-#### **Instalando pacotes com `Poetry`**
+??? example "Pratique!"
+    Encontre no [pypi.org](https://pypi.org) um pacote para uma tarefa que você tenha (ler PDF, gerar gráfico, enviar e-mail) e instale-o no seu ambiente de exercícios. Depois, importe-o e rode um exemplo mínimo da documentação.
 
-Nos projetos do Trilha Dev, normalmente utilizamos o `Poetry` como gerenciador de dependências.
+[Repositório com os exercícios](https://github.com/splor-mg/exercicios-python){ .md-button .md-button--primary }
 
-Exemplo:
-
-```bash
-poetry add openpyxl
-```
-
-#### **Importante**
-
-Sempre utilize o gerenciador de pacotes adotado pelo projeto.
-
-Os mais comuns são:
-
-- pip
-- Poetry
-
-#### **Checklist**
-
-O `PyPI` permite reutilizar soluções já desenvolvidas pela comunidade Python.
-
-Antes de criar algo do zero, vale pesquisar:
-
-- Se já existe uma biblioteca para resolver o problema;
-- Como ela funciona;
-- Se atende às necessidades do projeto;
-- Se o projeto está ativo e bem mantido.
-
-Isso acelera o desenvolvimento e aproveita o conhecimento compartilhado pela comunidade.
+[Como fazer os exercícios](../primeiros_passos/setup_repo_exercicios.md){ .md-button .md-button--primary }

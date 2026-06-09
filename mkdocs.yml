@@ -116,6 +116,7 @@ plugins:
   - social
   - mkdocs_quiz:
   - charts
+  - open-in-new-tab
 
 # Custom CSS
 extra_css:
@@ -124,8 +125,6 @@ extra_css:
 extra:
   version:
     provider: mike
-
-extra:
   include_cname: true
 
 extra_javascript:
@@ -155,7 +154,6 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
-  - attr_list
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
@@ -168,4 +166,3 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences

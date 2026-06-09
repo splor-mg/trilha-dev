@@ -6,14 +6,6 @@ comments: true
 !!! info "Antes de começar"
     **7 min de vídeo + 15 min de prática aproximadamente**
 
-    **Pré-requisito:** [Aula 036](../aulas/036_pastas_arquivos.md)
-
-!!! abstract "Ao final desta aula você vai conseguir:"
-    - Explicar o que é o `PyPI` e como ele se diferencia da biblioteca padrão do Python;
-    - Encontrar e avaliar um pacote para uma necessidade específica;
-    - Instalar um pacote com o `pip` e usá-lo no seu código;
-    - Reconhecer por que, nos projetos da equipe, preferimos o Poetry.
-
 ## 🎥 Vídeo 37
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EF9cppje-oo?si=DP_PJjR-AWfSF6Ld" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -73,52 +65,6 @@ Muitos projetos também têm repositório no GitHub, onde dá para acompanhar o 
 
 !!! warning "Código da comunidade vem com responsabilidade"
     Por ser mantido por terceiros, um pacote pode ter bugs, falhas de segurança ou ficar sem manutenção. Não saia instalando qualquer coisa: leia a página, veja quando foi atualizado pela última vez e prefira projetos ativos e bem documentados.
-
-#### OpenPyXL
-
-O pacote `openpyxl` é usado para trabalhar com arquivos Excel em Python — útil quando uma planilha fica grande demais para processar manualmente. Ele permite:
-
-- ler planilhas;
-- escrever dados;
-- automatizar tarefas;
-- processar arquivos grandes;
-- manipular células e abas.
-
-Na página do pacote no `PyPI` você encontra a documentação, normalmente com instalação, primeiros passos, exemplos de uso, requisitos e referência da API. Vale lê-la antes de usar o pacote nos seus projetos.
-
-#### Instalando pacotes com `pip`
-
-Um pacote que você **nunca usou** ainda não está disponível, então, é preciso instalá-lo primeiro. O `PyPI` recomenda o `pip` para isso. No terminal:
-
-**Instalação do OpenPyXL**
-
-```bash
-pip install openpyxl
-```
-
-O download leva alguns segundos. Ao final, você verá uma confirmação parecida com esta:
-
-```text
-Successfully installed openpyxl-3.1.5
-```
-
-A partir daí o pacote já pode ser importado e usado no seu código:
-
-```python
-from openpyxl import load_workbook
-
-planilha = load_workbook("dados.xlsx")
-aba = planilha.active
-print(aba["A1"].value)   # Mostra o valor da célula A1
-```
-
-#### Instalando pacotes com `Poetry`
-
-O `pip` está presente em qualquer instalação do Python, mas ele não é o único — e nos projetos do Trilha Dev normalmente utilizamos o `Poetry` como gerenciador de dependências.
-
-```bash
-poetry add openpyxl
-```
 
 !!! note "Importante"
     Sempre utilize o gerenciador de pacotes adotado pelo projeto em que você está. Os mais comuns são o `pip` e o `Poetry`. Antes de instalar algo, observe como aquele projeto gerencia suas dependências e siga o mesmo padrão.

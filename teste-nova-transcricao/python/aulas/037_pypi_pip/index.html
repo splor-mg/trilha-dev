@@ -2236,39 +2236,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#openpyxl" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        OpenPyXL
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#instalando-pacotes-com-pip" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Instalando pacotes com pip
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#instalando-pacotes-com-poetry" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Instalando pacotes com Poetry
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#teste-seus-conhecimentos" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2736,39 +2703,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#openpyxl" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        OpenPyXL
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#instalando-pacotes-com-pip" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Instalando pacotes com pip
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#instalando-pacotes-com-poetry" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Instalando pacotes com Poetry
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#teste-seus-conhecimentos" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2886,16 +2820,6 @@
 <div class="admonition info">
 <p class="admonition-title">Antes de começar</p>
 <p><strong>7 min de vídeo + 15 min de prática aproximadamente</strong></p>
-<p><strong>Pré-requisito:</strong> <a href="../036_pastas_arquivos/">Aula 036</a></p>
-</div>
-<div class="admonition abstract">
-<p class="admonition-title">Ao final desta aula você vai conseguir:</p>
-<ul>
-<li>Explicar o que é o <code>PyPI</code> e como ele se diferencia da biblioteca padrão do Python;</li>
-<li>Encontrar e avaliar um pacote para uma necessidade específica;</li>
-<li>Instalar um pacote com o <code>pip</code> e usá-lo no seu código;</li>
-<li>Reconhecer por que, nos projetos da equipe, preferimos o Poetry.</li>
-</ul>
 </div>
 <h2 id="video-37">🎥 Vídeo 37</h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EF9cppje-oo?si=DP_PJjR-AWfSF6Ld" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -2966,35 +2890,6 @@
 <p class="admonition-title">Código da comunidade vem com responsabilidade</p>
 <p>Por ser mantido por terceiros, um pacote pode ter bugs, falhas de segurança ou ficar sem manutenção. Não saia instalando qualquer coisa: leia a página, veja quando foi atualizado pela última vez e prefira projetos ativos e bem documentados.</p>
 </div>
-<h4 id="openpyxl">OpenPyXL</h4>
-<p>O pacote <code>openpyxl</code> é usado para trabalhar com arquivos Excel em Python — útil quando uma planilha fica grande demais para processar manualmente. Ele permite:</p>
-<ul>
-<li>ler planilhas;</li>
-<li>escrever dados;</li>
-<li>automatizar tarefas;</li>
-<li>processar arquivos grandes;</li>
-<li>manipular células e abas.</li>
-</ul>
-<p>Na página do pacote no <code>PyPI</code> você encontra a documentação, normalmente com instalação, primeiros passos, exemplos de uso, requisitos e referência da API. Vale lê-la antes de usar o pacote nos seus projetos.</p>
-<h4 id="instalando-pacotes-com-pip">Instalando pacotes com <code>pip</code></h4>
-<p>Um pacote que você <strong>nunca usou</strong> ainda não está disponível, então, é preciso instalá-lo primeiro. O <code>PyPI</code> recomenda o <code>pip</code> para isso. No terminal:</p>
-<p><strong>Instalação do OpenPyXL</strong></p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pip<span class="w"> </span>install<span class="w"> </span>openpyxl
-</span></code></pre></div>
-<p>O download leva alguns segundos. Ao final, você verá uma confirmação parecida com esta:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Successfully installed openpyxl-3.1.5
-</span></code></pre></div>
-<p>A partir daí o pacote já pode ser importado e usado no seu código:</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">openpyxl</span><span class="w"> </span><span class="kn">import</span> <span class="n">load_workbook</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="n">planilha</span> <span class="o">=</span> <span class="n">load_workbook</span><span class="p">(</span><span class="s2">&quot;dados.xlsx&quot;</span><span class="p">)</span>
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="n">aba</span> <span class="o">=</span> <span class="n">planilha</span><span class="o">.</span><span class="n">active</span>
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">aba</span><span class="p">[</span><span class="s2">&quot;A1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>   <span class="c1"># Mostra o valor da célula A1</span>
-</span></code></pre></div>
-<h4 id="instalando-pacotes-com-poetry">Instalando pacotes com <code>Poetry</code></h4>
-<p>O <code>pip</code> está presente em qualquer instalação do Python, mas ele não é o único — e nos projetos do Trilha Dev normalmente utilizamos o <code>Poetry</code> como gerenciador de dependências.</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>poetry<span class="w"> </span>add<span class="w"> </span>openpyxl
-</span></code></pre></div>
 <div class="admonition note">
 <p class="admonition-title">Importante</p>
 <p>Sempre utilize o gerenciador de pacotes adotado pelo projeto em que você está. Os mais comuns são o <code>pip</code> e o <code>Poetry</code>. Antes de instalar algo, observe como aquele projeto gerencia suas dependências e siga o mesmo padrão.</p>

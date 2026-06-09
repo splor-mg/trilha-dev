@@ -3,7 +3,7 @@ comments: true
 ---
 # Aula 037: Pypi e pip
 
-!!! info "Antes de começar"
+!!! info "Cronograma"
     **7 min de vídeo + 15 min de prática aproximadamente**
 
 ## 🎥 Vídeo 37

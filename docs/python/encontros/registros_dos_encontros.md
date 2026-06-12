@@ -99,7 +99,7 @@ title: Registros dos Encontros
 
 ---
 
-## :material-school: 4º Encontro :material-new-box:
+## :material-school: 4º Encontro
 
 :material-calendar-month: **22/05/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 009, Aula 010, Aula 011 e conteúdo extra
 
@@ -119,9 +119,70 @@ title: Registros dos Encontros
     **Descobri que `round(2.5)` retorna ==2==, mas `round(3.5)` retorna ==4==. Por que o Python arredonda de forma diferente dependendo do número?**<br>
     [▶ Ver no vídeo (46:30)](https://www.youtube.com/watch?v=B7r07PfI-A0&t=2790s){ target="_blank" }
 
-    
+
 !!! tip "Dicas (durante a aula)"
     - **O problema do exercício é que `round()` arredonda para baixo quando o decimal é menor que ==0.5== — precisamos de `math.ceil()` para garantir sempre para cima.**<br>
     [▶ Ver no vídeo (42:51)](https://www.youtube.com/watch?v=B7r07PfI-A0&t=2571s){ target="_blank" }
     - **Não tem como saber o comportamento exato de uma função sem testar, porque existem regras que a gente não conhece de antemão.**<br>
     [▶ Ver no vídeo (51:16)](https://www.youtube.com/watch?v=B7r07PfI-A0&t=3076s){ target="_blank" }
+
+---
+
+## :material-school: 6º Encontro :material-new-box:
+
+:material-calendar-month: **12/06/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 012, Aula 013 e Aula 014
+
+[▶ Assistir gravação](https://www.youtube.com/watch?v=B7r07PfI-A0){ .md-button }
+
+??? info "Dúvidas do encontro"
+
+    **Qual a diferença entre `=` e `==`? O `=` atribui valor a uma variável, enquanto `==` compara dois valores — erro clássico ao escrever condicionais.**<br>
+    [▶ Ver no vídeo (20:52)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=1252s){ target="_blank" }
+
+    **E se os três números forem iguais? O código atual trata esse caso corretamente?**<br>
+    [▶ Ver no vídeo (33:49)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=2029s){ target="_blank" }
+
+    **Como comentar múltiplas linhas de código ao mesmo tempo no VS Code?**<br>
+    [▶ Ver no vídeo (36:15)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=2175s){ target="_blank" }
+
+    **Como comentar linhas que não estão em sequência (ex: linha 1 e linha 10 simultaneamente)?**<br>
+    [▶ Ver no vídeo (39:39)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=2379s){ target="_blank" }
+
+    **A seleção de linhas para comentar funciona também para descomentar?**<br>
+    [▶ Ver no vídeo (41:40)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=2500s){ target="_blank" }
+
+    **Existe algum método ou função no Python que retorna o maior valor entre três variáveis sem precisar do `if`?**<br>
+    [▶ Ver no vídeo (46:02)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=2762s){ target="_blank" }
+
+    **Para criar uma `tupla` é obrigatório usar parênteses ou apenas a vírgula entre os elementos já é suficiente?**<br>
+    [▶ Ver no vídeo (53:56)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=3236s){ target="_blank" }
+
+    **Uma terceira vírgula depois do último elemento da `tupla` adiciona um novo elemento ou gera erro?**<br>
+    [▶ Ver no vídeo (55:21)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=3321s){ target="_blank" }
+
+    **Por que o erro era de tipo `(TypeError)`? O código retornava uma string onde o teste esperava um inteiro.**<br>
+    [▶ Ver no vídeo (1:12:09)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=4329s){ target="_blank" }
+
+    **Zero é `True` ou `False` no Python?**<br>
+    [▶ Ver no vídeo (1:15:35)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=4535s){ target="_blank" }
+
+    **Posso usar `None` em vez de `False` como valor inicial de uma variável? Faria diferença no comportamento?**<br>
+    [▶ Ver no vídeo (1:16:53)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=4613s){ target="_blank" }
+
+    **`not None` retorna `True`? Inverter `None` com `not` daria `True`?**<br>
+    [▶ Ver no vídeo (1:17:32)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=4652s){ target="_blank" }
+
+    **Por que verificar divisibilidade por 15 garante que o número é divisível por 3 e por 5 ao mesmo tempo?**<br>
+    [▶ Ver no vídeo (1:26:17)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=5177s){ target="_blank" }
+
+    **No caso do número 2, o que a função deve retornar — já que ele não é divisível nem por 3 nem por 5?**<br>
+    [▶ Ver no vídeo (1:27:29)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=5249s){ target="_blank" }
+
+!!! tip "Dicas (durante a aula)"
+    - **No código do exercício, `N3 > N2` estava errado — identificou o `typo` que fazia o teste falhar.**<br>
+    [▶ Ver no vídeo (32:51)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=1971s){ target="_blank" }
+    - **No exercício de divisibilidade, faltou comparar o resto com zero `(== 0)`. Sem isso, a condição sempre era `True` e os testes falhavam.**<br>
+    [▶ Ver no vídeo (1:10:18)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=4218s){ target="_blank" }
+
+!!! quote "Lembrete"
+    - O quinto encontro foi realizado presencialmente com a resolução de exercícios.

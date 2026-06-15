@@ -132,7 +132,7 @@ title: Registros dos Encontros
 
 :material-calendar-month: **12/06/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 012, Aula 013 e Aula 014
 
-[▶ Assistir gravação](https://www.youtube.com/watch?v=B7r07PfI-A0){ .md-button }
+[▶ Assistir gravação](https://www.youtube.com/watch?v=7q-Dgdp4J5Y){ .md-button }
 
 ??? info "Dúvidas do encontro"
 

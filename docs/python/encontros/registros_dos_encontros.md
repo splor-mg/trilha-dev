@@ -99,7 +99,7 @@ title: Registros dos Encontros
 
 ---
 
-## :material-school: 4º Encontro :material-new-box:
+## :material-school: 4º Encontro
 
 :material-calendar-month: **22/05/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 009, Aula 010, Aula 011 e conteúdo extra
 
@@ -119,9 +119,59 @@ title: Registros dos Encontros
     **Descobri que `round(2.5)` retorna ==2==, mas `round(3.5)` retorna ==4==. Por que o Python arredonda de forma diferente dependendo do número?**<br>
     [▶ Ver no vídeo (46:30)](https://www.youtube.com/watch?v=B7r07PfI-A0&t=2790s){ target="_blank" }
 
-    
+
 !!! tip "Dicas (durante a aula)"
     - **O problema do exercício é que `round()` arredonda para baixo quando o decimal é menor que ==0.5== — precisamos de `math.ceil()` para garantir sempre para cima.**<br>
     [▶ Ver no vídeo (42:51)](https://www.youtube.com/watch?v=B7r07PfI-A0&t=2571s){ target="_blank" }
     - **Não tem como saber o comportamento exato de uma função sem testar, porque existem regras que a gente não conhece de antemão.**<br>
     [▶ Ver no vídeo (51:16)](https://www.youtube.com/watch?v=B7r07PfI-A0&t=3076s){ target="_blank" }
+
+---
+
+## :material-school: 6º Encontro :material-new-box:
+
+:material-calendar-month: **12/06/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 012, Aula 013 e Aula 014
+
+[▶ Assistir gravação](https://www.youtube.com/watch?v=7q-Dgdp4J5Y){ .md-button }
+
+??? info "Dúvidas do encontro"
+
+    **Como comentar linhas que não estão em sequência (ex: linha 1 e linha 5 simultaneamente)?**<br>
+    [▶ Ver no vídeo (39:39)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=2379s){ target="_blank" }
+
+    **Para criar uma `tupla` é obrigatório usar parênteses ou apenas a vírgula entre os elementos já é suficiente?**<br>
+    [▶ Ver no vídeo (53:56)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=3236s){ target="_blank" }
+
+    **Uma terceira vírgula criaria uma lista?**<br>
+    [▶ Ver no vídeo (55:21)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=3321s){ target="_blank" }
+
+    **Zero é `True` ou `False`?**<br>
+    [▶ Ver no vídeo (1:15:21)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=4521s){ target="_blank" }
+
+    **Posso usar `None` em vez de `False`?**<br>
+    [▶ Ver no vídeo (1:16:59)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=4619s){ target="_blank" }
+
+    **`not None` retorna `True`?**<br>
+    [▶ Ver no vídeo (1:19:43)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=4783s){ target="_blank" }
+
+
+!!! tip "Dicas (durante a aula)"
+    **Como fazer a atualização dos exercícios no seu repositório _forkado_.**<br>
+    [▶ Ver no vídeo (25:15)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=1515s){ target="_blank" }
+
+
+??? question "Como ver ou alterar o atalho de comentar linhas (Toggle Line Comment)"
+
+    O comando que comenta e descomenta linhas já vem habilitado no VS Code (tanto no instalado quanto no Codespace), não é preciso ativar nada. O atalho padrão é `Ctrl` + `/` (ou `Cmd` + `/` no Mac). Se ele não funcionar, normalmente é questão do layout do teclado, e você pode conferir ou trocar a tecla assim:
+
+    1. Abra a paleta de comandos com **`Ctrl`** + **`Shift`** + **`P`**.
+    2. Digite **`Open Keyboard Shortcuts`** e pressione **`Enter`**.
+    3. Na busca, digite **`Toggle Line Comment`** para localizar o comando e ver qual atalho está associado a ele.
+    4. Para trocar, dê dois cliques na linha do comando, pressione a combinação de teclas desejada e confirme com **`Enter`**.
+
+    **Dica:** para comentar sem depender da tecla, basta abrir a paleta (**`Ctrl`** + **`Shift`** + **`P`**), digitar **`Toggle Line Comment`** e clicar no comando - ele comenta as linhas selecionadas na hora.
+
+    **Observação:** o comando usa a sintaxe da linguagem do arquivo. Em arquivos **`.py`** ele insere **`#`** no início da linha; em arquivos **`.md`** ele envolve o trecho em **`<!-- ... -->`** (comentário de HTML), que não aparece quando a página é renderizada.
+
+!!! quote "Observação"
+    O quinto encontro foi realizado presencialmente com a resolução de exercícios.

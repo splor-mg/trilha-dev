@@ -177,9 +177,7 @@ title: Registros dos Encontros
 
 !!! tip "Dicas (durante a aula)"
     - **Como fazer a atualização dos exercícios no seu repositório _forkado_.**<br>
-    [▶ Ver no vídeo (32:51)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=1515s){ target="_blank" }
-    - **No código do exercício, `N3 > N2` estava errado — identificou o `typo` que fazia o teste falhar.**<br>
-    [▶ Ver no vídeo (32:51)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=1971s){ target="_blank" }
+    [▶ Ver no vídeo (25:15)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=1515s){ target="_blank" }
     - **No exercício de divisibilidade, faltou comparar o resto com zero `(== 0)`. Sem isso, a condição sempre era `True` e os testes falhavam.**<br>
     [▶ Ver no vídeo (1:10:18)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=4218s){ target="_blank" }
 

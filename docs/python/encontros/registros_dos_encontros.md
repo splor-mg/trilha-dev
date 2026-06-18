@@ -136,9 +136,6 @@ title: Registros dos Encontros
 
 ??? info "Dúvidas do encontro"
 
-    **Qual a diferença entre `=` e `==`? O `=` atribui valor a uma variável, enquanto `==` compara dois valores — erro clássico ao escrever condicionais.**<br>
-    [▶ Ver no vídeo (20:52)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=1252s){ target="_blank" }
-
     **E se os três números forem iguais? O código atual trata esse caso corretamente?**<br>
     [▶ Ver no vídeo (33:49)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=2029s){ target="_blank" }
 
@@ -179,6 +176,8 @@ title: Registros dos Encontros
     [▶ Ver no vídeo (1:27:29)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=5249s){ target="_blank" }
 
 !!! tip "Dicas (durante a aula)"
+    - **Como fazer a atualização dos exercícios no seu repositório _forkado_.**<br>
+    [▶ Ver no vídeo (32:51)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=1515s){ target="_blank" }
     - **No código do exercício, `N3 > N2` estava errado — identificou o `typo` que fazia o teste falhar.**<br>
     [▶ Ver no vídeo (32:51)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=1971s){ target="_blank" }
     - **No exercício de divisibilidade, faltou comparar o resto com zero `(== 0)`. Sem isso, a condição sempre era `True` e os testes falhavam.**<br>

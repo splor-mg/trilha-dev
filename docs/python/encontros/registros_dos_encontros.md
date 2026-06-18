@@ -139,41 +139,26 @@ title: Registros dos Encontros
     **Como comentar linhas que não estão em sequência (ex: linha 1 e linha 5 simultaneamente)?**<br>
     [▶ Ver no vídeo (39:39)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=2379s){ target="_blank" }
 
-    **A seleção de linhas para comentar funciona também para descomentar?**<br>
-    [▶ Ver no vídeo (41:40)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=2500s){ target="_blank" }
-
-    **Existe algum método ou função no Python que retorna o maior valor entre três variáveis sem precisar do `if`?**<br>
-    [▶ Ver no vídeo (46:02)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=2762s){ target="_blank" }
-
     **Para criar uma `tupla` é obrigatório usar parênteses ou apenas a vírgula entre os elementos já é suficiente?**<br>
     [▶ Ver no vídeo (53:56)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=3236s){ target="_blank" }
 
-    **Uma terceira vírgula depois do último elemento da `tupla` adiciona um novo elemento ou gera erro?**<br>
+    **Uma terceira vírgula criaria uma lista?**<br>
     [▶ Ver no vídeo (55:21)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=3321s){ target="_blank" }
 
-    **Por que o erro era de tipo `(TypeError)`? O código retornava uma string onde o teste esperava um inteiro.**<br>
-    [▶ Ver no vídeo (1:12:09)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=4329s){ target="_blank" }
+    **Zero é `True` ou `False`?**<br>
+    [▶ Ver no vídeo (1:15:21)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=4521s){ target="_blank" }
 
-    **Zero é `True` ou `False` no Python?**<br>
-    [▶ Ver no vídeo (1:15:35)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=4535s){ target="_blank" }
+    **Posso usar `None` em vez de `False`?**<br>
+    [▶ Ver no vídeo (1:16:59)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=4619s){ target="_blank" }
 
-    **Posso usar `None` em vez de `False` como valor inicial de uma variável? Faria diferença no comportamento?**<br>
-    [▶ Ver no vídeo (1:16:53)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=4613s){ target="_blank" }
+    **`not None` retorna `True`?**<br>
+    [▶ Ver no vídeo (1:19:43)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=4783s){ target="_blank" }
 
-    **`not None` retorna `True`? Inverter `None` com `not` daria `True`?**<br>
-    [▶ Ver no vídeo (1:17:32)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=4652s){ target="_blank" }
-
-    **Por que verificar divisibilidade por 15 garante que o número é divisível por 3 e por 5 ao mesmo tempo?**<br>
-    [▶ Ver no vídeo (1:26:17)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=5177s){ target="_blank" }
-
-    **No caso do número 2, o que a função deve retornar — já que ele não é divisível nem por 3 nem por 5?**<br>
-    [▶ Ver no vídeo (1:27:29)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=5249s){ target="_blank" }
 
 !!! tip "Dicas (durante a aula)"
-    - **Como fazer a atualização dos exercícios no seu repositório _forkado_.**<br>
+    **Como fazer a atualização dos exercícios no seu repositório _forkado_.**<br>
     [▶ Ver no vídeo (25:15)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=1515s){ target="_blank" }
-    - **No exercício de divisibilidade, faltou comparar o resto com zero `(== 0)`. Sem isso, a condição sempre era `True` e os testes falhavam.**<br>
-    [▶ Ver no vídeo (1:10:18)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=4218s){ target="_blank" }
+
 
 ??? question "Como ver ou alterar o atalho de comentar linhas (Toggle Line Comment)"
 

@@ -136,12 +136,6 @@ title: Registros dos Encontros
 
 ??? info "Dúvidas do encontro"
 
-    **E se os três números forem iguais? O código atual trata esse caso corretamente?**<br>
-    [▶ Ver no vídeo (33:49)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=2029s){ target="_blank" }
-
-    **Como comentar múltiplas linhas de código ao mesmo tempo no VS Code?**<br>
-    [▶ Ver no vídeo (36:15)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=2175s){ target="_blank" }
-
     **Como comentar linhas que não estão em sequência (ex: linha 1 e linha 10 simultaneamente)?**<br>
     [▶ Ver no vídeo (39:39)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=2379s){ target="_blank" }
 

@@ -136,7 +136,7 @@ title: Registros dos Encontros
 
 ??? info "Dúvidas do encontro"
 
-    **Como comentar linhas que não estão em sequência (ex: linha 1 e linha 10 simultaneamente)?**<br>
+    **Como comentar linhas que não estão em sequência (ex: linha 1 e linha 5 simultaneamente)?**<br>
     [▶ Ver no vídeo (39:39)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=2379s){ target="_blank" }
 
     **A seleção de linhas para comentar funciona também para descomentar?**<br>
@@ -175,5 +175,18 @@ title: Registros dos Encontros
     - **No exercício de divisibilidade, faltou comparar o resto com zero `(== 0)`. Sem isso, a condição sempre era `True` e os testes falhavam.**<br>
     [▶ Ver no vídeo (1:10:18)](https://www.youtube.com/watch?v=7q-Dgdp4J5Y&t=4218s){ target="_blank" }
 
-!!! quote "Lembrete"
-    - O quinto encontro foi realizado presencialmente com a resolução de exercícios.
+??? question "Como ver ou alterar o atalho de comentar linhas (Toggle Line Comment)"
+
+    O comando que comenta e descomenta linhas já vem habilitado no VS Code (tanto no instalado quanto no Codespace), não é preciso ativar nada. O atalho padrão é `Ctrl` + `/` (ou `Cmd` + `/` no Mac). Se ele não funcionar, normalmente é questão do layout do teclado, e você pode conferir ou trocar a tecla assim:
+
+    1. Abra a paleta de comandos com **`Ctrl`** + **`Shift`** + **`P`**.
+    2. Digite **`Open Keyboard Shortcuts`** e pressione **`Enter`**.
+    3. Na busca, digite **`Toggle Line Comment`** para localizar o comando e ver qual atalho está associado a ele.
+    4. Para trocar, dê dois cliques na linha do comando, pressione a combinação de teclas desejada e confirme com **`Enter`**.
+
+    **Dica:** para comentar sem depender da tecla, basta abrir a paleta (**`Ctrl`** + **`Shift`** + **`P`**), digitar **`Toggle Line Comment`** e clicar no comando - ele comenta as linhas selecionadas na hora.
+
+    **Observação:** o comando usa a sintaxe da linguagem do arquivo. Em arquivos **`.py`** ele insere **`#`** no início da linha; em arquivos **`.md`** ele envolve o trecho em **`<!-- ... -->`** (comentário de HTML), que não aparece quando a página é renderizada.
+
+!!! quote "Observação"
+    O quinto encontro foi realizado presencialmente com a resolução de exercícios.

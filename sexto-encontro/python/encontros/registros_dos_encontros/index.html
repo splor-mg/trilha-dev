@@ -2836,7 +2836,7 @@
 <p><a class="md-button" href="https://www.youtube.com/watch?v=7q-Dgdp4J5Y">▶ Assistir gravação</a></p>
 <details class="info">
 <summary>Dúvidas do encontro</summary>
-<p><strong>Como comentar linhas que não estão em sequência (ex: linha 1 e linha 10 simultaneamente)?</strong><br>
+<p><strong>Como comentar linhas que não estão em sequência (ex: linha 1 e linha 5 simultaneamente)?</strong><br>
 <a href="https://www.youtube.com/watch?v=7q-Dgdp4J5Y&amp;t=2379s" target="_blank">▶ Ver no vídeo (39:39)</a></p>
 <p><strong>A seleção de linhas para comentar funciona também para descomentar?</strong><br>
 <a href="https://www.youtube.com/watch?v=7q-Dgdp4J5Y&amp;t=2500s" target="_blank">▶ Ver no vídeo (41:40)</a></p>
@@ -2868,11 +2868,21 @@
 <a href="https://www.youtube.com/watch?v=7q-Dgdp4J5Y&amp;t=4218s" target="_blank">▶ Ver no vídeo (1:10:18)</a></li>
 </ul>
 </div>
+<details class="question">
+<summary>Como ver ou alterar o atalho de comentar linhas (Toggle Line Comment)</summary>
+<p>O comando que comenta e descomenta linhas já vem habilitado no VS Code (tanto no instalado quanto no Codespace), não é preciso ativar nada. O atalho padrão é <code>Ctrl</code> + <code>/</code> (ou <code>Cmd</code> + <code>/</code> no Mac). Se ele não funcionar, normalmente é questão do layout do teclado, e você pode conferir ou trocar a tecla assim:</p>
+<ol>
+<li>Abra a paleta de comandos com <strong><code>Ctrl</code></strong> + <strong><code>Shift</code></strong> + <strong><code>P</code></strong>.</li>
+<li>Digite <strong><code>Open Keyboard Shortcuts</code></strong> e pressione <strong><code>Enter</code></strong>.</li>
+<li>Na busca, digite <strong><code>Toggle Line Comment</code></strong> para localizar o comando e ver qual atalho está associado a ele.</li>
+<li>Para trocar, dê dois cliques na linha do comando, pressione a combinação de teclas desejada e confirme com <strong><code>Enter</code></strong>.</li>
+</ol>
+<p><strong>Dica:</strong> para comentar sem depender da tecla, basta abrir a paleta (<strong><code>Ctrl</code></strong> + <strong><code>Shift</code></strong> + <strong><code>P</code></strong>), digitar <strong><code>Toggle Line Comment</code></strong> e clicar no comando - ele comenta as linhas selecionadas na hora.</p>
+<p><strong>Observação:</strong> o comando usa a sintaxe da linguagem do arquivo. Em arquivos <strong><code>.py</code></strong> ele insere <strong><code>#</code></strong> no início da linha; em arquivos <strong><code>.md</code></strong> ele envolve o trecho em <strong><code>&lt;!-- ... --&gt;</code></strong> (comentário de HTML), que não aparece quando a página é renderizada.</p>
+</details>
 <div class="admonition quote">
-<p class="admonition-title">Lembrete</p>
-<ul>
-<li>O quinto encontro foi realizado presencialmente com a resolução de exercícios.</li>
-</ul>
+<p class="admonition-title">Observação</p>
+<p>O quinto encontro foi realizado presencialmente com a resolução de exercícios.</p>
 </div><style type="text/css">.quiz {
   border: 1px solid black;
   padding: 1rem;

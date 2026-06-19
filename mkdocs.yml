@@ -27,44 +27,44 @@ nav:
         - python/primeiros_passos/ferramentas.md
         - python/primeiros_passos/setup_repo_exercicios.md
       - Aulas:
-        - Aula 001: python/aulas/001_primeiro_programa_py.md
-        - Aula 002: python/aulas/002_como_py_executado.md
-        - Aula 003: python/aulas/003_variaveis.md
-        - Aula 004: python/aulas/004_funcao_input.md
-        - Aula 005: python/aulas/005_conversao.md
-        - Aula 006: python/aulas/006_strings.md
-        - Aula 007: python/aulas/007_string_formatada.md
-        - Aula 008: python/aulas/008_string_metodos.md
-        - Aula 009: python/aulas/009_operadores_aritmeticos.md
-        - Aula 010: python/aulas/010_ordem_operacoes.md
-        - Aula 011: python/aulas/011_funcoes_matematicas.md
+        - Aula 001 - Primeiro programa .py: python/aulas/001_primeiro_programa_py.md
+        - Aula 002 - Interpretador Python: python/aulas/002_como_py_executado.md
+        - Aula 003 - Variáveis: python/aulas/003_variaveis.md
+        - Aula 004 - Função input: python/aulas/004_funcao_input.md
+        - Aula 005 - Conversão de dados: python/aulas/005_conversao.md
+        - Aula 006 - Strings: python/aulas/006_strings.md
+        - Aula 007 - Formatação de strings: python/aulas/007_string_formatada.md
+        - Aula 008 - Métodos de strings: python/aulas/008_string_metodos.md
+        - Aula 009 - Operadores Aritméticos: python/aulas/009_operadores_aritmeticos.md
+        - Aula 010 - Precedência de operações: python/aulas/010_ordem_operacoes.md
+        - Aula 011 - Funções matemáticas: python/aulas/011_funcoes_matematicas.md
         - Conteúdo extra: python/conteudo_extra_ratonildo.md
-        - Aula 012: python/aulas/012_condicionais.md
-        - Aula 013: python/aulas/013_operadores_logicos.md
-        - Aula 014: python/aulas/014_operadores_comparativos.md
-        - Aula 015: python/aulas/015_loop_while.md
-        - Aula 016: python/aulas/016_loop_for.md
-        - Aula 017: python/aulas/017_loop_aninhado.md
-        - Aula 018: python/aulas/018_listas.md
-        - Aula 019: python/aulas/019_listas_aninhadas.md
-        - Aula 020: python/aulas/020_metodos_listas.md
-        - Aula 021: python/aulas/021_tuplas.md
-        - Aula 022: python/aulas/022_desempacotamento.md
-        - Aula 023: python/aulas/023_dicionario.md
-        - Aula 024: python/aulas/024_funcoes.md
-        - Aula 025: python/aulas/025_parametros.md
-        - Aula 026: python/aulas/026_keywords_arguments.md
-        - Aula 027: python/aulas/027_return.md
-        - Aula 028: python/aulas/028_excecoes.md
-        - Aula 029: python/aulas/029_comentarios.md
-        - Aula 030: python/aulas/030_classes.md
-        - Aula 031: python/aulas/031_construtores.md
-        - Aula 032: python/aulas/032_heranca.md
-        - Aula 033: python/aulas/033_modulos.md
-        - Aula 034: python/aulas/034_pacotes.md
-        - Aula 035: python/aulas/035_valores_aleatorios.md
-        - Aula 036: python/aulas/036_pastas_arquivos.md
-        - Aula 037: python/aulas/037_pypi_pip.md
+        - Aula 012 - Uso de condicionais: python/aulas/012_condicionais.md
+        - Aula 013 - Operadores lógicos: python/aulas/013_operadores_logicos.md
+        - Aula 014 - Operadores de comparação: python/aulas/014_operadores_comparativos.md
+        - Aula 015 - Estruturas de repetição (while): python/aulas/015_loop_while.md
+        - Aula 016 - Estruturas de repetição (for): python/aulas/016_loop_for.md
+        - Aula 017 - Loop Aninhados: python/aulas/017_loop_aninhado.md
+        - Aula 018 - Listas: python/aulas/018_listas.md
+        - Aula 019 - Listas Aninhadas: python/aulas/019_listas_aninhadas.md
+        - Aula 020 - Métodos de listas: python/aulas/020_metodos_listas.md
+        - Aula 021 - Tuplas: python/aulas/021_tuplas.md
+        - Aula 022 - Unpacking: python/aulas/022_desempacotamento.md
+        - Aula 023 - Dicionários: python/aulas/023_dicionario.md
+        - Aula 024 - Funções: python/aulas/024_funcoes.md
+        - Aula 025 - Parâmetros: python/aulas/025_parametros.md
+        - Aula 026 - Argumentos: python/aulas/026_keywords_arguments.md
+        - Aula 027 - Return: python/aulas/027_return.md
+        - Aula 028 - Exceções: python/aulas/028_excecoes.md
+        - Aula 029 - Comentários: python/aulas/029_comentarios.md
+        - Aula 030 - Classes: python/aulas/030_classes.md
+        - Aula 031 - Construtores: python/aulas/031_construtores.md
+        - Aula 032 - Herança: python/aulas/032_heranca.md
+        - Aula 033 - Módulos: python/aulas/033_modulos.md
+        - Aula 034 - Pacotes: python/aulas/034_pacotes.md
+        - Aula 035 - Valores aleatórios: python/aulas/035_valores_aleatorios.md
+        - Aula 036 - Pastas e arquivos: python/aulas/036_pastas_arquivos.md
+        - Aula 037 - Pypi e pip: python/aulas/037_pypi_pip.md
       - Encontros:
         - Registros: python/encontros/registros_dos_encontros.md
     - Guia Rápido de Comandos:

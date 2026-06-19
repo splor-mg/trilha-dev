@@ -27,8 +27,8 @@ nav:
         - python/primeiros_passos/ferramentas.md
         - python/primeiros_passos/setup_repo_exercicios.md
       - Aulas:
-        - Aula 001 - Meu primeiro Python: python/aulas/001_primeiro_programa_py.md
-        - Aula 002 - Programa Python: python/aulas/002_como_py_executado.md
+        - Aula 001 - Primeiro programa .py: python/aulas/001_primeiro_programa_py.md
+        - Aula 002 - Interpretador Python: python/aulas/002_como_py_executado.md
         - Aula 003 - Variáveis: python/aulas/003_variaveis.md
         - Aula 004 - Função input: python/aulas/004_funcao_input.md
         - Aula 005 - Conversão de dados: python/aulas/005_conversao.md
@@ -49,7 +49,7 @@ nav:
         - Aula 019 - Listas Aninhadas: python/aulas/019_listas_aninhadas.md
         - Aula 020 - Métodos de listas: python/aulas/020_metodos_listas.md
         - Aula 021 - Tuplas: python/aulas/021_tuplas.md
-        - Aula 022 - unpacking: python/aulas/022_desempacotamento.md
+        - Aula 022 - Unpacking: python/aulas/022_desempacotamento.md
         - Aula 023 - Dicionários: python/aulas/023_dicionario.md
         - Aula 024 - Funções: python/aulas/024_funcoes.md
         - Aula 025 - Parâmetros: python/aulas/025_parametros.md

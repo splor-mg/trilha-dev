@@ -1,5 +1,10 @@
 [
   {
+    "version": "renomeia-aulas",
+    "title": "renomeia-aulas",
+    "aliases": []
+  },
+  {
     "version": "main",
     "title": "main",
     "aliases": [

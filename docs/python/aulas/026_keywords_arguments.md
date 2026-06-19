@@ -1,7 +1,7 @@
 ---
 comments: true
 ---
-# Aula 026: Parâmetros
+# Aula 026: Argumentos
 
 ## 🎥 Vídeo 26
 

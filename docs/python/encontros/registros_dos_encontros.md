@@ -128,7 +128,7 @@ title: Registros dos Encontros
 
 ---
 
-## :material-school: 6º Encontro :material-new-box:
+## :material-school: 6º Encontro
 
 :material-calendar-month: **12/06/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 012, Aula 013 e Aula 014
 
@@ -175,3 +175,19 @@ title: Registros dos Encontros
 
 !!! quote "Observação"
     O quinto encontro foi realizado presencialmente com a resolução de exercícios.
+
+---
+
+## :material-school: 7º Encontro :material-new-box:
+
+:material-calendar-month: **26/06/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 015, Aula 016 e Aula 017
+
+[▶ Assistir gravação](https://www.youtube.com/watch?v=68CAlA7-ziE){ .md-button }
+
+??? info "Dúvidas do encontro"
+
+    **O while também é indicado para percorrer listas?**<br>
+    [▶ Ver no vídeo (28:56)](https://www.youtube.com/watch?v=68CAlA7-ziE&t=1736s){ target="_blank" }
+
+    **Num código mais complexo, existe diferença real no tempo de execução entre usar `for` ou `while`?**<br>
+    [▶ Ver no vídeo (33:36)](https://www.youtube.com/watch?v=68CAlA7-ziE&t=2016s){ target="_blank" }

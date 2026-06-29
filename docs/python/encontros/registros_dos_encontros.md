@@ -187,7 +187,11 @@ title: Registros dos Encontros
 ??? info "Dúvidas do encontro"
 
     **O while também é indicado para percorrer listas?**<br>
-    [▶ Ver no vídeo (28:56)](https://www.youtube.com/watch?v=68CAlA7-ziE&t=1736s){ target="_blank" }
+    [▶ Ver no vídeo (14:22)](https://www.youtube.com/watch?v=68CAlA7-ziE&t=862s){ target="_blank" }
 
     **Num código mais complexo, existe diferença real no tempo de execução entre usar `for` ou `while`?**<br>
-    [▶ Ver no vídeo (33:36)](https://www.youtube.com/watch?v=68CAlA7-ziE&t=2016s){ target="_blank" }
+    [▶ Ver no vídeo (19:02)](https://www.youtube.com/watch?v=68CAlA7-ziE&t=1142s){ target="_blank" }
+
+!!! tip "Conteúdo extra"
+    O Zen of Python (Zen do Python) é uma coleção de princípios orientadores que ditam a filosofia de design da linguagem Python. O documento é um guia para escrever códigos elegantes, legíveis e fáceis de manter.<br>
+    [Zen of Python](https://peps.python.org/pep-0020/)

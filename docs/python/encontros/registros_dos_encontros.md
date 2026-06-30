@@ -128,6 +128,9 @@ title: Registros dos Encontros
 
 ---
 
+!!! quote "Observação"
+    O quinto encontro foi realizado presencialmente com a resolução de exercícios.
+
 ## :material-school: 6º Encontro
 
 :material-calendar-month: **12/06/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 012, Aula 013 e Aula 014
@@ -173,8 +176,6 @@ title: Registros dos Encontros
 
     **Observação:** o comando usa a sintaxe da linguagem do arquivo. Em arquivos **`.py`** ele insere **`#`** no início da linha; em arquivos **`.md`** ele envolve o trecho em **`<!-- ... -->`** (comentário de HTML), que não aparece quando a página é renderizada.
 
-!!! quote "Observação"
-    O quinto encontro foi realizado presencialmente com a resolução de exercícios.
 
 ---
 

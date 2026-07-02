@@ -74,7 +74,8 @@ Exemplo prático: mensagens exibidas em sites ao adicionar um produto ao carrinh
 #### Teste seus conhecimentos
 
 ??? question "Execute:"
-    Crie a pasta da aula 001 e dentro dela o arquivo Python `app.py`. Use o comando `print()` com a mensagem que deseja exibir na tela e execute-o no terminal.
+    - Crie a pasta da aula 001 e, dentro dela, o arquivo Python `app.py`;
+    - Use o comando `print()` com a mensagem que deseja exibir na tela e execute-o no terminal.
 
 #### Recapitulando
 

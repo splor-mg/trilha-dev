@@ -223,5 +223,3 @@ title: Registros dos Encontros
     **Como ficaria a resolução do exercício usando `append()`?**<br>
     [▶ Ver no vídeo (1:05:43)](https://www.youtube.com/watch?v=_FeFi80LQls&t=3943s){ target="_blank" }
 
-    **Por que aparece um :octicons-x-circle-16: quando faço `push` para o repositório?**<br>
-    [▶ Ver no vídeo (1:26:14)](https://www.youtube.com/watch?v=_FeFi80LQls&t=5174s){ target="_blank" }

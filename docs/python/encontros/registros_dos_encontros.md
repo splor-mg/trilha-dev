@@ -179,7 +179,7 @@ title: Registros dos Encontros
 
 ---
 
-## :material-school: 7º Encontro :material-new-box:
+## :material-school: 7º Encontro:
 
 :material-calendar-month: **26/06/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 015, Aula 016 e Aula 017
 
@@ -196,3 +196,30 @@ title: Registros dos Encontros
 !!! tip "Conteúdo extra"
     O Zen of Python (Zen do Python) é uma coleção de princípios orientadores que ditam a filosofia de design da linguagem Python. O documento é um guia para escrever códigos elegantes, legíveis e fáceis de manter.<br>
     [Zen of Python](https://peps.python.org/pep-0020/)
+
+
+---
+
+## :material-school: 8º Encontro :material-new-box:
+
+:material-calendar-month: **03/07/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 018, Aula 019 e Aula 020
+
+[▶ Assistir gravação](https://www.youtube.com/watch?v=_FeFi80LQls){ .md-button }
+
+??? info "Dúvidas do encontro"
+
+    **A lista também tem a opção de salto `(step)` no `slice` igual à *string*?**<br>
+    [▶ Ver no vídeo (15:54)](https://www.youtube.com/watch?v=_FeFi80LQls&t=954s){ target="_blank" }
+
+    **Quando o método muda o objeto diretamente o nome disso é `in place`? Essa informação também é apresentada na documentação quando inserimos o `help`?**<br>
+    [▶ Ver no vídeo (18:20)](https://www.youtube.com/watch?v=_FeFi80LQls&t=1100s){ target="_blank" }
+
+    **Como saber se um método retorna o resultado modificado ou `None`?**<br>
+    [▶ Ver no vídeo (20:28)](https://www.youtube.com/watch?v=_FeFi80LQls&t=1228s){ target="_blank" }
+
+    **Se eu usar o script `sera` e não os nomes, vai retornar erro pelo fato de não estar usando lista?**<br>
+    [▶ Ver no vídeo (28:30)](https://www.youtube.com/watch?v=_FeFi80LQls&t=1710s){ target="_blank" }
+
+    **Como ficaria a resolução do exercício usando `append()`?**<br>
+    [▶ Ver no vídeo (1:05:43)](https://www.youtube.com/watch?v=_FeFi80LQls&t=3943s){ target="_blank" }
+

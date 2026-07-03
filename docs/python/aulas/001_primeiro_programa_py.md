@@ -3,6 +3,9 @@ comments: true
 ---
 # Aula 001: Meu primeiro programa Python
 
+!!! info "Cronograma"
+    **3 min. de vídeo + 7 min de prática aproximadamente**
+
 ## 🎥 Vídeo 1
 
 Nesta aula, você dará o primeiro passo na programação com Python, criando e executando um programa simples.
@@ -68,12 +71,24 @@ Embora simples, o **print()** é fundamental para:
 
 Exemplo prático: mensagens exibidas em sites ao adicionar um produto ao carrinho.
 
-#### **Checklist**
+#### Teste seus conhecimentos
 
-Ao final desta aula você aprendeu:
+??? question "Execute:"
+    - Crie a pasta da aula 001 e, dentro dela, o arquivo Python `app.py`;
+    - Use o comando `print()` com a mensagem que deseja exibir na tela e execute-o no terminal.
 
-- Criou seu primeiro arquivo Python
-- Escreveu seu primeiro comando
-- Executou um programa no terminal
+#### Recapitulando
+
+!!! success "O que você viu nesta aula:"
+    - Criou seu primeiro arquivo Python;
+    - Escreveu seu primeiro comando;
+    - Executou um programa no terminal.
+
+??? example "Pratique!"
+    Faça o exercício [hello_world.](https://github.com/splor-mg/exercicios-python/tree/main/exercicios/01_essencial/hello_world)
 
 Esse é o ponto de partida para o desenvolvimento de aplicações mais complexas ao longo do curso.
+
+[Repositório com os exercícios](https://github.com/splor-mg/exercicios-python){ .md-button .md-button--primary }
+
+[Como fazer os exercícios](../primeiros_passos/setup_repo_exercicios.md){ .md-button .md-button--primary }

@@ -179,7 +179,7 @@ title: Registros dos Encontros
 
 ---
 
-## :material-school: 7º Encontro:
+## :material-school: 7º Encontro
 
 :material-calendar-month: **26/06/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 015, Aula 016 e Aula 017
 
@@ -200,7 +200,7 @@ title: Registros dos Encontros
 
 ---
 
-## :material-school: 8º Encontro :material-new-box:
+## :material-school: 8º Encontro
 
 :material-calendar-month: **03/07/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 018, Aula 019 e Aula 020
 
@@ -223,3 +223,31 @@ title: Registros dos Encontros
     **Como ficaria a resolução do exercício usando `append()`?**<br>
     [▶ Ver no vídeo (1:05:43)](https://www.youtube.com/watch?v=_FeFi80LQls&t=3943s){ target="_blank" }
 
+
+---
+
+## :material-school: 9º Encontro :material-new-box:
+
+:material-calendar-month: **10/07/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 021, Aula 022 e Aula 023
+
+[▶ Assistir gravação](https://www.youtube.com/watch?v=fLfRcKwiaFU){ .md-button }
+
+??? info "Dúvidas do encontro"
+
+    **A chave de um dicionário precisa ser sempre uma *string*?**<br>
+    [▶ Ver no vídeo (17:23)](https://www.youtube.com/watch?v=fLfRcKwiaFU&t=1043s){ target="_blank" }
+
+    **Se eu tiver uma tabela com linhas e colunas de dados reais, como ficaria isso em formato de dicionário?**<br>
+    [▶ Ver no vídeo (30:49)](https://www.youtube.com/watch?v=fLfRcKwiaFU&t=1849s){ target="_blank" }
+
+    **Quando há chave duplicada no dicionário, qual valor fica - o primeiro ou o último inserido?**<br>
+    [▶ Ver no vídeo (48:22)](https://www.youtube.com/watch?v=fLfRcKwiaFU&t=2902s){ target="_blank" }
+
+    **Como incluir cada palavra e sua contagem dentro do dicionário?**<br>
+    [▶ Ver no vídeo (53:36)](https://www.youtube.com/watch?v=fLfRcKwiaFU&t=3216s){ target="_blank" }
+
+    **Por que verificar só `if quantidade` já funciona, sem precisar escrever `if quantidade in contador`?**<br>
+    [▶ Ver no vídeo (1:07:07)](https://www.youtube.com/watch?v=fLfRcKwiaFU&t=4027s){ target="_blank" }
+
+    **O `contador[palavra] = contador.get(palavra, 0) + 1` eliminaria o `if`. Essa solução funcionaria?**<br>
+    [▶ Ver no vídeo (1:16:47)](https://www.youtube.com/watch?v=fLfRcKwiaFU&t=4605s){ target="_blank" }

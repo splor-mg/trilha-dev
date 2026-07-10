@@ -1,5 +1,10 @@
 [
   {
+    "version": "nono-encontro",
+    "title": "nono-encontro",
+    "aliases": []
+  },
+  {
     "version": "main",
     "title": "main",
     "aliases": [

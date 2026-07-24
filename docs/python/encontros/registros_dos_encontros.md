@@ -226,7 +226,7 @@ title: Registros dos Encontros
 
 ---
 
-## :material-school: 9º Encontro :material-new-box:
+## :material-school: 9º Encontro
 
 :material-calendar-month: **10/07/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 021, Aula 022 e Aula 023
 
@@ -251,3 +251,21 @@ title: Registros dos Encontros
 
     **O `contador[palavra] = contador.get(palavra, 0) + 1` eliminaria o `if`. Essa solução funcionaria?**<br>
     [▶ Ver no vídeo (1:16:47)](https://www.youtube.com/watch?v=fLfRcKwiaFU&t=4605s){ target="_blank" }
+
+
+---
+
+## :material-school: 10º Encontro :material-new-box:
+
+:material-calendar-month: **24/07/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 024, Aula 025, Aula 026 e Aula 027
+
+[▶ Assistir gravação](https://www.youtube.com/watch?v=gZw2Mf0LiTQ){ .md-button }
+
+??? info "Dúvidas do encontro"
+
+    **A chave de um dicionário precisa ser sempre uma *string*?**<br>
+    [▶ Ver no vídeo (10:03)](Qual a diferença prática entre parâmetro e argumento?){ target="_blank" }
+
+!!! tip "Conteúdo extra"
+    O **DRY (Don't Repeat Yourself)** é um princípio de desenvolvimento que orienta a não repetir a mesma lógica em vários pontos do código. A ideia é escrever cada regra uma única vez e reaproveitá-la. Nas *funções* é exatamente isso que fazemos ao criar um bloco reutilizável em vez de copiar o mesmo trecho diversas vezes.<br>
+    [Don't repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)

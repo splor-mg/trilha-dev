@@ -263,8 +263,8 @@ title: Registros dos Encontros
 
 ??? info "Dúvidas do encontro"
 
-    **A chave de um dicionário precisa ser sempre uma *string*?**<br>
-    [▶ Ver no vídeo (10:03)](Qual a diferença prática entre parâmetro e argumento?){ target="_blank" }
+    **Qual a diferença prática entre parâmetro e argumento?**<br>
+    [▶ Ver no vídeo (10:03)](https://www.youtube.com/watch?v=gZw2Mf0LiTQ&t=603s){ target="_blank" }
 
 !!! tip "Conteúdo extra"
     O **DRY (Don't Repeat Yourself)** é um princípio de desenvolvimento que orienta a não repetir a mesma lógica em vários pontos do código. A ideia é escrever cada regra uma única vez e reaproveitá-la. Nas *funções* é exatamente isso que fazemos ao criar um bloco reutilizável em vez de copiar o mesmo trecho diversas vezes.<br>

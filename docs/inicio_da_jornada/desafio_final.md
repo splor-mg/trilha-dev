@@ -126,4 +126,10 @@ Aqui estão os participantes que colocaram a mão na massa e deixaram sua marca.
     ---
    _"Agradeço pela iniciativa e pelo aprendizado proporcionado!"_
 
-</div>
+
+-   ![Jorge Abreu](https://avatars.githubusercontent.com/u/207799010?v=4){ .lg .avatar .middle }
+
+    __Jorge Abreu__
+
+    ---
+   _"Dominar uma ferramenta é útil. Dominar a capacidade de aprender é o que transforma carreiras." Meus sinceros cumprimentos a equipe e continuem a fazer um trabalho de excelência como este. Obrigado!_

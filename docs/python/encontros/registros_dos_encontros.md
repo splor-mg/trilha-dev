@@ -255,7 +255,7 @@ title: Registros dos Encontros
 
 ---
 
-## :material-school: 10º Encontro :material-new-box:
+## :material-school: 10º Encontro
 
 :material-calendar-month: **24/07/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 024, Aula 025, Aula 026 e Aula 027
 
@@ -269,3 +269,36 @@ title: Registros dos Encontros
 !!! tip "Conteúdo extra"
     O **DRY (Don't Repeat Yourself)** é um princípio de desenvolvimento que orienta a não repetir a mesma lógica em vários pontos do código. A ideia é escrever cada regra uma única vez e reaproveitá-la. Nas *funções* é exatamente isso que fazemos ao criar um bloco reutilizável em vez de copiar o mesmo trecho diversas vezes.<br>
     [Don't repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+
+
+---
+
+## :material-school: 11º Encontro :material-new-box:
+
+:material-calendar-month: **30/07/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 028, Aula 029 e Aula 030
+
+[▶ Assistir gravação](https://www.youtube.com/watch?v=izVt2OCgAM4){ .md-button }
+
+??? info "Dúvidas do encontro"
+
+    **Como usar `input()` dentro de um método da classe?**<br>
+    [▶ Ver no vídeo (40:57)](https://www.youtube.com/watch?v=izVt2OCgAM4&t=2457s){ target="_blank" }
+
+    **Por que não preciso definir o valor do parâmetro `item` dentro da função?**<br>
+    [▶ Ver no vídeo (56:05)](https://www.youtube.com/watch?v=izVt2OCgAM4&t=3365s){ target="_blank" }
+
+    **Por que o `append()` fez o teste falhar?**<br>
+    [▶ Ver no vídeo (57:42)](https://www.youtube.com/watch?v=izVt2OCgAM4&t=3462s){ target="_blank" }
+
+??? question "Como ver ou alterar o atalho de comentar linhas (Toggle Line Comment)"
+
+    O comando que comenta e descomenta linhas já vem habilitado no VS Code (tanto no instalado quanto no Codespace), não é preciso ativar nada. O atalho padrão é `Ctrl` + `/` (ou `Cmd` + `/` no Mac). Se ele não funcionar, normalmente é questão do layout do teclado, e você pode conferir ou trocar a tecla assim:
+
+    1. Abra a paleta de comandos com **`Ctrl`** + **`Shift`** + **`P`**.
+    2. Digite **`Open Keyboard Shortcuts`** e pressione **`Enter`**.
+    3. Na busca, digite **`Toggle Line Comment`** para localizar o comando e ver qual atalho está associado a ele.
+    4. Para trocar, dê dois cliques na linha do comando, pressione a combinação de teclas desejada e confirme com **`Enter`**.
+
+    **Dica:** para comentar sem depender da tecla, basta abrir a paleta (**`Ctrl`** + **`Shift`** + **`P`**), digitar **`Toggle Line Comment`** e clicar no comando - ele comenta as linhas selecionadas na hora.
+
+    **Observação:** o comando usa a sintaxe da linguagem do arquivo. Em arquivos **`.py`** ele insere **`#`** no início da linha; em arquivos **`.md`** ele envolve o trecho em **`<!-- ... -->`** (comentário de HTML), que não aparece quando a página é renderizada.

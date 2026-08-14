@@ -273,7 +273,7 @@ title: Registros dos Encontros
 
 ---
 
-## :material-school: 11º Encontro :material-new-box:
+## :material-school: 11º Encontro
 
 :material-calendar-month: **30/07/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 028, Aula 029 e Aula 030
 
@@ -302,3 +302,23 @@ title: Registros dos Encontros
     **Dica:** para comentar sem depender da tecla, basta abrir a paleta (**`Ctrl`** + **`Shift`** + **`P`**), digitar **`Toggle Line Comment`** e clicar no comando - ele comenta as linhas selecionadas na hora.
 
     **Observação:** o comando usa a sintaxe da linguagem do arquivo. Em arquivos **`.py`** ele insere **`#`** no início da linha; em arquivos **`.md`** ele envolve o trecho em **`<!-- ... -->`** (comentário de HTML), que não aparece quando a página é renderizada.
+
+
+    ---
+
+## :material-school: 12º Encontro :material-new-box:
+
+:material-calendar-month: **14/08/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 030, Aula 031 e Aula 032
+
+[▶ Assistir gravação](https://www.youtube.com/watch?v=NJtiTg_UsOw){ .md-button }
+
+??? info "Dúvidas do encontro"
+
+    **O objeto que eu crio a partir da *classe pessoa* precisa estar sempre no mesmo arquivo de código da *classe*?**<br>
+    [▶ Ver no vídeo (12:19)](https://www.youtube.com/watch?v=NJtiTg_UsOw&t=739s){ target="_blank" }
+
+    **A classe precisa ficar no mesmo arquivo do objeto, ou pode ficar em outro arquivo separado (usando `import`)?**<br>
+    [▶ Ver no vídeo (15:50)](https://www.youtube.com/watch?v=NJtiTg_UsOw&t=950s){ target="_blank" }
+
+    **Existe a possibilidade de o usuário adicionar um novo método a uma classe nativa do Python (como a de string), se identificar que seria útil?**<br>
+    [▶ Ver no vídeo (25:24)](https://www.youtube.com/watch?v=NJtiTg_UsOw&t=1524s){ target="_blank" }

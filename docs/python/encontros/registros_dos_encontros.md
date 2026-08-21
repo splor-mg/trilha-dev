@@ -306,7 +306,7 @@ title: Registros dos Encontros
 
     ---
 
-## :material-school: 12º Encontro :material-new-box:
+## :material-school: 12º Encontro
 
 :material-calendar-month: **14/08/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 030, Aula 031 e Aula 032
 
@@ -322,3 +322,12 @@ title: Registros dos Encontros
 
     **Existe a possibilidade de o usuário adicionar um novo método a uma classe nativa do Python (como a de string), se identificar que seria útil?**<br>
     [▶ Ver no vídeo (25:24)](https://www.youtube.com/watch?v=NJtiTg_UsOw&t=1524s){ target="_blank" }
+
+
+---
+
+## :material-school: 13º Encontro
+
+:material-calendar-month: **21/08/2026** &nbsp;·&nbsp; :material-book-open-variant: Apresentação automação Siafi (projeto feito pelos alunos Bruno e Gabriel) e Apresentação do banco de projetos
+
+[▶ Assistir gravação](https://www.youtube.com/watch?v=QekRhsNjnoQ){ .md-button }

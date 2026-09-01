@@ -67,6 +67,7 @@ nav:
         - Aula 037 - Pypi e pip: python/aulas/037_pypi_pip.md
       - Encontros:
         - Registros: python/encontros/registros_dos_encontros.md
+      - Certificação: python/certificacao.md
     - Guia Rápido de Comandos:
       - Início: guia/index.md
       - Terminal: guia/terminal.md

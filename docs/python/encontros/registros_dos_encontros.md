@@ -126,10 +126,13 @@ title: Registros dos Encontros
     - **Não tem como saber o comportamento exato de uma função sem testar, porque existem regras que a gente não conhece de antemão.**<br>
     [▶ Ver no vídeo (51:16)](https://www.youtube.com/watch?v=B7r07PfI-A0&t=3076s){ target="_blank" }
 
----
 
 !!! quote "Observação"
-    O quinto encontro foi realizado presencialmente com a resolução de exercícios.
+    O **quinto encontro** foi realizado presencialmente com a resolução de exercícios.
+
+    [Exercícios do 5º encontro - Trilha Dev Python](../../assets/exercicios/exercicios_05_encontro.pdf){ .md-button target="_blank" }
+
+---
 
 ## :material-school: 6º Encontro
 
@@ -176,7 +179,6 @@ title: Registros dos Encontros
 
     **Observação:** o comando usa a sintaxe da linguagem do arquivo. Em arquivos **`.py`** ele insere **`#`** no início da linha; em arquivos **`.md`** ele envolve o trecho em **`<!-- ... -->`** (comentário de HTML), que não aparece quando a página é renderizada.
 
-
 ---
 
 ## :material-school: 7º Encontro
@@ -196,7 +198,6 @@ title: Registros dos Encontros
 !!! tip "Conteúdo extra"
     O Zen of Python (Zen do Python) é uma coleção de princípios orientadores que ditam a filosofia de design da linguagem Python. O documento é um guia para escrever códigos elegantes, legíveis e fáceis de manter.<br>
     [Zen of Python](https://peps.python.org/pep-0020/)
-
 
 ---
 
@@ -222,7 +223,6 @@ title: Registros dos Encontros
 
     **Como ficaria a resolução do exercício usando `append()`?**<br>
     [▶ Ver no vídeo (1:05:43)](https://www.youtube.com/watch?v=_FeFi80LQls&t=3943s){ target="_blank" }
-
 
 ---
 
@@ -253,9 +253,14 @@ title: Registros dos Encontros
     [▶ Ver no vídeo (1:16:47)](https://www.youtube.com/watch?v=fLfRcKwiaFU&t=4605s){ target="_blank" }
 
 
+!!! quote "Observação"
+    O **décimo encontro** foi realizado presencialmente com a resolução de exercícios.
+
+    [Exercícios do 10º encontro - Trilha Dev Python](../../assets/exercicios/exercicios_10_encontro.pdf){ .md-button target="_blank" }
+
 ---
 
-## :material-school: 10º Encontro
+## :material-school: 11º Encontro
 
 :material-calendar-month: **24/07/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 024, Aula 025, Aula 026 e Aula 027
 
@@ -270,10 +275,9 @@ title: Registros dos Encontros
     O **DRY (Don't Repeat Yourself)** é um princípio de desenvolvimento que orienta a não repetir a mesma lógica em vários pontos do código. A ideia é escrever cada regra uma única vez e reaproveitá-la. Nas *funções* é exatamente isso que fazemos ao criar um bloco reutilizável em vez de copiar o mesmo trecho diversas vezes.<br>
     [Don't repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 
-
 ---
 
-## :material-school: 11º Encontro
+## :material-school: 12º Encontro
 
 :material-calendar-month: **30/07/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 028, Aula 029 e Aula 030
 
@@ -303,10 +307,9 @@ title: Registros dos Encontros
 
     **Observação:** o comando usa a sintaxe da linguagem do arquivo. Em arquivos **`.py`** ele insere **`#`** no início da linha; em arquivos **`.md`** ele envolve o trecho em **`<!-- ... -->`** (comentário de HTML), que não aparece quando a página é renderizada.
 
+---
 
-    ---
-
-## :material-school: 12º Encontro
+## :material-school: 13º Encontro
 
 :material-calendar-month: **14/08/2026** &nbsp;·&nbsp; :material-book-open-variant: Aula 030, Aula 031 e Aula 032
 
@@ -323,11 +326,10 @@ title: Registros dos Encontros
     **Existe a possibilidade de o usuário adicionar um novo método a uma classe nativa do Python (como a de string), se identificar que seria útil?**<br>
     [▶ Ver no vídeo (25:24)](https://www.youtube.com/watch?v=NJtiTg_UsOw&t=1524s){ target="_blank" }
 
-
 ---
 
-## :material-school: 13º Encontro
+## :material-school: 14º Encontro
 
-:material-calendar-month: **21/08/2026** &nbsp;·&nbsp; :material-book-open-variant: Apresentação automação Siafi (projeto feito pelos alunos Bruno e Gabriel) e Apresentação do banco de projetos
+:material-calendar-month: **21/08/2026** &nbsp;·&nbsp; :material-book-open-variant: Apresentação automação Siafi (projeto feito pelos alunos Bruno e Guilherme) e Apresentação do banco de projetos
 
 [▶ Assistir gravação](https://www.youtube.com/watch?v=QekRhsNjnoQ){ .md-button }
